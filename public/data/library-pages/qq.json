@@ -10,7 +10,7 @@
     "QQ账号"
   ],
   "defaultGameId": 24126,
-  "detailHtml": "<p><img src=\"/assets/images/social/qq.png\" alt=\"QQ账号\"></p><p>QQ账号，平台自动发货，USDT TRC20 支付。</p><p>购买前请阅读商品说明，虚拟商品发货后不支持退款（账密问题除外）。</p>",
+  "detailHtml": "<p>QQ账号，平台自动发货，USDT TRC20 支付。</p><p>购买前请阅读商品说明，虚拟商品发货后不支持退款（账密问题除外）。</p>",
   "skuTree": {
     "dimension1": "分类",
     "dimension2": "商品",

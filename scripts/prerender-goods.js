@@ -8,6 +8,7 @@ const {
   rewriteContentLinks, productJsonLd, productUrl, categoryUrl,
   absUrl, truncate, stripHtml, escapeHtml
 } = require('./lib/ssg-html');
+const { sanitizeDetailHtml } = require('./lib/sanitize-detail-html');
 
 const ROOT = path.join(__dirname, '..');
 const OUT_DIR = path.join(ROOT, 'public', 'goods');
@@ -97,7 +98,9 @@ function renderProduct(data) {
     stripHtml(data.detailHtml) || '在老号吧购买' + title + '，USDT TRC20 扫码支付，即时发货。',
     160
   );
-  const detailHtml = rewriteContentLinks(data.detailHtml || '');
+  const detailHtml = rewriteContentLinks(
+    sanitizeDetailHtml(data.detailHtml || '', { iconUrl: data.iconUrl, coverImg: data.coverImg || data.image })
+  );
   const price = Number(data.price);
   const priceText = Number.isFinite(price) ? price.toFixed(2) : '—';
   const buyUrl = '/goods.html?id=' + encodeURIComponent(id);
