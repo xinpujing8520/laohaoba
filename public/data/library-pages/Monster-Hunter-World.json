@@ -1,0 +1,206 @@
+{
+  "shortEn": "Monster-Hunter-World",
+  "displayName": "怪物猎人：世界【steam版】",
+  "iconUrl": "https://m-files.kardz.cn/game/%E6%9C%AA%E5%91%BD%E5%90%8D(14)-c5c60b001c1f47c5b488ad7fc86fd886.jpg",
+  "coverImg": "https://m-files.kardz.cn/game/%E6%9C%AA%E5%91%BD%E5%90%8D(14)-6a99c60b241f478ba177250f6eac5284.jpg",
+  "categoryName": "游戏账号",
+  "categoryId": "ab_cat_9",
+  "breadcrumb": [
+    "游戏账号",
+    "怪物猎人：世界+冰原DLC【steam版】"
+  ],
+  "defaultGameId": 1578291913,
+  "detailHtml": "<p><img src=\"/assets/images/m-files/72415dd7f1101f0b64c015f2c94810b6-c16285637c594a919e0ee410624834d0_26dfbf07.jpg\" alt=\"\"></p><p style=\"text-wrap: wrap;\">商品介绍</p><p style=\"text-wrap: wrap;\">1.本商品为： Steam版成品账号 ，您购买后将获得成品账号（账号，密码，绑定邮箱和密码）。</p><p style=\"text-wrap: wrap;\">2.所售成品账号和激活码均已核实过，无虚假账号和激活码，不会兑换请百度兑换教程。</p><p style=\"text-wrap: wrap;\">3.如购买成品账号的绑定邮箱为临时邮箱，请修改成自己的邮箱号。</p><p style=\"text-wrap: wrap;\">4.成品地区为国区账号。</p><p style=\"text-wrap: wrap;\">二.使用说明</p><p style=\"text-wrap: wrap;\">官网：steam官网</p><p style=\"text-wrap: wrap;\">steam账号：游戏已内购到此steam账号内，登录后下载游戏即可。</p><p style=\"text-wrap: wrap;\">CDK：游戏激活码，登录steam后兑换cdk即可。</p><p style=\"text-wrap: wrap;\">三.注意事项</p><p style=\"text-wrap: wrap;\">1.付款后您可以在购买完成的页面查看所购买的账号信息，或者可以点击右上角的订单中心查看提取，24小时内自动发货。</p><p style=\"text-wrap: wrap;\">2.账号售出删档，买家自行保护账号安全，被盗我们无法找回！</p><p style=\"text-wrap: wrap;\">3.拿到激活码后请即时到steam内兑换。</p><p style=\"text-wrap: wrap;\">4.虚拟商品一经发货不支持退款（除商品问题外）。</p><p style=\"text-wrap: wrap;\">5.若需要大量批发可以联系我们的线上客服，客服会安排专人给您联系详谈价格。</p>",
+  "skuTree": {
+    "dimension1": "规格",
+    "dimension2": "",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "本体",
+        "gameId": 1578291912,
+        "productId": "ab_1578291912",
+        "price": 8.19,
+        "originalPrice": 9.58,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "本体"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "本体+冰原DLC",
+        "gameId": 1578291913,
+        "productId": "ab_1578291913",
+        "price": 20.69,
+        "originalPrice": 23.47,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "本体+冰原DLC"
+        ],
+        "rechargeFields": []
+      }
+    ],
+    "maxDepth": 1
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578293626",
+      "gameId": 1578293626,
+      "shortEn": "MHW",
+      "name": "怪物猎人：荒野标准版激活码",
+      "categoryName": "怪物猎人：荒野激活码",
+      "icon": "/assets/images/m-files/header-e54d263445f64f44838e4011b7545189_b9e0f947.jpg",
+      "cover": "/assets/images/m-files/长图-b2e048009c634ad1b2790e627b925bc6_bbe81761.jpg",
+      "price": 48.61
+    },
+    {
+      "id": "ab_1578293628",
+      "gameId": 1578293628,
+      "shortEn": "MHW",
+      "name": "怪物猎人：荒野终极版激活码",
+      "categoryName": "怪物猎人：荒野激活码",
+      "icon": "/assets/images/m-files/header-e54d263445f64f44838e4011b7545189_b9e0f947.jpg",
+      "cover": "/assets/images/m-files/长图-54456316fdb84afb904cbbda2595d221_ed39229f.jpg",
+      "price": 76.25
+    },
+    {
+      "id": "ab_1578293627",
+      "gameId": 1578293627,
+      "shortEn": "MHW",
+      "name": "怪物猎人：荒野豪华版激活码",
+      "categoryName": "怪物猎人：荒野激活码",
+      "icon": "/assets/images/m-files/header-e54d263445f64f44838e4011b7545189_b9e0f947.jpg",
+      "cover": "/assets/images/m-files/长图-54456316fdb84afb904cbbda2595d221_ed39229f.jpg",
+      "price": 63.06
+    },
+    {
+      "id": "ab_1578292119",
+      "gameId": 1578292119,
+      "shortEn": "Frostpunk-2",
+      "name": "冰气时代2【steam版】激活码",
+      "categoryName": "冰气时代2【steam版】",
+      "icon": "https://m-files.kardz.cn/game/%E6%9C%AA%E5%91%BD%E5%90%8D(22)-759ba248ecc7475196a47cd9bbd2c879.jpg",
+      "cover": "https://m-files.kardz.cn/game/%E6%9C%AA%E5%91%BD%E5%90%8D(22)-f9cbaadbe4984aadbf6ee11607522645.jpg",
+      "price": 20.69
+    },
+    {
+      "id": "ab_1578289096",
+      "gameId": 1578289096,
+      "shortEn": "Cyberpunk-2077",
+      "name": "赛博朋克2077：游戏本体+DLC往日之影【激活码】",
+      "categoryName": "赛博朋克2077【steam版】",
+      "icon": "/assets/images/m-files/f9dcd100baa1cd11728b2080fc5edffcc3cec3fd8775-aecc9e1690364b20a2c3f53e279af015_6e43df88.jpg",
+      "cover": "/assets/images/m-files/赛博朋克-2077-de49bab0a0824c81a0af612644bdc7fb_63b62ce1.png",
+      "price": 41.39
+    },
+    {
+      "id": "ab_1578289095",
+      "gameId": 1578289095,
+      "shortEn": "Cyberpunk-2077",
+      "name": "赛博朋克2077：游戏本体（不带DLC）【激活码】",
+      "categoryName": "赛博朋克2077【steam版】",
+      "icon": "/assets/images/m-files/f9dcd100baa1cd11728b2080fc5edffcc3cec3fd8775-aecc9e1690364b20a2c3f53e279af015_6e43df88.jpg",
+      "cover": "/assets/images/m-files/赛博朋克-2077-23f1fc6d2fc9429bb89924d758abcfb7_732d70ca.png",
+      "price": 26.25
+    },
+    {
+      "id": "ab_1578292055",
+      "gameId": 1578292055,
+      "shortEn": "inside-the-backroom",
+      "name": "深入后室【steam版】",
+      "categoryName": "深入后室【steam版】",
+      "icon": "/assets/images/m-files/长图-c031896bce284b03b703874de40de560_a43585ee.jpg",
+      "cover": "/assets/images/m-files/长图-5ad904b8d1644c219b14a5d34a052ba5_55b62242.jpg",
+      "price": 8.06
+    },
+    {
+      "id": "ab_1578292118",
+      "gameId": 1578292118,
+      "shortEn": "黑暗欺骗【steam版】",
+      "name": "黑暗欺骗【steam版】完全版 成品账号",
+      "categoryName": "黑暗欺诈【steam版】",
+      "icon": "https://m-files.kardz.cn/game/%E6%9C%AA%E5%91%BD%E5%90%8D(22)-0a5a130895df419cbacad30c1abdd5ab.jpg",
+      "cover": "https://m-files.kardz.cn/game/%E6%9C%AA%E5%91%BD%E5%90%8D(22)-8a51e788dfb5451999a0844b97a896d6.jpg",
+      "price": 10.56
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    },
+    {
+      "id": 1212,
+      "title": "《怪奇物语》新衍生剧来了！Stranger Things: Tales From '85 好看吗？附奈飞拼车低价观看方法",
+      "cover": "/assets/images/m-files/1909238779-f5c79c0e581e424eb543301ce8eed173_b1d820c5.jpg",
+      "date": "2026-04-24",
+      "summary": "怪奇物语衍生剧到底讲了什么？值不值得追？口碑如何？又该如何低成本在奈飞观看？本文一次讲清楚。"
+    },
+    {
+      "id": 1204,
+      "title": "老号吧靠谱吗？官方安全说明、售后保障与优惠码获取指南（2026）",
+      "cover": "/assets/images/m-files/-799647537-75948460b4be47f79349cc722e564bf5_41f08043.png",
+      "date": "2026-04-21",
+      "summary": "老号吧是一家持续稳定运营多年的数字权益服务平台，主要提供 AI 工具会员、流媒体会员共享方案、海外社媒账号资源等产品，并建立了自动交付系统、商品质保说明与售后支持体系。"
+    },
+    {
+      "id": 1145,
+      "title": "2026主流奈飞合租平台深度评测：Netflix 账号拼车避坑全指南",
+      "cover": "/assets/images/m-files/1837464362-7a4f85c88e64485d925ed19376af0355_b4abf34f.png",
+      "date": "2026-04-17",
+      "summary": "本文从真实使用逻辑出发，深入对比当前主流奈飞合租平台的优缺点及其潜在风险，帮助大家在复杂的合租市场中找到最稳妥的选择。"
+    },
+    {
+      "id": 1138,
+      "title": "ChatGPT Business 是什么？2026最新GPT会员购买方案，用自有账号安全升级！",
+      "cover": "/assets/images/m-files/-747822294-d945d0bc00d64ad892098ed0e4871901_eec982f4.png",
+      "date": "2026-03-24",
+      "summary": "厌倦了 ChatGPT 免费版的额度限制和代充的封号风险？本文教你如何利用 ChatGPT Business 官方席位邀请机制，在不提供账密的前提下，用超低价格在自有账号上开启 GPT-5 商业权限。更有“不训练数据”隐私保障，是职场人升级 AI 会员的最优选。"
+    },
+    {
+      "id": 1111,
+      "title": "2026年奥斯卡获奖名单出炉：《一战再战》横扫6奖，实拍美学的胜利",
+      "cover": "/assets/images/m-files/-669821475-8728e3d509cc45348e51f4dfde41e0c9_b99daf91.jpg",
+      "date": "2026-03-16",
+      "summary": "2026奥斯卡金像奖获奖名单正式揭晓。保罗·托马斯·安德森执导的《一战再战》(One Battle After Another) 斩获最佳影片、最佳导演等6项大奖，成为最大赢家；迈克尔·B·乔丹与杰西·巴克利分获影帝影后。本文深度解析本届颁奖礼对实拍美学的致敬、首位女性最佳摄影的突破，并提供 HBO Max、Netflix、Disney+ 等流媒体平台的获奖影片观影指南与账号订阅攻略。"
+    }
+  ]
+}

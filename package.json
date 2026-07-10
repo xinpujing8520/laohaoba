@@ -1,0 +1,14 @@
+{
+  "name": "zhanghaoya-shop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "scrape": "node scripts/scrape-products.js",
+    "setup-paymento": "node scripts/setup-paymento.js",
+    "article:daily": "node scripts/generate-daily-article.js",
+    "article:dry-run": "node scripts/generate-daily-article.js --dry-run",
+    "db:init": "wrangler d1 execute zhanghaoya-db --remote --file=schema.sql",
+    "db:seed": "wrangler d1 execute zhanghaoya-db --remote --file=scripts/seed.sql",
+    "deploy": "wrangler pages deploy public --project-name=zhanghaoya"
+  }
+}

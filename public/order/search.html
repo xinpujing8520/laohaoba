@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>订单查询 - 老号吧</title>
+  <meta name="robots" content="noindex,follow">
+  <link rel="stylesheet" href="/css/theme.css?v=1">
+  <style>
+    .order-page { max-width: 800px; margin: 24px auto 40px; padding: 0 20px; }
+    .order-search-box { background: #fff; border-radius: 14px; padding: 24px; box-shadow: 0 4px 12px rgba(0,0,0,.05); margin-bottom: 20px; }
+    .order-search-box h2 { font-size: 20px; margin-bottom: 16px; }
+    .order-search-row { display: flex; gap: 10px; }
+    .order-card { background: #fff; border-radius: 8px; padding: 20px; margin-bottom: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.04); }
+    .order-status { display: inline-block; padding: 2px 10px; border-radius: 4px; font-size: 12px; }
+    .order-status.pending { background: #fdf6ec; color: #e6a23c; }
+    .order-status.paid { background: #f0f9eb; color: #67c23a; }
+    .card-content { background: #f5f7fa; padding: 16px; border-radius: 6px; margin-top: 12px; font-family: monospace; white-space: pre-wrap; word-break: break-all; font-size: 13px; }
+  </style>
+</head>
+<body>
+<div id="app">
+<div class="order-site">
+  <header class="site-header">
+    <div class="center site-header-inner">
+      <a class="site-logo" href="/">
+        <img src="/assets/laohaoba-logo.svg" width="48" height="48" alt="老号吧">
+        <span class="site-logo-text"><em>老号吧</em> LaoHaoBa</span>
+      </a>
+      <div class="site-header-actions" style="margin-left:auto">
+        <a class="hdr-btn hdr-btn-ghost" href="/">返回首页</a>
+        <a class="hdr-btn hdr-btn-primary" href="https://t.me/xiaoqi2888" target="_blank" rel="noopener">联系客服</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="order-page">
+    <div class="order-search-box">
+      <h2>订单查询</h2>
+      <div class="order-search-row">
+        <input type="text" class="form-input" v-model="keyword" placeholder="输入订单号或邮箱" @keyup.enter="search">
+        <button type="button" class="hdr-btn hdr-btn-primary" @click="search" :disabled="loading">{{ loading ? '查询中...' : '查询' }}</button>
+      </div>
+    </div>
+
+    <div v-if="loading" class="loading-mask">查询中...</div>
+    <div v-else>
+      <div class="order-card" v-for="o in orders" :key="o.OrderNo">
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+          <strong>订单号: {{ o.OrderNo }}</strong>
+          <span class="order-status" :class="o.Status">{{ statusText(o.Status) }}</span>
+        </div>
+        <p style="margin-top:8px;color:#606266">{{ o.ProductName }} x {{ o.Qty }}</p>
+        <p>金额: {{ formatPrice(o.TotalAmount) }} | 时间: {{ o.CreatedAt }}</p>
+        <div v-if="o.CardContent" class="card-content">{{ o.CardContent }}</div>
+        <p v-else-if="o.Status === 'paid'" style="color:#e6a23c;margin-top:8px">卡密正在处理中，请稍后刷新或联系客服 TG:xiaoqi2888</p>
+        <p v-else-if="o.Status === 'pending'" style="color:#e6a23c;margin-top:8px">订单待支付，请完成支付后刷新</p>
+      </div>
+      <div class="empty-box" v-if="orders.length === 0 && keyword">未找到订单</div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="center footer-bottom">老号吧 LaoHaoBa.com &copy; 2026</div>
+  </footer>
+</div>
+</div>
+
+<script src="/js/vendor/vue.min.js"></script>
+<script src="/js/vendor/axios.min.js"></script>
+<script src="/js/app.js?v=10"></script>
+<script>
+try {
+  new Vue({ el: '#app', ...OrderApp });
+} catch (e) {
+  document.getElementById('app').innerHTML = '<div style="padding:40px;text-align:center">页面加载失败，请刷新重试</div>';
+  console.error(e);
+}
+</script>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"JSdccLPHb6aweYu9",ck:"JSdccLPHb6aweYu9"})</script>
+</body>
+</html>

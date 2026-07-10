@@ -1,0 +1,317 @@
+{
+  "shortEn": "pixiv",
+  "displayName": "Pixiv高级会员",
+  "iconUrl": "/assets/images/m-files/image-a2f8cfa06ec248fe8bafca7b87fe6ec6_b279a209.png",
+  "coverImg": "/assets/images/m-files/pixiv_2次元_H5封面长图-0c99bea3365640c289b4c2adb5ae18e9_0fa2afc1.jpg",
+  "categoryName": "影音会员",
+  "categoryId": "ab_cat_5",
+  "breadcrumb": [
+    "影音会员",
+    "【Pixiv】安卓APP下载"
+  ],
+  "defaultGameId": 1578290699,
+  "detailHtml": "<p><img src=\"/assets/images/m-files/72415dd7f1101f0b64c015f2c94810b6-03ee1b2ef5ba4a9082b79f3d418dc601_99bc9f51.jpg\" alt=\"\"></p><h2><span style=\"font-size: 16px;\">产品介绍</span></h2><p><span style=\"font-size: 16px;\">Pixiv 是全球知名的插画、漫画与小说创作社区。用户可浏览作品、关注创作者、收藏灵感内容，也可发布自己的插画、漫画或小说。</span></p><p><span style=\"font-size: 16px;\">Pixiv Premium 提供更高效的浏览与创作管理体验，适合插画爱好者、设计师、二次元用户及内容创作者。</span></p><p><span style=\"font-size: 16px;\">官网：https://www.pixiv.net/</span></p><h2><span style=\"font-size: 16px;\">Pixiv Premium 会员权益</span></h2><ul class=\" list-paddingleft-2\" style=\"list-style-type: disc;\"><li><p><span style=\"font-size: 16px;\">热门度排序搜索：可按热门度搜索插画、漫画和小说，更快找到高收藏、高热度作品。</span></p></li><li><p><span style=\"font-size: 16px;\">无广告浏览：减少 PC、移动网页及 App 内的广告干扰。</span></p></li><li><p><span style=\"font-size: 16px;\">作品数据分析：创作者可查看自己作品的浏览量、访问来源等表现数据。</span></p></li><li><p><span style=\"font-size: 16px;\">定时发布作品：支持为插画、漫画和小说设置定时发布。</span></p></li><li><p><span style=\"font-size: 16px;\">关注分组管理：可将关注的创作者或用户分类整理，方便管理不同题材和灵感来源。</span></p></li><li><p><span style=\"font-size: 16px;\">浏览记录与内容整理：可查看浏览历史，并减少重复内容推荐。</span></p></li><li><p><span style=\"font-size: 16px;\">更多创作工具：部分创作者功能、个人资料及社区工具可获得扩展支持。</span></p></li></ul><h2><span style=\"font-size: 16px;\">适合哪些用户？</span></h2><ul data-spread=\"false\" class=\" list-paddingleft-2\" style=\"width: 466.146px;\"><li><p><span style=\"font-size: 16px;\">喜欢插画、漫画、小说、游戏美术与二次元内容的用户</span></p></li><li><p><span style=\"font-size: 16px;\">需要寻找角色、场景、配色或画风参考的设计师</span></p></li><li><p><span style=\"font-size: 16px;\">经常收藏、整理和回看作品的重度浏览用户</span></p></li><li><p><span style=\"font-size: 16px;\">需要查看作品数据、规划发布时间的插画师、漫画作者与小说作者</span></p></li></ul><h2><span style=\"font-size: 16px;\">使用说明</span></h2><ul data-spread=\"false\" class=\" list-paddingleft-2\" style=\"width: 466.146px;\"><li><p><span style=\"font-size: 16px;\">本商品为 Pixiv Premium 会员服务，会员时长及交付方式以所选规格为准。</span></p></li><li><p><span style=\"font-size: 16px;\">使用已开通会员的 Pixiv 账号登录后，可在 PC、移动网页及官方 App 中使用。</span></p></li><li><p><span style=\"font-size: 16px;\">单个作品、创作者内容和地区可见性仍以 Pixiv 官方规则及创作者设置为准。</span></p></li><li><p><span style=\"font-size: 16px;\">Premium 提供浏览、搜索和创作管理工具，不保证固定浏览量、收藏量或粉丝增长。</span></p></li></ul><p><br style=\"white-space: normal;\"/></p><p><br/></p>",
+  "skuTree": {
+    "dimension1": "规格",
+    "dimension2": "时长",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "1个月会员账号",
+        "gameId": 1578290663,
+        "productId": "ab_1578290663",
+        "price": 4.43,
+        "originalPrice": 4.15,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "1个月会员账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "安卓安装包",
+        "gameId": 1578290698,
+        "productId": "ab_1578290698",
+        "price": 3.89,
+        "originalPrice": 2.76,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "安卓安装包"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "1个月会员账号+安卓安装包",
+        "gameId": 1578290699,
+        "productId": "ab_1578290699",
+        "price": 6.67,
+        "originalPrice": 4.15,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "1个月会员账号+安卓安装包"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "3个月",
+        "gameId": 1578290664,
+        "productId": "ab_1578290664",
+        "price": 10.42,
+        "originalPrice": 12.36,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "代充",
+          "3个月"
+        ],
+        "rechargeFields": [
+          {
+            "key": "account",
+            "label": "充值账号",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入账号"
+          },
+          {
+            "key": "contact",
+            "label": "联系方式",
+            "type": "text",
+            "required": true,
+            "placeholder": "手机号或邮箱"
+          }
+        ]
+      },
+      {
+        "name": "6个月",
+        "gameId": 1578290665,
+        "productId": "ab_1578290665",
+        "price": 16.11,
+        "originalPrice": 24.86,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "代充",
+          "6个月"
+        ],
+        "rechargeFields": [
+          {
+            "key": "account",
+            "label": "充值账号",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入账号"
+          },
+          {
+            "key": "contact",
+            "label": "联系方式",
+            "type": "text",
+            "required": true,
+            "placeholder": "手机号或邮箱"
+          }
+        ]
+      },
+      {
+        "name": "12个月",
+        "gameId": 1578290666,
+        "productId": "ab_1578290666",
+        "price": 24.86,
+        "originalPrice": 49.86,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "代充",
+          "12个月"
+        ],
+        "rechargeFields": [
+          {
+            "key": "account",
+            "label": "充值账号",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入账号"
+          },
+          {
+            "key": "contact",
+            "label": "联系方式",
+            "type": "text",
+            "required": true,
+            "placeholder": "手机号或邮箱"
+          }
+        ]
+      }
+    ],
+    "maxDepth": 2
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578291561",
+      "gameId": 1578291561,
+      "shortEn": "Yousician",
+      "name": "【Yousician】安卓APP安装包下载-1个月会员账号",
+      "categoryName": "Yousician",
+      "icon": "/assets/images/m-files/image-2ba75b7bba81475c93628319164247b1_5a87d247.png",
+      "cover": "/assets/images/m-files/yousician_h5封面长图-515527bcfc0b45dd8f596beba190a519_ee7ee7a2.jpg",
+      "price": 4.15
+    },
+    {
+      "id": "ab_1578291541",
+      "gameId": 1578291541,
+      "shortEn": "Financial-times",
+      "name": "【Financial times】安卓APP安装包下载-带一个月会员账号",
+      "categoryName": "Financial times",
+      "icon": "/assets/images/m-files/image-33b029808ef942f4935f9d2b4e212130_5effd231.png",
+      "cover": "/assets/images/m-files/Financial_times_H5封面长图-6ff8bbd809ec4d9a83ba17e2d63c66b3_a200154e.jpg",
+      "price": 4.86
+    },
+    {
+      "id": "ab_1578291535",
+      "gameId": 1578291535,
+      "shortEn": "Seeking-Alpha",
+      "name": "【Seeking Alpha】安卓APP安装包下载-带一个月会员账号",
+      "categoryName": "Seeking Alpha",
+      "icon": "/assets/images/m-files/image-bcb116465d68427da27a8543f9ec9f9c_717b1781.png",
+      "cover": "/assets/images/m-files/seeking_alpha封面长图-bad86475bf0143cf82750e2ce647be15_832ad225.jpg",
+      "price": 4.15
+    },
+    {
+      "id": "ab_1578290300",
+      "gameId": 1578290300,
+      "shortEn": "X",
+      "name": "【推特】安卓APP安装包下载-带解敏（新）号",
+      "categoryName": "推特全球ID",
+      "icon": "/assets/images/m-files/Group_48096155-9bb2f7bcee24414da3e1fc7e2fc91e5e_3117770d.png",
+      "cover": "/assets/images/m-files/推特X-ae247c761e334a8ab76b58a70d1355aa_19d38bca.jpg",
+      "price": 5.94
+    },
+    {
+      "id": "ab_1578290879",
+      "gameId": 1578290879,
+      "shortEn": "apk",
+      "name": "【爆裂小队】安卓APP安装包下载",
+      "categoryName": "游戏APP",
+      "icon": "/assets/images/m-files/安卓合集包-08a8a0e30b2540cb8d9b90abd7eb3b87_5337d3eb.png",
+      "cover": "/assets/images/m-files/爆裂小队-47b7dc2e41fc45cf84a624bcd39c555c_34b3e39b.jpg",
+      "price": 2.33
+    },
+    {
+      "id": "ab_1578298780",
+      "gameId": 1578298780,
+      "shortEn": "ytb",
+      "name": "YouTube Premium 个人会员账号 1个月",
+      "categoryName": "YouTube账号",
+      "icon": "/assets/images/m-files/Group_48096153-45c726b5ec35423e8d33eaa3936efa26_50bc9bd6.png",
+      "cover": "/assets/images/m-files/youtube叠加背景版-915a4435e2b847f2a5a5ecbb24701f61_875fc391.jpg",
+      "price": 22.08
+    },
+    {
+      "id": "ab_1578294624",
+      "gameId": 1578294624,
+      "shortEn": "Netflix",
+      "name": "奈飞Netflix TV-30天会员-带安卓APP下载",
+      "categoryName": "Netflix（奈飞）会员账号",
+      "icon": "/assets/images/m-files/Group_48096147-0bd2c62c0b0f4de4a48d226bfc7ccb9c_acf02fa6.png",
+      "cover": "/assets/images/m-files/奈飞会员账号-0bfb4439591044ba87915ef58e8d0761_d79b23b0.jpg",
+      "price": 8.17
+    },
+    {
+      "id": "ab_1578291560",
+      "gameId": 1578291560,
+      "shortEn": "Yousician",
+      "name": "【Yousician】安卓APP安装包下载",
+      "categoryName": "Yousician",
+      "icon": "/assets/images/m-files/image-2ba75b7bba81475c93628319164247b1_5a87d247.png",
+      "cover": "/assets/images/m-files/yousician_h5封面长图-515527bcfc0b45dd8f596beba190a519_ee7ee7a2.jpg",
+      "price": 2.07
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 561,
+      "title": "国内如何开通Pixiv高级会员？P站会员功能解析与订阅费用指南",
+      "cover": "/assets/images/m-files/pixiv高级会员-bd5d3cc60e9441c981bc08256f8c1d96_2d8814ce.jpg",
+      "date": "2025-05-07",
+      "summary": "Pixiv高级会员支持无广告浏览、高清下载、数据分析等实用功能。本文详解国内如何开通Pixiv高级会员，对比代充、虚拟信用卡开通方式的优缺点，提供费用解析与自动续费关闭教程，助你安全解锁P站高级会员特权。"
+    },
+    {
+      "id": 170,
+      "title": "pixiv会员有什么用？怎么充值代充pixiv会员",
+      "cover": "/assets/images/m-files/pixiv会员充值-3e227af9bc3949868fd0d2ec57c10086_737709ee.jpg",
+      "date": "2024-09-11",
+      "summary": "Pixiv会员是日本艺术创作分享平台,老号吧充值代充pixiv会员，不紧提供pixiv成品账号购买，还能代充pixiv，并且提供充pixiv安装包下载服务。"
+    },
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    },
+    {
+      "id": 1212,
+      "title": "《怪奇物语》新衍生剧来了！Stranger Things: Tales From '85 好看吗？附奈飞拼车低价观看方法",
+      "cover": "/assets/images/m-files/1909238779-f5c79c0e581e424eb543301ce8eed173_b1d820c5.jpg",
+      "date": "2026-04-24",
+      "summary": "怪奇物语衍生剧到底讲了什么？值不值得追？口碑如何？又该如何低成本在奈飞观看？本文一次讲清楚。"
+    },
+    {
+      "id": 1204,
+      "title": "老号吧靠谱吗？官方安全说明、售后保障与优惠码获取指南（2026）",
+      "cover": "/assets/images/m-files/-799647537-75948460b4be47f79349cc722e564bf5_41f08043.png",
+      "date": "2026-04-21",
+      "summary": "老号吧是一家持续稳定运营多年的数字权益服务平台，主要提供 AI 工具会员、流媒体会员共享方案、海外社媒账号资源等产品，并建立了自动交付系统、商品质保说明与售后支持体系。"
+    },
+    {
+      "id": 1145,
+      "title": "2026主流奈飞合租平台深度评测：Netflix 账号拼车避坑全指南",
+      "cover": "/assets/images/m-files/1837464362-7a4f85c88e64485d925ed19376af0355_b4abf34f.png",
+      "date": "2026-04-17",
+      "summary": "本文从真实使用逻辑出发，深入对比当前主流奈飞合租平台的优缺点及其潜在风险，帮助大家在复杂的合租市场中找到最稳妥的选择。"
+    }
+  ]
+}

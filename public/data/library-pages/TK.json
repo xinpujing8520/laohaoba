@@ -1,0 +1,1120 @@
+{
+  "shortEn": "TK",
+  "displayName": "TikTok账号",
+  "iconUrl": "/assets/images/m-files/tiktok-2cf29516d7c64de7a1b3f704826faa4e_6d0cd439.png",
+  "coverImg": "/assets/images/m-files/Tiktok-9db53688e34f4fedac92bd368bbac15c_6d8d66db.png",
+  "categoryName": "社交账号",
+  "categoryId": "ab_cat_3",
+  "breadcrumb": [
+    "社交账号",
+    "TikTok新号"
+  ],
+  "defaultGameId": 1578287026,
+  "detailHtml": "<p><img src=\"/assets/images/m-files/TikTok-Logo-ec987578ba9d483684ab3bad1de96574_875c9029.jpg\" alt=\"\"></p><p>一.商品介绍</p><p>1.本商品为<span style=\"color: rgb(255, 0, 0);\">全新Tik Tok海外登录账号</span>，账号为独享，售出删档。<br/></p><p>2.您购买后将获得电子邮箱和密码，收到后请及时更改密码。(目前邮箱不一定可以用，介意勿拍）</p><p style=\"white-space: normal;\">3.【全新账号】注册时间较短，【优质账号】注册时间6个月以上。</p><p style=\"white-space: normal;\"><span style=\"color: rgb(255, 255, 255);\"><strong><span style=\"background-color: rgb(255, 0, 0);\"></span></strong></span></p><p style=\"text-wrap: wrap;\"><span style=\"color: rgb(255, 255, 255);\"><strong><span style=\"background-color: rgb(255, 0, 0);\">注意</span></strong></span>：1、必须拔掉手机SIM卡；</p><p style=\"text-wrap: wrap;\"><span style=\"font-family: &quot;Microsoft Yahei&quot;, simsun, arial, verdana, sans-serif; text-align: justify; text-indent: 32px;\">2、魔法网络必须是全局网络，你用垃圾网络是百分之一万的上不去，国内软件对于检测自己人非常牛；</span></p><p style=\"text-wrap: wrap;\"><span style=\"font-family: &quot;Microsoft Yahei&quot;, simsun, arial, verdana, sans-serif; text-align: justify; text-indent: 32px;\">3、手机语言需要改成繁体或者English。这个也是必须的，不然百分百刷不出来。</span></p><p style=\"white-space: normal;\">二.使用说明</p><p style=\"white-space: normal;\">使用教程：<br/>https://aa.kardz.cc/article/161.html</p><p style=\"white-space: normal;\">三.注意事项</p><p style=\"white-space: normal;\">1.付款后您可以在购买完成的页面查看所购买的账号信息，或者可以点击右上角的订单中心查看提取，<span style=\"color: rgb(255, 0, 0);\">24小时内自动发货</span>。<br/></p><p style=\"white-space: normal;\">2.账号售出删档，买家自行保护账号安全，被盗我们无法找回！</p><p style=\"white-space: normal;\">3.拿到账号请务必修改密码，如有其他验证方式（手机或邮箱），也请修改，若有问题直接查询百度既有答案和教程。</p><p style=\"white-space: normal;\">4.若需要大量批发可以联系我们的线上客服，客服会安排转人给您联系详谈价格。</p>",
+  "skuTree": {
+    "dimension1": "类型",
+    "dimension2": "规格",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "全新账号",
+        "gameId": 1578287026,
+        "productId": "ab_1578287026",
+        "price": 2.08,
+        "originalPrice": 4.86,
+        "badge": "",
+        "icon": "",
+        "description": "新手推荐",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "全新账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "老号",
+        "gameId": 1578288319,
+        "productId": "ab_1578288319",
+        "price": 2.36,
+        "originalPrice": 4.03,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "老号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Tiktok（美国）账号",
+        "gameId": 1578288845,
+        "productId": "ab_1578288845",
+        "price": 2.64,
+        "originalPrice": 5.42,
+        "badge": "",
+        "icon": "",
+        "description": "可开美区小店",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "Tiktok（美国）账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（德国）账号",
+        "gameId": 1578300010,
+        "productId": "ab_1578300010",
+        "price": 4,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "TikTok（德国）账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（法国）账号",
+        "gameId": 1578300011,
+        "productId": "ab_1578300011",
+        "price": 4,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "TikTok（法国）账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（英国）账号",
+        "gameId": 1578300012,
+        "productId": "ab_1578300012",
+        "price": 4,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "TikTok（英国）账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（意大利）账号",
+        "gameId": 1578300013,
+        "productId": "ab_1578300013",
+        "price": 4,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "TikTok（意大利）账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（2022年）老号",
+        "gameId": 1578293301,
+        "productId": "ab_1578293301",
+        "price": 6.67,
+        "originalPrice": 7.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "TikTok（2022年）老号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（2020年）老号",
+        "gameId": 1578293302,
+        "productId": "ab_1578293302",
+        "price": 7.78,
+        "originalPrice": 9.31,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "TikTok（2020年）老号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满3月白号【随机地区】",
+        "gameId": 1578289089,
+        "productId": "ab_1578289089",
+        "price": 2.64,
+        "originalPrice": 6.25,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "满3月白号【随机地区】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "tiktok（精品）账号",
+        "gameId": 1578289626,
+        "productId": "ab_1578289626",
+        "price": 13.86,
+        "originalPrice": 27.5,
+        "badge": "",
+        "icon": "",
+        "description": "包教包会",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "tiktok（精品）账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "免拔卡安装包",
+        "gameId": 1578290873,
+        "productId": "ab_1578290873",
+        "price": 2.61,
+        "originalPrice": 2.89,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "APP",
+          "免拔卡安装包"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "免拔卡-带账号",
+        "gameId": 1578290874,
+        "productId": "ab_1578290874",
+        "price": 4.28,
+        "originalPrice": 5.42,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "APP",
+          "免拔卡-带账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "tiktok（精品）账号+安装包",
+        "gameId": 1578289627,
+        "productId": "ab_1578289627",
+        "price": 17.78,
+        "originalPrice": 21.67,
+        "badge": "",
+        "icon": "",
+        "description": "一年售后",
+        "isRecharge": false,
+        "path": [
+          "APP",
+          "tiktok（精品）账号+安装包"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满月白号【美国】",
+        "gameId": 1578289079,
+        "productId": "ab_1578289079",
+        "price": 2.64,
+        "originalPrice": 6.25,
+        "badge": "",
+        "icon": "",
+        "description": "热门推荐",
+        "isRecharge": false,
+        "path": [
+          "满月白号",
+          "满月白号【美国】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满月白号【台湾】",
+        "gameId": 1578289082,
+        "productId": "ab_1578289082",
+        "price": 2.64,
+        "originalPrice": 6.25,
+        "badge": "",
+        "icon": "",
+        "description": "热门推荐",
+        "isRecharge": false,
+        "path": [
+          "满月白号",
+          "满月白号【台湾】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满月白号【印尼】",
+        "gameId": 1578289085,
+        "productId": "ab_1578289085",
+        "price": 2.64,
+        "originalPrice": 6.25,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满月白号",
+          "满月白号【印尼】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满月白号【巴西】",
+        "gameId": 1578289086,
+        "productId": "ab_1578289086",
+        "price": 2.64,
+        "originalPrice": 6.25,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满月白号",
+          "满月白号【巴西】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满月白号【越南】",
+        "gameId": 1578289087,
+        "productId": "ab_1578289087",
+        "price": 2.64,
+        "originalPrice": 6.25,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满月白号",
+          "满月白号【越南】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Tiktok满月白号【菲律宾】",
+        "gameId": 1578289267,
+        "productId": "ab_1578289267",
+        "price": 2.64,
+        "originalPrice": 6.25,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满月白号",
+          "Tiktok满月白号【菲律宾】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满月白号【泰国】",
+        "gameId": 1578289088,
+        "productId": "ab_1578289088",
+        "price": 2.64,
+        "originalPrice": 6.25,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满月白号",
+          "满月白号【泰国】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【以色列】",
+        "gameId": 1578292010,
+        "productId": "ab_1578292010",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【以色列】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【随机地区】",
+        "gameId": 1578292008,
+        "productId": "ab_1578292008",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【随机地区】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【越南】",
+        "gameId": 1578290501,
+        "productId": "ab_1578290501",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【越南】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【南非】",
+        "gameId": 1578290503,
+        "productId": "ab_1578290503",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【南非】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【台湾】",
+        "gameId": 1578290506,
+        "productId": "ab_1578290506",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【台湾】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【泰国】",
+        "gameId": 1578290508,
+        "productId": "ab_1578290508",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【泰国】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【菲律宾】",
+        "gameId": 1578290509,
+        "productId": "ab_1578290509",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【菲律宾】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【孟加拉】",
+        "gameId": 1578290510,
+        "productId": "ab_1578290510",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【孟加拉】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【土耳其】",
+        "gameId": 1578290511,
+        "productId": "ab_1578290511",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【土耳其】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【阿根廷】",
+        "gameId": 1578290512,
+        "productId": "ab_1578290512",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【阿根廷】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【墨西哥】",
+        "gameId": 1578290513,
+        "productId": "ab_1578290513",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【墨西哥】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【新加坡】",
+        "gameId": 1578290514,
+        "productId": "ab_1578290514",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【新加坡】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【加拿大】",
+        "gameId": 1578290515,
+        "productId": "ab_1578290515",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【加拿大】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【澳大利亚】",
+        "gameId": 1578290516,
+        "productId": "ab_1578290516",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【澳大利亚】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【哥伦比亚】",
+        "gameId": 1578290517,
+        "productId": "ab_1578290517",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【哥伦比亚】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【马来西亚】",
+        "gameId": 1578290518,
+        "productId": "ab_1578290518",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【马来西亚】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【沙特阿拉伯】",
+        "gameId": 1578290519,
+        "productId": "ab_1578290519",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【沙特阿拉伯】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "满一年白号【阿尔及利亚】",
+        "gameId": 1578290520,
+        "productId": "ab_1578290520",
+        "price": 5.83,
+        "originalPrice": 6.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "满一年白号",
+          "满一年白号【阿尔及利亚】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok 2016-2023年老号 埃及ip",
+        "gameId": 1578298815,
+        "productId": "ab_1578298815",
+        "price": 9.44,
+        "originalPrice": 10.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "2016-2023年老号",
+          "TikTok 2016-2023年老号 埃及ip"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok 2016-2023年老号 南非ip",
+        "gameId": 1578298817,
+        "productId": "ab_1578298817",
+        "price": 9.44,
+        "originalPrice": 10.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "2016-2023年老号",
+          "TikTok 2016-2023年老号 南非ip"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok 2016-2023年老号 意大利ip",
+        "gameId": 1578298818,
+        "productId": "ab_1578298818",
+        "price": 9.44,
+        "originalPrice": 10.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "2016-2023年老号",
+          "TikTok 2016-2023年老号 意大利ip"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok 2016-2023年老号 西班牙ip",
+        "gameId": 1578298819,
+        "productId": "ab_1578298819",
+        "price": 9.44,
+        "originalPrice": 10.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "2016-2023年老号",
+          "TikTok 2016-2023年老号 西班牙ip"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok 2016-2023年老号 伊拉克ip",
+        "gameId": 1578298821,
+        "productId": "ab_1578298821",
+        "price": 9.44,
+        "originalPrice": 10.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "2016-2023年老号",
+          "TikTok 2016-2023年老号 伊拉克ip"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok 2016-2023年老号 尼日利亚ip",
+        "gameId": 1578298822,
+        "productId": "ab_1578298822",
+        "price": 9.44,
+        "originalPrice": 10.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "2016-2023年老号",
+          "TikTok 2016-2023年老号 尼日利亚ip"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok 2016-2023年老号 巴基斯坦 ip",
+        "gameId": 1578298823,
+        "productId": "ab_1578298823",
+        "price": 9.44,
+        "originalPrice": 10.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "2016-2023年老号",
+          "TikTok 2016-2023年老号 巴基斯坦 ip"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok 2016-2023年老号 阿尔及利亚ip",
+        "gameId": 1578298824,
+        "productId": "ab_1578298824",
+        "price": 9.44,
+        "originalPrice": 10.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "2016-2023年老号",
+          "TikTok 2016-2023年老号 阿尔及利亚ip"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（广告账户）美国IP-预付（美元）",
+        "gameId": 1578297433,
+        "productId": "ab_1578297433",
+        "price": 20.83,
+        "originalPrice": 27.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "广告账户",
+          "TikTok（广告账户）美国IP-预付（美元）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（广告账户）美国IP-后付（美元）",
+        "gameId": 1578297434,
+        "productId": "ab_1578297434",
+        "price": 20.83,
+        "originalPrice": 27.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "广告账户",
+          "TikTok（广告账户）美国IP-后付（美元）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（广告账户）巴西IP-后付（美元）",
+        "gameId": 1578297435,
+        "productId": "ab_1578297435",
+        "price": 20.83,
+        "originalPrice": 27.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "广告账户",
+          "TikTok（广告账户）巴西IP-后付（美元）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（广告账户）印度尼西亚IP-后付（美元）",
+        "gameId": 1578297436,
+        "productId": "ab_1578297436",
+        "price": 20.83,
+        "originalPrice": 27.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "广告账户",
+          "TikTok（广告账户）印度尼西亚IP-后付（美元）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（广告账户）越南IP-后付（美元）",
+        "gameId": 1578297437,
+        "productId": "ab_1578297437",
+        "price": 20.83,
+        "originalPrice": 27.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "广告账户",
+          "TikTok（广告账户）越南IP-后付（美元）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（广告账户）菲律宾IP-后付（美元）",
+        "gameId": 1578297438,
+        "productId": "ab_1578297438",
+        "price": 20.83,
+        "originalPrice": 27.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "广告账户",
+          "TikTok（广告账户）菲律宾IP-后付（美元）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（广告账户）新加坡IP-后付（美元）",
+        "gameId": 1578297439,
+        "productId": "ab_1578297439",
+        "price": 20.83,
+        "originalPrice": 27.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "广告账户",
+          "TikTok（广告账户）新加坡IP-后付（美元）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（广告账户）法国IP-后付（美元）",
+        "gameId": 1578297440,
+        "productId": "ab_1578297440",
+        "price": 20.83,
+        "originalPrice": 27.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "广告账户",
+          "TikTok（广告账户）法国IP-后付（美元）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（广告账户）德国IP-后付（美元）",
+        "gameId": 1578297441,
+        "productId": "ab_1578297441",
+        "price": 20.83,
+        "originalPrice": 27.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "广告账户",
+          "TikTok（广告账户）德国IP-后付（美元）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（广告账户）日本IP-后付（美元）",
+        "gameId": 1578297442,
+        "productId": "ab_1578297442",
+        "price": 20.83,
+        "originalPrice": 27.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "广告账户",
+          "TikTok（广告账户）日本IP-后付（美元）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（广告账户）澳大利亚IP-后付（美元）",
+        "gameId": 1578297443,
+        "productId": "ab_1578297443",
+        "price": 20.83,
+        "originalPrice": 27.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "广告账户",
+          "TikTok（广告账户）澳大利亚IP-后付（美元）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "TikTok（广告账户）加拿大IP-后付（美元）",
+        "gameId": 1578297444,
+        "productId": "ab_1578297444",
+        "price": 20.83,
+        "originalPrice": 27.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "广告账户",
+          "TikTok（广告账户）加拿大IP-后付（美元）"
+        ],
+        "rechargeFields": []
+      }
+    ],
+    "maxDepth": 2
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578289639",
+      "gameId": 1578289639,
+      "shortEn": "Instagram",
+      "name": "【推特/油管/脸书/INS】APP安卓包",
+      "categoryName": "Ins全球账号",
+      "icon": "https://files.kardz.cn/game/Group%2048096154-f522a6814ecd4b67834e8a79036d907d.png",
+      "cover": "/assets/images/m-files/ins-545a2706b6af49ed8ccff4540bae2e03_57ca585e.png",
+      "price": 4.44
+    },
+    {
+      "id": "ab_1578290352",
+      "gameId": 1578290352,
+      "shortEn": "S",
+      "name": "日本（新号）",
+      "categoryName": "Steam空白账号",
+      "icon": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "cover": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "price": 2.19
+    },
+    {
+      "id": "ab_1578290357",
+      "gameId": 1578290357,
+      "shortEn": "S",
+      "name": "新加坡（白号）",
+      "categoryName": "Steam空白账号",
+      "icon": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "cover": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "price": 2.19
+    },
+    {
+      "id": "ab_1578290409",
+      "gameId": 1578290409,
+      "shortEn": "fb",
+      "name": "facebook【新号】新加坡IP",
+      "categoryName": "facebook账号",
+      "icon": "/assets/images/m-files/Group_48096149-c1cae391408d4382b7001b9a98e69fb2_9f736bc2.png",
+      "cover": "/assets/images/m-files/facebook叠加背景版-825cf447e7714249b5246fb68cc11db7_5dc4ac3f.jpg",
+      "price": 4.17
+    },
+    {
+      "id": "ab_1578297103",
+      "gameId": 1578297103,
+      "shortEn": "Instagram",
+      "name": "ins新号（美国）",
+      "categoryName": "Ins全球账号",
+      "icon": "/assets/images/m-files/Group_48096154-f522a6814ecd4b67834e8a79036d907d_6d71309b.png",
+      "cover": "/assets/images/m-files/ins-545a2706b6af49ed8ccff4540bae2e03_57ca585e.png",
+      "price": 5.56
+    },
+    {
+      "id": "ab_1578290406",
+      "gameId": 1578290406,
+      "shortEn": "fb",
+      "name": "facebook【新号】日本IP",
+      "categoryName": "facebook账号",
+      "icon": "/assets/images/m-files/Group_48096149-c1cae391408d4382b7001b9a98e69fb2_9f736bc2.png",
+      "cover": "/assets/images/m-files/facebook叠加背景版-825cf447e7714249b5246fb68cc11db7_5dc4ac3f.jpg",
+      "price": 2.36
+    },
+    {
+      "id": "ab_1578296914",
+      "gameId": 1578296914,
+      "shortEn": "Instagram",
+      "name": "ins新号-可登threads-2FA",
+      "categoryName": "Ins全球账号",
+      "icon": "/assets/images/m-files/Group_48096154-f522a6814ecd4b67834e8a79036d907d_6d71309b.png",
+      "cover": "/assets/images/m-files/ins-545a2706b6af49ed8ccff4540bae2e03_57ca585e.png",
+      "price": 6.39
+    },
+    {
+      "id": "ab_1578296830",
+      "gameId": 1578296830,
+      "shortEn": "twitch",
+      "name": "Twitch新号",
+      "categoryName": "twitch账号",
+      "icon": "/assets/images/m-files/Group_48096152-746c71678d5349c992d7451fd52c13da_c0d1464e.png",
+      "cover": "/assets/images/m-files/twitch-199ae29eeeff4a759fa3d5c84ce5331e_d9126f19.png",
+      "price": 2.33
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 932,
+      "title": "TikTok广告账户购买与注册流程（2026 最新指南）",
+      "cover": "/assets/images/m-files/-879865052-5192f3f7918748e7b51b5546ad45ec3d_c23aae17.jpg",
+      "date": "2025-11-18",
+      "summary": "本文详细介绍TikTok广告账户注册、官方开户流程、购买渠道及日常运营管理要点，涵盖自助开通、代理开通及成品账户购买，帮助广告主快速启动TikTok Ads投放。"
+    },
+    {
+      "id": 910,
+      "title": "TikTok限流？解密为什么TikTok视频突然没流量、0播放（附恢复技巧）",
+      "cover": "/assets/images/m-files/544966622-c7f9b88160e84747bfe58361831c2f68_7f94b2f4.png",
+      "date": "2025-11-10",
+      "summary": "TikTok没有流量、视频零播放，往往不是内容问题，而是账号质量、操作行为与网络环境叠加触发的限流。本篇全面解析TikTok常见限流原因、三大典型症状、恢复权重步骤，以及环境风控要点，帮助更稳定地提升播放量与账号表现。"
+    },
+    {
+      "id": 835,
+      "title": "国内卖家怎么在TikTok上开店？2026 TikTok开店流程、条件、费用详解",
+      "cover": "/assets/images/m-files/tiktok怎么开店-5548922811ba462e90ec4e15e64472eb_c472b01d.jpg",
+      "date": "2025-09-29",
+      "summary": "想做跨境电商却不知道TikTok怎么开店？本文系统介绍TikTok开店要求、注册流程及费用明细，涵盖保证金、佣金、物流与收款成本，并提供选品及运营建议，帮助卖家快速掌握TikTok Shop入驻的关键步骤。"
+    },
+    {
+      "id": 809,
+      "title": "TikTok怎么直播？开通条件及各地区TikTok千粉账号购买指南",
+      "cover": "/assets/images/m-files/tiktok怎么直播-4e6f8ada80694d4ca7a11c40d85aac89_77554f63.jpg",
+      "date": "2025-09-17",
+      "summary": "详细解读 TikTok直播条件、开播流程及收入渠道。提供TikTok千粉号购买方案，助你快速开通直播权限，高效开启跨境直播变现。"
+    },
+    {
+      "id": 442,
+      "title": "2026年TikTok千粉号购买指南：平台推荐与避坑攻略",
+      "cover": "/assets/images/m-files/tiktok千粉号购买-aabe5a747bf24559a039a98f70f57054_1d1a35fe.png",
+      "date": "2025-03-04",
+      "summary": "2026年最新TikTok千粉号交易避坑攻略：TikTok千粉号购买安全平台推荐，揭露价格陷阱+账号验证技巧，免费获取防封指南与变现教程。"
+    },
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    }
+  ]
+}

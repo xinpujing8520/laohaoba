@@ -1,0 +1,317 @@
+{
+  "shortEn": "lovable",
+  "displayName": "Lovable AI 会员",
+  "iconUrl": "/assets/images/m-files/-1081061729-bacc7c4a2e5544999aaa494af854574a_ea3fd9d3.png",
+  "coverImg": "/assets/images/m-files/1858506822-6f020e28daa745dc859a2aa38ffc9141_f435d42c.jpg",
+  "categoryName": "AI工具",
+  "categoryId": "ab_cat_7",
+  "breadcrumb": [
+    "AI工具",
+    "Lovable Business 100积分"
+  ],
+  "defaultGameId": 1578299992,
+  "detailHtml": "<p>一、商品介绍</p><p>1. 此产品为：Lovable AI会员账号，，可直接登录使用，需自备魔法工具，按需购买。</p><p>2. 虚拟产品，发货成功后，除质量问题外，不支持退换请谅解。介意勿拍。</p><p>3.官网登录地址：<a href=\"https://suno.com/\" rel=\"noopener\" target=\"_blank\">https://lovable.dev/</a></p><p>Lovable AI 就是一款专为非技术使用者設計的實用工具，讓沒有程式背景或網頁開發經驗的使用者，在短時間內完成從網站建構到遊戲、小工具設計等各類開發任務，只需要動動手、與AI 聊聊天，Lovable AI 就能幫你一「指」搞定！<img src=\"/assets/images/files/Lovable_$1774234689986061372_6e7d3a20.jpg\" title=\"Lovable\" alt=\"Lovable\" width=\"526\" height=\"905\" border=\"0\" vspace=\"0\" style=\"width: 526px; height: 905px;\"/></p><p><br/></p>",
+  "skuTree": {
+    "dimension1": "类别",
+    "dimension2": "规格",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "Lovable Pro 100积分（30天）",
+        "gameId": 1578299462,
+        "productId": "ab_1578299462",
+        "price": 17.92,
+        "originalPrice": 24.03,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "Lovable Pro 100积分（30天）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Lovable Pro 200积分（30天）",
+        "gameId": 1578299990,
+        "productId": "ab_1578299990",
+        "price": 37.64,
+        "originalPrice": 48.47,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "Lovable Pro 200积分（30天）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Lovable Business 100积分（30天）",
+        "gameId": 1578299992,
+        "productId": "ab_1578299992",
+        "price": 37.64,
+        "originalPrice": 48.47,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "Lovable Business 100积分（30天）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Lovable Pro 100积分（30天）",
+        "gameId": 1578299461,
+        "productId": "ab_1578299461",
+        "price": 21.94,
+        "originalPrice": 24.03,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "代充",
+          "Lovable Pro 100积分（30天）"
+        ],
+        "rechargeFields": [
+          {
+            "key": "account",
+            "label": "充值账号",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入账号"
+          },
+          {
+            "key": "contact",
+            "label": "联系方式",
+            "type": "text",
+            "required": true,
+            "placeholder": "手机号或邮箱"
+          }
+        ]
+      },
+      {
+        "name": "Lovable Pro 200积分（30天）",
+        "gameId": 1578299989,
+        "productId": "ab_1578299989",
+        "price": 44.31,
+        "originalPrice": 48.47,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "代充",
+          "Lovable Pro 200积分（30天）"
+        ],
+        "rechargeFields": [
+          {
+            "key": "account",
+            "label": "充值账号",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入账号"
+          },
+          {
+            "key": "contact",
+            "label": "联系方式",
+            "type": "text",
+            "required": true,
+            "placeholder": "手机号或邮箱"
+          }
+        ]
+      },
+      {
+        "name": "Lovable Business 100积分（30天）",
+        "gameId": 1578299991,
+        "productId": "ab_1578299991",
+        "price": 39.31,
+        "originalPrice": 48.47,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "代充",
+          "Lovable Business 100积分（30天）"
+        ],
+        "rechargeFields": [
+          {
+            "key": "account",
+            "label": "充值账号",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入账号"
+          },
+          {
+            "key": "contact",
+            "label": "联系方式",
+            "type": "text",
+            "required": true,
+            "placeholder": "手机号或邮箱"
+          }
+        ]
+      }
+    ],
+    "maxDepth": 2
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578299789",
+      "gameId": 1578299789,
+      "shortEn": "GitHub-Copilot",
+      "name": "GitHub Copilot Business（30天会员）",
+      "categoryName": "GitHub Copilot 会员",
+      "icon": "/assets/images/m-files/229396264-52c605acd10b43b6bc4beb75b898ee91_0b15bca7.jpg",
+      "cover": "/assets/images/m-files/229396264-52c605acd10b43b6bc4beb75b898ee91_0b15bca7.jpg",
+      "price": 22.08
+    },
+    {
+      "id": "ab_1578299607",
+      "gameId": 1578299607,
+      "shortEn": "Julius-AI",
+      "name": "Julius AI Business（30天会员）",
+      "categoryName": "Julius AI会员",
+      "icon": "/assets/images/m-files/588480407-f889dc0220f9403ea9306924439e47e1_2cccd800.jpg",
+      "cover": "/assets/images/m-files/-1901987364-afd3e095e6864a3d879f2305bf186154_ce6ef40d.jpg",
+      "price": 485.97
+    },
+    {
+      "id": "ab_1578299592",
+      "gameId": 1578299592,
+      "shortEn": "Notion",
+      "name": "Notion AI Business（三个月）会员",
+      "categoryName": "Notion AI",
+      "icon": "/assets/images/m-files/374063603-56592ba0b3124fc8b1f30ada90640a00_85dec86d.jpg",
+      "cover": "/assets/images/m-files/-2005696913-f364030c218049d2ac20b722672256f4_2e750f9d.jpg",
+      "price": 27.64
+    },
+    {
+      "id": "ab_1578299591",
+      "gameId": 1578299591,
+      "shortEn": "Notion",
+      "name": "Notion AI Business（一个月）会员",
+      "categoryName": "Notion AI",
+      "icon": "/assets/images/m-files/374063603-56592ba0b3124fc8b1f30ada90640a00_85dec86d.jpg",
+      "cover": "/assets/images/m-files/-2005696913-f364030c218049d2ac20b722672256f4_2e750f9d.jpg",
+      "price": 10.83
+    },
+    {
+      "id": "ab_1578299543",
+      "gameId": 1578299543,
+      "shortEn": "Monica",
+      "name": "Monica Ultra会员账号（30天）",
+      "categoryName": "Monica AI会员",
+      "icon": "/assets/images/m-files/543497828-6fedfd84bad6409791ee1fa1111165ce_ccb669c8.png",
+      "cover": "/assets/images/m-files/717113018-9d9ab1c318d24b93b3cbc61149d5e9d2_d26d0617.png",
+      "price": 124.86
+    },
+    {
+      "id": "ab_1578299542",
+      "gameId": 1578299542,
+      "shortEn": "Monica",
+      "name": "Monica Max会员账号（30天）",
+      "categoryName": "Monica AI会员",
+      "icon": "/assets/images/m-files/543497828-6fedfd84bad6409791ee1fa1111165ce_ccb669c8.png",
+      "cover": "/assets/images/m-files/717113018-9d9ab1c318d24b93b3cbc61149d5e9d2_d26d0617.png",
+      "price": 30.42
+    },
+    {
+      "id": "ab_1578299541",
+      "gameId": 1578299541,
+      "shortEn": "Monica",
+      "name": "Monica Pro会员账号（30天）",
+      "categoryName": "Monica AI会员",
+      "icon": "/assets/images/m-files/543497828-6fedfd84bad6409791ee1fa1111165ce_ccb669c8.png",
+      "cover": "/assets/images/m-files/717113018-9d9ab1c318d24b93b3cbc61149d5e9d2_d26d0617.png",
+      "price": 12.36
+    },
+    {
+      "id": "ab_1578298153",
+      "gameId": 1578298153,
+      "shortEn": "windy",
+      "name": "windy Premium会员账号（30天共享）",
+      "categoryName": "Windy会员账号",
+      "icon": "/assets/images/m-files/263164959-0c539731ec7147b7b249602bf0bd3ce6_9be9cb60.jpg",
+      "cover": "/assets/images/m-files/265078341-28dd2bc50e9c4d8fa04d1825c467f544_de75d5a2.jpg",
+      "price": 4.14
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    },
+    {
+      "id": 1212,
+      "title": "《怪奇物语》新衍生剧来了！Stranger Things: Tales From '85 好看吗？附奈飞拼车低价观看方法",
+      "cover": "/assets/images/m-files/1909238779-f5c79c0e581e424eb543301ce8eed173_b1d820c5.jpg",
+      "date": "2026-04-24",
+      "summary": "怪奇物语衍生剧到底讲了什么？值不值得追？口碑如何？又该如何低成本在奈飞观看？本文一次讲清楚。"
+    },
+    {
+      "id": 1204,
+      "title": "老号吧靠谱吗？官方安全说明、售后保障与优惠码获取指南（2026）",
+      "cover": "/assets/images/m-files/-799647537-75948460b4be47f79349cc722e564bf5_41f08043.png",
+      "date": "2026-04-21",
+      "summary": "老号吧是一家持续稳定运营多年的数字权益服务平台，主要提供 AI 工具会员、流媒体会员共享方案、海外社媒账号资源等产品，并建立了自动交付系统、商品质保说明与售后支持体系。"
+    },
+    {
+      "id": 1145,
+      "title": "2026主流奈飞合租平台深度评测：Netflix 账号拼车避坑全指南",
+      "cover": "/assets/images/m-files/1837464362-7a4f85c88e64485d925ed19376af0355_b4abf34f.png",
+      "date": "2026-04-17",
+      "summary": "本文从真实使用逻辑出发，深入对比当前主流奈飞合租平台的优缺点及其潜在风险，帮助大家在复杂的合租市场中找到最稳妥的选择。"
+    },
+    {
+      "id": 1138,
+      "title": "ChatGPT Business 是什么？2026最新GPT会员购买方案，用自有账号安全升级！",
+      "cover": "/assets/images/m-files/-747822294-d945d0bc00d64ad892098ed0e4871901_eec982f4.png",
+      "date": "2026-03-24",
+      "summary": "厌倦了 ChatGPT 免费版的额度限制和代充的封号风险？本文教你如何利用 ChatGPT Business 官方席位邀请机制，在不提供账密的前提下，用超低价格在自有账号上开启 GPT-5 商业权限。更有“不训练数据”隐私保障，是职场人升级 AI 会员的最优选。"
+    },
+    {
+      "id": 1111,
+      "title": "2026年奥斯卡获奖名单出炉：《一战再战》横扫6奖，实拍美学的胜利",
+      "cover": "/assets/images/m-files/-669821475-8728e3d509cc45348e51f4dfde41e0c9_b99daf91.jpg",
+      "date": "2026-03-16",
+      "summary": "2026奥斯卡金像奖获奖名单正式揭晓。保罗·托马斯·安德森执导的《一战再战》(One Battle After Another) 斩获最佳影片、最佳导演等6项大奖，成为最大赢家；迈克尔·B·乔丹与杰西·巴克利分获影帝影后。本文深度解析本届颁奖礼对实拍美学的致敬、首位女性最佳摄影的突破，并提供 HBO Max、Netflix、Disney+ 等流媒体平台的获奖影片观影指南与账号订阅攻略。"
+    }
+  ]
+}

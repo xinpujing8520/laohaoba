@@ -1,0 +1,165 @@
+{
+  "banners": [
+    {
+      "img": "/assets/images/files/20260429-151550-a43125c3b28d4467b1764cc8dea202a0_e8a463f2.jpg",
+      "title": "chatAI安全快捷，新人下单月卡仅需198",
+      "url": "/buy-chatai?id=1578295901",
+      "jump": "in"
+    },
+    {
+      "img": "/assets/images/files/海外手机卡@2x-100bbfbd07a3494b952c6c58fafd138b_b37dc425.jpg",
+      "title": "老号吧海外手机卡让您的出海旅行更方便",
+      "url": "/buy-sim-card-topup",
+      "jump": "in"
+    },
+    {
+      "img": "/assets/images/files/20260515-164217-9f9ac5a91220490da9cc0fc48531e9cc_8d9067a2.jpg",
+      "title": "Gemini3让工作和生活更高效",
+      "url": "/buy-gemini?id=1578296118",
+      "jump": "in"
+    },
+    {
+      "img": "/assets/images/files/Spotify@2x-5978067c355a46279efec553effafbf7_9e08949b.jpg",
+      "title": "一个Spotify会员即可畅听全球音乐",
+      "url": "/buy-Spotify",
+      "jump": "in"
+    },
+    {
+      "img": "/assets/images/files/苹果ID@2x-f4d176fc33704631b69f42786718ea88_918d6ce2.jpg",
+      "title": "老号吧一个Apple ID带你玩转海外必备应用",
+      "url": "/buy-apple-id",
+      "jump": "in"
+    },
+    {
+      "img": "/assets/images/files/20260327-164523-213bd9d223a741b78fd09e32b8202300_98094305.jpg",
+      "title": "老号吧奈飞月卡限时特惠，让你开启不一样的追剧体验",
+      "url": "/buy-Netflix",
+      "jump": "in"
+    }
+  ],
+  "news": [
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "slug": "laohaoba-access-notice"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "slug": ""
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "slug": ""
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "slug": ""
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "slug": ""
+    },
+    {
+      "id": 1212,
+      "title": "《怪奇物语》新衍生剧来了！Stranger Things: Tales From '85 好看吗？附奈飞拼车低价观看方法",
+      "summary": "怪奇物语衍生剧到底讲了什么？值不值得追？口碑如何？又该如何低成本在奈飞观看？本文一次讲清楚。",
+      "cover": "/assets/images/m-files/1909238779-f5c79c0e581e424eb543301ce8eed173_b1d820c5.jpg",
+      "date": "2026-04-24",
+      "slug": ""
+    },
+    {
+      "id": 1204,
+      "title": "老号吧靠谱吗？官方安全说明、售后保障与优惠码获取指南（2026）",
+      "summary": "老号吧是一家持续稳定运营多年的数字权益服务平台，主要提供 AI 工具会员、流媒体会员共享方案、海外社媒账号资源等产品，并建立了自动交付系统、商品质保说明与售后支持体系。",
+      "cover": "/assets/images/m-files/-799647537-75948460b4be47f79349cc722e564bf5_41f08043.png",
+      "date": "2026-04-21",
+      "slug": ""
+    },
+    {
+      "id": 1145,
+      "title": "2026主流奈飞合租平台深度评测：Netflix 账号拼车避坑全指南",
+      "summary": "本文从真实使用逻辑出发，深入对比当前主流奈飞合租平台的优缺点及其潜在风险，帮助大家在复杂的合租市场中找到最稳妥的选择。",
+      "cover": "/assets/images/m-files/1837464362-7a4f85c88e64485d925ed19376af0355_b4abf34f.png",
+      "date": "2026-04-17",
+      "slug": ""
+    },
+    {
+      "id": 1138,
+      "title": "ChatGPT Business 是什么？2026最新GPT会员购买方案，用自有账号安全升级！",
+      "summary": "厌倦了 ChatGPT 免费版的额度限制和代充的封号风险？本文教你如何利用 ChatGPT Business 官方席位邀请机制，在不提供账密的前提下，用超低价格在自有账号上开启 GPT-5 商业权限。更有“不训练数据”隐私保障，是职场人升级 AI 会员的最优选。",
+      "cover": "/assets/images/m-files/-747822294-d945d0bc00d64ad892098ed0e4871901_eec982f4.png",
+      "date": "2026-03-24",
+      "slug": ""
+    }
+  ],
+  "reviews": [
+    {
+      "name": "某个人用户",
+      "avatar": "/assets/images/files/1-6f08e1096d644ccb85a50b846df98c6e_a24fd99c.png",
+      "rate": 5,
+      "date": "2024-06-10",
+      "content": "这次购买体验非常棒，我想下载苹果美区的游戏，下单了一个苹果美区id，刚开始的时候不会使用，客服小姐姐非常有耐心的指导。使用苹果 ID 给我带来了很多便利。我可以下载更多的应用程序和游戏，这些在国区可能无法获取。"
+    },
+    {
+      "name": "国内游戏出海公司",
+      "avatar": "/assets/images/files/2.274fbca9448fe68221e5-04c0aef870b34b76ae8256979e901b81_6ad92f94.png",
+      "rate": 5,
+      "date": "2024-04-15",
+      "content": "我们需要大量的苹果外区id，老号吧的价格非常优惠，添加他们的微信客服后，他们给到了我一个非常低的价格，从此我们进行的长期的合作，为我们公司的游戏出海提供了非常大的便利。"
+    },
+    {
+      "name": "某外贸个体商户",
+      "avatar": "/assets/images/files/3.945098b5b323328d1909-19da789b507b412083b1cc95f23a03da_a8d8a12f.png",
+      "rate": 5,
+      "date": "2024-01-17",
+      "content": "非常棒的买号体验，我们自己注册的Facebook账号和twitter账号，不到一天就全部封禁了。于是在老号吧上买了几个老号，非常稳定，所有账号都是真实且活跃的使用体验非常好。"
+    },
+    {
+      "name": "某外贸公司采购",
+      "avatar": "/assets/images/files/2.274fbca9448fe68221e5-78fd381ebe314f3f8e44f5d0e15aab3f_30636700.png",
+      "rate": 5,
+      "date": "2023-12-12",
+      "content": "作为一个品牌出海，初期的起步非常的困难，老号吧在我们出海前期提供了非常大的帮助。刚开始还是抱着试试看的态度，少量购买了一些老号，没想到账号质量非常好，远远超过我们的预期。后面和老号吧进行了深入合作，长期供应fb，推特和ins账号给我们。"
+    },
+    {
+      "name": "某个人用户",
+      "avatar": "/assets/images/files/7.f4123ebd6b4405115ea6-d33628fbe5874393a190eaf79f545b6c_7e0aaa79.png",
+      "rate": 5,
+      "date": "2022-09-10",
+      "content": "我的国内手机号接收不到电报的验证码，于是在别的网站上购买了一个，没想到还是不能用，客服退货的态度也不好。后面朋友推荐我来老号吧上购买，他们telegram账号质量非常好，手机端直接就登录进去了，客户小姐姐服务也很好，会教一些电报的使用技巧。"
+    },
+    {
+      "name": "某邮件营销用户",
+      "avatar": "/assets/images/files/4.46b36b61c6b028ede9f6-17d6d0669fa94b1c895b861e6b0679c3_37b26844.png",
+      "rate": 5,
+      "date": "2022-03-13",
+      "content": "邮件营销作为我在海外获客的主要途径之一，一个高质量的邮箱必不可少，我在老号吧上采购了很多Gmail邮箱，outlook邮箱。他们的邮箱质量非常好，几乎不会被封号，而且退换货政策也相当好。"
+    },
+    {
+      "name": "某出海品牌私域运营",
+      "avatar": "/assets/images/files/3.945098b5b323328d1909-8e43176b7b614a9080ab82eed1d7831f_6cf93b87.png",
+      "rate": 5,
+      "date": "2023-05-21",
+      "content": "我们做了很久的海外市场，这几年私域运营的重心越来越大，也需要更多的私域账号来运营。之前就在老号吧买过一些社媒的账号推广使用。后面又在这里买了WhatsApp，电报和Discord账号，不得不说，老号吧的账号质量和服务质量真的很好，为我们这些出海人省了不少工夫，点赞！"
+    }
+  ]
+}

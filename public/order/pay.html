@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>USDT 扫码支付 - 老号吧</title>
+  <link rel="icon" href="/favicon.png">
+  <link rel="stylesheet" href="/css/theme.css?v=2">
+  <link rel="stylesheet" href="/css/pay.css?v=1">
+</head>
+<body class="pay-page">
+  <header class="site-header">
+    <div class="center site-header-inner">
+      <a class="site-logo" href="/">
+        <img src="/assets/laohaoba-logo.svg" width="48" height="48" alt="老号吧">
+        <span class="site-logo-text"><em>老号吧</em> LaoHaoBa</span>
+      </a>
+      <div class="site-header-actions" style="margin-left:auto">
+        <a class="hdr-btn hdr-btn-ghost" href="/order/search.html">订单查询</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="pay-wrap">
+    <div class="pay-card">
+      <div class="pay-card-header">
+        <div class="pay-card-header-icon">USDT</div>
+        <div class="pay-card-header-text">
+          <div class="pay-card-header-title">USDT (TRC20) 扫码支付</div>
+          <div class="pay-card-header-sub">请按精确金额转账，系统自动检测到账</div>
+        </div>
+      </div>
+      <div class="pay-card-body" id="pay-root">
+        <div class="pay-loading" id="pay-loading">正在加载支付信息...</div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer"><div class="center footer-bottom">老号吧 LaoHaoBa.com &copy; 2026</div></footer>
+
+  <script>
+  (function () {
+    const orderNo = new URLSearchParams(location.search).get('orderNo') || '';
+    const root = document.getElementById('pay-root');
+    const loadingEl = document.getElementById('pay-loading');
+    let pollTimer = null;
+
+    function esc(s) {
+      return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function showError(msg) {
+      root.innerHTML = '<div class="pay-error">' + esc(msg || '支付信息不存在') +
+        '</div><div style="text-align:center;margin-top:16px"><a class="pay-btn pay-btn-primary" href="/">返回首页</a></div>';
+    }
+
+    function showSuccess() {
+      root.innerHTML =
+        '<div class="pay-success">' +
+          '<div class="pay-success-icon">✓</div>' +
+          '<div class="pay-success-title">支付成功</div>' +
+          '<div>正在跳转订单查询...</div>' +
+        '</div>';
+      setTimeout(function () {
+        location.href = '/order/search.html?keyword=' + encodeURIComponent(orderNo);
+      }, 2000);
+    }
+
+    function renderPay(pay) {
+      const qrUrl = pay.PayAddress
+        ? 'https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=' + encodeURIComponent(pay.PayAddress)
+        : '';
+      root.innerHTML =
+        '<div class="pay-order-panel">' +
+          '<p class="pay-order-line">订单号：<code>' + esc(pay.OrderNo) + '</code></p>' +
+          '<p class="pay-order-line">' + esc(pay.ProductName) + '</p>' +
+          '<p class="pay-order-line">应付：<span class="pay-fiat">' + Number(pay.TotalAmount).toFixed(2) + ' USDT</span></p>' +
+        '</div>' +
+        '<div class="pay-amount-box">' +
+          '<div class="pay-amount-label">请支付（精确金额）</div>' +
+          '<div class="pay-amount-value">' + esc(pay.PayAmount) + ' ' + esc(pay.PayCurrency || 'USDT') + '</div>' +
+          '<div class="pay-network">网络 ' + esc((pay.Network || 'TRC20').toUpperCase()) + '</div>' +
+        '</div>' +
+        (qrUrl
+          ? '<div class="pay-qr-wrap"><div class="pay-qr-frame"><img src="' + qrUrl + '" width="220" height="220" alt="收款二维码"></div></div>'
+          : '') +
+        '<div class="pay-address-box">' +
+          '<div class="pay-address-label">收款地址</div>' +
+          '<div class="pay-address-row">' +
+            '<code class="pay-address" id="pay-address">' + esc(pay.PayAddress) + '</code>' +
+            '<button class="pay-btn pay-btn-primary pay-btn-copy" type="button" id="copy-btn">复制</button>' +
+          '</div>' +
+        '</div>' +
+        '<div class="payment-notice">' +
+          '<div class="payment-notice-title">付款须知</div>' +
+          '<ul>' +
+            '<li>请按上方<strong>精确金额</strong>转账，多付或少付可能导致到账失败</li>' +
+            '<li>付款完成前请保持本页打开，系统将自动检测到账</li>' +
+            '<li>请使用 TRC20 网络转账 USDT</li>' +
+          '</ul>' +
+        '</div>' +
+        '<div class="pay-actions">' +
+          '<button class="pay-btn pay-btn-primary" type="button" id="refresh-btn">刷新支付状态</button>' +
+          '<a class="pay-btn pay-btn-default" href="/order/search.html?keyword=' + encodeURIComponent(orderNo) + '">查看订单</a>' +
+        '</div>' +
+        '<div class="pay-status"><span class="pay-status-dot"></span><span>状态：等待付款</span></div>';
+
+      document.getElementById('copy-btn').onclick = function () {
+        const text = pay.PayAddress || '';
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(function () { alert('已复制'); }).catch(fallbackCopy);
+        } else {
+          fallbackCopy();
+        }
+        function fallbackCopy() {
+          const ta = document.createElement('textarea');
+          ta.value = text;
+          document.body.appendChild(ta);
+          ta.select();
+          try { document.execCommand('copy'); alert('已复制'); } catch (e) { alert('复制失败，请手动复制'); }
+          document.body.removeChild(ta);
+        }
+      };
+      document.getElementById('refresh-btn').onclick = function () { loadPayment(true); };
+    }
+
+    function loadPayment(silent) {
+      if (!orderNo) {
+        showError('缺少订单号');
+        return;
+      }
+      if (!silent && loadingEl) loadingEl.textContent = '正在加载支付信息...';
+
+      fetch('/api/order/payment?orderNo=' + encodeURIComponent(orderNo), {
+        headers: { Accept: 'application/json' }
+      })
+        .then(function (res) { return res.json(); })
+        .then(function (data) {
+          if (data.Code === 200 && data.Data) {
+            if (data.Data.Paid) {
+              if (pollTimer) clearInterval(pollTimer);
+              showSuccess();
+              return;
+            }
+            renderPay(data.Data);
+          } else {
+            showError(data.Message || '支付信息不存在');
+          }
+        })
+        .catch(function () {
+          showError('加载失败，请刷新重试');
+        });
+    }
+
+    if (!orderNo) {
+      showError('缺少订单号');
+    } else {
+      loadPayment(false);
+      pollTimer = setInterval(function () { loadPayment(true); }, 12000);
+    }
+  })();
+  </script>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"JSdccLPHb6aweYu9",ck:"JSdccLPHb6aweYu9"})</script>
+</body>
+</html>

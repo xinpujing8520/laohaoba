@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhaisha_recharge_website=self.webpackChunkhaisha_recharge_website||[]).push([[71177],{47120:(e,a,r)=>{var s=r(6639),h=r(73862);(0,r(53128).D)({layout:s.Z,router:h.ZP})}},e=>{e.O(0,[11734,47419,57078,41406,79143,1355,23704,66404,9543,45165,97327,936,70176,11224,93873,36455,22714,91336,64515],(()=>{return a=47120,e(e.s=a);var a}));e.O()}]);

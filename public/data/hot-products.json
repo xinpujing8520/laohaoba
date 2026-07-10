@@ -1,0 +1,95 @@
+{
+  "bg": "https://files.kardz.cn/demon/20260104-181534-84dabcfd77584cba8397aa65a044e00f.png",
+  "title": "热门商品",
+  "desc": "平台最受欢迎产品",
+  "products": [
+    {
+      "ID": "ab_1578286983",
+      "LinkId": "ab_1578286983",
+      "Name": "苹果ID",
+      "Price": 3.17,
+      "IconUrl": "https://m-files.kardz.cn/game/1046445338-90288bf6509c46fb91f8e8ae255a84c1.jpg",
+      "CoverImg": "https://m-files.kardz.cn/game/Group%2048095488-bde9b9f9a9f644ffb8fdd21e5dad7ae6.png",
+      "Tag": "平台账号, CDK, 手游账号",
+      "ShortEn": "apple-id",
+      "sortOrder": 0
+    },
+    {
+      "ID": "ab_1578287018",
+      "LinkId": "ab_1578287018",
+      "Name": "X",
+      "Price": 2.78,
+      "IconUrl": "https://m-files.kardz.cn/game/Twitter-5e7b521e89184fac90a41604be7a4d85.png",
+      "CoverImg": "https://m-files.kardz.cn/game/%E6%8E%A8%E7%89%B9X-ae247c761e334a8ab76b58a70d1355aa.jpg",
+      "Tag": "平台账号",
+      "ShortEn": "X",
+      "sortOrder": 1
+    },
+    {
+      "ID": "ab_1578290451",
+      "LinkId": "ab_1578290451",
+      "Name": "Telegram",
+      "Price": 1.38,
+      "IconUrl": "https://m-files.kardz.cn/game/Telegram%E8%B4%A6%E5%8F%B7-a045b14a7424453d98615519c2a4c6f1.png",
+      "CoverImg": "https://m-files.kardz.cn/game/20230208-164411-0a23998749b548a191e502e088534adc.png",
+      "Tag": "平台账号, CDK",
+      "ShortEn": "tg",
+      "sortOrder": 2
+    },
+    {
+      "ID": "ab_1578287026",
+      "LinkId": "ab_1578287026",
+      "Name": "TikTok",
+      "Price": 2.08,
+      "IconUrl": "https://m-files.kardz.cn/game/tiktok-2cf29516d7c64de7a1b3f704826faa4e.png",
+      "CoverImg": "https://m-files.kardz.cn/game/Tiktok-9db53688e34f4fedac92bd368bbac15c.png",
+      "Tag": "平台账号",
+      "ShortEn": "TK",
+      "sortOrder": 3
+    },
+    {
+      "ID": "ab_20112611",
+      "LinkId": "ab_20112611",
+      "Name": "Google ID",
+      "Price": 1.78,
+      "IconUrl": "https://m-files.kardz.cn/game/google-2455823739094674843c23d01faed190.png",
+      "CoverImg": "https://m-files.kardz.cn/game/google-0193e33a148d4ea08fa582b31c40c8c8.jpg",
+      "Tag": "平台账号",
+      "ShortEn": "Google",
+      "sortOrder": 4
+    },
+    {
+      "ID": "ab_1578287020",
+      "LinkId": "ab_1578287020",
+      "Name": "Instagram",
+      "Price": 1.81,
+      "IconUrl": "https://m-files.kardz.cn/game/ins-f0dba6d39e084e77a0ae791417e4ad5b.png",
+      "CoverImg": "https://m-files.kardz.cn/game/ins-545a2706b6af49ed8ccff4540bae2e03.png",
+      "Tag": "平台账号",
+      "ShortEn": "Instagram",
+      "sortOrder": 5
+    },
+    {
+      "ID": "ab_1578288236",
+      "LinkId": "ab_1578288236",
+      "Name": "Facebook",
+      "Price": 2.08,
+      "IconUrl": "https://m-files.kardz.cn/game/FB-5cd5bd2ef1774bea8155ad9a1d6668f7.jpg",
+      "CoverImg": "https://m-files.kardz.cn/game/facebook%E5%8F%A0%E5%8A%A0%E8%83%8C%E6%99%AF%E7%89%88-825cf447e7714249b5246fb68cc11db7.jpg",
+      "Tag": "平台账号",
+      "ShortEn": "fb",
+      "sortOrder": 6
+    },
+    {
+      "ID": "ab_1578288551",
+      "LinkId": "ab_1578288551",
+      "Name": "Netflix",
+      "Price": 3.89,
+      "IconUrl": "https://m-files.kardz.cn/game/Netflix-906e3c4ca26644e2b8ec562c2902d22b.png",
+      "CoverImg": "https://m-files.kardz.cn/game/%E5%A5%88%E9%A3%9E%E4%BC%9A%E5%91%98%E8%B4%A6%E5%8F%B7-0bfb4439591044ba87915ef58e8d0761.jpg",
+      "Tag": "平台账号, CDK",
+      "ShortEn": "Netflix",
+      "sortOrder": 7
+    }
+  ]
+}

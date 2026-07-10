@@ -1,0 +1,240 @@
+{
+  "shortEn": "Elicit-AI",
+  "displayName": "Elicit AI",
+  "iconUrl": "/assets/images/m-files/-1934667434-08d54726c5d747268210d9240a155759_c18bfa37.jpg",
+  "coverImg": "/assets/images/m-files/-81131740-3957a9e872254286954346783692b85b_cdbdeeca.jpg",
+  "categoryName": "AI工具",
+  "categoryId": "ab_cat_7",
+  "breadcrumb": [
+    "AI工具",
+    "Elicit AI Academic Pro"
+  ],
+  "defaultGameId": 1578299904,
+  "detailHtml": "<h2 data-path-to-node=\"9\" style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 16px;\">Elicit AI 高级会员 (文献综述神器)</span></h2><h3 data-path-to-node=\"10\" style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">核心权益</span></h3><ul data-path-to-node=\"11\" class=\" list-paddingleft-2\"><li><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">学术综述多档规格：提供 <strong data-path-to-node=\"11,0,0\" data-index-in-node=\"12\">Academic Plus (学术增强版)</strong> 与 <strong data-path-to-node=\"11,0,0\" data-index-in-node=\"36\">Academic Pro (学术专业版)</strong> 规格，支持 <strong data-path-to-node=\"11,0,0\" data-index-in-node=\"63\">7天卡 / 30天月卡</strong> 时长周期，是撰写系统性文献综述（Systematic Review）的硕博研究生主力军生产力工具。</span></p></li><li><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">极致精准数据提取（Extract Data）：支持批量上传并多线程透视 50 篇以上的学术论文，一键跨文献精准提取并表格化归纳“具体年龄”、“药物剂量”、“实验结果”等高颗粒度核心指标。</span></p></li><li><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">概念深度搜索与多文献综合：突破传统关键词检索局限，深度理解您的复杂研究意图；自动梳理、汇总多篇文献中相互矛盾或互补的学术流派观点，秒级掌握科研前沿脉络。</span></p></li></ul><h3 data-path-to-node=\"12\" style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">发货须知</span></h3><ul data-path-to-node=\"13\" class=\" list-paddingleft-2\"><li><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">官方网址：</span><response-element class=\"\" ng-version=\"0.0.0-PLACEHOLDER\"><link-block _nghost-ng-c399922553=\"\" class=\"ng-star-inserted\"><a _ngcontent-ng-c399922553=\"\" target=\"_blank\" rel=\"noopener\" externallink=\"\" _nghost-ng-c3958779587=\"\" jslog=\"197247;track:generic_click,impression,attention;BardVeMetadataKey:[[&quot;r_3138486fdfc89d25&quot;,&quot;c_60a5a2a67956c741&quot;,null,&quot;rc_30148787ac9549a7&quot;,null,null,&quot;zh-Hani&quot;,null,1,null,null,1,0]]\" href=\"https://elicit.com/\" class=\"ng-star-inserted\" data-hveid=\"0\" decode-data-ved=\"1\" data-ved=\"0CAAQ_4QMahgKEwjIrNTOq9OUAxUAAAAAHQAAAAAQ3Qo\" style=\"font-size: 14px; text-decoration: underline;\"><span style=\"font-size: 14px;\">https://elicit.com/</span></a></link-block></response-element></p></li><li><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">账号模式发货：本商品为全自动发货，直接分发 100% 全独立全新的独享高级账号与密码凭据，到手即用。</span></p></li><li><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">如何提货：付款成功后，直接前往<strong data-path-to-node=\"13,2,0\" data-index-in-node=\"15\">个人订单中心</strong>即刻提取对应的凭据。</span></p></li></ul><h3 data-path-to-node=\"14\" style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">售后条款</span></h3><ul data-path-to-node=\"15\" class=\" list-paddingleft-2\"><li><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">额度消耗免责：<strong data-path-to-node=\"15,0,0\" data-index-in-node=\"7\">文献分析高阶算力积分（Credits）与数据提取额度属于高价值消耗型资产，一旦使用消耗完毕，平台概不接受退款或额度重置申请。</strong></span></p></li></ul><p><br/></p>",
+  "skuTree": {
+    "dimension1": "类别",
+    "dimension2": "规格",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "Elicit AI Academic Plus会员账号",
+        "gameId": 1578299903,
+        "productId": "ab_1578299903",
+        "price": 4.99,
+        "originalPrice": 10.97,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "7天",
+          "Elicit AI Academic Plus会员账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Elicit AI Academic Pro会员账号",
+        "gameId": 1578299904,
+        "productId": "ab_1578299904",
+        "price": 9.58,
+        "originalPrice": 13.75,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "7天",
+          "Elicit AI Academic Pro会员账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Elicit AI Academic Plus会员账号",
+        "gameId": 1578299610,
+        "productId": "ab_1578299610",
+        "price": 13.75,
+        "originalPrice": 19.31,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "30天",
+          "Elicit AI Academic Plus会员账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Elicit AI Academic Pro会员账号",
+        "gameId": 1578299611,
+        "productId": "ab_1578299611",
+        "price": 55.42,
+        "originalPrice": 63.75,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "30天",
+          "Elicit AI Academic Pro会员账号"
+        ],
+        "rechargeFields": []
+      }
+    ],
+    "maxDepth": 2
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578296118",
+      "gameId": 1578296118,
+      "shortEn": "gemini",
+      "name": "Gemini AI Pro（30天）会员账号",
+      "categoryName": "Gemini",
+      "icon": "https://m-files.kardz.cn/game/%E6%9C%AA%E5%91%BD%E5%90%8D(8)-5e3c5d6b6016416f80b4d6a0d6321e43.jpg",
+      "cover": "https://m-files.kardz.cn/game/%E6%9C%AA%E5%91%BD%E5%90%8D(8)-e56c401d33c64a918c0b5ac54323b2d8.jpg",
+      "price": 27.64
+    },
+    {
+      "id": "ab_1578299767",
+      "gameId": 1578299767,
+      "shortEn": "Perplexity",
+      "name": "Perplexity AI Pro（30天会员账号）",
+      "categoryName": "Perplexity AI",
+      "icon": "/assets/images/m-files/-981764739-518ad310be304ddd99472faa011ec887_5ccc4f0a.jpg",
+      "cover": "/assets/images/m-files/734234490-f4a738958d4042b1962454dc8308e7ca_c887a5f4.jpg",
+      "price": 16.53
+    },
+    {
+      "id": "ab_1578299595",
+      "gameId": 1578299595,
+      "shortEn": "Xmind-AI",
+      "name": "Xmind AI Pro（30天会员）",
+      "categoryName": "Xmind AI会员",
+      "icon": "/assets/images/m-files/-1384061282-a9eeb7fe46dc47c489ab87621177dd0e_dd51a42e.jpg",
+      "cover": "/assets/images/m-files/-294367144-944bb66df90e48aab191a2d8311f2658_46b3f69f.jpg",
+      "price": 10.97
+    },
+    {
+      "id": "ab_1578300033",
+      "gameId": 1578300033,
+      "shortEn": "Recraft",
+      "name": "20刀Pro会员一个月账号",
+      "categoryName": "Recraft AI",
+      "icon": "/assets/images/m-files/-883707999-2e72388b9a9b438988679c71ea36e84c_c03f0443.png",
+      "cover": "/assets/images/m-files/63114435-06fb7936471a4d2d9c6267a86d925dab_01aeaa44.png",
+      "price": 18.06
+    },
+    {
+      "id": "ab_1578299541",
+      "gameId": 1578299541,
+      "shortEn": "Monica",
+      "name": "Monica Pro会员账号（30天）",
+      "categoryName": "Monica AI会员",
+      "icon": "/assets/images/m-files/543497828-6fedfd84bad6409791ee1fa1111165ce_ccb669c8.png",
+      "cover": "/assets/images/m-files/717113018-9d9ab1c318d24b93b3cbc61149d5e9d2_d26d0617.png",
+      "price": 12.36
+    },
+    {
+      "id": "ab_1578300035",
+      "gameId": 1578300035,
+      "shortEn": "Recraft",
+      "name": "40刀Pro会员一个月账号",
+      "categoryName": "Recraft AI",
+      "icon": "/assets/images/m-files/-883707999-2e72388b9a9b438988679c71ea36e84c_c03f0443.png",
+      "cover": "/assets/images/m-files/63114435-06fb7936471a4d2d9c6267a86d925dab_01aeaa44.png",
+      "price": 31.67
+    },
+    {
+      "id": "ab_1578300037",
+      "gameId": 1578300037,
+      "shortEn": "Recraft",
+      "name": "80刀Pro会员一个月账号",
+      "categoryName": "Recraft AI",
+      "icon": "/assets/images/m-files/-883707999-2e72388b9a9b438988679c71ea36e84c_c03f0443.png",
+      "cover": "/assets/images/m-files/63114435-06fb7936471a4d2d9c6267a86d925dab_01aeaa44.png",
+      "price": 55
+    },
+    {
+      "id": "ab_1578299594",
+      "gameId": 1578299594,
+      "shortEn": "Napkin-AI",
+      "name": "Napkin AI Pro（30天会员）",
+      "categoryName": "Napkin AI会员",
+      "icon": "/assets/images/m-files/-1207787980-b644710fdd1740d0893b7d967f2e203d_34f20db9.jpg",
+      "cover": "/assets/images/m-files/738101302-1210624019714623a6a1a8cf04ed395a_aa686bd9.jpg",
+      "price": 34.58
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    },
+    {
+      "id": 1212,
+      "title": "《怪奇物语》新衍生剧来了！Stranger Things: Tales From '85 好看吗？附奈飞拼车低价观看方法",
+      "cover": "/assets/images/m-files/1909238779-f5c79c0e581e424eb543301ce8eed173_b1d820c5.jpg",
+      "date": "2026-04-24",
+      "summary": "怪奇物语衍生剧到底讲了什么？值不值得追？口碑如何？又该如何低成本在奈飞观看？本文一次讲清楚。"
+    },
+    {
+      "id": 1204,
+      "title": "老号吧靠谱吗？官方安全说明、售后保障与优惠码获取指南（2026）",
+      "cover": "/assets/images/m-files/-799647537-75948460b4be47f79349cc722e564bf5_41f08043.png",
+      "date": "2026-04-21",
+      "summary": "老号吧是一家持续稳定运营多年的数字权益服务平台，主要提供 AI 工具会员、流媒体会员共享方案、海外社媒账号资源等产品，并建立了自动交付系统、商品质保说明与售后支持体系。"
+    },
+    {
+      "id": 1145,
+      "title": "2026主流奈飞合租平台深度评测：Netflix 账号拼车避坑全指南",
+      "cover": "/assets/images/m-files/1837464362-7a4f85c88e64485d925ed19376af0355_b4abf34f.png",
+      "date": "2026-04-17",
+      "summary": "本文从真实使用逻辑出发，深入对比当前主流奈飞合租平台的优缺点及其潜在风险，帮助大家在复杂的合租市场中找到最稳妥的选择。"
+    },
+    {
+      "id": 1138,
+      "title": "ChatGPT Business 是什么？2026最新GPT会员购买方案，用自有账号安全升级！",
+      "cover": "/assets/images/m-files/-747822294-d945d0bc00d64ad892098ed0e4871901_eec982f4.png",
+      "date": "2026-03-24",
+      "summary": "厌倦了 ChatGPT 免费版的额度限制和代充的封号风险？本文教你如何利用 ChatGPT Business 官方席位邀请机制，在不提供账密的前提下，用超低价格在自有账号上开启 GPT-5 商业权限。更有“不训练数据”隐私保障，是职场人升级 AI 会员的最优选。"
+    },
+    {
+      "id": 1111,
+      "title": "2026年奥斯卡获奖名单出炉：《一战再战》横扫6奖，实拍美学的胜利",
+      "cover": "/assets/images/m-files/-669821475-8728e3d509cc45348e51f4dfde41e0c9_b99daf91.jpg",
+      "date": "2026-03-16",
+      "summary": "2026奥斯卡金像奖获奖名单正式揭晓。保罗·托马斯·安德森执导的《一战再战》(One Battle After Another) 斩获最佳影片、最佳导演等6项大奖，成为最大赢家；迈克尔·B·乔丹与杰西·巴克利分获影帝影后。本文深度解析本届颁奖礼对实拍美学的致敬、首位女性最佳摄影的突破，并提供 HBO Max、Netflix、Disney+ 等流媒体平台的获奖影片观影指南与账号订阅攻略。"
+    }
+  ]
+}

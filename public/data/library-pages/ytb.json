@@ -1,0 +1,400 @@
+{
+  "shortEn": "ytb",
+  "displayName": "YouTube账号",
+  "iconUrl": "/assets/images/m-files/YouTube账号-006d73b6e8284416bd3b0293fc562b40_a811b692.png",
+  "coverImg": "/assets/images/m-files/youtube叠加背景版-915a4435e2b847f2a5a5ecbb24701f61_875fc391.jpg",
+  "categoryName": "影音会员",
+  "categoryId": "ab_cat_5",
+  "breadcrumb": [
+    "影音会员",
+    "YouTube"
+  ],
+  "defaultGameId": 1578287027,
+  "detailHtml": "<p><img src=\"/assets/images/m-files/OIP-C-9d0050c5aae8421c96443de81550db14_f29a75fc.jpg\" alt=\"\"></p><p>一.商品介绍</p><p>1.本商品为YouTube登录账号，新号注册时间小于1个月。您购买后将获得账号、密码、辅助邮箱。</p><p>2.账号已绑定辅助邮箱，发货后请及时换绑邮箱，并修改密码等操作。一经发货不支持退款（除账密问题外）。</p><p>3.需要使用网络工具才可访问，可在购买前尝试登录官方网站：<a href=\"https://www.youtube.com/\" target=\"_blank\" textvalue=\"https://www.youtube.com/\">https://www.youtube.com/</a>，如无法登录请勿下单。</p><p>4.登录如遇到“验证身份”，请选择“确认您的辅助邮箱”，如因选择其他方式造成被锁号、无法验证等，平台不再进行售后处理。</p><p><br/></p><p>二.使用说明</p><p>电脑教程：</p><p>&gt;&gt;登入</p><p>1.前往<a href=\"https://www.youtube.com/\" target=\"_blank\" textvalue=\"https://www.youtube.com/\">https://www.youtube.com/</a>。</p><p>2.点选位于右上方角落的「登入」。</p><p>&gt;&gt;登出</p><p>1.前往<a href=\"https://www.youtube.com/\" target=\"_blank\" textvalue=\"https://www.youtube.com/\">https://www.youtube.com/</a>。<br/></p><p>2.依序按一下网页顶端角落的个人资料&nbsp;<img src=\"https://lh3.googleusercontent.com/SaY5lqCwN7kppnS546l9ys-E2sZftTTIHjBrdV-WsGPIhGjaxcEXjfgdIfW_UNG7Sw0=w26-h36\" width=\"13\" height=\"18\" alt=\"下一步\" data-mime-type=\"image/png\" data-alt-src=\"//lh3.googleusercontent.com/SaY5lqCwN7kppnS546l9ys-E2sZftTTIHjBrdV-WsGPIhGjaxcEXjfgdIfW_UNG7Sw0\" style=\"max-width: 100%; vertical-align: middle;\"/>&nbsp;[登出]。</p><p>Android教程：</p><p>&gt;&gt;登入</p><p>1.点击「账号」圖示&nbsp;。</p><p>2.点击「登入」。</p><p>3.选取现用账户或轻触「使用其他账号」，即可在YouTube上新增账号。</p><p>&gt;&gt;登出</p><blockquote><p>登出 Android 版 YouTube 应用程式时，也会一并登出设备上的所有 Google 应用程式 (例如 Google 地图和 Gmail)。你必须输入密码，才能重新登入。如果不想同时登出设备上的所有应用程式，你可以使用无痕模式，以不公开的方式浏览 YouTube 內容。</p></blockquote><p>1.点击你的个人资料。</p><p>2.点击页面顶端的账户名称。</p><p>3.点击[管理账号]。</p><p>4.点击要从设备上移除的账号。</p><p>5.点击 [移除账号]。</p><p>iPhone或iPAD</p><p>&gt;&gt;登入</p><p>1.点击「账号」图标&nbsp;。</p><p>2.点击 [登入]。</p><p>3.选取现有账号，或使用你的账号登入。</p><p>&gt;&gt;登出</p><p>1.点击你的个人资料&nbsp;。</p><p>2.点击你的账号名称。</p><p>3.点击 [在登出状态下使用 YouTube]。</p><p>&gt;&gt;移除账号</p><p>1.点击你的个人资料&nbsp;。</p><p>2.点击 [切换账号]。</p><p>3.点击 [管理这个设备上的账号]。</p><p>4.找到要移除的账号，然后点击下方的 [从这个设备中移除]。</p><p>这时画面底部会短暂显示一则消息，通知你已登出应用程式。</p><p><br/></p><p>三.注意事项</p><p>1.付款后您可以在购买完成的页面查看所购买的账号信息，或者可以点击右上角的订单中心查看提取，24小时内自动发货。<br/></p><p>2.账号售出删档，买家自行保护账号安全，被盗我们无法找回！</p><p>3.拿到账号请务必修改密码，如有其他验证方式（手机或邮箱），也请修改，若有问题直接查询百度既有答案和教程。</p><p>4.若需要大量批发可以联系我们的线上客服，客服会安排转人给您联系详谈价格。</p>",
+  "skuTree": {
+    "dimension1": "规格",
+    "dimension2": "版本",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "YouTube（新号）账号",
+        "gameId": 1578287027,
+        "productId": "ab_1578287027",
+        "price": 4,
+        "originalPrice": 5.28,
+        "badge": "",
+        "icon": "",
+        "description": "新手推荐",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "YouTube（新号）账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "YouTube（老号）账号",
+        "gameId": 1578288579,
+        "productId": "ab_1578288579",
+        "price": 5,
+        "originalPrice": 6.81,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "YouTube（老号）账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "YouTube（2010-219年）老号 0-5随机视频",
+        "gameId": 1578298837,
+        "productId": "ab_1578298837",
+        "price": 16.53,
+        "originalPrice": 22.08,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "YouTube（2010-219年）老号 0-5随机视频"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "YouTube精品号",
+        "gameId": 1578290325,
+        "productId": "ab_1578290325",
+        "price": 13.86,
+        "originalPrice": 17.78,
+        "badge": "",
+        "icon": "",
+        "description": "包教包会 质保一年",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "YouTube精品号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "YouTube（精品）账号+APP安装包",
+        "gameId": 1578290326,
+        "productId": "ab_1578290326",
+        "price": 15.11,
+        "originalPrice": 13.86,
+        "badge": "",
+        "icon": "",
+        "description": "一年售后",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "YouTube（精品）账号+APP安装包"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "YouTube Premium Lite 个人会员账号 1个月",
+        "gameId": 1578298799,
+        "productId": "ab_1578298799",
+        "price": 13.75,
+        "originalPrice": 17.92,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "YouTube Premium Lite 个人会员账号 1个月"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "YouTube Premium 个人会员账号 1个月",
+        "gameId": 1578298780,
+        "productId": "ab_1578298780",
+        "price": 22.08,
+        "originalPrice": 41.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "YouTube Premium 个人会员账号 1个月"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "YouTube账号（可定制地区）",
+        "gameId": 1578298782,
+        "productId": "ab_1578298782",
+        "price": 40,
+        "originalPrice": 55.42,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "YouTube账号（可定制地区）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【油管】安卓APP-带账号（新号）",
+        "gameId": 1578288438,
+        "productId": "ab_1578288438",
+        "price": 4.56,
+        "originalPrice": 4.86,
+        "badge": "",
+        "icon": "",
+        "description": "组合推荐",
+        "isRecharge": false,
+        "path": [
+          "APP",
+          "【油管】安卓APP-带账号（新号）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【油管】安卓APP-带账号（老号）",
+        "gameId": 1578288580,
+        "productId": "ab_1578288580",
+        "price": 5.39,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "APP",
+          "【油管】安卓APP-带账号（老号）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【油管】安卓APP",
+        "gameId": 1578288439,
+        "productId": "ab_1578288439",
+        "price": 2.78,
+        "originalPrice": 3.47,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "APP",
+          "【油管】安卓APP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "YouTube 挚爱频道30天会员代开",
+        "gameId": 1578295898,
+        "productId": "ab_1578295898",
+        "price": 13.75,
+        "originalPrice": 16.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "YouTube会员（月付专区）",
+          "YouTube 挚爱频道30天会员代开"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "YouTube 普通频道30天会员代开",
+        "gameId": 1578295777,
+        "productId": "ab_1578295777",
+        "price": 10.83,
+        "originalPrice": 16.39,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "YouTube会员（月付专区）",
+          "YouTube 普通频道30天会员代开"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "YouTube Premium 家庭会员 3个月",
+        "gameId": 1578290461,
+        "productId": "ab_1578290461",
+        "price": 17.92,
+        "originalPrice": 22.08,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "YouTube会员（月付专区）",
+          "YouTube Premium 家庭会员 3个月"
+        ],
+        "rechargeFields": []
+      }
+    ],
+    "maxDepth": 2
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578290352",
+      "gameId": 1578290352,
+      "shortEn": "S",
+      "name": "日本（新号）",
+      "categoryName": "Steam空白账号",
+      "icon": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "cover": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "price": 2.19
+    },
+    {
+      "id": "ab_1578290357",
+      "gameId": 1578290357,
+      "shortEn": "S",
+      "name": "新加坡（白号）",
+      "categoryName": "Steam空白账号",
+      "icon": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "cover": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "price": 2.19
+    },
+    {
+      "id": "ab_1578297103",
+      "gameId": 1578297103,
+      "shortEn": "Instagram",
+      "name": "ins新号（美国）",
+      "categoryName": "Ins全球账号",
+      "icon": "/assets/images/m-files/Group_48096154-f522a6814ecd4b67834e8a79036d907d_6d71309b.png",
+      "cover": "/assets/images/m-files/ins-545a2706b6af49ed8ccff4540bae2e03_57ca585e.png",
+      "price": 5.56
+    },
+    {
+      "id": "ab_1578296830",
+      "gameId": 1578296830,
+      "shortEn": "twitch",
+      "name": "Twitch新号",
+      "categoryName": "twitch账号",
+      "icon": "/assets/images/m-files/Group_48096152-746c71678d5349c992d7451fd52c13da_c0d1464e.png",
+      "cover": "/assets/images/m-files/twitch-199ae29eeeff4a759fa3d5c84ce5331e_d9126f19.png",
+      "price": 2.33
+    },
+    {
+      "id": "ab_1578290444",
+      "gameId": 1578290444,
+      "shortEn": "S",
+      "name": "Steam（中国）新号【永久包换】",
+      "categoryName": "Steam（中国）账号",
+      "icon": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "cover": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "price": 11.08
+    },
+    {
+      "id": "ab_1578290443",
+      "gameId": 1578290443,
+      "shortEn": "S",
+      "name": "Steam（中国）新号【一年包换】",
+      "categoryName": "Steam（中国）账号",
+      "icon": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "cover": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "price": 8.17
+    },
+    {
+      "id": "ab_1578290445",
+      "gameId": 1578290445,
+      "shortEn": "S",
+      "name": "Steam（中国）新号【包教包会】",
+      "categoryName": "Steam（中国）账号",
+      "icon": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "cover": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "price": 13.86
+    },
+    {
+      "id": "ab_1578296914",
+      "gameId": 1578296914,
+      "shortEn": "Instagram",
+      "name": "ins新号-可登threads-2FA",
+      "categoryName": "Ins全球账号",
+      "icon": "/assets/images/m-files/Group_48096154-f522a6814ecd4b67834e8a79036d907d_6d71309b.png",
+      "cover": "/assets/images/m-files/ins-545a2706b6af49ed8ccff4540bae2e03_57ca585e.png",
+      "price": 6.39
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 1105,
+      "title": "YouTube频道会员开通全攻略：解决无法购买难题与代充方案选择",
+      "cover": "/assets/images/m-files/2023423170-b3207d721ac549ac965d78cab7d10e35_9bbb3ed0.jpg",
+      "date": "2026-02-28",
+      "summary": "本文拆解了开通YouTube频道会员的具体步骤，分析YouTube频道会员无法购买的常见原因，并提供切实可行的YouTube频道会员代充方案。"
+    },
+    {
+      "id": 632,
+      "title": "《逆爱》RevengedLove高清完整版在哪看？超全面平台说明",
+      "cover": "/assets/images/m-files/逆爱在哪看-66529563e78f4514829dbe9dcf8f9ac1_8fa58b1e.jpg",
+      "date": "2025-06-25",
+      "summary": "《逆爱》在哪看？柴鸡蛋执导的耽美剧《逆爱》已上线多个海外平台，包括YouTube、GagaOOLala、Rakuten Viki、Viu等。本篇详解观看方式、会员价格、中文字幕支持及国内用户如何无障碍追剧，附推荐平台与YouTube账号获取渠道。"
+    },
+    {
+      "id": 626,
+      "title": "油管直播赚钱？2026 YouTube开通直播条件、收益详解",
+      "cover": "/assets/images/m-files/YouTube直播-d3d721cb5207403f98ee5c4cc3573dc2_879df283.png",
+      "date": "2025-06-20",
+      "summary": "YouTube直播能赚钱吗？本文全面解析YouTube直播变现方式，电脑端和手机端直播开通条件，以及如何观看YouTube直播等相关问答。"
+    },
+    {
+      "id": 621,
+      "title": "YouTube Premium会员国内怎么订阅？YouTube会员购买/代充指南",
+      "cover": "/assets/images/m-files/youtube会员怎么订阅-c035c2d39d68490886d75e91c24c4a27_0cfc3485.png",
+      "date": "2025-06-18",
+      "summary": "YouTube会员怎么开通？本文详细介绍 YouTube Premium 的功能、价格、计划类型，以及国内如何通过官方或第三方渠道订阅 YouTube Premium，包括代充、账号购买等方式。"
+    },
+    {
+      "id": 476,
+      "title": "甲亢哥（Speed）中国行爆火，怎么在YouTube看直播？",
+      "cover": "/assets/images/m-files/甲亢哥youtube直播-481237dc4b264fc0a3083a953db1b526_fcfb89dc.jpg",
+      "date": "2025-04-01",
+      "summary": "甲亢哥（Speed）中国行直播在哪看？揭秘国内访问YouTube的稳定方法，含油管账号购买指南及订阅步骤。"
+    },
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    }
+  ]
+}

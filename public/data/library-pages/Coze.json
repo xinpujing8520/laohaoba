@@ -1,0 +1,317 @@
+{
+  "shortEn": "Coze",
+  "displayName": "Coze",
+  "iconUrl": "/assets/images/m-files/-883089902-64f020ef6a2049ee89eb6e3af774a709_97ff8c4c.jpg",
+  "coverImg": "/assets/images/m-files/1530542806-c09e06fa930a4b2588984bd70f547370_0f488db8.jpg",
+  "categoryName": "AI工具",
+  "categoryId": "ab_cat_7",
+  "breadcrumb": [
+    "AI工具",
+    "Coze Ai Premium+"
+  ],
+  "defaultGameId": 1578299796,
+  "detailHtml": "<p style=\"margin-top: 5px; line-height: 1.75em;\"></p><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 16px;\"><strong data-path-to-node=\"30\" data-index-in-node=\"0\">商品介绍</strong></span></p><ol start=\"1\" data-path-to-node=\"31\" class=\" list-paddingleft-2\"><li><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">此产品为：Coze 海外版 Premium / Pro 账号，可直接登录使用，需自备魔法工具，按需购买。</span></p></li><li><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">虚拟产品，发货成功后，除质量问题外，不支持退换请谅解。介意勿拍。</span></p></li><li><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">官网登录地址：https://www.coze.com/</span></p></li></ol><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\"><strong data-path-to-node=\"32\" data-index-in-node=\"0\">使用教程</strong></span></p><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">Coze 海外版高级账号。建议使用最新版 Chrome 浏览器访问，需自备魔法工具以稳定连接其国际版云端节点。</span></p><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">虚拟产品，发货成功后，除质量问题外，不支持退换请谅解。介意勿拍。</span></p><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">Coze 是目前门槛最低、功能最强大的下一代 AI Bot (智能体) 构建平台。高级版用户拥有超大的知识库上传容量与极高的外部 API 触发额度，并能使用多智能体协同（Multi-Agent）模式，将复杂的业务逻辑封装为一个万能机器人。</span></p><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\"><strong data-path-to-node=\"35\" data-index-in-node=\"0\">核心功能特征与操作要点</strong></span></p><ol start=\"1\" data-path-to-node=\"36\" class=\" list-paddingleft-2\"><li><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">可视化工作流编排 (Workflow Builder) —— 进阶核心<strong data-path-to-node=\"36,0,0\" data-index-in-node=\"36\">特征：</strong> 告别单一的对话模式。通过拖拽节点，将大模型、代码片段、外部搜索和数据库等组件串联，实现极其复杂的任务自动化处理。<strong data-path-to-node=\"36,0,0\" data-index-in-node=\"97\">操作：</strong> 进入 Bot 编排页面 -&gt; 点击“Workflows” -&gt; 拖入“LLM”节点处理文本，连接“Plugin”节点搜索资讯，最后连接输出节点，构建自动化数据链。</span></p></li><li><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">多智能体协作 (Multi-Agent Mode) —— 高阶架构<strong data-path-to-node=\"36,1,0\" data-index-in-node=\"34\">特征：</strong> 允许您在一个机器人内部创建多个“专家角色”。当用户提出复杂问题时，主路由会把任务分发给不同的专家 Agent 处理并汇总。<strong data-path-to-node=\"36,1,0\" data-index-in-node=\"100\">操作：</strong> 在编排界面切换至“Multi-Agent”模式 -&gt; 创建诸如“资料搜集员”、“文案润色员”和“排版审核员” -&gt; 用线连接它们的触发逻辑。</span></p></li><li><p style=\"margin-top: 5px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">全渠道一键发布 (Omni-channel Publishing) —— 商业化利器<strong data-path-to-node=\"36,2,0\" data-index-in-node=\"43\">特征：</strong> 将构建好的强大的 AI Bot 一键分发到全球主流社交平台和通讯软件中，瞬间完成跨平台部署。<strong data-path-to-node=\"36,2,0\" data-index-in-node=\"94\">操作：</strong> 调试完毕后，点击右上角的“Publish (发布)” -&gt; 勾选 Telegram、Discord、Slack 或网页端 API -&gt; 填入对应的平台 Token 即可上线。</span></p></li></ol><p><br/></p>",
+  "skuTree": {
+    "dimension1": "类别",
+    "dimension2": "规格",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "Coze Ai Premium Lite（30天会员）",
+        "gameId": 1578299622,
+        "productId": "ab_1578299622",
+        "price": 10.97,
+        "originalPrice": 13.75,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "Coze Ai Premium Lite（30天会员）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Coze Ai Premium（30天会员）",
+        "gameId": 1578299623,
+        "productId": "ab_1578299623",
+        "price": 23.47,
+        "originalPrice": 27.64,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "Coze Ai Premium（30天会员）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Coze Ai Premium+（30天会员）",
+        "gameId": 1578299624,
+        "productId": "ab_1578299624",
+        "price": 48.47,
+        "originalPrice": 55.42,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "Coze Ai Premium+（30天会员）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Coze Ai Premium Lite（30天会员）",
+        "gameId": 1578299794,
+        "productId": "ab_1578299794",
+        "price": 10.97,
+        "originalPrice": 13.75,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "代充",
+          "Coze Ai Premium Lite（30天会员）"
+        ],
+        "rechargeFields": [
+          {
+            "key": "account",
+            "label": "充值账号",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入账号"
+          },
+          {
+            "key": "contact",
+            "label": "联系方式",
+            "type": "text",
+            "required": true,
+            "placeholder": "手机号或邮箱"
+          }
+        ]
+      },
+      {
+        "name": "Coze Ai Premium（30天会员）",
+        "gameId": 1578299795,
+        "productId": "ab_1578299795",
+        "price": 23.47,
+        "originalPrice": 27.64,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "代充",
+          "Coze Ai Premium（30天会员）"
+        ],
+        "rechargeFields": [
+          {
+            "key": "account",
+            "label": "充值账号",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入账号"
+          },
+          {
+            "key": "contact",
+            "label": "联系方式",
+            "type": "text",
+            "required": true,
+            "placeholder": "手机号或邮箱"
+          }
+        ]
+      },
+      {
+        "name": "Coze Ai Premium+（30天会员）",
+        "gameId": 1578299796,
+        "productId": "ab_1578299796",
+        "price": 48.47,
+        "originalPrice": 55.42,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "代充",
+          "Coze Ai Premium+（30天会员）"
+        ],
+        "rechargeFields": [
+          {
+            "key": "account",
+            "label": "充值账号",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入账号"
+          },
+          {
+            "key": "contact",
+            "label": "联系方式",
+            "type": "text",
+            "required": true,
+            "placeholder": "手机号或邮箱"
+          }
+        ]
+      }
+    ],
+    "maxDepth": 2
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578299580",
+      "gameId": 1578299580,
+      "shortEn": "Moises-AI",
+      "name": "Moises Ai Premium（30天会员）",
+      "categoryName": "Moises Ai会员",
+      "icon": "/assets/images/m-files/1931729138-db117dadb93e448ba289df6511268bc9_26bc5ff9.png",
+      "cover": "/assets/images/m-files/1937366461-9ba6f033589b4fab902d2ee8ae33b2b0_bc30b25b.png",
+      "price": 4.83
+    },
+    {
+      "id": "ab_1578299551",
+      "gameId": 1578299551,
+      "shortEn": "Leonardo",
+      "name": "Leonardo.Ai Premium（30天会员）",
+      "categoryName": "Leonardo AI",
+      "icon": "/assets/images/m-files/532262942-1dc0ec64d9c1462bb79900d971e42b9b_9bc8b1e0.png",
+      "cover": "/assets/images/m-files/-1962854958-a86fb6b7edc0489cad07257bbd3b901b_08a1dd2a.png",
+      "price": 33.06
+    },
+    {
+      "id": "ab_1578299601",
+      "gameId": 1578299601,
+      "shortEn": "SciSpace",
+      "name": "SciSpace AI Premium（30天会员）",
+      "categoryName": "SciSpace AI会员",
+      "icon": "/assets/images/m-files/79226705-c3d2fd230ba142b8a2a2952b242544c1_5ce17394.jpg",
+      "cover": "/assets/images/m-files/1856138673-68e35aec4b9846eb938c366957c4f126_8be1e733.jpg",
+      "price": 22.08
+    },
+    {
+      "id": "ab_1578299603",
+      "gameId": 1578299603,
+      "shortEn": "SciSpace",
+      "name": "SciSpace AI Max（30天会员）",
+      "categoryName": "SciSpace AI会员",
+      "icon": "/assets/images/m-files/79226705-c3d2fd230ba142b8a2a2952b242544c1_5ce17394.jpg",
+      "cover": "/assets/images/m-files/1856138673-68e35aec4b9846eb938c366957c4f126_8be1e733.jpg",
+      "price": 229.03
+    },
+    {
+      "id": "ab_1578299595",
+      "gameId": 1578299595,
+      "shortEn": "Xmind-AI",
+      "name": "Xmind AI Pro（30天会员）",
+      "categoryName": "Xmind AI会员",
+      "icon": "/assets/images/m-files/-1384061282-a9eeb7fe46dc47c489ab87621177dd0e_dd51a42e.jpg",
+      "cover": "/assets/images/m-files/-294367144-944bb66df90e48aab191a2d8311f2658_46b3f69f.jpg",
+      "price": 10.97
+    },
+    {
+      "id": "ab_1578299606",
+      "gameId": 1578299606,
+      "shortEn": "Julius-AI",
+      "name": "Julius AI Max（30天会员）",
+      "categoryName": "Julius AI会员",
+      "icon": "/assets/images/m-files/588480407-f889dc0220f9403ea9306924439e47e1_2cccd800.jpg",
+      "cover": "/assets/images/m-files/-1901987364-afd3e095e6864a3d879f2305bf186154_ce6ef40d.jpg",
+      "price": 220.83
+    },
+    {
+      "id": "ab_1578299552",
+      "gameId": 1578299552,
+      "shortEn": "Leonardo",
+      "name": "Leonardo.Ai Ultimate（30天会员）",
+      "categoryName": "Leonardo AI",
+      "icon": "/assets/images/m-files/532262942-1dc0ec64d9c1462bb79900d971e42b9b_9bc8b1e0.png",
+      "cover": "/assets/images/m-files/-1962854958-a86fb6b7edc0489cad07257bbd3b901b_08a1dd2a.png",
+      "price": 63.61
+    },
+    {
+      "id": "ab_1578299559",
+      "gameId": 1578299559,
+      "shortEn": "Krea",
+      "name": "Krea.Ai Basic（30天会员）",
+      "categoryName": "Krea AI",
+      "icon": "/assets/images/m-files/1813042483-13ceaf92e87547b4be4723c95cddb498_22481b43.png",
+      "cover": "/assets/images/m-files/1896100068-46c4c6d799ff472fab8a92805cc7aad0_459b2db9.png",
+      "price": 6.93
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    },
+    {
+      "id": 1212,
+      "title": "《怪奇物语》新衍生剧来了！Stranger Things: Tales From '85 好看吗？附奈飞拼车低价观看方法",
+      "cover": "/assets/images/m-files/1909238779-f5c79c0e581e424eb543301ce8eed173_b1d820c5.jpg",
+      "date": "2026-04-24",
+      "summary": "怪奇物语衍生剧到底讲了什么？值不值得追？口碑如何？又该如何低成本在奈飞观看？本文一次讲清楚。"
+    },
+    {
+      "id": 1204,
+      "title": "老号吧靠谱吗？官方安全说明、售后保障与优惠码获取指南（2026）",
+      "cover": "/assets/images/m-files/-799647537-75948460b4be47f79349cc722e564bf5_41f08043.png",
+      "date": "2026-04-21",
+      "summary": "老号吧是一家持续稳定运营多年的数字权益服务平台，主要提供 AI 工具会员、流媒体会员共享方案、海外社媒账号资源等产品，并建立了自动交付系统、商品质保说明与售后支持体系。"
+    },
+    {
+      "id": 1145,
+      "title": "2026主流奈飞合租平台深度评测：Netflix 账号拼车避坑全指南",
+      "cover": "/assets/images/m-files/1837464362-7a4f85c88e64485d925ed19376af0355_b4abf34f.png",
+      "date": "2026-04-17",
+      "summary": "本文从真实使用逻辑出发，深入对比当前主流奈飞合租平台的优缺点及其潜在风险，帮助大家在复杂的合租市场中找到最稳妥的选择。"
+    },
+    {
+      "id": 1138,
+      "title": "ChatGPT Business 是什么？2026最新GPT会员购买方案，用自有账号安全升级！",
+      "cover": "/assets/images/m-files/-747822294-d945d0bc00d64ad892098ed0e4871901_eec982f4.png",
+      "date": "2026-03-24",
+      "summary": "厌倦了 ChatGPT 免费版的额度限制和代充的封号风险？本文教你如何利用 ChatGPT Business 官方席位邀请机制，在不提供账密的前提下，用超低价格在自有账号上开启 GPT-5 商业权限。更有“不训练数据”隐私保障，是职场人升级 AI 会员的最优选。"
+    },
+    {
+      "id": 1111,
+      "title": "2026年奥斯卡获奖名单出炉：《一战再战》横扫6奖，实拍美学的胜利",
+      "cover": "/assets/images/m-files/-669821475-8728e3d509cc45348e51f4dfde41e0c9_b99daf91.jpg",
+      "date": "2026-03-16",
+      "summary": "2026奥斯卡金像奖获奖名单正式揭晓。保罗·托马斯·安德森执导的《一战再战》(One Battle After Another) 斩获最佳影片、最佳导演等6项大奖，成为最大赢家；迈克尔·B·乔丹与杰西·巴克利分获影帝影后。本文深度解析本届颁奖礼对实拍美学的致敬、首位女性最佳摄影的突破，并提供 HBO Max、Netflix、Disney+ 等流媒体平台的获奖影片观影指南与账号订阅攻略。"
+    }
+  ]
+}

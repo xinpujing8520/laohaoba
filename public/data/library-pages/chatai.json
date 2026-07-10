@@ -1,0 +1,525 @@
+{
+  "shortEn": "chatai",
+  "displayName": "ChatGPT",
+  "iconUrl": "/assets/images/m-files/-1730124671-bccdb1834eac42ef9416e745b3fd5edf_f12792fe.png",
+  "coverImg": "/assets/images/m-files/1-328b193346d144bb9bdbde9f5dbdc9a3_fef749ee.jpg",
+  "categoryName": "AI工具",
+  "categoryId": "ab_cat_7",
+  "breadcrumb": [
+    "AI工具",
+    "ChatGPT"
+  ],
+  "defaultGameId": 1578300357,
+  "detailHtml": "<p><img src=\"/assets/images/m-files/2-6a11dc9498734730ba179bb2df4e9af8_1bbd963f.jpg\" alt=\"\"></p><p><img src=\"/assets/images/m-files/2-1da1685fa66e4b38a4d9768dd30c52de_3bf5eb4a.jpg\" alt=\"\"></p><p>一.商品介绍</p><p>1.本商品为ChatGPT登录账号，与GPT3、Codex、Dalle 一号通用。</p><p>2.购买后将获得ChatGPT登录账号、密码。</p><p><br/></p><p>二.使用教程</p><p>1.ChatGPT登录教程：<a href=\"https://docs.qq.com/doc/DQUtnRWZhbm1ZUmVE?u=e52753c75b3e45e9afe07d4ca614cd11\" target=\"_blank\" textvalue=\"点击打开教程\"><a href=\"https://www.yuque.com/nishinakuaixiaobinggan-ihyre/kb/ln9r93gko8t4ig9e?singleDoc#\" target=\"_blank\">点击打开教程</a></a></p><p>2.可以开全局的“蹄子”，部分<span style=\"color: rgb(255, 0, 0);\">ip地址已不支持访问网页</span>。（不提供任何网络服务，请自行解决科学上网问题）</p><p>3.目前codex和chatgpt 免费使用，dalle2免费200张图片。</p><p><br/></p><p>1、MAC&amp;IOS 设备</p><p>1）找一个从未打开过openAI的浏览器，可以新下载</p><p>2）魔法开全局，选择日或韩</p><p>3）浏览器打开ipinfo.io</p><p>4）查看ip是否为日韩</p><p>5）登录地址: chat.openai.com</p><p>6）ps:不要在ipinfo里面登录</p><p><br/></p><p>2、WIN 设备</p><p>1）关闭浏览器所有窗口</p><p>2）魔法全局，选择日或韩</p><p>3）打开浏览器无痕模式浏览器</p><p>4）打开ipinfo.io</p><p>5）查看ip是否为日韩</p><p>6）登录地址: chat.openai.com</p><p>7）ps:不要在ipinfo里面登录</p><p><br/></p><p>三.注意事项</p><p>1.登录分为两种情况，<span style=\"color: rgb(255, 0, 0);\">MAC</span>和<span style=\"color: rgb(255, 0, 0);\">WIN</span>设备，登录不上，请务必严格按照教程执行。</p><p>2.验证码分<span style=\"color: rgb(255, 0, 0);\">大小写</span>，如密码错误请复制或核对。</p><p>3.部分地区不支持访问页面，如<span style=\"color: rgb(255, 0, 0);\">HK,TW,RU</span>，请自行核对IP。</p><p>4.付款后您可以在购买完成的页面查看所购买的账号信息，或者可以点击右上角的订单中心查看提取，<span style=\"color: rgb(255, 0, 0);\">24小时内自动发货</span>。<br/></p><p>5.账号售出删档，买家自行保护账号安全，被盗我们无法找回！</p><p>6.拿到账号请务必修改密码，如有其他验证方式（手机或邮箱），也请修改，若有问题直接查询百度既有答案和教程。</p><p>7.若需要大量批发可以联系我们的线上客服，客服会安排转人给您联系详谈价格。</p>",
+  "skuTree": {
+    "dimension1": "类别",
+    "dimension2": "套餐",
+    "dimension3": "时长",
+    "leaves": [
+      {
+        "name": "ChatGPT账号",
+        "gameId": 1578286913,
+        "productId": "ab_1578286913",
+        "price": 6.78,
+        "originalPrice": 6.94,
+        "badge": "",
+        "icon": "",
+        "description": "<!--HTML--><p>✅可有限使用旗舰模型 GPT-5.3</p><p>✅Free 免费版 基础功能权限</p>",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "ChatGPT账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "30天（独享无质保）",
+        "gameId": 1578299862,
+        "productId": "ab_1578299862",
+        "price": 8.19,
+        "originalPrice": 19.44,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "ChatGPT Plus",
+          "30天（独享无质保）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "30天（独享全程质保）",
+        "gameId": 1578290219,
+        "productId": "ab_1578290219",
+        "price": 31.67,
+        "originalPrice": 40.28,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "ChatGPT Plus",
+          "30天（独享全程质保）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "30天（独享质保15天）",
+        "gameId": 1578300357,
+        "productId": "ab_1578300357",
+        "price": 16.53,
+        "originalPrice": 18.89,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "ChatGPT Plus",
+          "30天（独享质保15天）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "30天（独享质保7天）",
+        "gameId": 1578300356,
+        "productId": "ab_1578300356",
+        "price": 13.75,
+        "originalPrice": 18.89,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "ChatGPT Plus",
+          "30天（独享质保7天）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "12月（全程质保）",
+        "gameId": 1578297205,
+        "productId": "ab_1578297205",
+        "price": 234.44,
+        "originalPrice": 358.06,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "代充",
+          "ChatGPT Plus",
+          "12月（全程质保）"
+        ],
+        "rechargeFields": [
+          {
+            "key": "loginType",
+            "label": "登录方式",
+            "type": "select",
+            "required": true,
+            "options": [
+              {
+                "value": "chatgpt",
+                "label": "ChatGPT专用"
+              }
+            ],
+            "defaultValue": "chatgpt"
+          },
+          {
+            "key": "account",
+            "label": "账号",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入账号"
+          },
+          {
+            "key": "apiCode",
+            "label": "api代码",
+            "type": "text",
+            "required": true,
+            "placeholder": "请使用电脑在已登录GPT的浏览器获取代码",
+            "tip": "必须使用电脑浏览器获取代码"
+          },
+          {
+            "key": "contact",
+            "label": "联系方式",
+            "type": "text",
+            "required": true,
+            "placeholder": "请填写有效联系方式（手机号或者邮箱）"
+          }
+        ]
+      },
+      {
+        "name": "30天（全程质保）",
+        "gameId": 1578295901,
+        "productId": "ab_1578295901",
+        "price": 27.5,
+        "originalPrice": 31.94,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "代充",
+          "ChatGPT Plus",
+          "30天（全程质保）"
+        ],
+        "rechargeFields": [
+          {
+            "key": "loginType",
+            "label": "登录方式",
+            "type": "select",
+            "required": true,
+            "options": [
+              {
+                "value": "chatgpt",
+                "label": "ChatGPT专用"
+              }
+            ],
+            "defaultValue": "chatgpt"
+          },
+          {
+            "key": "account",
+            "label": "账号",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入账号"
+          },
+          {
+            "key": "apiCode",
+            "label": "api代码",
+            "type": "text",
+            "required": true,
+            "placeholder": "请使用电脑在已登录GPT的浏览器获取代码",
+            "tip": "必须使用电脑浏览器获取代码"
+          },
+          {
+            "key": "contact",
+            "label": "联系方式",
+            "type": "text",
+            "required": true,
+            "placeholder": "请填写有效联系方式（手机号或者邮箱）"
+          }
+        ]
+      },
+      {
+        "name": "3月（全程质保）",
+        "gameId": 1578297016,
+        "productId": "ab_1578297016",
+        "price": 80.56,
+        "originalPrice": 86.53,
+        "badge": "按月续费全程质保",
+        "icon": "",
+        "description": "按月续费全程质保",
+        "isRecharge": false,
+        "path": [
+          "代充",
+          "ChatGPT Plus",
+          "3月（全程质保）"
+        ],
+        "rechargeFields": [
+          {
+            "key": "loginType",
+            "label": "登录方式",
+            "type": "select",
+            "required": true,
+            "options": [
+              {
+                "value": "chatgpt",
+                "label": "ChatGPT专用"
+              }
+            ],
+            "defaultValue": "chatgpt"
+          },
+          {
+            "key": "account",
+            "label": "账号",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入账号"
+          },
+          {
+            "key": "apiCode",
+            "label": "api代码",
+            "type": "text",
+            "required": true,
+            "placeholder": "请使用电脑在已登录GPT的浏览器获取代码",
+            "tip": "必须使用电脑浏览器获取代码"
+          },
+          {
+            "key": "contact",
+            "label": "联系方式",
+            "type": "text",
+            "required": true,
+            "placeholder": "请填写有效联系方式（手机号或者邮箱）"
+          }
+        ]
+      },
+      {
+        "name": "30天（全程质保）",
+        "gameId": 1578300346,
+        "productId": "ab_1578300346",
+        "price": 110.97,
+        "originalPrice": 124.86,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "代充",
+          "ChatGPT Pro 5x",
+          "30天（全程质保）"
+        ],
+        "rechargeFields": [
+          {
+            "key": "loginType",
+            "label": "登录方式",
+            "type": "select",
+            "required": true,
+            "options": [
+              {
+                "value": "chatgpt",
+                "label": "ChatGPT专用"
+              }
+            ],
+            "defaultValue": "chatgpt"
+          },
+          {
+            "key": "account",
+            "label": "账号",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入账号"
+          },
+          {
+            "key": "apiCode",
+            "label": "api代码",
+            "type": "text",
+            "required": true,
+            "placeholder": "请使用电脑在已登录GPT的浏览器获取代码",
+            "tip": "必须使用电脑浏览器获取代码"
+          },
+          {
+            "key": "contact",
+            "label": "联系方式",
+            "type": "text",
+            "required": true,
+            "placeholder": "请填写有效联系方式（手机号或者邮箱）"
+          }
+        ]
+      },
+      {
+        "name": "30天（全程质保）",
+        "gameId": 1578300347,
+        "productId": "ab_1578300347",
+        "price": 219.44,
+        "originalPrice": 263.89,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "代充",
+          "ChatGPT Pro 20x",
+          "30天（全程质保）"
+        ],
+        "rechargeFields": [
+          {
+            "key": "loginType",
+            "label": "登录方式",
+            "type": "select",
+            "required": true,
+            "options": [
+              {
+                "value": "chatgpt",
+                "label": "ChatGPT专用"
+              }
+            ],
+            "defaultValue": "chatgpt"
+          },
+          {
+            "key": "account",
+            "label": "账号",
+            "type": "text",
+            "required": true,
+            "placeholder": "请输入账号"
+          },
+          {
+            "key": "apiCode",
+            "label": "api代码",
+            "type": "text",
+            "required": true,
+            "placeholder": "请使用电脑在已登录GPT的浏览器获取代码",
+            "tip": "必须使用电脑浏览器获取代码"
+          },
+          {
+            "key": "contact",
+            "label": "联系方式",
+            "type": "text",
+            "required": true,
+            "placeholder": "请填写有效联系方式（手机号或者邮箱）"
+          }
+        ]
+      }
+    ],
+    "maxDepth": 3
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578290216",
+      "gameId": 1578290216,
+      "shortEn": "Poe",
+      "name": "ChatGPT 4.0（4人共享30天）账号",
+      "categoryName": "Poe会员订阅账号",
+      "icon": "/assets/images/m-files/QQ截图20240813164619-605e48ab68894304afd8609b721f6990_0abbdd53.png",
+      "cover": "/assets/images/m-files/1-328b193346d144bb9bdbde9f5dbdc9a3-12a45691088f406c865d2f8d9c250487_27f615c6.jpg",
+      "price": 13.61
+    },
+    {
+      "id": "ab_1578293032",
+      "gameId": 1578293032,
+      "shortEn": "sora",
+      "name": "【官方版Sora】高级版（独享30天）账号",
+      "categoryName": "Sora会员订阅账号",
+      "icon": "/assets/images/m-files/182119e0c228781e7b5d956028b364a-9f323eb93f60445f9a1e31d50af59a0c_0e690d9f.png",
+      "cover": "/assets/images/m-files/182119e0c228781e7b5d956028b364a-482a7f89c3c1429688a8b2a6cee3f3ca_523b2158.png",
+      "price": 30.28
+    },
+    {
+      "id": "ab_1578300018",
+      "gameId": 1578300018,
+      "shortEn": "HeyGen",
+      "name": "29刀自带模特无限视频共享30天（只保证会员）",
+      "categoryName": "HeyGen",
+      "icon": "/assets/images/m-files/745662994-3ed7cd70553a448ebe56412d52932310_eed16045.png",
+      "cover": "/assets/images/m-files/888863556-242c3fc01e0946148b0dc3468a306a11_61cee37b.png",
+      "price": 3.89
+    },
+    {
+      "id": "ab_1578297185",
+      "gameId": 1578297185,
+      "shortEn": "runway",
+      "name": "Runway Pro（30天独享）账号",
+      "categoryName": "Runway AI账号",
+      "icon": "https://m-files.kardz.cn/game/%E6%9C%AA%E5%91%BD%E5%90%8D(15)-52a9d91ec3fd491cb97a2bcad3c54fda.jpg",
+      "cover": "https://m-files.kardz.cn/game/%E6%9C%AA%E5%91%BD%E5%90%8D(15)-f56b11f2511c473fa5b13034e3a084f5.jpg",
+      "price": 34.17
+    },
+    {
+      "id": "ab_1578297184",
+      "gameId": 1578297184,
+      "shortEn": "runway",
+      "name": "Runway Standard（30天独享）账号",
+      "categoryName": "Runway AI账号",
+      "icon": "https://m-files.kardz.cn/game/%E6%9C%AA%E5%91%BD%E5%90%8D(15)-52a9d91ec3fd491cb97a2bcad3c54fda.jpg",
+      "cover": "https://m-files.kardz.cn/game/%E6%9C%AA%E5%91%BD%E5%90%8D(15)-f56b11f2511c473fa5b13034e3a084f5.jpg",
+      "price": 13.75
+    },
+    {
+      "id": "ab_1578299536",
+      "gameId": 1578299536,
+      "shortEn": "Poe-AI",
+      "name": "POE-30天100万积分独享（3天质保）",
+      "categoryName": "Poe",
+      "icon": "/assets/images/m-files/-355546967-a1b101f8139f42a5b9944b9d8d3d1e22_bdcc3eac.png",
+      "cover": "/assets/images/m-files/-331352740-811027a32d0349f18ffeee8292f5e067_80a10117.png",
+      "price": 19.31
+    },
+    {
+      "id": "ab_1578298153",
+      "gameId": 1578298153,
+      "shortEn": "windy",
+      "name": "windy Premium会员账号（30天共享）",
+      "categoryName": "Windy会员账号",
+      "icon": "/assets/images/m-files/263164959-0c539731ec7147b7b249602bf0bd3ce6_9be9cb60.jpg",
+      "cover": "/assets/images/m-files/265078341-28dd2bc50e9c4d8fa04d1825c467f544_de75d5a2.jpg",
+      "price": 4.14
+    },
+    {
+      "id": "ab_1578299537",
+      "gameId": 1578299537,
+      "shortEn": "Poe-AI",
+      "name": "POE-30天100万积分独享（30天质保）",
+      "categoryName": "Poe",
+      "icon": "/assets/images/m-files/-355546967-a1b101f8139f42a5b9944b9d8d3d1e22_bdcc3eac.png",
+      "cover": "/assets/images/m-files/-331352740-811027a32d0349f18ffeee8292f5e067_80a10117.png",
+      "price": 22.08
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 1138,
+      "title": "ChatGPT Business 是什么？2026最新GPT会员购买方案，用自有账号安全升级！",
+      "cover": "/assets/images/m-files/-747822294-d945d0bc00d64ad892098ed0e4871901_eec982f4.png",
+      "date": "2026-03-24",
+      "summary": "厌倦了 ChatGPT 免费版的额度限制和代充的封号风险？本文教你如何利用 ChatGPT Business 官方席位邀请机制，在不提供账密的前提下，用超低价格在自有账号上开启 GPT-5 商业权限。更有“不训练数据”隐私保障，是职场人升级 AI 会员的最优选。"
+    },
+    {
+      "id": 1071,
+      "title": "ChatGPT GO是什么？功能、价格与 Plus 版深度对比",
+      "cover": "/assets/images/m-files/2104660254-4efbf9d3f8a14fd89a6523628d932061_3b665e9a.jpg",
+      "date": "2026-01-28",
+      "summary": "ChatGPT GO是什么？本文从真实使用场景与决策逻辑入手，把 ChatGPT GO 的定位、价格、限制和获取方式讲清楚"
+    },
+    {
+      "id": 977,
+      "title": "ChatGPT Plus 国内怎么充值？2026 年靠谱 ChatGPT 代充平台深度测评",
+      "cover": "/assets/images/m-files/-557960768-ff3d6c0955f94054bf71c06c656e7a88_2c333afd.jpg",
+      "date": "2025-12-24",
+      "summary": "ChatGPT Plus国内充值全攻略：实测对比老号吧、银河录像局等主流ChatGPT代充平台。为您详细解答ChatGPT会员国内怎么充值、代充安全吗、一个月多少钱等核心疑问，避开封号陷阱！"
+    },
+    {
+      "id": 865,
+      "title": "ChatGPT Business是什么？与ChatGPT Plus的区别、功能详解及购买指南",
+      "cover": "https://m-files.kardz.cn/game/chatgpt%20business%20(1)-ebc72f34e0d14aba9a619c1d4bf70f88.png",
+      "date": "2025-10-27",
+      "summary": "了解 ChatGPT Business 的核心功能、价格方案及使用场景，清晰解析它与 ChatGPT Plus 的主要区别，并介绍如何订阅或购买 ChatGPT Business 账号，帮助团队更高效地使用 GPT-4 级别模型进行协作与创作。"
+    },
+    {
+      "id": 722,
+      "title": "ChatGPT 5正式发布，免费用户可用，如何抢先体验ChatGPT 5?",
+      "cover": "/assets/images/m-files/chatgpt_5发布-0d2229ba8af44a1383a04bf4c98c15d2_79202aa9.jpg",
+      "date": "2025-08-08",
+      "summary": "OpenAI发布ChatGPT 5，免费用户可用。了解新功能、使用限制与国内获取Plus账号的方法，附ChatGPT Plus会员购买与代充推荐。"
+    },
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    }
+  ]
+}

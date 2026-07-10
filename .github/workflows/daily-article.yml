@@ -1,0 +1,58 @@
+name: Daily Article Bot
+
+on:
+  schedule:
+    # 每天北京时间 09:00 (UTC 01:00)
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (no DeepSeek API)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate daily article
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_API_BASE: ${{ secrets.DEEPSEEK_API_BASE }}
+          DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            node scripts/generate-daily-article.js --dry-run
+          else
+            node scripts/generate-daily-article.js
+          fi
+
+      - name: Commit article
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(article-bot): daily article [skip ci]'
+          file_pattern: 'public/data/articles/*.json public/data/news-list.json public/data/home-content.json scripts/article-bot-state.json'
+
+      - name: Deploy to Cloudflare Pages
+        if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID || 'a2914fcdba0c8690e9b7f841029d6d9d' }}
+        run: |
+          cp wrangler.toml.example wrangler.toml
+          npx wrangler@4 pages deploy public --project-name=zhanghaoya

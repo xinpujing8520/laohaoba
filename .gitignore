@@ -1,0 +1,30 @@
+node_modules/
+.wrangler/
+.dev.vars
+.env
+.env.*
+!.env.example
+
+# Secrets & local state
+scripts/*-cookies.txt
+cookies*.txt
+.env
+.env.*
+!.env.example
+wrangler.toml
+
+
+# Scrape cache (large HTML)
+scripts/lib/*-index.html
+scripts/wxhpifa-*.html
+scripts/5yqqqq-*.html
+scripts/qq-*.html
+scripts/wxh-*.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

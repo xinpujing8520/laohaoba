@@ -1,0 +1,592 @@
+{
+  "shortEn": "fb",
+  "displayName": "Facebook账号",
+  "iconUrl": "/assets/images/m-files/FB-5cd5bd2ef1774bea8155ad9a1d6668f7_f5c61af0.jpg",
+  "coverImg": "/assets/images/m-files/facebook叠加背景版-825cf447e7714249b5246fb68cc11db7_5dc4ac3f.jpg",
+  "categoryName": "社交账号",
+  "categoryId": "ab_cat_3",
+  "breadcrumb": [
+    "社交账号",
+    "facebook【新号】随机IP"
+  ],
+  "defaultGameId": 1578288236,
+  "detailHtml": "<p><img src=\"/assets/images/m-files/9a91-269b8d094129e3e4def138d9ba2b280d-8ae8020e7411471db3919bec2b69896d_d8345b72.png\" alt=\"\"></p><p>一.商品说明<br style=\"box-sizing: border-box; margin: 0px; padding: 0px;\"/>1.本商品为Facebook账号，可根据自己需求选择对应类型的账号。购买后您将获得此号所有的登录信息。</p><p>2.登录账号前，请先清除浏览器缓存或卸载手机APP重新安装。</p><p>3.如果首次登录显示180天禁言，这是登录设备的环境影响，此情况不提供售后，如果介意请不要购买。</p><p>4.部分账号修改信息需要手机号验证的情况，这个属于官方bug导致，此情况不在售后范围。</p><p><span style=\"color: rgb(255, 0, 0);\">(本商品需要网络工具辅助上号,因网络环境影响登陆，无售后)</span></p><p>二.使用说明</p><p>直接登录Facebook即可，购买后会附带登录教程。<br style=\"box-sizing: border-box; margin: 0px; padding: 0px;\"/><img src=\"/assets/images/files/QQ截图20240516140647_$1715839647039036900_6930b5da.png\" title=\"QQ截图20240516140647_$1715839647039036900.png\" alt=\"QQ截图20240516140647.png\"/></p><p><br/></p><p>三.注意事项<br style=\"box-sizing: border-box; margin: 0px; padding: 0px;\"/>1.账号登录后不要立刻修改数据，如需修改，请在登录48小时后修改，否则大概率会出现异常<br style=\"box-sizing: border-box; margin: 0px; padding: 0px;\"/>2.不要使用同一个网络ip地址登录多个账号，否则账号可能会被暂停，无售后<br style=\"box-sizing: border-box; margin: 0px; padding: 0px;\"/>3.付款后您可以在购买完成的页面查看所购买的账号信息，或者可以点击右上角的订单中心查看提取，24小时内自动发货。</p><p>4.账号售出删档，买家自行保护账号安全，被盗我们无法找回！</p>",
+  "skuTree": {
+    "dimension1": "类型",
+    "dimension2": "规格",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "【新号】随机IP",
+        "gameId": 1578288236,
+        "productId": "ab_1578288236",
+        "price": 2.08,
+        "originalPrice": 3.61,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "【新号】随机IP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【新号】日本IP",
+        "gameId": 1578290406,
+        "productId": "ab_1578290406",
+        "price": 2.36,
+        "originalPrice": 5.28,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "【新号】日本IP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【新号】中国台湾IP",
+        "gameId": 1578290407,
+        "productId": "ab_1578290407",
+        "price": 3.47,
+        "originalPrice": 5.28,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "【新号】中国台湾IP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【新号】中国香港IP",
+        "gameId": 1578290408,
+        "productId": "ab_1578290408",
+        "price": 3.47,
+        "originalPrice": 5.28,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "【新号】中国香港IP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【新号】新加坡IP",
+        "gameId": 1578290409,
+        "productId": "ab_1578290409",
+        "price": 4.17,
+        "originalPrice": 5.28,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "【新号】新加坡IP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【新号】美国 IP",
+        "gameId": 1578290987,
+        "productId": "ab_1578290987",
+        "price": 2.36,
+        "originalPrice": 5.28,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "【新号】美国 IP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "facebook【新号】越南 IP",
+        "gameId": 1578297380,
+        "productId": "ab_1578297380",
+        "price": 4.17,
+        "originalPrice": 5.28,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "facebook【新号】越南 IP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "facebook【新号】泰国 IP",
+        "gameId": 1578297381,
+        "productId": "ab_1578297381",
+        "price": 4.17,
+        "originalPrice": 5.28,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "facebook【新号】泰国 IP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【商城号】Marketplace",
+        "gameId": 1578290244,
+        "productId": "ab_1578290244",
+        "price": 9.58,
+        "originalPrice": 11.81,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "【商城号】Marketplace"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Facebook（2024年）手机注册无邮箱",
+        "gameId": 1578295848,
+        "productId": "ab_1578295848",
+        "price": 9.03,
+        "originalPrice": 11.11,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "Facebook（2024年）手机注册无邮箱"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【精品号】随机IP",
+        "gameId": 1578289624,
+        "productId": "ab_1578289624",
+        "price": 13.86,
+        "originalPrice": 27.5,
+        "badge": "",
+        "icon": "",
+        "description": "包教包会",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "【精品号】随机IP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【友缘号】",
+        "gameId": 1578291310,
+        "productId": "ab_1578291310",
+        "price": 30.56,
+        "originalPrice": 36.11,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "【友缘号】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【二解号】",
+        "gameId": 1578291311,
+        "productId": "ab_1578291311",
+        "price": 11.81,
+        "originalPrice": 12.5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "【二解号】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【三解号】",
+        "gameId": 1578291312,
+        "productId": "ab_1578291312",
+        "price": 16.67,
+        "originalPrice": 20.69,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "【三解号】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Facebook美国商城号",
+        "gameId": 1578297486,
+        "productId": "ab_1578297486",
+        "price": 14.58,
+        "originalPrice": 16.25,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "Facebook美国商城号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Facebook英国商城号",
+        "gameId": 1578297485,
+        "productId": "ab_1578297485",
+        "price": 14.58,
+        "originalPrice": 16.25,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号",
+          "Facebook英国商城号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【脸书】安卓APP安装包下载-带账号",
+        "gameId": 1578288442,
+        "productId": "ab_1578288442",
+        "price": 4,
+        "originalPrice": 4.86,
+        "badge": "",
+        "icon": "",
+        "description": "新手推荐",
+        "isRecharge": false,
+        "path": [
+          "APP",
+          "【脸书】安卓APP安装包下载-带账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【脸书】安卓APP安装包下载",
+        "gameId": 1578288443,
+        "productId": "ab_1578288443",
+        "price": 2.78,
+        "originalPrice": 4.86,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "APP",
+          "【脸书】安卓APP安装包下载"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【精品号】带APP安装包",
+        "gameId": 1578289625,
+        "productId": "ab_1578289625",
+        "price": 15.11,
+        "originalPrice": 13.86,
+        "badge": "",
+        "icon": "",
+        "description": "一年售后",
+        "isRecharge": false,
+        "path": [
+          "APP",
+          "【精品号】带APP安装包"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "【BM号】Business Managers",
+        "gameId": 1578290245,
+        "productId": "ab_1578290245",
+        "price": 22.22,
+        "originalPrice": 27.5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "BM账号",
+          "【BM号】Business Managers"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "facebook【真人老号】随机IP",
+        "gameId": 1578300352,
+        "productId": "ab_1578300352",
+        "price": 10.97,
+        "originalPrice": 12.36,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "真人老号",
+          "facebook【真人老号】随机IP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "facebook【真人老号】印尼IP",
+        "gameId": 1578297418,
+        "productId": "ab_1578297418",
+        "price": 12.22,
+        "originalPrice": 13.89,
+        "badge": "",
+        "icon": "",
+        "description": "缺货",
+        "isRecharge": false,
+        "path": [
+          "真人老号",
+          "facebook【真人老号】印尼IP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "facebook【真人老号】菲律宾IP",
+        "gameId": 1578297419,
+        "productId": "ab_1578297419",
+        "price": 12.22,
+        "originalPrice": 13.89,
+        "badge": "",
+        "icon": "",
+        "description": "缺货",
+        "isRecharge": false,
+        "path": [
+          "真人老号",
+          "facebook【真人老号】菲律宾IP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "facebook【真人老号】非洲IP",
+        "gameId": 1578297420,
+        "productId": "ab_1578297420",
+        "price": 12.22,
+        "originalPrice": 13.89,
+        "badge": "",
+        "icon": "",
+        "description": "缺货",
+        "isRecharge": false,
+        "path": [
+          "真人老号",
+          "facebook【真人老号】非洲IP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "facebook【真人老号】越南IP",
+        "gameId": 1578297421,
+        "productId": "ab_1578297421",
+        "price": 20.69,
+        "originalPrice": 13.89,
+        "badge": "",
+        "icon": "",
+        "description": "缺货",
+        "isRecharge": false,
+        "path": [
+          "真人老号",
+          "facebook【真人老号】越南IP"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Facebook 2018-2022年老号（好友随机）",
+        "gameId": 1578298382,
+        "productId": "ab_1578298382",
+        "price": 65.28,
+        "originalPrice": 81.6,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "好友号",
+          "Facebook 2018-2022年老号（好友随机）"
+        ],
+        "rechargeFields": []
+      }
+    ],
+    "maxDepth": 2
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578290446",
+      "gameId": 1578290446,
+      "shortEn": "S",
+      "name": "Steam（中国）新号【随心换】",
+      "categoryName": "Steam（中国）账号",
+      "icon": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "cover": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "price": 22.06
+    },
+    {
+      "id": "ab_1578298837",
+      "gameId": 1578298837,
+      "shortEn": "ytb",
+      "name": "YouTube（2010-219年）老号 0-5随机视频",
+      "categoryName": "YouTube账号",
+      "icon": "/assets/images/m-files/Group_48096153-45c726b5ec35423e8d33eaa3936efa26_50bc9bd6.png",
+      "cover": "/assets/images/m-files/youtube叠加背景版-915a4435e2b847f2a5a5ecbb24701f61_875fc391.jpg",
+      "price": 16.53
+    },
+    {
+      "id": "ab_1578296966",
+      "gameId": 1578296966,
+      "shortEn": "Amazon",
+      "name": "亚马逊账号（德国IP）",
+      "categoryName": "亚马逊账号",
+      "icon": "/assets/images/m-files/亚马逊方-4e0c1d44945746cdacab960a5230fc43_16141abc.jpg",
+      "cover": "/assets/images/m-files/amazon-5dbcdcd3635f4f3b963feb0a9aadc54f_cd42c70e.jpg",
+      "price": 2.61
+    },
+    {
+      "id": "ab_1578289639",
+      "gameId": 1578289639,
+      "shortEn": "Instagram",
+      "name": "【推特/油管/脸书/INS】APP安卓包",
+      "categoryName": "Ins全球账号",
+      "icon": "https://files.kardz.cn/game/Group%2048096154-f522a6814ecd4b67834e8a79036d907d.png",
+      "cover": "/assets/images/m-files/ins-545a2706b6af49ed8ccff4540bae2e03_57ca585e.png",
+      "price": 4.44
+    },
+    {
+      "id": "ab_1578296965",
+      "gameId": 1578296965,
+      "shortEn": "Amazon",
+      "name": "亚马逊账号（日本IP）",
+      "categoryName": "亚马逊账号",
+      "icon": "/assets/images/m-files/亚马逊方-4e0c1d44945746cdacab960a5230fc43_16141abc.jpg",
+      "cover": "/assets/images/m-files/amazon-5dbcdcd3635f4f3b963feb0a9aadc54f_cd42c70e.jpg",
+      "price": 2.61
+    },
+    {
+      "id": "ab_1578296969",
+      "gameId": 1578296969,
+      "shortEn": "Amazon",
+      "name": "老版亚马逊老号（加拿大IP）",
+      "categoryName": "亚马逊账号",
+      "icon": "/assets/images/m-files/亚马逊方-4e0c1d44945746cdacab960a5230fc43_16141abc.jpg",
+      "cover": "/assets/images/m-files/amazon-5dbcdcd3635f4f3b963feb0a9aadc54f_cd42c70e.jpg",
+      "price": 4.56
+    },
+    {
+      "id": "ab_1578300001",
+      "gameId": 1578300001,
+      "shortEn": "Instagram",
+      "name": "Instagram账号 2025年（印度ip）",
+      "categoryName": "Ins全球账号",
+      "icon": "/assets/images/m-files/Group_48096154-f522a6814ecd4b67834e8a79036d907d_6d71309b.png",
+      "cover": "/assets/images/m-files/ins-545a2706b6af49ed8ccff4540bae2e03_57ca585e.png",
+      "price": 9.58
+    },
+    {
+      "id": "ab_1578287022",
+      "gameId": 1578287022,
+      "shortEn": "shadowrocket-ID",
+      "name": "小火箭shadowrocket（独享）账号",
+      "categoryName": "火箭打赏",
+      "icon": "/assets/images/m-files/20230131-142603-334559377cdc41a68092067022ad54cc-0a1b102ba0a64c2e841aad57f532851_43648b8f.png",
+      "cover": "/assets/images/m-files/20230131-142603-334559377cdc41a68092067022ad54cc_33e2b8c8.png",
+      "price": 7.25
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 1067,
+      "title": "2026 Facebook三种封号类型：广告账户、公共主页与 BM 被封解决方法",
+      "cover": "/assets/images/m-files/-1827760548-046a9c840e3244cfa8f8b007cc994423_f4a92f9f.png",
+      "date": "2026-01-26",
+      "summary": "为什么 Facebook 广告账户、公共主页和 BM 会被封？本文从账号可信度、IP 环境和操作节奏出发，解析常见封号场景与处理建议，适合多账户和长期投放用户参考。"
+    },
+    {
+      "id": 959,
+      "title": "Facebook千粉账号购买指南：真人老号/耐用号筛选与防封养号策略",
+      "cover": "/assets/images/m-files/1627504575-06d2f00cf876417ab25b3b6a7b2b4949_95ae14f0.jpg",
+      "date": "2025-12-09",
+      "summary": "急需Facebook千粉账号进行广告投放或Marketplace引流？了解如何识别高质量FB千粉号与真人老号。拒绝僵尸粉与死号，本文教您如何通过老号吧等正规平台购买带2FA保护的优质账号，实现业务极速冷启动。"
+    },
+    {
+      "id": 610,
+      "title": "什么是Facebook二解号、三解号？购买渠道与FB账号分类解析",
+      "cover": "/assets/images/m-files/Facbook二解号购买-8c530a12ef8d454cb113265cc2784e60_83b463bb.png",
+      "date": "2025-06-09",
+      "summary": "“Facebook二解号”与“三解号”已经过多轮Facebook的人工审核、生物识别验证等过程。相比初始新号，这类账号更不容易再次触发轻微风控。本文详细介绍FB账号分类以及如何购买FB二解号和三解号。"
+    },
+    {
+      "id": 539,
+      "title": "Facebook BM是什么？如何创建FB Business Manager账号？",
+      "cover": "/assets/images/m-files/facebook_bm账号购买-d1ab6465e0b345ff8b1f0c1a33f45ec4_49dee833.png",
+      "date": "2025-04-21",
+      "summary": "Facebook BM账号是进行Meta广告投放的核心工具，本文详解Facebook Business Manager的注册方法、常见限制及封号应对方案，并提供快速获取稳定BM账号的替代方案，适合跨境广告、电商用户参考。"
+    },
+    {
+      "id": 428,
+      "title": "Facebook账号购买还是注册？如何购买Facebook？",
+      "cover": "/assets/images/m-files/facebook账号购买-dec7ecc6782644e8a7f54523383a79fd_c81f3c3f.png",
+      "date": "2025-02-20",
+      "summary": "注册Facebook账号和购买Facebook账号各有其优缺点。对于大多数用户而言，注册FB账号是一个免费且简单的选择，但如果没时间养号或需要一个更稳定的账号，购买Facebook账号也是一个可行的方案。"
+    },
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    }
+  ]
+}

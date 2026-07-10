@@ -1,0 +1,221 @@
+{
+  "shortEn": "Hbo",
+  "displayName": "HBO鼎级剧场",
+  "iconUrl": "/assets/images/m-files/hbo-b55bd48da4d54c80aae4f7b3d2342538_ad694b3e.jpg",
+  "coverImg": "/assets/images/m-files/hbo-max-72016bdbaaf7435a8404c0caa69105d3_5a8f9dfe.png",
+  "categoryName": "影音会员",
+  "categoryId": "ab_cat_5",
+  "breadcrumb": [
+    "影音会员",
+    "HBO会员账号-30天会员"
+  ],
+  "defaultGameId": 1578289596,
+  "detailHtml": "<p><img src=\"/assets/images/m-files/OIP-C-df17ae6adca740028c3b7bd4c34c7318_32905672.png\" alt=\"\"></p><p>一.商品说明</p><p>1.本商品为 HBO 订阅会员账号，本账号使用共享车位，不影响正常使用，介意勿拍。</p><p>2.购买后您将获得账号、密码。</p><p>3.支持全球使用，香港等所有地区都可正常使用。</p><p>4.剧集方面有：老友记、黑道家族、西部世界、权力的游戏、龙族前传、白莲花度假酒店、欲望都市、切尔诺贝利、大西洋帝国，瑞迪和莫蒂等等；</p><p>电影方面有几乎DC全系列电影(蝙蝠侠、超人、海王、神奇女侠、正义联盟等)，指环王、吉卜力工作室（所有电影，天空之城、千与千寻等）、沙丘、猫王。</p><p style=\"line-height: 1.5em; text-wrap: wrap;\">二.使用说明<br/></p><p style=\"line-height: 1.5em; text-wrap: wrap;\">1.使用前请确定您有合适的网络环境，否则请不要下单<br/>2.打开HBO官网网址或者客户端，输入您收到的账号密码<br/><img src=\"/assets/images/files/1709724129848_$1709724157573076815_e7b8c0fb.jpg\" title=\"1709724129848_$1709724157573076815.jpg\" alt=\"1709724129848.jpg\" width=\"1\" height=\"1\" style=\"width: 1px; height: 1px;\"/><br/><br/>3.选择任意头像进入<br/><img src=\"/assets/images/files/1709724106657_$1709724175287040344_859b3344.jpg\" title=\"1709724106657_$1709724175287040344.jpg\" alt=\"1709724106657.jpg\" width=\"471\" height=\"194\" style=\"width: 471px; height: 194px;\"/></p>",
+  "skuTree": {
+    "dimension1": "会员时长",
+    "dimension2": "",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "1个月",
+        "gameId": 1578289596,
+        "productId": "ab_1578289596",
+        "price": 4.14,
+        "originalPrice": 5.42,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "1个月"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "3个月",
+        "gameId": 1578289597,
+        "productId": "ab_1578289597",
+        "price": 9.58,
+        "originalPrice": 10.97,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "3个月"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "1年",
+        "gameId": 1578289598,
+        "productId": "ab_1578289598",
+        "price": 35.97,
+        "originalPrice": 41.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "1年"
+        ],
+        "rechargeFields": []
+      }
+    ],
+    "maxDepth": 1
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578299543",
+      "gameId": 1578299543,
+      "shortEn": "Monica",
+      "name": "Monica Ultra会员账号（30天）",
+      "categoryName": "Monica AI会员",
+      "icon": "/assets/images/m-files/543497828-6fedfd84bad6409791ee1fa1111165ce_ccb669c8.png",
+      "cover": "/assets/images/m-files/717113018-9d9ab1c318d24b93b3cbc61149d5e9d2_d26d0617.png",
+      "price": 124.86
+    },
+    {
+      "id": "ab_1578299542",
+      "gameId": 1578299542,
+      "shortEn": "Monica",
+      "name": "Monica Max会员账号（30天）",
+      "categoryName": "Monica AI会员",
+      "icon": "/assets/images/m-files/543497828-6fedfd84bad6409791ee1fa1111165ce_ccb669c8.png",
+      "cover": "/assets/images/m-files/717113018-9d9ab1c318d24b93b3cbc61149d5e9d2_d26d0617.png",
+      "price": 30.42
+    },
+    {
+      "id": "ab_1578299541",
+      "gameId": 1578299541,
+      "shortEn": "Monica",
+      "name": "Monica Pro会员账号（30天）",
+      "categoryName": "Monica AI会员",
+      "icon": "/assets/images/m-files/543497828-6fedfd84bad6409791ee1fa1111165ce_ccb669c8.png",
+      "cover": "/assets/images/m-files/717113018-9d9ab1c318d24b93b3cbc61149d5e9d2_d26d0617.png",
+      "price": 12.36
+    },
+    {
+      "id": "ab_1578299689",
+      "gameId": 1578299689,
+      "shortEn": "bolt-new",
+      "name": "Bolt Pro（30天）会员账号",
+      "categoryName": "Bolt.new",
+      "icon": "/assets/images/m-files/-615569610-e128cfa6786e4afa9876a92bbf03ff8c_c048668b.jpg",
+      "cover": "/assets/images/m-files/274880590-4c43a326a6464036896ae0e75e83a4ee_4979f5e0.jpg",
+      "price": 16.11
+    },
+    {
+      "id": "ab_1578298153",
+      "gameId": 1578298153,
+      "shortEn": "windy",
+      "name": "windy Premium会员账号（30天共享）",
+      "categoryName": "Windy会员账号",
+      "icon": "/assets/images/m-files/263164959-0c539731ec7147b7b249602bf0bd3ce6_9be9cb60.jpg",
+      "cover": "/assets/images/m-files/265078341-28dd2bc50e9c4d8fa04d1825c467f544_de75d5a2.jpg",
+      "price": 4.14
+    },
+    {
+      "id": "ab_1578290216",
+      "gameId": 1578290216,
+      "shortEn": "Poe",
+      "name": "ChatGPT 4.0（4人共享30天）账号",
+      "categoryName": "Poe会员订阅账号",
+      "icon": "/assets/images/m-files/QQ截图20240813164619-605e48ab68894304afd8609b721f6990_0abbdd53.png",
+      "cover": "/assets/images/m-files/1-328b193346d144bb9bdbde9f5dbdc9a3-12a45691088f406c865d2f8d9c250487_27f615c6.jpg",
+      "price": 13.61
+    },
+    {
+      "id": "ab_1578299603",
+      "gameId": 1578299603,
+      "shortEn": "SciSpace",
+      "name": "SciSpace AI Max（30天会员）",
+      "categoryName": "SciSpace AI会员",
+      "icon": "/assets/images/m-files/79226705-c3d2fd230ba142b8a2a2952b242544c1_5ce17394.jpg",
+      "cover": "/assets/images/m-files/1856138673-68e35aec4b9846eb938c366957c4f126_8be1e733.jpg",
+      "price": 229.03
+    },
+    {
+      "id": "ab_1578299595",
+      "gameId": 1578299595,
+      "shortEn": "Xmind-AI",
+      "name": "Xmind AI Pro（30天会员）",
+      "categoryName": "Xmind AI会员",
+      "icon": "/assets/images/m-files/-1384061282-a9eeb7fe46dc47c489ab87621177dd0e_dd51a42e.jpg",
+      "cover": "/assets/images/m-files/-294367144-944bb66df90e48aab191a2d8311f2658_46b3f69f.jpg",
+      "price": 10.97
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 1072,
+      "title": "HBO Max账号共享受限怎么办？2026年稳定合租平台推荐与避坑指南",
+      "cover": "/assets/images/m-files/528753833-a2695effa2614927bc0b529f8538eb18_3877c8f3.jpg",
+      "date": "2026-01-30",
+      "summary": "面对2026年HBO Max日益严苛的家庭限制政策，如何实现稳定的账号共享？本文深度分析HBO Max会员合租的潜在风险，并推荐老号吧等专业平台。无需担心IP验证或账号失效，手把手教你在节省订阅费用的同时，保障独立的Profile观看记录。"
+    },
+    {
+      "id": 963,
+      "title": "《小丑回魂：欢迎来到德里镇》口碑炸裂？大结局前夕入坑指南 & HBO Max低价解锁攻略",
+      "cover": "/assets/images/m-files/1169314782-c60029efb43b440eaaee93a8322a0004_0ac1686b.jpg",
+      "date": "2025-12-10",
+      "summary": "《小丑回魂》前传剧集《欢迎来到德里镇》揭秘潘尼怀斯起源，口碑炸裂！想知道国内在哪里看高清全集？本文深度解析剧情看点，并推荐靠谱的 HBO Max 会员合租/共享账号购买平台（含奈飞/Disney+），助你低价解锁斯蒂芬·金恐怖宇宙。"
+    },
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    },
+    {
+      "id": 1212,
+      "title": "《怪奇物语》新衍生剧来了！Stranger Things: Tales From '85 好看吗？附奈飞拼车低价观看方法",
+      "cover": "/assets/images/m-files/1909238779-f5c79c0e581e424eb543301ce8eed173_b1d820c5.jpg",
+      "date": "2026-04-24",
+      "summary": "怪奇物语衍生剧到底讲了什么？值不值得追？口碑如何？又该如何低成本在奈飞观看？本文一次讲清楚。"
+    },
+    {
+      "id": 1204,
+      "title": "老号吧靠谱吗？官方安全说明、售后保障与优惠码获取指南（2026）",
+      "cover": "/assets/images/m-files/-799647537-75948460b4be47f79349cc722e564bf5_41f08043.png",
+      "date": "2026-04-21",
+      "summary": "老号吧是一家持续稳定运营多年的数字权益服务平台，主要提供 AI 工具会员、流媒体会员共享方案、海外社媒账号资源等产品，并建立了自动交付系统、商品质保说明与售后支持体系。"
+    },
+    {
+      "id": 1145,
+      "title": "2026主流奈飞合租平台深度评测：Netflix 账号拼车避坑全指南",
+      "cover": "/assets/images/m-files/1837464362-7a4f85c88e64485d925ed19376af0355_b4abf34f.png",
+      "date": "2026-04-17",
+      "summary": "本文从真实使用逻辑出发，深入对比当前主流奈飞合租平台的优缺点及其潜在风险，帮助大家在复杂的合租市场中找到最稳妥的选择。"
+    }
+  ]
+}

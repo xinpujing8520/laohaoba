@@ -1,0 +1,240 @@
+{
+  "shortEn": "Disney",
+  "displayName": "迪士尼",
+  "iconUrl": "/assets/images/m-files/迪士尼-d32857232ee6472e9af6abc616ccff94_5d26376c.png",
+  "coverImg": "/assets/images/m-files/Disney迪士尼-5374376c5ba2415fa0f005cf7e161045_1b1bb8d9.png",
+  "categoryName": "影音会员",
+  "categoryId": "ab_cat_5",
+  "breadcrumb": [
+    "影音会员",
+    "迪士尼Plus会员"
+  ],
+  "defaultGameId": 1578288262,
+  "detailHtml": "<p><img src=\"/assets/images/m-files/629237_1-scaled-ef683c23f88c4f4386ede6204b74efb6_13e5d27c.jpg\" alt=\"\"></p><p>一.商品介绍</p><p>1.本商品为Disney Plus会员账号。<span style=\"color: rgb(255, 0, 0);\">共享30天会员账号，</span>无需等待发车。</p><p><span style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;\">2.账号区服：</span><span style=\"box-sizing: inherit; margin: 0px; padding: 0px; font-weight: bolder; border: 0px; vertical-align: baseline; color: rgba(0, 0, 0, 0.86); font-family: &quot;droid serif&quot;, &quot;pingfang sc&quot;, &quot;hiragino sans gb&quot;, &quot;droid sans fallback&quot;, &quot;microsoft yahei&quot;, sans-serif; letter-spacing: 0.8px;\">国际版</span><span style=\"color: rgba(0, 0, 0, 0.86); font-family: &quot;droid serif&quot;, &quot;pingfang sc&quot;, &quot;hiragino sans gb&quot;, &quot;droid sans fallback&quot;, &quot;microsoft yahei&quot;, sans-serif; letter-spacing: 0.8px;\">（美国、加拿大、南美、欧洲、新加坡等）</span></p><p>3.售后服务：购买后使用期内均为售后服务期，如有问题请联系我们。</p><p>二.使用说明</p><p>1.Disney官网：<a href=\"https://www.disney.com/\" target=\"_blank\" textvalue=\"&amp;gt;&gt;&gt; Disney+ 官网&lt;&lt;&lt;\" style=\"white-space: normal;\">https://www.disney.com/</a></p><p>2.观看视频对网络要求较高，请先确定自身网络是否支持，详细请看[网络说明]。</p><p>三.网络说明</p><p>Disney+ 在大陆并不能直接访问，你需要使用美国、新加坡、香港、或像是英国、德国、法国等一些欧美国家的魔法工具。当然并不是上述国家的就都能使用，因为 Disney+ 对 IP 要求比较严格，可以挨个去测试能不能打开登录 Disney+。</p><p><span style=\"color: rgba(0, 0, 0, 0.86); font-family: &quot;droid serif&quot;, &quot;pingfang sc&quot;, &quot;hiragino sans gb&quot;, &quot;droid sans fallback&quot;, &quot;microsoft yahei&quot;, sans-serif; letter-spacing: 0.8px; background-color: rgb(255, 255, 255);\"></span></p><p style=\"white-space: normal;\">四.注意事项</p><p style=\"white-space: normal;\">1.付款后您可以在购买完成的页面查看所购的账号信息，或者可以点击右上角的订单中心查看提取，24小时自动发货。</p><p style=\"white-space: normal;\">2.发货后不支持任何理由的退款。</p><p style=\"white-space: normal;\">3.账号售出删档，买家自行保护账号安全，被盗我们无法找回!!!</p><p style=\"white-space: normal;\">4.拿到账号请务必修改密码、手机和邮箱，有能力的可以绑定手机令牌，若有问题直接查询百度即有答案和教程。</p><p style=\"white-space: normal;\">5.若需要大量批发可以联系我们的线上客服，客服会安排专人给您联系详谈价格。</p>",
+  "skuTree": {
+    "dimension1": "类别",
+    "dimension2": "时长",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "1个月",
+        "gameId": 1578288262,
+        "productId": "ab_1578288262",
+        "price": 3.06,
+        "originalPrice": 3.33,
+        "badge": "",
+        "icon": "",
+        "description": "新手推荐",
+        "isRecharge": false,
+        "path": [
+          "共享（7人）",
+          "1个月"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "1年会员",
+        "gameId": 1578288265,
+        "productId": "ab_1578288265",
+        "price": 30.28,
+        "originalPrice": 40.69,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "共享（7人）",
+          "1年会员"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "1个月",
+        "gameId": 1578287062,
+        "productId": "ab_1578287062",
+        "price": 8.06,
+        "originalPrice": 7.5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "独享（1人）",
+          "1个月"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "1年会员",
+        "gameId": 1578287063,
+        "productId": "ab_1578287063",
+        "price": 80.42,
+        "originalPrice": 70.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "独享（1人）",
+          "1年会员"
+        ],
+        "rechargeFields": []
+      }
+    ],
+    "maxDepth": 2
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578290216",
+      "gameId": 1578290216,
+      "shortEn": "Poe",
+      "name": "ChatGPT 4.0（4人共享30天）账号",
+      "categoryName": "Poe会员订阅账号",
+      "icon": "/assets/images/m-files/QQ截图20240813164619-605e48ab68894304afd8609b721f6990_0abbdd53.png",
+      "cover": "/assets/images/m-files/1-328b193346d144bb9bdbde9f5dbdc9a3-12a45691088f406c865d2f8d9c250487_27f615c6.jpg",
+      "price": 13.61
+    },
+    {
+      "id": "ab_1578298153",
+      "gameId": 1578298153,
+      "shortEn": "windy",
+      "name": "windy Premium会员账号（30天共享）",
+      "categoryName": "Windy会员账号",
+      "icon": "/assets/images/m-files/263164959-0c539731ec7147b7b249602bf0bd3ce6_9be9cb60.jpg",
+      "cover": "/assets/images/m-files/265078341-28dd2bc50e9c4d8fa04d1825c467f544_de75d5a2.jpg",
+      "price": 4.14
+    },
+    {
+      "id": "ab_1578299593",
+      "gameId": 1578299593,
+      "shortEn": "Napkin-AI",
+      "name": "Napkin AI Plus（30天会员）",
+      "categoryName": "Napkin AI会员",
+      "icon": "/assets/images/m-files/-1207787980-b644710fdd1740d0893b7d967f2e203d_34f20db9.jpg",
+      "cover": "/assets/images/m-files/738101302-1210624019714623a6a1a8cf04ed395a_aa686bd9.jpg",
+      "price": 13.75
+    },
+    {
+      "id": "ab_1578299604",
+      "gameId": 1578299604,
+      "shortEn": "Julius-AI",
+      "name": "Julius AI Plus（30天会员）",
+      "categoryName": "Julius AI会员",
+      "icon": "/assets/images/m-files/588480407-f889dc0220f9403ea9306924439e47e1_2cccd800.jpg",
+      "cover": "/assets/images/m-files/-1901987364-afd3e095e6864a3d879f2305bf186154_ce6ef40d.jpg",
+      "price": 22.08
+    },
+    {
+      "id": "ab_1578299586",
+      "gameId": 1578299586,
+      "shortEn": "Gamma",
+      "name": "Gamma AI Plus（30天会员）",
+      "categoryName": "Gamma AI会员",
+      "icon": "/assets/images/m-files/849031618-3ccdd88f93764df2a38bd8a3ccf07070_2db6ab06.jpg",
+      "cover": "/assets/images/m-files/-1670963689-477a08baac8e417392059d19dfd30f1e_25f97198.jpg",
+      "price": 6.81
+    },
+    {
+      "id": "ab_1578299543",
+      "gameId": 1578299543,
+      "shortEn": "Monica",
+      "name": "Monica Ultra会员账号（30天）",
+      "categoryName": "Monica AI会员",
+      "icon": "/assets/images/m-files/543497828-6fedfd84bad6409791ee1fa1111165ce_ccb669c8.png",
+      "cover": "/assets/images/m-files/717113018-9d9ab1c318d24b93b3cbc61149d5e9d2_d26d0617.png",
+      "price": 124.86
+    },
+    {
+      "id": "ab_1578299542",
+      "gameId": 1578299542,
+      "shortEn": "Monica",
+      "name": "Monica Max会员账号（30天）",
+      "categoryName": "Monica AI会员",
+      "icon": "/assets/images/m-files/543497828-6fedfd84bad6409791ee1fa1111165ce_ccb669c8.png",
+      "cover": "/assets/images/m-files/717113018-9d9ab1c318d24b93b3cbc61149d5e9d2_d26d0617.png",
+      "price": 30.42
+    },
+    {
+      "id": "ab_1578299541",
+      "gameId": 1578299541,
+      "shortEn": "Monica",
+      "name": "Monica Pro会员账号（30天）",
+      "categoryName": "Monica AI会员",
+      "icon": "/assets/images/m-files/543497828-6fedfd84bad6409791ee1fa1111165ce_ccb669c8.png",
+      "cover": "/assets/images/m-files/717113018-9d9ab1c318d24b93b3cbc61149d5e9d2_d26d0617.png",
+      "price": 12.36
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 824,
+      "title": "Disney+好剧推荐｜2025高分新剧+经典必刷清单",
+      "cover": "/assets/images/m-files/Disney_plus好剧推荐-df0affdb0b2747dd92356ba2ed8f2d9e_6013354c.jpg",
+      "date": "2025-09-26",
+      "summary": "2025年Disney+好剧推荐来了！最新高分新剧与经典片单一次盘点，涵盖漫威、星战、皮克斯等人气内容，并附Disney+共享账号获取方式，让观影更省心。"
+    },
+    {
+      "id": 811,
+      "title": "Disney+注册指南：国内用户如何合租省钱看迪士尼+",
+      "cover": "/assets/images/m-files/disney_plus-86343d4c872645f98f7016e96d57d6b6_b3c47885.jpeg",
+      "date": "2025-09-19",
+      "summary": "想知道Disney+注册怎么操作？本文详细解析Disney+订阅步骤、套餐价格，以及国内用户如何通过合租省钱观看。"
+    },
+    {
+      "id": 444,
+      "title": "Daredevil第三季《夜魔侠：重生》开播，Disney+国内低价观看指南！",
+      "cover": "https://m-files.kardz.cn/game/%E8%BF%AA%E5%A3%AB%E5%B0%BCplus%E4%BC%9A%E5%91%98%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0%20(1)-3052eff7c11649309c7f8929900689e6.jpg",
+      "date": "2025-03-06",
+      "summary": "《夜魔侠：重生》重磅回归上线Disney+，本文详细介绍了国内用户如何下载Disney+应用，完成注册，并提供高性价比Disney+会员账号购买指南！"
+    },
+    {
+      "id": 142,
+      "title": "国内怎么看Disney迪士尼?Disney+(迪士尼) 购买",
+      "cover": "/assets/images/m-files/迪士尼Plus会员账号购买-4ee6f509534a4d67849f10affd2d1442_6ed44947.jpg",
+      "date": "2024-09-06",
+      "summary": "在国内，想要直接购买Disney+ (迪士尼)账号并不容易。可以登录老号吧购买Disney+(迪士尼) ，老号吧可以购买个人独享账号，也可以购买家庭共享账号。"
+    },
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    },
+    {
+      "id": 1212,
+      "title": "《怪奇物语》新衍生剧来了！Stranger Things: Tales From '85 好看吗？附奈飞拼车低价观看方法",
+      "cover": "/assets/images/m-files/1909238779-f5c79c0e581e424eb543301ce8eed173_b1d820c5.jpg",
+      "date": "2026-04-24",
+      "summary": "怪奇物语衍生剧到底讲了什么？值不值得追？口碑如何？又该如何低成本在奈飞观看？本文一次讲清楚。"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/goods/:id.html", "destination": "/goods.html?id=:id" }
+  ]
+}

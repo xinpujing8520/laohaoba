@@ -1,0 +1,1488 @@
+{
+  "shortEn": "apple-id",
+  "displayName": "苹果ID",
+  "iconUrl": "/assets/images/m-files/1248934989-f8867eb86edf4f209f9a35e87afca0d1_a7dc42a1.jpg",
+  "coverImg": "/assets/images/m-files/苹果id-5eb50b86d5ee4b58be182f600e372b45_dbd3d626.jpg",
+  "categoryName": "苹果id",
+  "categoryId": "ab_cat_2",
+  "breadcrumb": [
+    "苹果id",
+    "苹果ID"
+  ],
+  "defaultGameId": 1578286983,
+  "detailHtml": "<p><img src=\"/assets/images/files/1538704540650123264_cfbc737b.png\" alt=\"\"></p><p style=\"white-space: normal;\">一.商品介绍</p><p style=\"white-space: normal;\">1.本商品为<span style=\"color: rgb(255, 0, 0);\">美国地区</span>苹果账号，未绑定手机号和邮箱，您购买后将获得登录账号、密码、密保问题及答案、生日。</p><p style=\"white-space: normal;\">2.您可通过密保问题及答案，完成修改密码、绑定邮箱、手机号等操作。</p><p style=\"white-space: normal;\">3.所售账号仅用于下载海外游戏软件，切勿当作游戏账号和充值账号。</p><p style=\"white-space: normal;\"><span style=\"color: rgb(255, 0, 0);\">温馨提示：本站所售卖的ID，仅保证下载软件使用。</span><span style=\"color: rgb(255, 0, 0);\">如需使用GPT土区订阅,目前苹果ID无法确认是否绑定过。介意勿拍！</span></p><p style=\"white-space: normal;\">二.使用说明</p><p style=\"white-space: normal;\">1.仅用于登陆AppStore（商城下载），切勿登陆iCloud（设置ID），如有必要请登陆后关闭查找。</p><p style=\"white-space: normal;\">2.游戏下载完成后需切换回自己的ID后进入游戏，如因操作问题造成的损失请自行承担。</p><p style=\"white-space: normal;\">3.改密网址：<a href=\"https://appleid.apple.com/\" _src=\"https://appleid.apple.com/\" target=\"_blank\">https://appleid.apple.com/</a><br/></p><p style=\"text-wrap-mode: wrap;\">4.重要操作提醒（必看）</p><p style=\"text-wrap-mode: wrap;\">若您需要修改账号密码，请先换绑成自己的手机号码，再进行修改密码，需特别注意：修改密码后，原绑定的虚拟设备将无法再接收到验证码，可能导致后续登录异常。</p><p style=\"text-wrap-mode: wrap;\"><br/></p><p style=\"text-wrap-mode: wrap;\"><br/></p><p style=\"white-space: normal;\">登陆流程如下：</p><p style=\"white-space: normal;\">1.打开AppStore，点击右上角头像，进入个人中心。</p><p style=\"white-space: normal;\">2.下拉至最底端，点击退出登录。<br/></p><p style=\"white-space: normal;\">3.屏幕滑到最上方，输入账号密码直接登录即可。</p><p style=\"white-space: normal;\"><img src=\"https://dc-fs.w.kunluncb.com/cms/f8cca6ffa97744911beb4422ccd211b7_$1691808657995067852.png\" title=\"f8cca6ffa97744911beb4422ccd211b7_$1691808657995067852.png\" alt=\"f8cca6ffa97744911beb4422ccd211b7.png\"/></p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">三.注意事项</p><p style=\"white-space: normal;\">1.付款后您可以在购买完成的页面查看所购买的账号信息，或者可以点击右上角的订单中心查看提取，<span style=\"color: rgb(255, 0, 0);\">24小时内自动发货</span>。<br/></p><p style=\"white-space: normal;\">2.所售账号均已验证过，<span style=\"color: rgb(255, 0, 0);\">无虚假</span>、<span style=\"color: rgb(255, 0, 0);\">错误账密</span>，售出删档，买家自行保护账号安全，被盗我们无法找回！</p><p style=\"white-space: normal;\">3.海外账号无法确定使用期限，请保持ID活跃度，经常修改密码。如出现官方收回停用情况，平台无法找回。（官方行为，平台不承担责任）</p><p style=\"white-space: normal;\">4.拿到账号请务必修改密码，如有其他验证方式（手机、邮箱或密保），也请修改，若有问题直接百度查询答案和教程。</p><p style=\"white-space: normal;\">5.虚拟商品一经发货不支持退款（除账密问题外）。</p><p style=\"white-space: normal;\">6.若需要大量批发可以联系我们的线上客服，客服会安排转人给您联系详谈价格。</p>",
+  "skuTree": {
+    "dimension1": "类别",
+    "dimension2": "地区（因官方原因，目前苹果id密保号和双重接码号随机混发，拍下即为知晓）",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "美国",
+        "gameId": 1578288073,
+        "productId": "ab_1578288073",
+        "price": 4.56,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "",
+        "description": "平台推荐",
+        "isRecharge": false,
+        "path": [
+          "iCloud账号",
+          "美国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "日本",
+        "gameId": 1578288074,
+        "productId": "ab_1578288074",
+        "price": 4.56,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "iCloud账号",
+          "日本"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国地区",
+        "gameId": 1578288076,
+        "productId": "ab_1578288076",
+        "price": 4.56,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "iCloud账号",
+          "中国地区"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国香港",
+        "gameId": 1578288075,
+        "productId": "ab_1578288075",
+        "price": 4.56,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "iCloud账号",
+          "中国香港"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "韩国",
+        "gameId": 1578288843,
+        "productId": "ab_1578288843",
+        "price": 4.56,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "iCloud账号",
+          "韩国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "尼日利亚",
+        "gameId": 1578299285,
+        "productId": "ab_1578299285",
+        "price": 4.56,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "iCloud账号",
+          "尼日利亚"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "台湾地区",
+        "gameId": 1578288077,
+        "productId": "ab_1578288077",
+        "price": 4.56,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "iCloud账号",
+          "台湾地区"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "美国",
+        "gameId": 1578286983,
+        "productId": "ab_1578286983",
+        "price": 3.17,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "美国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "苹果（土耳其）全新账号",
+        "gameId": 1578300232,
+        "productId": "ab_1578300232",
+        "price": 4.28,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "未做过项目",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "苹果（土耳其）全新账号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "日本",
+        "gameId": 1578287387,
+        "productId": "ab_1578287387",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "日本"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国台湾",
+        "gameId": 1578287389,
+        "productId": "ab_1578287389",
+        "price": 3.17,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "中国台湾"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国地区",
+        "gameId": 1578288270,
+        "productId": "ab_1578288270",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "中国地区"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国香港",
+        "gameId": 1578287388,
+        "productId": "ab_1578287388",
+        "price": 3.17,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "中国香港"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "韩国",
+        "gameId": 1578287634,
+        "productId": "ab_1578287634",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "韩国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "韩国（17+）",
+        "gameId": 1578288592,
+        "productId": "ab_1578288592",
+        "price": 5.39,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "DNF手游",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "韩国（17+）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "英国",
+        "gameId": 1578287835,
+        "productId": "ab_1578287835",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "英国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "德国",
+        "gameId": 1578287836,
+        "productId": "ab_1578287836",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "德国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "印度",
+        "gameId": 1578287837,
+        "productId": "ab_1578287837",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "印度"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "法国",
+        "gameId": 1578287838,
+        "productId": "ab_1578287838",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "法国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "泰国",
+        "gameId": 1578287839,
+        "productId": "ab_1578287839",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "泰国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "俄罗斯",
+        "gameId": 1578287840,
+        "productId": "ab_1578287840",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "俄罗斯"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "印尼",
+        "gameId": 1578287856,
+        "productId": "ab_1578287856",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "印尼"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "越南",
+        "gameId": 1578287857,
+        "productId": "ab_1578287857",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "越南"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "巴西",
+        "gameId": 1578287858,
+        "productId": "ab_1578287858",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "巴西"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "沙特",
+        "gameId": 1578287859,
+        "productId": "ab_1578287859",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "沙特"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "马来西亚",
+        "gameId": 1578287860,
+        "productId": "ab_1578287860",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "马来西亚"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "土耳其",
+        "gameId": 1578287861,
+        "productId": "ab_1578287861",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "土耳其"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "菲律宾",
+        "gameId": 1578287862,
+        "productId": "ab_1578287862",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "菲律宾"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "新加坡",
+        "gameId": 1578287863,
+        "productId": "ab_1578287863",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "新加坡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "加拿大",
+        "gameId": 1578287864,
+        "productId": "ab_1578287864",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "加拿大"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "荷兰",
+        "gameId": 1578289198,
+        "productId": "ab_1578289198",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "荷兰"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "尼日利亚",
+        "gameId": 1578299284,
+        "productId": "ab_1578299284",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "尼日利亚"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "迪拜",
+        "gameId": 1578290261,
+        "productId": "ab_1578290261",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "迪拜"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "挪威",
+        "gameId": 1578290262,
+        "productId": "ab_1578290262",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "挪威"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "澳大利亚",
+        "gameId": 1578291213,
+        "productId": "ab_1578291213",
+        "price": 3.72,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "澳大利亚"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "全地区定制，私聊微信客服",
+        "gameId": 1578290287,
+        "productId": "ab_1578290287",
+        "price": 1388.89,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（未开通iCloud）",
+          "全地区定制，私聊微信客服"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "美国",
+        "gameId": 1578290263,
+        "productId": "ab_1578290263",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "平台推荐",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "美国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "日本",
+        "gameId": 1578290264,
+        "productId": "ab_1578290264",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "平台推荐",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "日本"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国台湾",
+        "gameId": 1578290265,
+        "productId": "ab_1578290265",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "平台推荐",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "中国台湾"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国地区",
+        "gameId": 1578290267,
+        "productId": "ab_1578290267",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "中国地区"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国香港",
+        "gameId": 1578290266,
+        "productId": "ab_1578290266",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "平台推荐",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "中国香港"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "韩国",
+        "gameId": 1578290268,
+        "productId": "ab_1578290268",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "韩国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "英国",
+        "gameId": 1578290269,
+        "productId": "ab_1578290269",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "英国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "德国",
+        "gameId": 1578290270,
+        "productId": "ab_1578290270",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "德国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "印度",
+        "gameId": 1578290271,
+        "productId": "ab_1578290271",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "印度"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "法国",
+        "gameId": 1578290272,
+        "productId": "ab_1578290272",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "法国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "泰国",
+        "gameId": 1578290273,
+        "productId": "ab_1578290273",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "泰国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "俄罗斯",
+        "gameId": 1578290274,
+        "productId": "ab_1578290274",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "俄罗斯"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "印尼",
+        "gameId": 1578290275,
+        "productId": "ab_1578290275",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "印尼"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "越南",
+        "gameId": 1578290276,
+        "productId": "ab_1578290276",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "越南"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "巴西",
+        "gameId": 1578290277,
+        "productId": "ab_1578290277",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "巴西"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "沙特",
+        "gameId": 1578290278,
+        "productId": "ab_1578290278",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "沙特"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "马来西亚",
+        "gameId": 1578290279,
+        "productId": "ab_1578290279",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "马来西亚"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "土耳其",
+        "gameId": 1578290280,
+        "productId": "ab_1578290280",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "土耳其"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "菲律宾",
+        "gameId": 1578290281,
+        "productId": "ab_1578290281",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "菲律宾"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "新加坡",
+        "gameId": 1578290282,
+        "productId": "ab_1578290282",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "新加坡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "加拿大",
+        "gameId": 1578290283,
+        "productId": "ab_1578290283",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "加拿大"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "荷兰",
+        "gameId": 1578290284,
+        "productId": "ab_1578290284",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "荷兰"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "迪拜",
+        "gameId": 1578290285,
+        "productId": "ab_1578290285",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "迪拜"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "挪威",
+        "gameId": 1578290286,
+        "productId": "ab_1578290286",
+        "price": 5.28,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "挪威"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "澳大利亚",
+        "gameId": 1578291214,
+        "productId": "ab_1578291214",
+        "price": 5.28,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2023年注册老号未开通iCloud）",
+          "澳大利亚"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "美国",
+        "gameId": 1578294629,
+        "productId": "ab_1578294629",
+        "price": 5.97,
+        "originalPrice": 7.36,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2016年注册老号未开通iCloud）",
+          "美国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "日本",
+        "gameId": 1578294630,
+        "productId": "ab_1578294630",
+        "price": 5.97,
+        "originalPrice": 7.36,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2016年注册老号未开通iCloud）",
+          "日本"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国台湾",
+        "gameId": 1578294633,
+        "productId": "ab_1578294633",
+        "price": 5.97,
+        "originalPrice": 7.36,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2016年注册老号未开通iCloud）",
+          "中国台湾"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国香港",
+        "gameId": 1578294632,
+        "productId": "ab_1578294632",
+        "price": 5.97,
+        "originalPrice": 7.36,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2016年注册老号未开通iCloud）",
+          "中国香港"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国澳门",
+        "gameId": 1578294634,
+        "productId": "ab_1578294634",
+        "price": 5.97,
+        "originalPrice": 7.36,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2016年注册老号未开通iCloud）",
+          "中国澳门"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国大陆",
+        "gameId": 1578294631,
+        "productId": "ab_1578294631",
+        "price": 5.97,
+        "originalPrice": 7.36,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "苹果ID账号（2016年注册老号未开通iCloud）",
+          "中国大陆"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Apple TV+会员订阅【3个月】",
+        "gameId": 1578288495,
+        "productId": "ab_1578288495",
+        "price": 5.54,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "新手推荐",
+        "isRecharge": false,
+        "path": [
+          "Apple TV+会员订阅",
+          "Apple TV+会员订阅【3个月】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Apple TV+会员订阅【6个月+送1个月】",
+        "gameId": 1578288496,
+        "productId": "ab_1578288496",
+        "price": 12.49,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "Apple TV+会员订阅",
+          "Apple TV+会员订阅【6个月+送1个月】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Apple TV+会员订阅【1年+送1个月】",
+        "gameId": 1578288497,
+        "productId": "ab_1578288497",
+        "price": 19.43,
+        "originalPrice": 5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "Apple TV+会员订阅",
+          "Apple TV+会员订阅【1年+送1个月】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Apple Arcade会员订阅【3个月】",
+        "gameId": 1578296119,
+        "productId": "ab_1578296119",
+        "price": 5.54,
+        "originalPrice": 6.25,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "Apple Arcade 会员订阅",
+          "Apple Arcade会员订阅【3个月】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Apple One会员订阅【3个月】",
+        "gameId": 1578296970,
+        "productId": "ab_1578296970",
+        "price": 12.85,
+        "originalPrice": 16.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "Apple One会员订阅",
+          "Apple One会员订阅【3个月】"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "苹果（美国）ID+2美金",
+        "gameId": 1578288594,
+        "productId": "ab_1578288594",
+        "price": 4.85,
+        "originalPrice": 4.85,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号+礼品卡",
+          "苹果（美国）ID+2美金"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "苹果（美国）ID+4美金",
+        "gameId": 1578288597,
+        "productId": "ab_1578288597",
+        "price": 6.25,
+        "originalPrice": 6.25,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号+礼品卡",
+          "苹果（美国）ID+4美金"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "苹果（美国）ID+5美金",
+        "gameId": 1578288596,
+        "productId": "ab_1578288596",
+        "price": 7.22,
+        "originalPrice": 7.22,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号+礼品卡",
+          "苹果（美国）ID+5美金"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "苹果（美国）ID+10美金",
+        "gameId": 1578290303,
+        "productId": "ab_1578290303",
+        "price": 13.61,
+        "originalPrice": 14.44,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号+礼品卡",
+          "苹果（美国）ID+10美金"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "苹果（美国）ID+20美金",
+        "gameId": 1578290304,
+        "productId": "ab_1578290304",
+        "price": 27.5,
+        "originalPrice": 28.89,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号+礼品卡",
+          "苹果（美国）ID+20美金"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "苹果（美国）ID+50美金",
+        "gameId": 1578297681,
+        "productId": "ab_1578297681",
+        "price": 55.28,
+        "originalPrice": 69.31,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号+礼品卡",
+          "苹果（美国）ID+50美金"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "苹果（美国）ID+100美金",
+        "gameId": 1578297682,
+        "productId": "ab_1578297682",
+        "price": 110.97,
+        "originalPrice": 115.28,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "账号+礼品卡",
+          "苹果（美国）ID+100美金"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "讯果10万点数",
+        "gameId": 1578294128,
+        "productId": "ab_1578294128",
+        "price": 35.83,
+        "originalPrice": 48.61,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "讯果点数",
+          "讯果10万点数"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "讯果50万点数",
+        "gameId": 1578294130,
+        "productId": "ab_1578294130",
+        "price": 169.17,
+        "originalPrice": 208.33,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "讯果点数",
+          "讯果50万点数"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "讯果100万点数",
+        "gameId": 1578294131,
+        "productId": "ab_1578294131",
+        "price": 331.67,
+        "originalPrice": 347.22,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "讯果点数",
+          "讯果100万点数"
+        ],
+        "rechargeFields": []
+      }
+    ],
+    "maxDepth": 2
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578287016",
+      "gameId": 1578287016,
+      "shortEn": "apple-id",
+      "name": "苹果（韩国17+认证）ID",
+      "categoryName": "苹果（韩国）ID",
+      "icon": "/assets/images/m-files/苹果id-5eb50b86d5ee4b58be182f600e372b45_dbd3d626.jpg",
+      "cover": "/assets/images/m-files/20230129-161909-abd41fc0828141fdace336597fc5f5ba_02353fcc.png",
+      "price": 5.83
+    },
+    {
+      "id": "ab_1578287017",
+      "gameId": 1578287017,
+      "shortEn": "apple-id",
+      "name": "苹果（澳大利亚）ID",
+      "categoryName": "苹果（澳大利亚）ID",
+      "icon": "/assets/images/m-files/苹果id-5eb50b86d5ee4b58be182f600e372b45_dbd3d626.jpg",
+      "cover": "/assets/images/m-files/20230129-161914-8ae11bbe6546451f8331ba8fb61be7e9_6476fa6e.png",
+      "price": 3.89
+    },
+    {
+      "id": "ab_1578289866",
+      "gameId": 1578289866,
+      "shortEn": "apple-id",
+      "name": "苹果（美国）特价号",
+      "categoryName": "苹果（全球）ID",
+      "icon": "/assets/images/m-files/苹果id-5eb50b86d5ee4b58be182f600e372b45_dbd3d626.jpg",
+      "cover": "/assets/images/m-files/Group_48095488-bde9b9f9a9f644ffb8fdd21e5dad7ae6_5c84351e.png",
+      "price": 3.87
+    },
+    {
+      "id": "ab_1578280548",
+      "gameId": 1578280548,
+      "shortEn": "itunes-gift-card",
+      "name": "苹果iTunes礼品卡-2美金",
+      "categoryName": "IOS全球卡密【直降5%】",
+      "icon": "/assets/images/m-files/Group_48096159-d4145835f840475a814268652b45fc4b_6278e638.png",
+      "cover": "/assets/images/m-files/United_States-b676506bf349416db86bf62475126627_f386c921.png",
+      "price": 2.92
+    },
+    {
+      "id": "ab_1578287404",
+      "gameId": 1578287404,
+      "shortEn": "itunes-gift-card",
+      "name": "苹果（英国）iTunes礼品卡-10英镑",
+      "categoryName": "苹果（英国）iTunes礼品卡",
+      "icon": "/assets/images/m-files/iTunes-bb64b8a918124f819d3e020ed1d369c9_5819100d.png",
+      "cover": "/assets/images/m-files/iTunes英国-36761543a2a744768ab392411ba8652a_e9958795.png",
+      "price": 18.33
+    },
+    {
+      "id": "ab_1578298033",
+      "gameId": 1578298033,
+      "shortEn": "Grok",
+      "name": "Grok苹果下载",
+      "categoryName": "Grok",
+      "icon": "/assets/images/m-files/image-264c01f5eaea4bb39a0ecb4f034dd737_5984c75e.png",
+      "cover": "https://m-files.kardz.cn/game/%E6%9C%AA%E5%91%BD%E5%90%8D(4)-c7a830f5c6084457830973e1cf581a67.jpg",
+      "price": 4.17
+    },
+    {
+      "id": "ab_1578297486",
+      "gameId": 1578297486,
+      "shortEn": "fb",
+      "name": "Facebook美国商城号",
+      "categoryName": "facebook账号",
+      "icon": "/assets/images/m-files/Group_48096149-c1cae391408d4382b7001b9a98e69fb2_9f736bc2.png",
+      "cover": "/assets/images/m-files/facebook叠加背景版-825cf447e7714249b5246fb68cc11db7_5dc4ac3f.jpg",
+      "price": 14.58
+    },
+    {
+      "id": "ab_1578297103",
+      "gameId": 1578297103,
+      "shortEn": "Instagram",
+      "name": "ins新号（美国）",
+      "categoryName": "Ins全球账号",
+      "icon": "/assets/images/m-files/Group_48096154-f522a6814ecd4b67834e8a79036d907d_6d71309b.png",
+      "cover": "/assets/images/m-files/ins-545a2706b6af49ed8ccff4540bae2e03_57ca585e.png",
+      "price": 5.56
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 728,
+      "title": "Apple Arcade是什么？怎么订阅？苹果用户必看指南",
+      "cover": "/assets/images/m-files/apple_arcade会员订阅-2cd19a8ce0b04a1f9706487a1499b912_0a53b3a5.jpg",
+      "date": "2025-08-13",
+      "summary": "Apple Arcade在中国大陆和香港不可用？本指南详解Apple Arcade是什么、怎么玩、怎么订阅，以及跨区使用美区账号的方法。"
+    },
+    {
+      "id": 694,
+      "title": "苹果ID被禁用了怎么办？美区苹果ID被禁解锁方法、原因",
+      "cover": "/assets/images/m-files/Apple_Account_Disabled-bc7cba4a2f644396b11c208fa083e040_d9370355.png",
+      "date": "2025-07-18",
+      "summary": "苹果ID被禁用无法使用App Store或iCloud？本指南详解美区苹果ID被禁用的常见原因、解锁方法及账号购买建议，帮助顺利恢复正常使用。"
+    },
+    {
+      "id": 602,
+      "title": "苹果id密码忘记了怎么办？重置苹果账号密码教程",
+      "cover": "/assets/images/m-files/苹果id忘记密码怎么办-e82f4932ee7943f6818d6abbc25bed06_3176ad7e.png",
+      "date": "2025-06-04",
+      "summary": "苹果ID密码忘记无法退出iCloud账号怎么办？本文详细介绍找回密码的官方方法、收不到验证码时的应对策略、无法验证身份时的替代方案，并提供美区等全球苹果ID账号购买渠道，帮助你快速恢复使用设备。"
+    },
+    {
+      "id": 547,
+      "title": "七日世界国际服（Once Human）下载教程",
+      "cover": "/assets/images/m-files/once-human下载-ec7428350082425489f88ac3b252be92_55c4bc74.png",
+      "date": "2025-04-24",
+      "summary": "《七日世界》（Once Human）国际服今日上线，想下载体验未和谐战斗与克苏鲁风格？本教程提供iOS与安卓完整下载步骤，支持外区苹果ID与加速器配置，一文搞定！"
+    },
+    {
+      "id": 534,
+      "title": "讯果点数怎么充值？高性价比讯果点数购买",
+      "cover": "/assets/images/m-files/讯果点数充值-f8dc762e6ecd49a58405ddf533e7197f_800d2833.png",
+      "date": "2025-04-17",
+      "summary": "讯果是一款强大的苹果批量处理工具，讯果点数是其操作必备资源。本文详解如何通过老号吧以更低价格购买讯果点数、充值步骤及常见问题解答，助你高效管理Apple账号，提升工作效率。"
+    },
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    }
+  ]
+}

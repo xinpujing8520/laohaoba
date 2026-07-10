@@ -1,0 +1,591 @@
+{
+  "shortEn": "sim-card",
+  "displayName": "海外手机卡",
+  "iconUrl": "/assets/images/m-files/20250612-141911-50b978b58d774622bc5f15a77be6a013_df989129.jpg",
+  "coverImg": "/assets/images/m-files/img_v3_02n5_5d778fbb-f82f-4429-9a19-819c1a0d412g-b2814daaa705496cb6e76dd33053061_bfae3a7f.png",
+  "categoryName": "办公学习",
+  "categoryId": "ab_cat_6",
+  "breadcrumb": [
+    "Intertelecom 手机号"
+  ],
+  "defaultGameId": 1578300327,
+  "detailHtml": "<p><img src=\"/assets/images/m-files/自定义模板-d096d755b7d3464ca1c62bd0051e559b_3dd357b5.jpg\" alt=\"\"></p><p>一。商品介绍<br/>1.这是什么？</p><p>此商品可为你提供来自乌克兰本地运营商 Intertelecom 的手机号，可用于接打电话、收发短信。</p><p>2.如何计费？有效期多久？</p><p>在号码首次激活后，有效期为 9个月，包含 1个月的服务套餐。</p><p>- 在服务套餐有效期内：</p><p>拨打同为 Intertelecom 运营商的号码免费&nbsp;</p><p>拨打其他乌克兰号码超过125分钟后，0.5UAH 每分钟</p><p>发送短信给 Intertelecom 运营商的号码0.05UAH 每条</p><p>发送短信给其他乌克兰号码至少收取 0.4UAH 每条&nbsp;</p><p>接听乌克兰电话免费</p><p>接收短信免费</p><p>国际通讯费用请参考：[官方收费细则](https://www.intertelecom.ua/uploads/pages/mn-tarify-2026-03-25-na-sajt-c27268c9f2.pdf)</p><p>- 在号码有效期内：</p><p>在服务套餐到期后，接收短信将继续免费，其他行为将会被拒绝。</p><p>但如果账户内有话费，则会按 3UAH/天 或 80UAH/30天 收取费用以开通套餐。</p><p>3. 能否续期？</p><p>可以，手机号有效期为 T~最后一次产生消费日期~ + 9个月。</p><p>任何发生扣费的行为都可以为手机号续期。</p><p>在号码到期后，目前不确定是否有恢复的机会，尽请关注效期。</p><p>4.如何使用？</p><p>此号码需要在 安卓/iOS 设备上安装软件，全程通过网络完成使用。</p><p>不需要占用实体卡槽</p><p>&nbsp;不需要ESIM手机</p><p>&nbsp;不需要额外充值开始使用</p><p>&nbsp;iOS设备可能需要非中国大陆地区的账户以下载软件</p><p><a href=\"/goods.html?id=ab_1578286983\" textvalue=\"IOS设备点击去购买\">IOS设备点击去购买</a><br/></p><p>5.我能选择号码吗？</p><p>可以，每个兑换码支持从号码池中获取一次号码，且不支持自定、重新选择。</p><p>需要注意的是，号码池中不会出现任何连续三位数字，这是运营商的规定。</p><p>二。操作教程</p><p>1. 下单购买，获得兑换码，在浏览器中打开</p><p>2. 提供邮箱登录，这会是之后登录App的邮箱</p><p>3. 选择心仪的号码</p><p>4. 等待24小时内激活号码</p><p><br/></p>",
+  "skuTree": {
+    "dimension1": "地区",
+    "dimension2": "规格",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "英国O2卡",
+        "gameId": 1578299808,
+        "productId": "ab_1578299808",
+        "price": 10.56,
+        "originalPrice": 12.22,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "英国",
+          "英国O2卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "美国T-Mobile 5$套餐卡（MVNO）",
+        "gameId": 1578299160,
+        "productId": "ab_1578299160",
+        "price": 20.83,
+        "originalPrice": 27.64,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "美国",
+          "美国T-Mobile 5$套餐卡（MVNO）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "马来西亚-Celcom卡",
+        "gameId": 1578295420,
+        "productId": "ab_1578295420",
+        "price": 13.75,
+        "originalPrice": 17.5,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "亚洲",
+          "马来西亚-Celcom卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "马来西亚-Umobile卡",
+        "gameId": 1578295421,
+        "productId": "ab_1578295421",
+        "price": 12.36,
+        "originalPrice": 7.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "亚洲",
+          "马来西亚-Umobile卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "印尼-Three卡",
+        "gameId": 1578295428,
+        "productId": "ab_1578295428",
+        "price": 11.11,
+        "originalPrice": 7.78,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "亚洲",
+          "印尼-Three卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "越南-Vinaphone卡",
+        "gameId": 1578295429,
+        "productId": "ab_1578295429",
+        "price": 19.44,
+        "originalPrice": 17.92,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "亚洲",
+          "越南-Vinaphone卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Intertelecom 手机号",
+        "gameId": 1578300327,
+        "productId": "ab_1578300327",
+        "price": 13.75,
+        "originalPrice": 17.92,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "欧洲",
+          "Intertelecom 手机号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "德国-Ortel 卡",
+        "gameId": 1578295433,
+        "productId": "ab_1578295433",
+        "price": 25.28,
+        "originalPrice": 20.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "欧洲",
+          "德国-Ortel 卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "西班牙-Lebara卡",
+        "gameId": 1578295436,
+        "productId": "ab_1578295436",
+        "price": 13.89,
+        "originalPrice": 17.36,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "欧洲",
+          "西班牙-Lebara卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "波兰T-Mobile卡",
+        "gameId": 1578295437,
+        "productId": "ab_1578295437",
+        "price": 17.36,
+        "originalPrice": 21.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "欧洲",
+          "波兰T-Mobile卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "克罗地亚-SIM2GO卡",
+        "gameId": 1578295438,
+        "productId": "ab_1578295438",
+        "price": 13.75,
+        "originalPrice": 17.15,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "欧洲",
+          "克罗地亚-SIM2GO卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "新西兰-One NZ卡",
+        "gameId": 1578295440,
+        "productId": "ab_1578295440",
+        "price": 21.53,
+        "originalPrice": 21.67,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "大洋洲、南美洲、非洲等",
+          "新西兰-One NZ卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "澳大利亚-AmaySIM卡",
+        "gameId": 1578295441,
+        "productId": "ab_1578295441",
+        "price": 37.36,
+        "originalPrice": 46.74,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "大洋洲、南美洲、非洲等",
+          "澳大利亚-AmaySIM卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "墨西哥-Telcel卡",
+        "gameId": 1578295443,
+        "productId": "ab_1578295443",
+        "price": 20.14,
+        "originalPrice": 19.93,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "大洋洲、南美洲、非洲等",
+          "墨西哥-Telcel卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "巴西-Vivo卡",
+        "gameId": 1578295444,
+        "productId": "ab_1578295444",
+        "price": 34.58,
+        "originalPrice": 43.19,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "大洋洲、南美洲、非洲等",
+          "巴西-Vivo卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "摩洛哥-Orange卡",
+        "gameId": 1578295445,
+        "productId": "ab_1578295445",
+        "price": 17.92,
+        "originalPrice": 16.46,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "大洋洲、南美洲、非洲等",
+          "摩洛哥-Orange卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "香港your注册卡",
+        "gameId": 1578300261,
+        "productId": "ab_1578300261",
+        "price": 17.92,
+        "originalPrice": 22.08,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "中国港澳",
+          "香港your注册卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国香港-3 DIY卡",
+        "gameId": 1578295447,
+        "productId": "ab_1578295447",
+        "price": 26.11,
+        "originalPrice": 32.64,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "中国港澳",
+          "中国香港-3 DIY卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国香港-HaHaSIM卡",
+        "gameId": 1578295446,
+        "productId": "ab_1578295446",
+        "price": 15.56,
+        "originalPrice": 19.44,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "中国港澳",
+          "中国香港-HaHaSIM卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国电信澳门蓝卡",
+        "gameId": 1578295450,
+        "productId": "ab_1578295450",
+        "price": 20.83,
+        "originalPrice": 26.04,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "中国港澳",
+          "中国电信澳门蓝卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国澳门-CTM5G卡",
+        "gameId": 1578295451,
+        "productId": "ab_1578295451",
+        "price": 20.83,
+        "originalPrice": 26.04,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "中国港澳",
+          "中国澳门-CTM5G卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国电信澳门红卡",
+        "gameId": 1578295452,
+        "productId": "ab_1578295452",
+        "price": 20.83,
+        "originalPrice": 26.04,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "中国港澳",
+          "中国电信澳门红卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国联通香港大中华流量卡",
+        "gameId": 1578295454,
+        "productId": "ab_1578295454",
+        "price": 69.31,
+        "originalPrice": 83.13,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "漫游流量卡",
+          "中国联通香港大中华流量卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国香港csl卡",
+        "gameId": 1578295455,
+        "productId": "ab_1578295455",
+        "price": 29.86,
+        "originalPrice": 37.29,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "漫游流量卡",
+          "中国香港csl卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "中国香港Lucky Mobile卡",
+        "gameId": 1578295456,
+        "productId": "ab_1578295456",
+        "price": 40,
+        "originalPrice": 50,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "漫游流量卡",
+          "中国香港Lucky Mobile卡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "泰国SIM2Fly卡",
+        "gameId": 1578295457,
+        "productId": "ab_1578295457",
+        "price": 20.83,
+        "originalPrice": 26.04,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "漫游流量卡",
+          "泰国SIM2Fly卡"
+        ],
+        "rechargeFields": []
+      }
+    ],
+    "maxDepth": 2
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578300220",
+      "gameId": 1578300220,
+      "shortEn": "tg",
+      "name": "Telegram（印尼+62）手机接码直登号",
+      "categoryName": "Telegram账号",
+      "icon": "/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc-f4c425d68cb7483391e5b70e00258f6_325d465e.png",
+      "cover": "/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc_61c42223.png",
+      "price": 5.42
+    },
+    {
+      "id": "ab_1578287022",
+      "gameId": 1578287022,
+      "shortEn": "shadowrocket-ID",
+      "name": "小火箭shadowrocket（独享）账号",
+      "categoryName": "火箭打赏",
+      "icon": "/assets/images/m-files/20230131-142603-334559377cdc41a68092067022ad54cc-0a1b102ba0a64c2e841aad57f532851_43648b8f.png",
+      "cover": "/assets/images/m-files/20230131-142603-334559377cdc41a68092067022ad54cc_33e2b8c8.png",
+      "price": 7.25
+    },
+    {
+      "id": "ab_1578300222",
+      "gameId": 1578300222,
+      "shortEn": "tg",
+      "name": "Telegram（菲律宾+63）手机接码直登号",
+      "categoryName": "Telegram账号",
+      "icon": "/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc-f4c425d68cb7483391e5b70e00258f6_325d465e.png",
+      "cover": "/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc_61c42223.png",
+      "price": 5.42
+    },
+    {
+      "id": "ab_1578300224",
+      "gameId": 1578300224,
+      "shortEn": "tg",
+      "name": "Telegram（泰国+66）手机接码直登号",
+      "categoryName": "Telegram账号",
+      "icon": "/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc-f4c425d68cb7483391e5b70e00258f6_325d465e.png",
+      "cover": "/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc_61c42223.png",
+      "price": 5.83
+    },
+    {
+      "id": "ab_1578298977",
+      "gameId": 1578298977,
+      "shortEn": "tg",
+      "name": "Telegram（美国/加拿大）手机接码直登号（注册满一年老号）",
+      "categoryName": "Telegram账号",
+      "icon": "/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc-f4c425d68cb7483391e5b70e00258f6_325d465e.png",
+      "cover": "/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc_61c42223.png",
+      "price": 8.19
+    },
+    {
+      "id": "ab_1578300221",
+      "gameId": 1578300221,
+      "shortEn": "tg",
+      "name": "Telegram（印尼+62）手机接码直登号（注册满半年老号）",
+      "categoryName": "Telegram账号",
+      "icon": "/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc-f4c425d68cb7483391e5b70e00258f6_325d465e.png",
+      "cover": "/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc_61c42223.png",
+      "price": 7.64
+    },
+    {
+      "id": "ab_1578300223",
+      "gameId": 1578300223,
+      "shortEn": "tg",
+      "name": "Telegram（菲律宾+63）手机接码直登号（注册满2月老号）",
+      "categoryName": "Telegram账号",
+      "icon": "/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc-f4c425d68cb7483391e5b70e00258f6_325d465e.png",
+      "cover": "/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc_61c42223.png",
+      "price": 7.64
+    },
+    {
+      "id": "ab_1578300024",
+      "gameId": 1578300024,
+      "shortEn": "tg",
+      "name": "Telegram（美国/加拿大）手机接码直登号（注册满半年老号）",
+      "categoryName": "Telegram账号",
+      "icon": "/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc-f4c425d68cb7483391e5b70e00258f6_325d465e.png",
+      "cover": "/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc_61c42223.png",
+      "price": 6.81
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 617,
+      "title": "如何购买国外的手机卡？海外手机卡购买详解",
+      "cover": "/assets/images/m-files/海外手机卡购买-ac005357a2d340aeb2d7525ad86ca6ba_2a5486a8.jpg",
+      "date": "2025-06-13",
+      "summary": "海外手机卡怎么买？本文详细介绍海外电话卡常见类型（实体SIM卡、eSIM、虚拟号码）、适用场景、各类购买渠道与使用注意事项，帮助中国用户合理选择海外电话卡，支持平台注册、实名认证及长期使用。"
+    },
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    },
+    {
+      "id": 1212,
+      "title": "《怪奇物语》新衍生剧来了！Stranger Things: Tales From '85 好看吗？附奈飞拼车低价观看方法",
+      "cover": "/assets/images/m-files/1909238779-f5c79c0e581e424eb543301ce8eed173_b1d820c5.jpg",
+      "date": "2026-04-24",
+      "summary": "怪奇物语衍生剧到底讲了什么？值不值得追？口碑如何？又该如何低成本在奈飞观看？本文一次讲清楚。"
+    },
+    {
+      "id": 1204,
+      "title": "老号吧靠谱吗？官方安全说明、售后保障与优惠码获取指南（2026）",
+      "cover": "/assets/images/m-files/-799647537-75948460b4be47f79349cc722e564bf5_41f08043.png",
+      "date": "2026-04-21",
+      "summary": "老号吧是一家持续稳定运营多年的数字权益服务平台，主要提供 AI 工具会员、流媒体会员共享方案、海外社媒账号资源等产品，并建立了自动交付系统、商品质保说明与售后支持体系。"
+    },
+    {
+      "id": 1145,
+      "title": "2026主流奈飞合租平台深度评测：Netflix 账号拼车避坑全指南",
+      "cover": "/assets/images/m-files/1837464362-7a4f85c88e64485d925ed19376af0355_b4abf34f.png",
+      "date": "2026-04-17",
+      "summary": "本文从真实使用逻辑出发，深入对比当前主流奈飞合租平台的优缺点及其潜在风险，帮助大家在复杂的合租市场中找到最稳妥的选择。"
+    },
+    {
+      "id": 1138,
+      "title": "ChatGPT Business 是什么？2026最新GPT会员购买方案，用自有账号安全升级！",
+      "cover": "/assets/images/m-files/-747822294-d945d0bc00d64ad892098ed0e4871901_eec982f4.png",
+      "date": "2026-03-24",
+      "summary": "厌倦了 ChatGPT 免费版的额度限制和代充的封号风险？本文教你如何利用 ChatGPT Business 官方席位邀请机制，在不提供账密的前提下，用超低价格在自有账号上开启 GPT-5 商业权限。更有“不训练数据”隐私保障，是职场人升级 AI 会员的最优选。"
+    }
+  ]
+}

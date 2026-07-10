@@ -1,0 +1,142 @@
+[
+  {
+    "id": "08dc48fb-19e0-47cc-8989-f7f57a6f0a3a",
+    "name": "Google谷歌",
+    "icon": "shop-google"
+  },
+  {
+    "id": "08de1b86-575a-40a6-83fd-5b0bec78dbc6",
+    "name": "苹果礼品卡",
+    "icon": "shop-apple"
+  },
+  {
+    "id": "08dc48fb-1845-4000-8aac-746e1cbd9dcb",
+    "name": "微软信箱",
+    "icon": "shop-microsoft"
+  },
+  {
+    "id": "08dc5226-0b7e-41aa-819b-76008f183af9",
+    "name": "Yahoo雅虎",
+    "icon": "shop-yahoo"
+  },
+  {
+    "id": "08dca9fa-1a05-4f70-8d69-20d9121704fa",
+    "name": "其他邮箱",
+    "icon": "shop-mail"
+  },
+  {
+    "id": "08dc48fc-50be-4c68-850c-f4eb4b236485",
+    "name": "Facebook脸书",
+    "icon": "shop-facebook"
+  },
+  {
+    "id": "08dc48fb-207f-49b4-8b25-8e57e7bb4513",
+    "name": "Twitter推特",
+    "icon": "shop-twitter-circle-fill"
+  },
+  {
+    "id": "08dcaea5-eb59-4b07-8f17-71d3cb05a7f7",
+    "name": "Instagram(IG/INS)",
+    "icon": "shop-Instagram"
+  },
+  {
+    "id": "08dc48fb-13f9-4e3b-8447-3cec357cfeca",
+    "name": "Discord",
+    "icon": "shop-discord"
+  },
+  {
+    "id": "08dc8ea3-aa78-4308-8bb1-01ca7bd885a7",
+    "name": "TK",
+    "icon": "shop-tiktok"
+  },
+  {
+    "id": "08dcf688-a0cb-4d27-818f-126d1719bd67",
+    "name": "Telegram飞机-API接码",
+    "icon": "shop-telegram"
+  },
+  {
+    "id": "08dcaa03-6440-4324-823f-6d8758d024ac",
+    "name": "Telegram飞机-TDATA直登",
+    "icon": "shop-telegram"
+  },
+  {
+    "id": "08dc5834-ead8-4b88-82c9-df0c0dfe4e28",
+    "name": "苹果ID",
+    "icon": "shop-apple"
+  },
+  {
+    "id": "08dc7bfc-4007-43ea-8f57-8f906a29bdc6",
+    "name": "WhatsApp",
+    "icon": "shop-whatsapp"
+  },
+  {
+    "id": "08dcdd26-6a1c-421b-854c-167b62dde67b",
+    "name": "Line",
+    "icon": "shop-line"
+  },
+  {
+    "id": "08dcc5af-ae84-4646-8e7a-98c8abff8a1a",
+    "name": "TextNow",
+    "icon": "shop-textnow"
+  },
+  {
+    "id": "08dcaa0e-fdaf-4d50-8e1a-8ed0e3d8f032",
+    "name": "Linkedin领英",
+    "icon": "shop-Linkedin"
+  },
+  {
+    "id": "08dc57b3-fa00-4b66-8392-1fb070aa24e9",
+    "name": "Microsoft Teams",
+    "icon": "shop-skype"
+  },
+  {
+    "id": "08dcad64-75c5-49e4-8e50-95f68d63a7e0",
+    "name": "AI平台/ChatGPT",
+    "icon": "shop-SVG"
+  },
+  {
+    "id": "08dcc5ae-4b01-4af8-8ff0-37e7c4b74796",
+    "name": "Google Voice/谷歌语音",
+    "icon": "shop-google-voice-logo"
+  },
+  {
+    "id": "08dc8ea4-39cd-4343-82f9-5c0c60cbca7e",
+    "name": "Amazon亚马逊",
+    "icon": "shop-amazon-circle-fill"
+  },
+  {
+    "id": "08dcaa0e-6d76-40a6-8419-3669da5947e5",
+    "name": "Walmart沃尔玛",
+    "icon": "shop-Walmart"
+  },
+  {
+    "id": "08dca9ff-4f0d-44e2-8a71-0f8fb961fd3b",
+    "name": "Netflix/奈飞",
+    "icon": "shop-netflix-icon"
+  },
+  {
+    "id": "08dc48fb-18bd-4c10-88cb-dfd94d821294",
+    "name": "YouTube",
+    "icon": "shop-youtube"
+  },
+  {
+    "id": "08dcb317-8481-428f-82ef-294d39894c6e",
+    "name": "Twitch",
+    "icon": "shop-twitch"
+  },
+  {
+    "id": "08dcaa1a-4224-435c-85a9-d20b0cf874b1",
+    "name": "Steam",
+    "icon": "shop-steam"
+  },
+  {
+    "id": "08dcc02b-bb72-41a8-8193-ba17232b8e65",
+    "name": "其他账号",
+    "icon": "shop-other"
+  },
+  {
+    "id": "08dcc5ac-e359-4dbf-8a1e-e2da0499c6a3",
+    "name": "API手机短信接码",
+    "icon": "shop-sms"
+  }
+]

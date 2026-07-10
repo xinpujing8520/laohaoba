@@ -1,0 +1,624 @@
+{
+  "shortEn": "nintendo-eshop",
+  "displayName": "任天堂充值卡",
+  "iconUrl": "/assets/images/m-files/nintendo_1-b97480c6a2fd4c7e87bed544022aeb1b_a5d55162.png",
+  "coverImg": "/assets/images/m-files/Mask_group-31-4a9b004564984f80bb3bbbbaa3295c82_09d902e1.png",
+  "categoryName": "礼品卡密",
+  "categoryId": "ab_cat_10",
+  "breadcrumb": [
+    "礼品卡密",
+    "任天堂"
+  ],
+  "defaultGameId": 1578286994,
+  "detailHtml": "<p><img src=\"/assets/images/m-files/香港区-fe8bc188a91c4836b89a709712876686_174106a4.jpg\" alt=\"\"></p><p>一、商品介绍</p><p>1.本商品为<span style=\"color: rgb(255, 0, 0);\">香港</span>任天堂充值卡，购买后登录账号直接使用<span style=\"color: rgb(255, 0, 0);\">（如果您是国区的账号请勿下单）</span></p><p style=\"white-space: normal;\">2.以上面值能拍的都有货，直接下单即可。</p><p style=\"white-space: normal;\">3.充值卡就是钱，请一定保管好手里的礼品卡，不要相信出平台工作人员以外和您联系的任何人。</p><p style=\"white-space: normal;\">4.无需账号密码，CDK直接兑换，正品充值卡安全不封号。</p><p style=\"white-space: normal;\"><br/></p><p>二、使用说明</p><p>第一步，收到兑换码后，打开Switch主界面的购物袋图标。</p><p><span style=\"font-family: arial, helvetica, sans-serif; text-indent: 2em; background-color: rgb(255, 255, 255);\"><img src=\"/assets/images/files/473-220922114009_$1735105416025014505_24e64524.jpg\" title=\"473-220922114009_$1735105416025014505.jpg\" alt=\"473-220922114009.jpg\"/></span></p><p>第二步，选择“输入序号”，将兑换码输入之后即可成功兑换到余额。</p><p><img src=\"/assets/images/files/473-220922114008_$1735104917852091486_03be576a.jpg\" title=\"473-220922114008_$1735104917852091486.jpg\" alt=\"473-220922114008.jpg\"/></p><p style=\"white-space: normal;\">三.注意事项</p><p style=\"white-space: normal;\">1.付款后您可以在购买完成的页面查看所购的账号信息，或者可以点击右上角的订单中心查看提取，<span style=\"color: rgb(255, 0, 0);\">24小时自动发货</span>。<br/></p><p style=\"white-space: normal;\">2.商品仅<span style=\"color: rgb(255, 0, 0);\">香港账户</span>使用。</p><p style=\"white-space: normal;\">3.交付礼品卡前，所有代码都已验证过，可使用，无虚假，为避免不必要纠纷支付前请到礼品卡验证地址进行验证。</p><p style=\"white-space: normal;\">4.发货后不支持任何理由的退款。</p>",
+  "skuTree": {
+    "dimension1": "地区",
+    "dimension2": "面值",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "50雷亚尔",
+        "gameId": 1578293880,
+        "productId": "ab_1578293880",
+        "price": 9.58,
+        "originalPrice": 11.94,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "巴西",
+          "50雷亚尔"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "100雷亚尔",
+        "gameId": 1578293881,
+        "productId": "ab_1578293881",
+        "price": 19.17,
+        "originalPrice": 24.03,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "巴西",
+          "100雷亚尔"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "150雷亚尔",
+        "gameId": 1578293882,
+        "productId": "ab_1578293882",
+        "price": 28.75,
+        "originalPrice": 35.97,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "巴西",
+          "150雷亚尔"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "200雷亚尔",
+        "gameId": 1578293883,
+        "productId": "ab_1578293883",
+        "price": 38.33,
+        "originalPrice": 47.92,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "巴西",
+          "200雷亚尔"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "250雷亚尔",
+        "gameId": 1578293884,
+        "productId": "ab_1578293884",
+        "price": 47.92,
+        "originalPrice": 59.86,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "巴西",
+          "250雷亚尔"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "300雷亚尔",
+        "gameId": 1578293885,
+        "productId": "ab_1578293885",
+        "price": 57.5,
+        "originalPrice": 71.94,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "巴西",
+          "300雷亚尔"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "350雷亚尔",
+        "gameId": 1578293886,
+        "productId": "ab_1578293886",
+        "price": 67.08,
+        "originalPrice": 83.89,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "巴西",
+          "350雷亚尔"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "400雷亚尔",
+        "gameId": 1578293887,
+        "productId": "ab_1578293887",
+        "price": 76.67,
+        "originalPrice": 95.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "巴西",
+          "400雷亚尔"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "500雷亚尔",
+        "gameId": 1578293888,
+        "productId": "ab_1578293888",
+        "price": 95.83,
+        "originalPrice": 119.86,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "巴西",
+          "500雷亚尔"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "100港元",
+        "gameId": 1578286994,
+        "productId": "ab_1578286994",
+        "price": 14.58,
+        "originalPrice": 18.75,
+        "badge": "",
+        "icon": "",
+        "description": "新手推荐",
+        "isRecharge": false,
+        "path": [
+          "香港",
+          "100港元"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "300港元",
+        "gameId": 1578286995,
+        "productId": "ab_1578286995",
+        "price": 43.06,
+        "originalPrice": 51.25,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "香港",
+          "300港元"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "500港元",
+        "gameId": 1578286996,
+        "productId": "ab_1578286996",
+        "price": 70.83,
+        "originalPrice": 75.56,
+        "badge": "",
+        "icon": "",
+        "description": "平台推荐",
+        "isRecharge": false,
+        "path": [
+          "香港",
+          "500港元"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "600港元",
+        "gameId": 1578288293,
+        "productId": "ab_1578288293",
+        "price": 84.03,
+        "originalPrice": 90.69,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "香港",
+          "600港元"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "700港元",
+        "gameId": 1578288294,
+        "productId": "ab_1578288294",
+        "price": 97.92,
+        "originalPrice": 105.56,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "香港",
+          "700港元"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "800港元",
+        "gameId": 1578288295,
+        "productId": "ab_1578288295",
+        "price": 111.81,
+        "originalPrice": 120.69,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "香港",
+          "800港元"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "900港元",
+        "gameId": 1578288296,
+        "productId": "ab_1578288296",
+        "price": 125.69,
+        "originalPrice": 135.69,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "香港",
+          "900港元"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "1000港元",
+        "gameId": 1578288297,
+        "productId": "ab_1578288297",
+        "price": 139.58,
+        "originalPrice": 150.83,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "香港",
+          "1000港元"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "1300港元",
+        "gameId": 1578288298,
+        "productId": "ab_1578288298",
+        "price": 181.25,
+        "originalPrice": 209.58,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "香港",
+          "1300港元"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "1500港元",
+        "gameId": 1578288299,
+        "productId": "ab_1578288299",
+        "price": 209.03,
+        "originalPrice": 238.89,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "香港",
+          "1500港元"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "10美金",
+        "gameId": 1578288188,
+        "productId": "ab_1578288188",
+        "price": 10.83,
+        "originalPrice": 11.11,
+        "badge": "",
+        "icon": "",
+        "description": "新手推荐",
+        "isRecharge": false,
+        "path": [
+          "美国",
+          "10美金"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "20美金",
+        "gameId": 1578288189,
+        "productId": "ab_1578288189",
+        "price": 21.11,
+        "originalPrice": 22.22,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "美国",
+          "20美金"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "50美金",
+        "gameId": 1578288191,
+        "productId": "ab_1578288191",
+        "price": 49.03,
+        "originalPrice": 55.56,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "美国",
+          "50美金"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "100美金",
+        "gameId": 1578288796,
+        "productId": "ab_1578288796",
+        "price": 97.08,
+        "originalPrice": 97.08,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "美国",
+          "100美金"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "1000日元",
+        "gameId": 1578288208,
+        "productId": "ab_1578288208",
+        "price": 9.58,
+        "originalPrice": 10.97,
+        "badge": "",
+        "icon": "",
+        "description": "新手推荐",
+        "isRecharge": false,
+        "path": [
+          "日本",
+          "1000日元"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "3000日元",
+        "gameId": 1578288209,
+        "productId": "ab_1578288209",
+        "price": 24.72,
+        "originalPrice": 26.53,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "日本",
+          "3000日元"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "4000日元",
+        "gameId": 1578288210,
+        "productId": "ab_1578288210",
+        "price": 36.81,
+        "originalPrice": 38.33,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "日本",
+          "4000日元"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "5000日元",
+        "gameId": 1578288211,
+        "productId": "ab_1578288211",
+        "price": 40.56,
+        "originalPrice": 44.03,
+        "badge": "",
+        "icon": "",
+        "description": "平台推荐",
+        "isRecharge": false,
+        "path": [
+          "日本",
+          "5000日元"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "10000日元",
+        "gameId": 1578288212,
+        "productId": "ab_1578288212",
+        "price": 80.97,
+        "originalPrice": 87.92,
+        "badge": "",
+        "icon": "",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "日本",
+          "10000日元"
+        ],
+        "rechargeFields": []
+      }
+    ],
+    "maxDepth": 2
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578287331",
+      "gameId": 1578287331,
+      "shortEn": "nintendo-eshop",
+      "name": "任天堂（澳洲）充值卡-15澳元",
+      "categoryName": "任天堂（澳洲）充值卡",
+      "icon": "/assets/images/m-files/原图-6b42afccac554dc8a8c0a8c8c2d8fa14_07f6093f.png",
+      "cover": "/assets/images/m-files/任天堂澳大利亚-dad02bddccac4a34a338c02c476fb7ef_a5968ffc.png",
+      "price": 11.11
+    },
+    {
+      "id": "ab_1578287334",
+      "gameId": 1578287334,
+      "shortEn": "nintendo-eshop",
+      "name": "任天堂（巴西）-50雷亚尔",
+      "categoryName": "任天堂（巴西）充值卡",
+      "icon": "/assets/images/m-files/原图-6b42afccac554dc8a8c0a8c8c2d8fa14_07f6093f.png",
+      "cover": "/assets/images/m-files/任天堂巴西-da2eea2f88a049dab3f9c46da0a3d012_74d704bb.png",
+      "price": 10
+    },
+    {
+      "id": "ab_1578287515",
+      "gameId": 1578287515,
+      "shortEn": "nintendo-eshop",
+      "name": "任天堂（欧洲）充值卡-15欧元",
+      "categoryName": "任天堂（欧洲）充值卡",
+      "icon": "/assets/images/m-files/原图-6b42afccac554dc8a8c0a8c8c2d8fa14_07f6093f.png",
+      "cover": "/assets/images/m-files/任天堂欧洲-7aaebbb0011c4d93958967acf046db07_e8c78c2e.png",
+      "price": 17.92
+    },
+    {
+      "id": "ab_1578287510",
+      "gameId": 1578287510,
+      "shortEn": "nintendo-eshop",
+      "name": "任天堂（英国）充值卡-15英镑",
+      "categoryName": "任天堂（英国）充值卡",
+      "icon": "/assets/images/m-files/原图-6b42afccac554dc8a8c0a8c8c2d8fa14_07f6093f.png",
+      "cover": "/assets/images/m-files/任天堂英国-7528f73164aa4e08b4d31e9b882d3867_166ac318.png",
+      "price": 15.28
+    },
+    {
+      "id": "ab_1578287507",
+      "gameId": 1578287507,
+      "shortEn": "nintendo-eshop",
+      "name": "任天堂（加拿大）充值卡-20加元",
+      "categoryName": "任天堂（加拿大）充值卡",
+      "icon": "/assets/images/m-files/原图-6b42afccac554dc8a8c0a8c8c2d8fa14_07f6093f.png",
+      "cover": "/assets/images/m-files/任天堂加拿大-8065938b4f8b43b58f88f011e1020895_98928938.png",
+      "price": 17.08
+    },
+    {
+      "id": "ab_1578292315",
+      "gameId": 1578292315,
+      "shortEn": "sim-card-hk",
+      "name": "【香港电话卡】移动180天短信卡",
+      "categoryName": "香港电话卡",
+      "icon": "/assets/images/m-files/9861eb3a22397b43658ffb3ad084296e9881-18b79901c0f949d7a3f62792ef125ec8_fcdb20cb.jpeg",
+      "cover": "/assets/images/m-files/src=http___img.alicdn.com_i1_2209081124274_O1CN01p8sBmd1hRXU2D8MPT_!!22090811242_a151ab02.png",
+      "price": 19.5
+    },
+    {
+      "id": "ab_1578292325",
+      "gameId": 1578292325,
+      "shortEn": "sim-card-hk",
+      "name": "【香港电话卡】365天20GB通用流量",
+      "categoryName": "香港电话卡",
+      "icon": "/assets/images/m-files/9861eb3a22397b43658ffb3ad084296e9881-18b79901c0f949d7a3f62792ef125ec8_fcdb20cb.jpeg",
+      "cover": "/assets/images/m-files/src=http___img.alicdn.com_i1_2209081124274_O1CN01p8sBmd1hRXU2D8MPT_!!22090811242_a151ab02.png",
+      "price": 48.39
+    },
+    {
+      "id": "ab_1578292318",
+      "gameId": 1578292318,
+      "shortEn": "sim-card-hk",
+      "name": "【香港电话卡】30天20GB通用流量",
+      "categoryName": "香港电话卡",
+      "icon": "/assets/images/m-files/9861eb3a22397b43658ffb3ad084296e9881-18b79901c0f949d7a3f62792ef125ec8_fcdb20cb.jpeg",
+      "cover": "/assets/images/m-files/src=http___img.alicdn.com_i1_2209081124274_O1CN01p8sBmd1hRXU2D8MPT_!!22090811242_a151ab02.png",
+      "price": 33.94
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 145,
+      "title": "任天堂预付卡怎么买？充值与使用指南",
+      "cover": "/assets/images/m-files/任天堂预付卡购买-a07a4cdb54c54f2b9c28e02e5e60af6d_0322b5ce.jpg",
+      "date": "2024-09-09",
+      "summary": "任天堂预付卡购买很简单，只要登录老号吧，点击任天堂充值卡，选择充值金额就能充值成功.上老号吧购买任天堂预付卡安全放心。"
+    },
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    },
+    {
+      "id": 1212,
+      "title": "《怪奇物语》新衍生剧来了！Stranger Things: Tales From '85 好看吗？附奈飞拼车低价观看方法",
+      "cover": "/assets/images/m-files/1909238779-f5c79c0e581e424eb543301ce8eed173_b1d820c5.jpg",
+      "date": "2026-04-24",
+      "summary": "怪奇物语衍生剧到底讲了什么？值不值得追？口碑如何？又该如何低成本在奈飞观看？本文一次讲清楚。"
+    },
+    {
+      "id": 1204,
+      "title": "老号吧靠谱吗？官方安全说明、售后保障与优惠码获取指南（2026）",
+      "cover": "/assets/images/m-files/-799647537-75948460b4be47f79349cc722e564bf5_41f08043.png",
+      "date": "2026-04-21",
+      "summary": "老号吧是一家持续稳定运营多年的数字权益服务平台，主要提供 AI 工具会员、流媒体会员共享方案、海外社媒账号资源等产品，并建立了自动交付系统、商品质保说明与售后支持体系。"
+    },
+    {
+      "id": 1145,
+      "title": "2026主流奈飞合租平台深度评测：Netflix 账号拼车避坑全指南",
+      "cover": "/assets/images/m-files/1837464362-7a4f85c88e64485d925ed19376af0355_b4abf34f.png",
+      "date": "2026-04-17",
+      "summary": "本文从真实使用逻辑出发，深入对比当前主流奈飞合租平台的优缺点及其潜在风险，帮助大家在复杂的合租市场中找到最稳妥的选择。"
+    },
+    {
+      "id": 1138,
+      "title": "ChatGPT Business 是什么？2026最新GPT会员购买方案，用自有账号安全升级！",
+      "cover": "/assets/images/m-files/-747822294-d945d0bc00d64ad892098ed0e4871901_eec982f4.png",
+      "date": "2026-03-24",
+      "summary": "厌倦了 ChatGPT 免费版的额度限制和代充的封号风险？本文教你如何利用 ChatGPT Business 官方席位邀请机制，在不提供账密的前提下，用超低价格在自有账号上开启 GPT-5 商业权限。更有“不训练数据”隐私保障，是职场人升级 AI 会员的最优选。"
+    }
+  ]
+}

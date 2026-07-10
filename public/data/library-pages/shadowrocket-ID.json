@@ -1,0 +1,208 @@
+{
+  "shortEn": "shadowrocket-ID",
+  "displayName": "火箭shadowrocket账号",
+  "iconUrl": "/assets/images/m-files/小火箭-5d185a07f303412b969f41634b0eff3a_89eb630d.png",
+  "coverImg": "/assets/images/m-files/20230131-142603-334559377cdc41a68092067022ad54cc_33e2b8c8.png",
+  "categoryName": "苹果id",
+  "categoryId": "ab_cat_2",
+  "breadcrumb": [
+    "苹果id",
+    "小火箭shadowrocket"
+  ],
+  "defaultGameId": 1578287022,
+  "detailHtml": "<p><img src=\"/assets/images/m-files/shadowrocket-452be638992a42fbb766e788c42b8ace_76f7483c.jpg\" alt=\"\"></p><p><img src=\"/assets/images/m-files/f8cca6ffa97744911beb4422ccd211b7-3d475ccaab224f2fbabad494d59f7c60_0cfe0163.png\" alt=\"\"></p><p><span style=\"font-size: 20px;\"></span></p><p style=\"white-space: normal;\">一.商品介绍</p><p style=\"white-space: normal;\">1.本商品为小火箭下载账号，账号为<span style=\"color: rgb(255, 0, 0);\">苹果</span>账号，已内购小火箭。未绑定手机号和邮箱，您购买后将得登录账号、密码、密保问题及答案。</p><p style=\"white-space: normal;\">2.账号分为<span style=\"color: rgb(255, 0, 0);\">【共享】</span>和<span style=\"color: rgb(255, 0, 0);\">【独享】</span>，下载的软件永久使用。</p><p style=\"white-space: normal;\">3.购买【独享】账号的用户，可通过密保问题及答案，完成修改密码、绑定邮箱、手机号等操作。</p><p style=\"white-space: normal;\">4.购买【共享】账号的用户，请下载完成后退出账号。</p><p style=\"white-space: normal;\">5.所售账号仅用于下载图标软件，切勿当作游戏账号和充值账号。</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">二.使用说明</p><p style=\"white-space: normal;\">1.仅用于登陆AppStore（商城下载），切勿登陆iCloud（设置ID），如有必要请登陆后关闭查找。</p><p style=\"white-space: normal;\">2.软件下载完成后需切换回自己的ID，如因操作问题造成的损失请自行承担。</p><p style=\"white-space: normal;\">3.改密网址：<a href=\"https://appleid.apple.com/\" _src=\"https://appleid.apple.com/\" target=\"_blank\">https://appleid.apple.com/</a></p><p style=\"white-space: normal;\">登陆流程如下：</p><p style=\"white-space: normal;\">1.打开AppStore，点击右上角头像，进入个人中心。</p><p style=\"white-space: normal;\">2.下拉至最底端，点击退出登录。<br/></p><p style=\"white-space: normal;\">3.屏幕滑到最上方，输入账号密码直接登录即可。</p><p style=\"white-space: normal;\"><img src=\"/assets/images/files/1_$1648192948434001255_764aa8d2.jpg\" title=\"1_$1648192948434001255.jpg\" alt=\"1.jpg\"/></p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\"><img src=\"/assets/images/files/2_$1648192966176094104_66035888.jpg\" title=\"2_$1648192966176094104.jpg\" alt=\"2.jpg\"/></p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\"><img src=\"/assets/images/files/3_$1648192978841064006_022e1da6.jpg\" title=\"3_$1648192978841064006.jpg\" alt=\"3.jpg\"/></p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">三.注意事项</p><p style=\"white-space: normal;\">1.付款后您可以在购买完成的页面查看所购买的账号信息，或者可以点击右上角的订单中心查看提取，<span style=\"color: rgb(255, 0, 0);\">24小时内自动发货</span>。<br/></p><p style=\"white-space: normal;\">2.账号售出删档，买家自行保护账号安全，被盗我们无法找回！</p><p style=\"white-space: normal;\">3.海外账号无法确定使用期限，请保持ID活跃度，经常修改密码。如出现官方收回停用情况，平台无法找回。（官方行为，平台不承担责任）</p><p style=\"white-space: normal;\">4.拿到【独享】账号请务必修改密码，如有其他验证方式（手机、邮箱或密保），也请修改，若有问题直接百度查询答案和教程。</p><p style=\"white-space: normal;\">5.虚拟商品一经发货不支持退款（除账密问题外）。</p><p style=\"white-space: normal;\">6.若需要大量批发可以联系我们的线上客服，客服会安排转人给您联系详谈价格。</p>",
+  "skuTree": {
+    "dimension1": "类型",
+    "dimension2": "规格",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "小火箭共享 苹果id",
+        "gameId": 1578287021,
+        "productId": "ab_1578287021",
+        "price": 2.62,
+        "originalPrice": 0.14,
+        "badge": "",
+        "icon": "",
+        "description": "立减20%",
+        "isRecharge": false,
+        "path": [
+          "小火箭",
+          "小火箭共享 苹果id"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "小火箭独享 苹果id",
+        "gameId": 1578287022,
+        "productId": "ab_1578287022",
+        "price": 7.25,
+        "originalPrice": 0.14,
+        "badge": "",
+        "icon": "",
+        "description": "立减10%",
+        "isRecharge": false,
+        "path": [
+          "小火箭",
+          "小火箭独享 苹果id"
+        ],
+        "rechargeFields": []
+      }
+    ],
+    "maxDepth": 2
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578295021",
+      "gameId": 1578295021,
+      "shortEn": "QX",
+      "name": "圈XQuantumult X（独享）账号",
+      "categoryName": "Quantumult X账号",
+      "icon": "/assets/images/m-files/image-c66edef38cb14709849bd09f419cc8ba_c0d9c8a2.png",
+      "cover": "/assets/images/m-files/20250526-154941_圈X-ca3fe81e3d60423dacb7da58d1eae83f_a1e02cdf.jpg",
+      "price": 10.42
+    },
+    {
+      "id": "ab_1578287184",
+      "gameId": 1578287184,
+      "shortEn": "Steam",
+      "name": "Steam（日本）白号",
+      "categoryName": "Steam全球号",
+      "icon": "/assets/images/m-files/Group_48096187-2611c5bb8b7747f89dcc229a39185cf0_384c20fe.png",
+      "cover": "/assets/images/files/1439117415583588352_d405a38e.jpg",
+      "price": 2.22
+    },
+    {
+      "id": "ab_1578277921",
+      "gameId": 1578277921,
+      "shortEn": "Steam",
+      "name": "Steam（中国）白号",
+      "categoryName": "Steam全球号",
+      "icon": "/assets/images/m-files/Group_48096187-2611c5bb8b7747f89dcc229a39185cf0_384c20fe.png",
+      "cover": "/assets/images/m-files/steam-3966828384ec4667bffbc1fe7f16a251_53ec2180.jpg",
+      "price": 2.22
+    },
+    {
+      "id": "ab_1578293032",
+      "gameId": 1578293032,
+      "shortEn": "sora",
+      "name": "【官方版Sora】高级版（独享30天）账号",
+      "categoryName": "Sora会员订阅账号",
+      "icon": "/assets/images/m-files/182119e0c228781e7b5d956028b364a-9f323eb93f60445f9a1e31d50af59a0c_0e690d9f.png",
+      "cover": "/assets/images/m-files/182119e0c228781e7b5d956028b364a-482a7f89c3c1429688a8b2a6cee3f3ca_523b2158.png",
+      "price": 30.28
+    },
+    {
+      "id": "ab_1578298431",
+      "gameId": 1578298431,
+      "shortEn": "Lovart-Ai",
+      "name": "Lovart Ai starter 会员独享账号",
+      "categoryName": "Lovart",
+      "icon": "/assets/images/m-files/-719494772-81d42897f167469ab194c59a1436a928_738772ca.png",
+      "cover": "/assets/images/m-files/1409480088-8eda7701b06c44ef8463f3cbda5a362f_446f2fd7.png",
+      "price": 25.69
+    },
+    {
+      "id": "ab_1578287053",
+      "gameId": 1578287053,
+      "shortEn": "Steam",
+      "name": "Steam（土耳其）白号",
+      "categoryName": "Steam全球号",
+      "icon": "/assets/images/m-files/Group_48096187-2611c5bb8b7747f89dcc229a39185cf0_384c20fe.png",
+      "cover": "/assets/images/m-files/steam-c3e08d194ae54b2cbeb2e65171eec6c8_920f5a40.jpg",
+      "price": 2.22
+    },
+    {
+      "id": "ab_1578288301",
+      "gameId": 1578288301,
+      "shortEn": "X",
+      "name": "推特-2025年-2FA",
+      "categoryName": "推特全球ID",
+      "icon": "/assets/images/m-files/Group_48096155-9bb2f7bcee24414da3e1fc7e2fc91e5e_3117770d.png",
+      "cover": "/assets/images/m-files/推特X-ae247c761e334a8ab76b58a70d1355aa_19d38bca.jpg",
+      "price": 5
+    },
+    {
+      "id": "ab_1578290484",
+      "gameId": 1578290484,
+      "shortEn": "LOL-PBE",
+      "name": "PBE 30级新号",
+      "categoryName": "英雄联盟（美测服）账号",
+      "icon": "/assets/images/m-files/image-54e232630fb148f0ad1338e246d996bf_1e3c277d.png",
+      "cover": "/assets/images/m-files/Risen_Legend_Ahri-e78fc0c4a73841488e834ddfd243aca2_6a95fb22.jpg",
+      "price": 2.07
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 334,
+      "title": "iOS小火箭怎么用？小火箭下载、使用全教程",
+      "cover": "/assets/images/m-files/Shadowrocket_怎么用-9dd8e92e6079474d86207102889f44d6_4fa48fef.png",
+      "date": "2024-12-12",
+      "summary": "本篇文章将详细讲解iOS小火箭的下载和使用方法，包括账号购买、节点配置等内容，帮助你快速掌握这款工具的使用技巧。"
+    },
+    {
+      "id": 304,
+      "title": "Shadowrocket下载：如何下载小火箭？",
+      "cover": "/assets/images/m-files/shadowrockt下载-46dc06db442046dfa14ff16e185a1575_d84255e1.png",
+      "date": "2024-11-25",
+      "summary": "本文将详细介绍如何下载Shadowrocket，帮助用户轻松突破网络限制，享受更自由的互联网体验。"
+    },
+    {
+      "id": 275,
+      "title": "小火箭共享账号: 如何高性价比、安全地共享使用Shadowrocket",
+      "cover": "/assets/images/m-files/Shadowrocket-e441b01b92d142caa15c0a589fbf70e0_c28518e3.png",
+      "date": "2024-11-12",
+      "summary": "如何获取并登录使用小火箭共享账号，以及使用小火箭共享账号有哪些注意点？本文将一一解答。"
+    },
+    {
+      "id": 207,
+      "title": "如何购买Shadowrocket 节点？",
+      "cover": "/assets/images/m-files/Shadowrocket节点-3d8127f14e724cafa26d59d77a4a8340_31d7074d.jpg",
+      "date": "2024-10-06",
+      "summary": "Shadowrocket节点如何购买？老号吧提供快速、安全、稳定的小火箭节点购买服务。如何注册并购买Shadowrocket 节点？ 首先，您需要在我们的网站上注册一个账户。"
+    },
+    {
+      "id": 199,
+      "title": "小火箭账号怎么购买？",
+      "cover": "/assets/images/m-files/火箭shadowrocket账号-c7e42c30443d4a82bc3b1501dfcaa778_dab820c7.jpg",
+      "date": "2024-09-30",
+      "summary": "上老号吧购买小火箭（Shadowrocket）账号，购买后您将获得一个苹果美区账号，已内购小火箭（Shadowrocket）账号，登录就可使用"
+    },
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    }
+  ]
+}

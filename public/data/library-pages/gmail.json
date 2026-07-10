@@ -1,0 +1,461 @@
+{
+  "shortEn": "gmail",
+  "displayName": "谷歌邮箱",
+  "iconUrl": "/assets/images/m-files/谷歌邮箱-c0ca8a95980f4031b496141649b9efd4_3d29df62.png",
+  "coverImg": "/assets/images/m-files/google-cf1e0b1dc1b94961a2923dea3f0dea42_6df1eccd.jpg",
+  "categoryName": "邮箱账号",
+  "categoryId": "ab_cat_4",
+  "breadcrumb": [
+    "邮箱账号",
+    "谷歌"
+  ],
+  "defaultGameId": 1578287568,
+  "detailHtml": "<p><img src=\"/assets/images/m-files/20200826152330_62101-740af792190346118f12b783f5ce36f1_090da0c9.jpg\" alt=\"\"></p><p style=\"line-height: 2em; white-space: normal;\">一.商品介绍</p><p>1.本商品为谷歌（全球各区）邮箱账号。</p><p>2.发货格式为：邮箱账号----密码----辅助邮箱。</p><p>3.平台所售谷歌邮箱账号建议仅用于谷歌及旗下相关产品登录。</p><p>4.请选择对应地区环境进行登录，如无此地区环境强行登录导致锁号的，不在进行售后。</p><p>5.因官网风控等不可控因素，无法保证Google云端平台的使用。</p><p>6.<span style=\"color: rgb(255, 0, 0);\">辅助邮箱无密码也不需要密码，也不提供辅助邮箱登录信息，如遇到“验证身份”，请选择“确认您的辅助邮箱”，如因选择其他方式造成“无法验证身份”情况，平台不进行售后处理，介意请勿下单。</span></p><p><span style=\"color: rgb(255, 0, 0);\"><img src=\"/assets/images/files/image_$1684659603003089747_0f294a2b.png\" title=\"image_$1684659603003089747.png\" alt=\"image.png\" width=\"483\" height=\"608\" style=\"width: 483px; height: 608px;\"/></span></p><p style=\"line-height: 2em; white-space: normal;\">二.使用说明</p><p style=\"line-height: 2em; white-space: normal;\">1.登录邮箱官网：gmail.com<br/>2.输入账号密码即可。</p><p><span style=\"color: rgb(255, 0, 0);\"><strong>Gmail邮箱谷歌账号养护教程</strong></span></p><p>购买新到手的Gmail,一定要注意养号:</p><p>购前相信你已经了解了Gmail的对使用IP、环境、行为都有很严格的的要求,现给你一些使用方面的建议,希望能帮到你!</p><p>1、谷歌账号购买到手后,建议在手机上下载Gmail APP使用。</p><p>登录后保持稳定ip(同地区IP别乱跳地区使用)与手机设备在线,不要频繁更换lp、</p><p>不要使用动态IP与频繁更换设备。不要一ip多账号登录或一设备多!账号登录!</p><p>2、强烈建议为Google账号开通两步验证!</p><p>然后修改密码与辅助邮箱、辅助手机等加强账号安全性的操作,防止谷歌因你IP变动、设备更换、操作行为等判断为异常,做出风控检测验证!</p><p>也可根据情况,在两步验证开启后,密码与辅助邮箱隔日再设置。</p><p>3、首次登录之后不要大量收发邮件的操作!建议养一段时间再逐步步操作。固定设备+稳定一个地区IP登录使用,并保持使用约7天左右</p><p>(PS:登录之后固定设备+稳定用一个地区的IP,比如你的IP是韩|国首尔市那就要经常在这个市区的IP使用。)</p><p>4、用Gmail收发邮件,修改头像,修改密码,绑定辅助邮箱、添加验证手机、修改或重置2FA。(首次登录稳定设备7天左右再操作更改这些)</p><p>5、观看YouTube视频(点赞与评论),或创建YouTube频道。使用谷歌云端硬盘储存文件等谷歌服务,以获得谷歌对账号的信任。</p><p>6、避免在同一IP地址和设备上批量登录使用。如果您有大批量的谷歌邮箱购买需求,建议使用多个IP地址,每个IP同时登录的Gma账户数量最多不</p><p>超过3个,以免触发谷歌的滥用检测系统,导致账户被暂停。</p><p>7、使用动态IP或频繁变动IP地址时,可能会触发谷歌的风控措施。【手机验证,登录异常,无法验证等情况】</p><p>8、通过大量用户使用的IP登录,可能会影响同一IP下的其其他账户,导致它们也被风控。</p><p style=\"white-space: normal;\">三.注意事项</p><p style=\"white-space: normal;\">1.付款后您可以在购买完成的页面查看所购买的账号信息，或者可以点击右上角的订单中心查看提取，<span style=\"color: rgb(255, 0, 0);\">24小时内自动发货</span>。<br/></p><p style=\"white-space: normal;\">2.账号售出删档，买家自行保护账号安全，被盗我们无法找回！</p><p style=\"white-space: normal;\">3.海外账号无法确定使用期限，请保持ID活跃度，经常修改密码。如出现官方收回停用情况，平台无法找回。（官方行为，平台不承担责任）</p><p style=\"white-space: normal;\">4.拿到账号请务必修改密码，如有其他验证方式（手机、邮箱或密保），也请修改，若有问题直接百度查询答案和教程。</p><p style=\"white-space: normal;\">5.虚拟商品一经发货不支持退款（除账密问题外）。</p><p style=\"white-space: normal;\">6.若需要大量批发可以联系我们的线上客服，客服会安排转人给您联系详谈价格。</p>",
+  "skuTree": {
+    "dimension1": "地区（未特殊标注的账号不保证云服务可用）",
+    "dimension2": "",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "美国",
+        "gameId": 1578288825,
+        "productId": "ab_1578288825",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "美国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "日本",
+        "gameId": 1578287568,
+        "productId": "ab_1578287568",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "日本"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "香港",
+        "gameId": 1578287576,
+        "productId": "ab_1578287576",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "香港"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "法国",
+        "gameId": 1578287570,
+        "productId": "ab_1578287570",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "法国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "德国",
+        "gameId": 1578287571,
+        "productId": "ab_1578287571",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "德国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "韩国",
+        "gameId": 1578287572,
+        "productId": "ab_1578287572",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "韩国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "澳洲",
+        "gameId": 1578287573,
+        "productId": "ab_1578287573",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "澳洲"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "加拿大",
+        "gameId": 1578287574,
+        "productId": "ab_1578287574",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "加拿大"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "印度",
+        "gameId": 1578287575,
+        "productId": "ab_1578287575",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "印度"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "英国",
+        "gameId": 1578287569,
+        "productId": "ab_1578287569",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "英国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "台湾",
+        "gameId": 1578287577,
+        "productId": "ab_1578287577",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "台湾"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "西班牙",
+        "gameId": 1578287578,
+        "productId": "ab_1578287578",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "西班牙"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "新加坡",
+        "gameId": 1578287579,
+        "productId": "ab_1578287579",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "新加坡"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "菲律宾",
+        "gameId": 1578287580,
+        "productId": "ab_1578287580",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "菲律宾"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "印尼",
+        "gameId": 1578287581,
+        "productId": "ab_1578287581",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "印尼"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "泰国",
+        "gameId": 1578287582,
+        "productId": "ab_1578287582",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "泰国"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "马来西亚",
+        "gameId": 1578287583,
+        "productId": "ab_1578287583",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "马来西亚"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "越南",
+        "gameId": 1578287584,
+        "productId": "ab_1578287584",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "越南"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "意大利",
+        "gameId": 1578287588,
+        "productId": "ab_1578287588",
+        "price": 3.58,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096171-7be7a91478dd49db980ae0bf7191767b_fe08067c.png",
+        "description": "多买享折扣",
+        "isRecharge": false,
+        "path": [
+          "意大利"
+        ],
+        "rechargeFields": []
+      }
+    ],
+    "maxDepth": 1
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578287591",
+      "gameId": 1578287591,
+      "shortEn": "outlook",
+      "name": "微软（日本）邮箱账号",
+      "categoryName": "微软（全球）邮箱账号",
+      "icon": "/assets/images/m-files/outlook1-e570d5d6a1dc4dcc90040661ebd110c6_e58fe391.jpg",
+      "cover": "/assets/images/m-files/img_v3_029e_53c2c50f-20ff-4e7d-bd38-e51f2020d86g-4c515495e7f94edf9a5e99eb05722c3_a0e42ff9.png",
+      "price": 3.44
+    },
+    {
+      "id": "ab_1578288634",
+      "gameId": 1578288634,
+      "shortEn": "yahoo-email",
+      "name": "雅虎（开通POP）邮箱账号",
+      "categoryName": "雅虎邮箱账号",
+      "icon": "/assets/images/m-files/雅虎邮箱长图-12865da80cc64ecd83252b8e0fcf4716_2729f6c3.jpg",
+      "cover": "https://m-files.kardz.cn/game/Group%2048095877%20(1)-c7259d0fb92f400ea304aa12e5d3c172.png",
+      "price": 2.33
+    },
+    {
+      "id": "ab_1578287590",
+      "gameId": 1578287590,
+      "shortEn": "outlook",
+      "name": "微软（美国）邮箱账号",
+      "categoryName": "微软（全球）邮箱账号",
+      "icon": "/assets/images/m-files/outlook1-e570d5d6a1dc4dcc90040661ebd110c6_e58fe391.jpg",
+      "cover": "/assets/images/m-files/img_v3_029e_53c2c50f-20ff-4e7d-bd38-e51f2020d86g-4c515495e7f94edf9a5e99eb05722c3_a0e42ff9.png",
+      "price": 3.44
+    },
+    {
+      "id": "ab_20112611",
+      "gameId": 20112611,
+      "shortEn": "Google",
+      "name": "谷歌（全区服）ID-3星质量",
+      "categoryName": "谷歌全球ID",
+      "icon": "/assets/images/m-files/Group_48096170-ea28208ebe2d4f46a013e40f15da8e33_82d26cc1.png",
+      "cover": "/assets/images/m-files/google-0193e33a148d4ea08fa582b31c40c8c8_867204c7.jpg",
+      "price": 1.78
+    },
+    {
+      "id": "ab_1578298185",
+      "gameId": 1578298185,
+      "shortEn": "Instagram",
+      "name": "Instagram-2025年1月-邮箱验证",
+      "categoryName": "Ins全球账号",
+      "icon": "/assets/images/m-files/Group_48096154-f522a6814ecd4b67834e8a79036d907d_6d71309b.png",
+      "cover": "/assets/images/m-files/ins-545a2706b6af49ed8ccff4540bae2e03_57ca585e.png",
+      "price": 6.39
+    },
+    {
+      "id": "ab_1578287593",
+      "gameId": 1578287593,
+      "shortEn": "outlook",
+      "name": "微软（德国）邮箱账号",
+      "categoryName": "微软（全球）邮箱账号",
+      "icon": "/assets/images/m-files/outlook1-e570d5d6a1dc4dcc90040661ebd110c6_e58fe391.jpg",
+      "cover": "/assets/images/m-files/img_v3_029e_53c2c50f-20ff-4e7d-bd38-e51f2020d86g-4c515495e7f94edf9a5e99eb05722c3_a0e42ff9.png",
+      "price": 3.44
+    },
+    {
+      "id": "ab_1578287599",
+      "gameId": 1578287599,
+      "shortEn": "outlook",
+      "name": "微软（新西兰）邮箱账号",
+      "categoryName": "微软（全球）邮箱账号",
+      "icon": "/assets/images/m-files/outlook1-e570d5d6a1dc4dcc90040661ebd110c6_e58fe391.jpg",
+      "cover": "/assets/images/m-files/img_v3_029e_53c2c50f-20ff-4e7d-bd38-e51f2020d86g-4c515495e7f94edf9a5e99eb05722c3_a0e42ff9.png",
+      "price": 3.44
+    },
+    {
+      "id": "ab_1578287597",
+      "gameId": 1578287597,
+      "shortEn": "outlook",
+      "name": "微软（马来西亚）邮箱账号",
+      "categoryName": "微软（全球）邮箱账号",
+      "icon": "/assets/images/m-files/outlook1-e570d5d6a1dc4dcc90040661ebd110c6_e58fe391.jpg",
+      "cover": "/assets/images/m-files/img_v3_029e_53c2c50f-20ff-4e7d-bd38-e51f2020d86g-4c515495e7f94edf9a5e99eb05722c3_a0e42ff9.png",
+      "price": 3.44
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 662,
+      "title": "Google AI Mode已上线：谷歌AI模式是什么？（附谷歌账号获取建议）",
+      "cover": "/assets/images/m-files/google_ai_mode-229a46413d544694aa36c2becaf27ee0_4e079edc.jpg",
+      "date": "2025-07-02",
+      "summary": "Google AI mode上线美国地区，一文读懂谷歌 AI 模式。了解它如何改变搜索、与 AI 概览及其他 AI 工具的区别，并获取谷歌账号体验最新 AI 搜索功能。"
+    },
+    {
+      "id": 580,
+      "title": "Google如何关联设备？解决“谷歌账号尚未与设备关联”下载失败问题",
+      "cover": "/assets/images/m-files/谷歌账号怎么和设备关联-367f5ba35e004921b82033df1c674ae6_388d02cc.jpg",
+      "date": "2025-05-19",
+      "summary": "遇到“此谷歌账号尚未与设备关联”无法下载应用的问题？本文详细介绍Google账号如何关联设备、如何安装Google Play商店、怎么看登录设备列表，并提供验证码收不到的解决方案，助你快速完成安装。"
+    },
+    {
+      "id": 432,
+      "title": "Gmail邮箱无法批量注册？谷歌邮箱批量注册与批发",
+      "cover": "/assets/images/m-files/谷歌邮箱批量注册-82aacd9e4d5248678cb97fa25419bfed_870c1b08.jpg",
+      "date": "2025-02-24",
+      "summary": "批量注册Gmail谷歌邮箱具有一定的挑战和风险，本文将从谷歌邮箱注册方式、难点风险、解决方案及常见问题四个方面进行详细解析，并推荐谷歌邮箱批发平台。"
+    },
+    {
+      "id": 396,
+      "title": "谷歌邮箱靓号购买：手工注册7位纯数字靓号Gmail邮箱账号",
+      "cover": "/assets/images/m-files/谷歌邮箱靓号-a3ca6d6388ad4361a4e53c105a82984c_af8722a2.png",
+      "date": "2025-01-20",
+      "summary": "了解如何购买谷歌邮箱靓号，获取简洁、易记的纯数字Gmail账号。本文介绍了谷歌邮箱靓号的价值、获取方式及购买步骤，帮助您选择可靠平台，确保账号安全与顺利使用。"
+    },
+    {
+      "id": 361,
+      "title": "美区谷歌邮箱购买与注册详解：畅享全球应用、游戏",
+      "cover": "/assets/images/m-files/gmail-6a64bdf0d7a2432b8e4c2a06d7061799_7071785a.png",
+      "date": "2024-12-26",
+      "summary": "全面解析美区谷歌邮箱购买与注册流程，解锁Google Play美国专属内容、首发游戏与跨境支付便利。轻松获取安全可靠的美区Gmail账号！"
+    },
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    }
+  ]
+}

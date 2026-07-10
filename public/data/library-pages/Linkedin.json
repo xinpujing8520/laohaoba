@@ -1,0 +1,221 @@
+{
+  "shortEn": "Linkedin",
+  "displayName": "领英Linkedin",
+  "iconUrl": "/assets/images/m-files/领英-f3078f0e6b9d43f093de61768749e524_586e71f7.png",
+  "coverImg": "/assets/images/m-files/领英-900ea70eae754585be4a5ee3b5da267f_7c46986b.jpg",
+  "categoryName": "社交账号",
+  "categoryId": "ab_cat_3",
+  "breadcrumb": [
+    "社交账号",
+    "领英Linkedin帐号"
+  ],
+  "defaultGameId": 1578288456,
+  "detailHtml": "<p><img src=\"/assets/images/m-files/ff6bbe6ab9fd91166903df9394605886-d4e319f0c6b2453580998e496636ec8e_7940360f.png\" alt=\"\"></p><p>一.商品说明<br/>1.本商品为领英APP账号，分为新号和老号<br/>新号为1个月内新注册的账号，无好友<br/><br/>二.使用说明<br/>1.登录领英官网或者APP<br/>2.依次输入账号密码<br/>3.可能需要进入邮箱验证，登录邮箱获取验证码即可</p>",
+  "skuTree": {
+    "dimension1": "规格",
+    "dimension2": "",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "新号",
+        "gameId": 1578288456,
+        "productId": "ab_1578288456",
+        "price": 5.42,
+        "originalPrice": 8.06,
+        "badge": "",
+        "icon": "/assets/images/m-files/Group_48096151-6608a07367334678beaf39112613890f_4bae8084.png",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "新号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "老号-美国ip注册",
+        "gameId": 1578297389,
+        "productId": "ab_1578297389",
+        "price": 7.78,
+        "originalPrice": 9.72,
+        "badge": "",
+        "icon": "https://dc-mfs.w.kunluncb.com/game/Group%2048096151-6608a07367334678beaf39112613890f.png",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "老号-美国ip注册"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "老号-英国ip注册",
+        "gameId": 1578297390,
+        "productId": "ab_1578297390",
+        "price": 8.33,
+        "originalPrice": 10.42,
+        "badge": "",
+        "icon": "https://dc-mfs.w.kunluncb.com/game/Group%2048096151-6608a07367334678beaf39112613890f.png",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "老号-英国ip注册"
+        ],
+        "rechargeFields": []
+      }
+    ],
+    "maxDepth": 1
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578287184",
+      "gameId": 1578287184,
+      "shortEn": "Steam",
+      "name": "Steam（日本）白号",
+      "categoryName": "Steam全球号",
+      "icon": "/assets/images/m-files/Group_48096187-2611c5bb8b7747f89dcc229a39185cf0_384c20fe.png",
+      "cover": "/assets/images/files/1439117415583588352_d405a38e.jpg",
+      "price": 2.22
+    },
+    {
+      "id": "ab_1578277921",
+      "gameId": 1578277921,
+      "shortEn": "Steam",
+      "name": "Steam（中国）白号",
+      "categoryName": "Steam全球号",
+      "icon": "/assets/images/m-files/Group_48096187-2611c5bb8b7747f89dcc229a39185cf0_384c20fe.png",
+      "cover": "/assets/images/m-files/steam-3966828384ec4667bffbc1fe7f16a251_53ec2180.jpg",
+      "price": 2.22
+    },
+    {
+      "id": "ab_1578287053",
+      "gameId": 1578287053,
+      "shortEn": "Steam",
+      "name": "Steam（土耳其）白号",
+      "categoryName": "Steam全球号",
+      "icon": "/assets/images/m-files/Group_48096187-2611c5bb8b7747f89dcc229a39185cf0_384c20fe.png",
+      "cover": "/assets/images/m-files/steam-c3e08d194ae54b2cbeb2e65171eec6c8_920f5a40.jpg",
+      "price": 2.22
+    },
+    {
+      "id": "ab_1578297485",
+      "gameId": 1578297485,
+      "shortEn": "fb",
+      "name": "Facebook英国商城号",
+      "categoryName": "facebook账号",
+      "icon": "/assets/images/m-files/Group_48096149-c1cae391408d4382b7001b9a98e69fb2_9f736bc2.png",
+      "cover": "/assets/images/m-files/facebook叠加背景版-825cf447e7714249b5246fb68cc11db7_5dc4ac3f.jpg",
+      "price": 14.58
+    },
+    {
+      "id": "ab_1578287050",
+      "gameId": 1578287050,
+      "shortEn": "Steam",
+      "name": "Steam（阿根廷）白号",
+      "categoryName": "Steam全球号",
+      "icon": "/assets/images/m-files/Group_48096187-2611c5bb8b7747f89dcc229a39185cf0_384c20fe.png",
+      "cover": "/assets/images/m-files/steam-fcf9419acf27434a8f41916949f2c8bb_1512990f.jpg",
+      "price": 2.22
+    },
+    {
+      "id": "ab_1578300012",
+      "gameId": 1578300012,
+      "shortEn": "TK",
+      "name": "TikTok（英国）账号",
+      "categoryName": "TikTok账号",
+      "icon": "/assets/images/m-files/Group_48096148-a37f4312658c43a6806d170b4ba2052c_4e75e674.png",
+      "cover": "/assets/images/m-files/Tiktok-9db53688e34f4fedac92bd368bbac15c_6d8d66db.png",
+      "price": 4
+    },
+    {
+      "id": "ab_1578287404",
+      "gameId": 1578287404,
+      "shortEn": "itunes-gift-card",
+      "name": "苹果（英国）iTunes礼品卡-10英镑",
+      "categoryName": "苹果（英国）iTunes礼品卡",
+      "icon": "/assets/images/m-files/iTunes-bb64b8a918124f819d3e020ed1d369c9_5819100d.png",
+      "cover": "/assets/images/m-files/iTunes英国-36761543a2a744768ab392411ba8652a_e9958795.png",
+      "price": 18.33
+    },
+    {
+      "id": "ab_1578287510",
+      "gameId": 1578287510,
+      "shortEn": "nintendo-eshop",
+      "name": "任天堂（英国）充值卡-15英镑",
+      "categoryName": "任天堂（英国）充值卡",
+      "icon": "/assets/images/m-files/原图-6b42afccac554dc8a8c0a8c8c2d8fa14_07f6093f.png",
+      "cover": "/assets/images/m-files/任天堂英国-7528f73164aa4e08b4d31e9b882d3867_166ac318.png",
+      "price": 15.28
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 794,
+      "title": "领英（LinkedIn）账号被限制怎么办：如何申诉自救？",
+      "cover": "/assets/images/m-files/领英账号被限制怎么办-e780493555c24a729acc4630411e5bbd_210b6eac.jpg",
+      "date": "2025-09-09",
+      "summary": "领英账号被限制怎么办？本文将围绕账号受限的原因、申诉方法以及解决方案进行详细解析，并提供可行的替代方案。"
+    },
+    {
+      "id": 684,
+      "title": "LinkedInl领英账号怎么买最稳？解决l领英注册难、封号风控的问题",
+      "cover": "/assets/images/m-files/领英账号购买-e21c62b4673147368d1d043bf62ca54f_1fa16d3e.jpeg",
+      "date": "2025-07-14",
+      "summary": "领英账号注册难、手机号验证失败怎么办？本文全面解析LinkedIn账号购买渠道、平台选择技巧，以及购买后账号养护与异常处理方法，适合跨境招聘和海外营销用户参考。"
+    },
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    },
+    {
+      "id": 1212,
+      "title": "《怪奇物语》新衍生剧来了！Stranger Things: Tales From '85 好看吗？附奈飞拼车低价观看方法",
+      "cover": "/assets/images/m-files/1909238779-f5c79c0e581e424eb543301ce8eed173_b1d820c5.jpg",
+      "date": "2026-04-24",
+      "summary": "怪奇物语衍生剧到底讲了什么？值不值得追？口碑如何？又该如何低成本在奈飞观看？本文一次讲清楚。"
+    },
+    {
+      "id": 1204,
+      "title": "老号吧靠谱吗？官方安全说明、售后保障与优惠码获取指南（2026）",
+      "cover": "/assets/images/m-files/-799647537-75948460b4be47f79349cc722e564bf5_41f08043.png",
+      "date": "2026-04-21",
+      "summary": "老号吧是一家持续稳定运营多年的数字权益服务平台，主要提供 AI 工具会员、流媒体会员共享方案、海外社媒账号资源等产品，并建立了自动交付系统、商品质保说明与售后支持体系。"
+    },
+    {
+      "id": 1145,
+      "title": "2026主流奈飞合租平台深度评测：Netflix 账号拼车避坑全指南",
+      "cover": "/assets/images/m-files/1837464362-7a4f85c88e64485d925ed19376af0355_b4abf34f.png",
+      "date": "2026-04-17",
+      "summary": "本文从真实使用逻辑出发，深入对比当前主流奈飞合租平台的优缺点及其潜在风险，帮助大家在复杂的合租市场中找到最稳妥的选择。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>支付结果 - 老号吧</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/element-ui@2.15.14/lib/theme-chalk/index.css">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<div id="app">
+  <div class="header">
+    <a class="header-logo" href="/">
+      <span class="header-logo-name">老号吧(LaoHaoBa.com)</span>
+    </a>
+  </div>
+  <div class="container" style="text-align:center;padding:60px 20px">
+    <i class="el-icon-success" style="font-size:64px;color:#67c23a" v-if="success"></i>
+    <i class="el-icon-loading" style="font-size:64px;color:#409eff" v-else-if="loading"></i>
+    <i class="el-icon-warning" style="font-size:64px;color:#e6a23c" v-else></i>
+    <h2 style="margin:20px 0">{{ message }}</h2>
+    <el-button type="primary" v-if="orderNo" @click="goOrder">查看订单</el-button>
+    <el-button @click="location.href='/'">返回首页</el-button>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/element-ui@2.15.14/lib/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.7.7/dist/axios.min.js"></script>
+<script>
+const API = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+  ? 'https://www.laohaoba.com/api'
+  : '/api';
+new Vue({
+  el: '#app',
+  data: { loading: true, success: false, message: '正在确认支付状态...', orderNo: '' },
+  mounted() {
+    const params = new URLSearchParams(location.search);
+    this.orderNo = params.get('orderNo') || '';
+    const token = params.get('Token') || params.get('token');
+    const status = params.get('OrderStatus');
+    if (token && this.orderNo) {
+      axios.get(`${API}/payment/return?orderNo=${encodeURIComponent(this.orderNo)}&Token=${encodeURIComponent(token)}`)
+        .then(() => { this.success = true; this.message = '支付成功！'; })
+        .catch(() => { this.message = '支付确认中，请稍后到订单查询查看'; })
+        .finally(() => { this.loading = false; });
+    } else if (status === '5' || status === 'UserCanceled') {
+      this.loading = false;
+      this.message = '您已取消支付';
+    } else {
+      this.loading = false;
+      this.message = this.orderNo ? '支付处理中，请到订单查询查看状态' : '未知订单';
+    }
+  },
+  methods: {
+    goOrder() { location.href = '/order/search.html?keyword=' + this.orderNo; }
+  }
+});
+</script>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"JSdccLPHb6aweYu9",ck:"JSdccLPHb6aweYu9"})</script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+{
+  "shortEn": "Discord",
+  "displayName": "Discord账号",
+  "iconUrl": "/assets/images/m-files/Discord账号-8b31253bd4964d06ac57fc3d5fef0a5b_34b4c77c.png",
+  "coverImg": "/assets/images/m-files/20230208-164442-d4b8ea95022b45d3896cf959f72f6c05_65e6bc4f.png",
+  "categoryName": "社交账号",
+  "categoryId": "ab_cat_3",
+  "breadcrumb": [
+    "社交账号",
+    "Discord账号"
+  ],
+  "defaultGameId": 1578287032,
+  "detailHtml": "<p><img src=\"/assets/images/m-files/discord-5975740b3f01457489ffb41cab97a2c0_89eb34d7.png\" alt=\"\"></p><p>一.商品介绍</p><p>1.本商品为Discord官方登录账号。账号为独享，新号</p><p>账号发货格式：账号(邮箱)----密码(邮箱密码)----token（不保证邮箱一定可用）</p><p>邮箱登录网址：rambler.ru</p><p>2.购买后您将获得账号电子邮箱、密码，无任何绑定，收到后请理解更改密码和绑定手机号等操作。<br/></p><p><span style=\"color: rgb(255, 0, 0);\">目前 只能用token登录！！不会用的请勿拍<br/><a href=\"https://chrome.google.com/webstore/detail/discord-token-login/ealjoeebhfijfimofmecjcjcigmadcai\" target=\"_blank\" textvalue=\"谷歌浏览器的 discord登录token插件\">谷歌浏览器的 discord登录token插件</a><br/><br/></span></p><p>二.使用说明<br/></p><p>1、谷歌浏览器安装插件：https://chrome.google.com/webstore/detail/discord-token-login/ealjoeebhfijfimofmecjcjcigmadcai</p><p>2、前往登录网页： https://discord.com/login</p><p>3、打开插件，粘贴token并点击登录</p><p style=\"white-space: normal;\">三.注意事项</p><p style=\"white-space: normal;\">1.付款后会您可以在购买完成的页面查看所购的账号信息，或者可以点击右上角的订单中心查看提取，24小时自动发货。</p><p style=\"white-space: normal;\">2.账号售出删档，买家自行保护账号安全，被盗我们无法找回！</p><p style=\"white-space: normal;\">3.海外账号无法确定使用期限，请保持活跃度，经常修改密码。</p><p style=\"white-space: normal;\">4.拿到账号请务必修改密码，如有其他验证方式（手机、邮箱或密保），也请修改，未绑定手机号请勿关注和点赞行为，若有问题直接百度查询答案和教程。</p><p style=\"white-space: normal;\">5.虚拟商品一经发货不支持退款（除账密问题外）。</p>",
+  "skuTree": {
+    "dimension1": "账号类型",
+    "dimension2": "",
+    "dimension3": "",
+    "leaves": [
+      {
+        "name": "注册时间新号",
+        "gameId": 1578287032,
+        "productId": "ab_1578287032",
+        "price": 3.89,
+        "originalPrice": 5.28,
+        "badge": "",
+        "icon": "/assets/images/m-files/20230208-164442-398158f042cc4076b754f44ef61e1184_2f23e933.png",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "注册时间新号"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Discord 老号（带头像）",
+        "gameId": 1578298102,
+        "productId": "ab_1578298102",
+        "price": 4.17,
+        "originalPrice": 5.21,
+        "badge": "",
+        "icon": "/assets/images/m-files/20230208-164442-398158f042cc4076b754f44ef61e1184_2f23e933.png",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "Discord 老号（带头像）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Discord 注册150天以上（带头像）",
+        "gameId": 1578298103,
+        "productId": "ab_1578298103",
+        "price": 4.86,
+        "originalPrice": 6.25,
+        "badge": "",
+        "icon": "/assets/images/m-files/20230208-164442-398158f042cc4076b754f44ef61e1184_2f23e933.png",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "Discord 注册150天以上（带头像）"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "注册时间7个月以上",
+        "gameId": 1578288202,
+        "productId": "ab_1578288202",
+        "price": 4.44,
+        "originalPrice": 5.83,
+        "badge": "",
+        "icon": "/assets/images/m-files/20230208-164442-398158f042cc4076b754f44ef61e1184_2f23e933.png",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "注册时间7个月以上"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "注册时间1年以上",
+        "gameId": 1578288203,
+        "productId": "ab_1578288203",
+        "price": 4.86,
+        "originalPrice": 6.67,
+        "badge": "",
+        "icon": "/assets/images/m-files/20230208-164442-398158f042cc4076b754f44ef61e1184_2f23e933.png",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "注册时间1年以上"
+        ],
+        "rechargeFields": []
+      },
+      {
+        "name": "Discord 注册时间2022年（带头像）",
+        "gameId": 1578298104,
+        "productId": "ab_1578298104",
+        "price": 8.33,
+        "originalPrice": 10.42,
+        "badge": "",
+        "icon": "/assets/images/m-files/20230208-164442-398158f042cc4076b754f44ef61e1184_2f23e933.png",
+        "description": "",
+        "isRecharge": false,
+        "path": [
+          "Discord 注册时间2022年（带头像）"
+        ],
+        "rechargeFields": []
+      }
+    ],
+    "maxDepth": 1
+  },
+  "relatedProducts": [
+    {
+      "id": "ab_1578288111",
+      "gameId": 1578288111,
+      "shortEn": "Discord",
+      "name": "Discord Nitro（礼品卡）1个月",
+      "categoryName": "Discord Nitro（礼品卡）1个月",
+      "icon": "/assets/images/m-files/discord-87ec8ecff17540258ea0a8753ac33570_25b75a29.png",
+      "cover": "/assets/images/m-files/48OEiNNdBG7dQrXLQ4ssQU-MmuschrhPAeaGE_Tl8F8_350x200_1x-0-3db5a62f50ca4918b21bdf1_4fdf54dd.jpeg",
+      "price": 12.36
+    },
+    {
+      "id": "ab_1578287022",
+      "gameId": 1578287022,
+      "shortEn": "shadowrocket-ID",
+      "name": "小火箭shadowrocket（独享）账号",
+      "categoryName": "火箭打赏",
+      "icon": "/assets/images/m-files/20230131-142603-334559377cdc41a68092067022ad54cc-0a1b102ba0a64c2e841aad57f532851_43648b8f.png",
+      "cover": "/assets/images/m-files/20230131-142603-334559377cdc41a68092067022ad54cc_33e2b8c8.png",
+      "price": 7.25
+    },
+    {
+      "id": "ab_1578287184",
+      "gameId": 1578287184,
+      "shortEn": "Steam",
+      "name": "Steam（日本）白号",
+      "categoryName": "Steam全球号",
+      "icon": "/assets/images/m-files/Group_48096187-2611c5bb8b7747f89dcc229a39185cf0_384c20fe.png",
+      "cover": "/assets/images/files/1439117415583588352_d405a38e.jpg",
+      "price": 2.22
+    },
+    {
+      "id": "ab_1578277921",
+      "gameId": 1578277921,
+      "shortEn": "Steam",
+      "name": "Steam（中国）白号",
+      "categoryName": "Steam全球号",
+      "icon": "/assets/images/m-files/Group_48096187-2611c5bb8b7747f89dcc229a39185cf0_384c20fe.png",
+      "cover": "/assets/images/m-files/steam-3966828384ec4667bffbc1fe7f16a251_53ec2180.jpg",
+      "price": 2.22
+    },
+    {
+      "id": "ab_1578290362",
+      "gameId": 1578290362,
+      "shortEn": "S",
+      "name": "法国（白号）",
+      "categoryName": "Steam空白账号",
+      "icon": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "cover": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "price": 2.19
+    },
+    {
+      "id": "ab_1578290361",
+      "gameId": 1578290361,
+      "shortEn": "S",
+      "name": "巴西（白号）",
+      "categoryName": "Steam空白账号",
+      "icon": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "cover": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "price": 2.19
+    },
+    {
+      "id": "ab_1578290352",
+      "gameId": 1578290352,
+      "shortEn": "S",
+      "name": "日本（新号）",
+      "categoryName": "Steam空白账号",
+      "icon": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "cover": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "price": 2.19
+    },
+    {
+      "id": "ab_1578290357",
+      "gameId": 1578290357,
+      "shortEn": "S",
+      "name": "新加坡（白号）",
+      "categoryName": "Steam空白账号",
+      "icon": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "cover": "/assets/images/m-files/steam-8b6e8e781b1142e4b30e2380a33fa2df_52a41dab.jpg",
+      "price": 2.19
+    }
+  ],
+  "recommendNews": [
+    {
+      "id": 144,
+      "title": "Discord账号刚注册被禁用怎么办?Discord账号购买",
+      "cover": "/assets/images/m-files/Discord账号购买-bd47078d25ed4450b213d9399819e95a_043ea0e8.jpg",
+      "date": "2024-09-08",
+      "summary": "如果您的Discord账号刚注册就被禁用，您可以通过申诉流程或重新创建新账号来解决问题。如果需要多个Discord账号，或者不想自己注册，购买Discord账号也是一个便捷的选择。"
+    },
+    {
+      "id": 1401,
+      "title": "老号吧官网打不开怎么办？最新访问说明",
+      "cover": "/assets/images/files/124392154-7044cec80530435f9ac232a90ee40190_a3bc3392.png",
+      "date": "2026-07-08",
+      "summary": "老号吧官网打不开？推荐使用 Google Chrome（谷歌浏览器）访问，更换网络环境后重试，或者通过官方备用网址进入网站。"
+    },
+    {
+      "id": 1306,
+      "title": "2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）",
+      "cover": "/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png",
+      "date": "2026-06-12",
+      "summary": "2026上半年有哪些值得看的海外剧？本文盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。"
+    },
+    {
+      "id": 1241,
+      "title": "怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比",
+      "cover": "/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png",
+      "date": "2026-05-25",
+      "summary": "AI图片越来越真实，怎么识别是不是AI生成？本文详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。"
+    },
+    {
+      "id": 1237,
+      "title": "Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）",
+      "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
+      "date": "2026-05-22",
+      "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。"
+    },
+    {
+      "id": 1228,
+      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
+      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
+      "date": "2026-05-20",
+      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。"
+    },
+    {
+      "id": 1212,
+      "title": "《怪奇物语》新衍生剧来了！Stranger Things: Tales From '85 好看吗？附奈飞拼车低价观看方法",
+      "cover": "/assets/images/m-files/1909238779-f5c79c0e581e424eb543301ce8eed173_b1d820c5.jpg",
+      "date": "2026-04-24",
+      "summary": "怪奇物语衍生剧到底讲了什么？值不值得追？口碑如何？又该如何低成本在奈飞观看？本文一次讲清楚。"
+    },
+    {
+      "id": 1204,
+      "title": "老号吧靠谱吗？官方安全说明、售后保障与优惠码获取指南（2026）",
+      "cover": "/assets/images/m-files/-799647537-75948460b4be47f79349cc722e564bf5_41f08043.png",
+      "date": "2026-04-21",
+      "summary": "老号吧是一家持续稳定运营多年的数字权益服务平台，主要提供 AI 工具会员、流媒体会员共享方案、海外社媒账号资源等产品，并建立了自动交付系统、商品质保说明与售后支持体系。"
+    },
+    {
+      "id": 1145,
+      "title": "2026主流奈飞合租平台深度评测：Netflix 账号拼车避坑全指南",
+      "cover": "/assets/images/m-files/1837464362-7a4f85c88e64485d925ed19376af0355_b4abf34f.png",
+      "date": "2026-04-17",
+      "summary": "本文从真实使用逻辑出发，深入对比当前主流奈飞合租平台的优缺点及其潜在风险，帮助大家在复杂的合租市场中找到最稳妥的选择。"
+    },
+    {
+      "id": 1138,
+      "title": "ChatGPT Business 是什么？2026最新GPT会员购买方案，用自有账号安全升级！",
+      "cover": "/assets/images/m-files/-747822294-d945d0bc00d64ad892098ed0e4871901_eec982f4.png",
+      "date": "2026-03-24",
+      "summary": "厌倦了 ChatGPT 免费版的额度限制和代充的封号风险？本文教你如何利用 ChatGPT Business 官方席位邀请机制，在不提供账密的前提下，用超低价格在自有账号上开启 GPT-5 商业权限。更有“不训练数据”隐私保障，是职场人升级 AI 会员的最优选。"
+    }
+  ]
+}
