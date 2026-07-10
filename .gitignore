@@ -11,7 +11,7 @@ cookies*.txt
 .env
 .env.*
 !.env.example
-wrangler.toml
+# wrangler.toml is committed (no secrets); override locally if needed
 
 
 # Scrape cache (large HTML)
