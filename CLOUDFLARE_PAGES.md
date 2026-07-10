@@ -19,6 +19,8 @@ Cloudflare → Pages → **zhanghaoya** → Settings → Builds & deployments：
 2. `wrangler.toml` 被 gitignore，Git 拉代码后缺少 D1 绑定 → 已提交安全版 `wrangler.toml`（不含支付密钥）
 3. 支付密钥 `EPAY188_SECRET` 需在 Cloudflare Pages **Environment variables** 或 `wrangler pages secret put` 中配置
 
-## 验证
+## 文章机器人 commit 注意
 
-推送 `main` 后，Pages 部署应显示绿色成功。最新文章 commit（`chore(article-bot): daily article`）部署成功后即可在 https://www.laohaoba.com/news.html 看到新文章。
+commit 消息**不要**加 `[skip ci]`，否则 Cloudflare Pages 会跳过部署（显示 No deployment available）。
+
+文章 workflow 只在定时/manual 触发，不会因 push 重复运行，无需 skip 标记。
