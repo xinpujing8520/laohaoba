@@ -314,7 +314,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .ab-banner-small { width: 335px; height: 178px; flex-shrink: 0; }
 
-/* ===== Recommend modules (AccountBoy) ===== */
+/* ===== Recommend modules ===== */
 .ab-recommend {
   width: 100%;
   margin-bottom: 40px;
