@@ -1,14 +1,9 @@
 /**
- * Re-upload 188Pay secrets without trailing newlines (PowerShell pipe adds \r\n).
+ * Upload 188Pay secret only. PID/API_URL/SITE_URL live in wrangler.toml [vars].
  */
 import { spawn } from 'child_process';
 
-const secrets = {
-  EPAY188_PID: '46603f7a-4e86-4e8a-bd23-422a3a18d393',
-  EPAY188_SECRET: '6b41428e8f66da221684e04a4360b6c2',
-  EPAY188_API_URL: 'https://api2.188pay.top',
-  SITE_URL: 'https://www.laohaoba.com'
-};
+const SECRET = process.env.EPAY188_SECRET || '6b41428e8f66da221684e04a4360b6c2';
 
 function putSecret(name, value) {
   return new Promise((resolve, reject) => {
@@ -23,8 +18,6 @@ function putSecret(name, value) {
   });
 }
 
-for (const [name, value] of Object.entries(secrets)) {
-  console.log(`Setting ${name}...`);
-  await putSecret(name, value);
-}
-console.log('Done.');
+console.log('Setting EPAY188_SECRET...');
+await putSecret('EPAY188_SECRET', SECRET);
+console.log('Done. PID/API_URL/SITE_URL use wrangler.toml [vars] — do not duplicate as secrets.');
