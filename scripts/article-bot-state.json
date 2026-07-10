@@ -1,7 +1,9 @@
 {
-  "usedKeys": [],
-  "articleTypeIndex": 0,
+  "usedKeys": [
+    "lib:apple-id:ab_1578291213"
+  ],
+  "articleTypeIndex": 1,
   "rotations": 0,
-  "lastRun": null,
-  "lastArticleId": null
+  "lastRun": "2026-07-10T03:13:07.200Z",
+  "lastArticleId": 2001
 }
