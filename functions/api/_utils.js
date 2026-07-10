@@ -104,7 +104,7 @@ export async function createPaymentoRequest(env, { fiatAmount, orderId, returnUr
 
   const body = {
     fiatAmount: String(fiatAmount),
-    fiatCurrency: String(env.FIAT_CURRENCY || 'CNY').toUpperCase(),
+    fiatCurrency: resolveFiatCurrency(env),
     ReturnUrl: returnUrl,
     orderId,
     Speed: 0
@@ -167,7 +167,7 @@ export async function createGmpayPayment(env, { amount, orderNo, siteUrl, produc
   const params = {
     pid,
     order_id: orderNo,
-    currency: String(env.FIAT_CURRENCY || 'cny').toLowerCase(),
+    currency: resolveFiatCurrencyLower(env),
     token: 'usdt',
     network: 'tron',
     amount,
@@ -219,6 +219,17 @@ export function getEpay188Config(env) {
 
 export function getSiteUrl(env, fallbackOrigin) {
   return String(env.SITE_URL || fallbackOrigin || '').trim().replace(/[\r\n]/g, '').replace(/\/$/, '');
+}
+
+/** Payment gateways expect fiat (USD/CNY), not USDT — site prices are USDT-denominated. */
+export function resolveFiatCurrency(env) {
+  const raw = String(env.FIAT_CURRENCY || 'USD').trim().toUpperCase();
+  if (raw === 'USDT') return 'USD';
+  return raw;
+}
+
+export function resolveFiatCurrencyLower(env) {
+  return resolveFiatCurrency(env).toLowerCase();
 }
 
 function epay188JsonSign(params, secretKey) {
@@ -445,7 +456,7 @@ export async function verifyAurpayCallback(request, callbackUrl, env) {
 export async function createAurpayPayment(env, { amount, orderNo, siteUrl, payCurrency }) {
   const base = siteUrl.replace(/\/$/, '');
   const coin = resolveAurpayCoin(payCurrency);
-  const vsCurrency = String(env.FIAT_CURRENCY || 'CNY').toUpperCase();
+  const vsCurrency = resolveFiatCurrency(env);
 
   const body = {
     chain: coin.chain,
@@ -485,7 +496,7 @@ export async function createNowPaymentsPayment(env, { amount, orderNo, descripti
   const base = siteUrl.replace(/\/$/, '');
   const body = {
     price_amount: amount,
-    price_currency: (env.FIAT_CURRENCY || 'cny').toLowerCase(),
+    price_currency: resolveFiatCurrencyLower(env),
     pay_currency: coin,
     order_id: orderNo,
     order_description: description.slice(0, 150),
@@ -535,7 +546,7 @@ export async function createNowPaymentsInvoice(env, { amount, orderNo, descripti
   const base = siteUrl.replace(/\/$/, '');
   const body = {
     price_amount: amount,
-    price_currency: (env.FIAT_CURRENCY || 'cny').toLowerCase(),
+    price_currency: resolveFiatCurrencyLower(env),
     order_id: orderNo,
     order_description: description.slice(0, 150),
     ipn_callback_url: `${base}/api/payment/ipn`,

@@ -11,7 +11,7 @@ database_id = "ca2ec215-c5c7-4f3b-9f0c-72668f884ea2"
 [vars]
 SITE_NAME = "老号吧"
 SITE_URL = "https://www.laohaoba.com"
-FIAT_CURRENCY = "USDT"
+FIAT_CURRENCY = "USD"
 EPAY188_PID = "46603f7a-4e86-4e8a-bd23-422a3a18d393"
 EPAY188_API_URL = "https://api2.188pay.top"
 # EPAY188_SECRET — set locally in wrangler.toml or:
