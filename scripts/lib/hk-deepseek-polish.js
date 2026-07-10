@@ -2,7 +2,7 @@
  * HK-DeepSeek 文风优化：两阶段 DeepSeek 润色 + 规则收口。
  * 目标：口语化、去 AI 味、长短句交替、自然过渡，保留 HTML 结构。
  */
-const { chat } = require('./deepseek-client');
+const { chat } = require('./llm-client');
 const { polishArticle } = require('./polish-text');
 
 const SYSTEM = `你是老号吧（laohaoba.com）的内容编辑，擅长写海外账号、数字产品教程。

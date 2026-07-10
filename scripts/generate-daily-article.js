@@ -2,14 +2,15 @@
  * Daily article bot — one article per run, themed on shop products.
  *
  * Usage:
+ *   GEMINI_API_KEY=... node scripts/generate-daily-article.js
  *   DEEPSEEK_API_KEY=sk-... node scripts/generate-daily-article.js
  *   node scripts/generate-daily-article.js --dry-run   # template only, no API
  *
- * Flow: DeepSeek draft → HK-DeepSeek polish → rule polish → publish JSON
+ * Flow: Gemini/DeepSeek draft → HK polish → rule polish → publish JSON
  */
 const fs = require('fs');
 const path = require('path');
-const { chat } = require('./lib/deepseek-client');
+const { chat } = require('./lib/llm-client');
 const { hkDeepseekPolish, SYSTEM } = require('./lib/hk-deepseek-polish');
 const { loadAllTopics, pickTopic, pickArticleType } = require('./lib/article-topics');
 

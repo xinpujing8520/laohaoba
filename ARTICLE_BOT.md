@@ -11,7 +11,7 @@ GitHub Actions 定时触发（每天 09:00 北京时间）
     ↓
 从 category-display / library-pages 选取商品主题
     ↓
-DeepSeek 生成初稿（教程 / 选购指南 / FAQ / 技巧 / 对比）
+Gemini/DeepSeek 生成初稿（教程 / 选购指南 / FAQ / 技巧 / 对比）
     ↓
 HK-DeepSeek 二次润色（去 AI 味、口语化、长短句交替）
     ↓
@@ -27,10 +27,10 @@ HK-DeepSeek 二次润色（去 AI 味、口语化、长短句交替）
 ```bash
 # 1. 配置 API Key
 cp .env.example .env
-# 编辑 .env 填入 DEEPSEEK_API_KEY
+# 编辑 .env 填入 GEMINI_API_KEY
 
 # Windows PowerShell
-$env:DEEPSEEK_API_KEY="sk-你的密钥"
+$env:GEMINI_API_KEY="你的密钥"
 node scripts/generate-daily-article.js
 
 # 无 API 测试（模板文章）
@@ -46,7 +46,9 @@ node scripts/generate-daily-article.js --skip-polish
 
 | Secret | 必填 | 说明 |
 |--------|------|------|
-| `DEEPSEEK_API_KEY` | 是 | [DeepSeek API Key](https://platform.deepseek.com/api_keys) |
+| `GEMINI_API_KEY` | 二选一 | [Google AI Studio API Key](https://aistudio.google.com/apikey)（推荐） |
+| `DEEPSEEK_API_KEY` | 二选一 | [DeepSeek API Key](https://platform.deepseek.com/api_keys) |
+| `GEMINI_MODEL` | 否 | 默认 `gemini-2.0-flash` |
 | `DEEPSEEK_API_BASE` | 否 | 默认 `https://api.deepseek.com` |
 | `DEEPSEEK_MODEL` | 否 | 默认 `deepseek-chat` |
 | `CLOUDFLARE_API_TOKEN` | 否 | 用于 Action 自动部署 Pages |
