@@ -1,9 +1,10 @@
 {
   "usedKeys": [
-    "lib:apple-id:ab_1578291213"
+    "lib:apple-id:ab_1578291213",
+    "lib:TK:ab_1578289082"
   ],
-  "articleTypeIndex": 1,
+  "articleTypeIndex": 2,
   "rotations": 0,
-  "lastRun": "2026-07-10T03:13:07.200Z",
-  "lastArticleId": 2001
+  "lastRun": "2026-07-10T03:18:25.233Z",
+  "lastArticleId": 2002
 }
