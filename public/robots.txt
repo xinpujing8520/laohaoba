@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /order/
+
 Sitemap: https://www.laohaoba.com/sitemap.xml

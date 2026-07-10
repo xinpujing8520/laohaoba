@@ -48,7 +48,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore(article-bot): daily article'
-          file_pattern: 'public/data/articles/*.json public/data/news-list.json public/data/home-content.json scripts/article-bot-state.json'
+          file_pattern: 'public/data/articles/*.json public/data/news-list.json public/data/home-content.json public/sitemap.xml scripts/article-bot-state.json'
 
       - name: Deploy to Cloudflare Pages
         env:

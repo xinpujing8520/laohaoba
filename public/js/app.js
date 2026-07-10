@@ -2,6 +2,29 @@ const API = (location.hostname === 'localhost' || location.hostname === '127.0.0
   ? 'https://www.laohaoba.com/api'
   : '/api';
 
+function seoProductUrl(id) {
+  return (typeof Seo !== 'undefined' && Seo.productUrl) ? Seo.productUrl(id) : '/goods.html?id=' + encodeURIComponent(id);
+}
+
+function seoArticleUrl(article) {
+  return (typeof Seo !== 'undefined' && Seo.articleUrl) ? Seo.articleUrl(article) : '/article.html?id=' + encodeURIComponent(article.id || article);
+}
+
+function seoCategoryUrl(catId) {
+  return (typeof Seo !== 'undefined' && Seo.categoryUrl) ? Seo.categoryUrl(catId) : (catId ? '/?cat=' + encodeURIComponent(catId) : '/');
+}
+
+function updateHomeSeo(vm) {
+  if (typeof Seo === 'undefined' || !Seo.applyHomeSeo) return;
+  const cat = vm.categoryId || '';
+  const catObj = vm.categories.find((c) => c.id === cat);
+  Seo.applyHomeSeo({
+    categoryId: cat,
+    categoryName: catObj ? catObj.name : '',
+    keyword: vm.keyword || ''
+  });
+}
+
 const HeaderMixin = {
   data() {
     return { keyword: '', categories: [] };
@@ -142,7 +165,9 @@ const ShopApp = {
     this.loadHomeContent();
     this.loadHotProducts();
     this.loadCategoryDisplay().then(() => {
-      this.loadCategories().then(() => this.loadProducts());
+      this.loadCategories().then(() => {
+        this.loadProducts().then(() => updateHomeSeo(this));
+      });
     });
     this.reviewTimer = setInterval(() => this.nextReview(), 6000);
   },
@@ -242,7 +267,7 @@ const ShopApp = {
       if (this.categoryId) params.set('cat', this.categoryId);
       const qs = params.toString();
       history.replaceState(null, '', qs ? `/?${qs}` : '/');
-      this.loadProducts();
+      this.loadProducts().then(() => updateHomeSeo(this));
       window.scrollTo({ top: 0, behavior: 'smooth' });
     },
     search() {
@@ -252,15 +277,24 @@ const ShopApp = {
       if (this.categoryId) params.set('cat', this.categoryId);
       const qs = params.toString();
       history.replaceState(null, '', qs ? `/?${qs}` : '/');
-      this.loadProducts();
+      this.loadProducts().then(() => updateHomeSeo(this));
     },
     goProduct(id) {
       sessionStorage.setItem('productId', String(id));
-      location.href = '/goods.html?id=' + encodeURIComponent(id);
+      location.href = seoProductUrl(id);
     },
     goArticle(n) {
       if (!n || !n.id) return;
-      location.href = '/article.html?id=' + encodeURIComponent(n.id);
+      location.href = seoArticleUrl(n);
+    },
+    productHref(p) {
+      return seoProductUrl(p.LinkId || p.ID);
+    },
+    articleHref(n) {
+      return seoArticleUrl(n);
+    },
+    categoryHref(id) {
+      return seoCategoryUrl(id);
     },
     goBanner(url) {
       if (!url) return;
@@ -504,6 +538,10 @@ const ProductApp = {
     let id = new URLSearchParams(location.search).get('id')
       || sessionStorage.getItem('productId')
       || '';
+    if (!id) {
+      const m = location.pathname.match(/\/goods\/([^/]+)\.html$/i);
+      if (m) id = decodeURIComponent(m[1]);
+    }
     id = String(id).replace(/\.html$/i, '').trim();
     if (!id) {
       this.loading = false;
@@ -527,9 +565,8 @@ const ProductApp = {
         }
         if (this.useLibrarySku) {
           this.initLibrarySelection(id);
-        } else {
-          document.title = `${this.pageTitle} - 老号吧`;
         }
+        this.applyProductSeoTags();
       } else {
         this.errorMsg = (res.data && res.data.Message) || '商品不存在';
       }
@@ -542,6 +579,22 @@ const ProductApp = {
     if (saved) this.order.Email = saved;
   },
   methods: {
+    applyProductSeoTags() {
+      if (typeof Seo === 'undefined' || !Seo.applyProductSeo) return;
+      Seo.applyProductSeo({
+        displayName: this.pageTitle,
+        name: this.product.name,
+        description: this.product.description,
+        detailHtml: this.detailHtml,
+        productId: this.order.ProductId || this.product.id,
+        id: this.product.id,
+        price: this.product.price,
+        iconUrl: this.heroIcon,
+        image: this.heroIcon,
+        categoryName: this.pageCategoryName,
+        categoryId: this.pageCategoryId
+      });
+    },
     productImage(url) {
       const raw = String(url || '').trim();
       if (!raw) return '';
@@ -566,7 +619,7 @@ const ProductApp = {
         const res = await axios.get('/data/library-pages/' + encodeURIComponent(shortEn) + '.json?v=1');
         this.library = res.data || null;
         if (this.library && this.library.displayName) {
-          document.title = `${this.library.displayName} - 老号吧`;
+          this.applyProductSeoTags();
         }
       } catch (e) {
         this.library = null;
@@ -641,7 +694,8 @@ const ProductApp = {
       }
       this.order.ProductId = leaf.productId;
       this.initRechargeForm(leaf);
-      history.replaceState(null, '', '/goods.html?id=' + encodeURIComponent(leaf.productId));
+      history.replaceState(null, '', seoProductUrl(leaf.productId));
+      this.applyProductSeoTags();
     },
     initRechargeForm(leaf) {
       const form = {};
@@ -652,11 +706,17 @@ const ProductApp = {
     },
     goArticle(n) {
       if (!n || !n.id) return;
-      location.href = '/article.html?id=' + encodeURIComponent(n.id);
+      location.href = seoArticleUrl(n);
     },
     goRelated(item) {
       if (!item || !item.id) return;
-      location.href = '/goods.html?id=' + encodeURIComponent(item.id);
+      location.href = seoProductUrl(item.id);
+    },
+    productHref(item) {
+      return seoProductUrl(item.id);
+    },
+    articleHref(n) {
+      return seoArticleUrl(n);
     },
     parseSpecName(name) {
       const s = String(name || '');
@@ -682,7 +742,7 @@ const ProductApp = {
     },
     switchSpec(spec) {
       if (this.isSpecActive(spec)) return;
-      location.href = '/goods.html?id=' + encodeURIComponent(spec.id);
+      location.href = seoProductUrl(spec.id);
     },
     openBuyModal() {
       if (this.product.stock <= 0) return;
@@ -777,7 +837,6 @@ const NewsApp = {
     this.loadCategories();
     const params = new URLSearchParams(location.search);
     this.currentPage = Math.max(1, parseInt(params.get('page') || '1', 10) || 1);
-    document.title = '新闻资讯 - 老号吧';
     try {
       const res = await axios.get('/data/news-list.json?v=1');
       const data = res.data || {};
@@ -791,6 +850,9 @@ const NewsApp = {
       this.relatedProducts = data.relatedProducts || [];
       if (this.currentPage > this.newsMeta.totalPages) {
         this.currentPage = this.newsMeta.totalPages;
+      }
+      if (typeof Seo !== 'undefined' && Seo.applyNewsSeo) {
+        Seo.applyNewsSeo(this.newsMeta, this.currentPage);
       }
     } catch (e) {
       console.error(e);
@@ -814,11 +876,17 @@ const NewsApp = {
     },
     goArticle(n) {
       if (!n || !n.id) return;
-      location.href = '/article.html?id=' + encodeURIComponent(n.id);
+      location.href = seoArticleUrl(n);
     },
     goRelated(item) {
       if (!item || !item.id) return;
-      location.href = '/goods.html?id=' + encodeURIComponent(item.id);
+      location.href = seoProductUrl(item.id);
+    },
+    articleHref(n) {
+      return seoArticleUrl(n);
+    },
+    productHref(item) {
+      return seoProductUrl(item.id);
     },
     goPage(page) {
       if (page === '...' || page === this.currentPage) return;
@@ -837,18 +905,22 @@ const ArticleApp = {
     };
   },
   async mounted() {
-    const id = new URLSearchParams(location.search).get('id');
+    const params = new URLSearchParams(location.search);
+    let id = params.get('id');
+    if (!id) {
+      const m = location.pathname.match(/\/article\/(\d+)\.html$/i);
+      if (m) id = m[1];
+    }
     if (!id) {
       this.loading = false;
       this.errorMsg = '缺少文章ID';
       return;
     }
-    document.title = '文章详情 - 老号吧';
     try {
       const res = await axios.get('/data/articles/' + encodeURIComponent(id) + '.json?v=1');
       this.article = res.data || {};
-      if (this.article.title) {
-        document.title = this.article.title + ' - 老号吧';
+      if (this.article.title && typeof Seo !== 'undefined' && Seo.applyArticleSeo) {
+        Seo.applyArticleSeo(this.article);
       }
     } catch (e) {
       this.errorMsg = '文章加载失败';

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,8 +13,14 @@
   <meta property="og:title" content="苹果id购买|国外ID购买|电报Telegram 账号购买-老号吧">
   <meta property="og:description" content="老号吧提供苹果id购买、电报Telegram账号等各类国外ID，社交媒体账号购买批发。">
   <meta property="og:site_name" content="老号吧">
-  <link rel="icon" href="/favicon.png">
-  <link rel="stylesheet" href="/css/laohaoba.css?v=11">
+  <meta property="og:image" content="https://www.laohaoba.com/assets/laohaoba-logo.svg">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="苹果id购买|国外ID购买|电报Telegram 账号购买-老号吧">
+  <meta name="twitter:description" content="老号吧提供苹果id购买、电报Telegram账号等各类国外ID，社交媒体账号购买批发。">
+  <meta name="twitter:image" content="https://www.laohaoba.com/assets/laohaoba-logo.svg">
+  <link rel="icon" href="/assets/laohaoba-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/laohaoba.css?v=16">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -63,9 +69,9 @@
 
   <nav class="ab-topnav" aria-label="商品分类导航">
     <div class="center ab-topnav-inner">
-      <a href="javascript:void(0)" class="ab-topnav-item" :class="{active: !categoryId}" @click="selectCategory('')">首页</a>
-      <a href="javascript:void(0)" class="ab-topnav-item" v-for="c in quickNav" :key="c.id"
-         :class="{active: isCategoryActive(c.id)}" @click="selectCategory(c.id)">
+      <a href="/" class="ab-topnav-item" :class="{active: !categoryId}" @click.prevent="selectCategory('')">首页</a>
+      <a :href="categoryHref(c.id)" class="ab-topnav-item" v-for="c in quickNav" :key="c.id"
+         :class="{active: isCategoryActive(c.id)}" @click.prevent="selectCategory(c.id)">
         {{ c.name }}<span class="ab-hot" v-if="c.hot">HOT</span>
       </a>
     </div>
@@ -101,6 +107,7 @@
   </section>
 
   <main>
+    <h1 class="ab-sr-only">老号吧 - 海外账号购买平台，苹果ID、Telegram、社交账号批发</h1>
     <div class="center ab-home-row" v-if="!categoryId && !keyword">
       <aside class="ab-sidebar" aria-label="全部分类">
         <div class="ab-side-item" :class="{active: !categoryId}" @click="selectCategory('')">
@@ -145,13 +152,13 @@
     <section class="ab-recommend ab-recommend--dark" v-if="!categoryId && !keyword && hotProducts.length" :style="hotModuleStyle">
       <div class="center ab-recommend-inner">
         <div class="ab-recommend-head">
-          <div class="ab-recommend-title">{{ hotSection.title || '热门商品' }}</div>
+          <h2 class="ab-recommend-title">{{ hotSection.title || '热门商品' }}</h2>
           <div class="ab-recommend-desc-row">
             <div class="ab-recommend-desc">{{ hotSection.desc || '平台最受欢迎产品' }}</div>
           </div>
         </div>
         <div class="ab-recommend-list">
-          <a class="ab-recommend-item" v-for="p in hotProducts" :key="'hot-' + p.ID" href="javascript:void(0)" @click="goProduct(p.LinkId || p.ID)">
+          <a class="ab-recommend-item" v-for="p in hotProducts" :key="'hot-' + p.ID" :href="productHref(p)" @click.prevent="goProduct(p.LinkId || p.ID)">
             <div class="ab-recommend-top">
               <div class="ab-recommend-bg"><img :src="p.CoverImg" :alt="p.Name" loading="lazy"></div>
               <div class="ab-recommend-icon"><img :src="p.IconUrl" :alt="p.Name" loading="lazy"></div>
@@ -196,14 +203,14 @@
         <section class="ab-recommend ab-recommend--plain">
           <div class="ab-recommend-inner">
             <div class="ab-recommend-head">
-              <div class="ab-recommend-title">{{ currentModuleTitle }}</div>
+              <h2 class="ab-recommend-title">{{ currentModuleTitle }}</h2>
               <div class="ab-recommend-desc-row">
                 <div class="ab-recommend-desc">共 {{ products.length }} 件商品</div>
               </div>
             </div>
             <div class="loading-mask" v-if="loading">加载中...</div>
             <div class="ab-recommend-list" v-else-if="products.length">
-              <a class="ab-recommend-item" v-for="p in products" :key="p.ID" href="javascript:void(0)" @click="goProduct(p.LinkId || p.ID)">
+              <a class="ab-recommend-item" v-for="p in products" :key="p.ID" :href="productHref(p)" @click.prevent="goProduct(p.LinkId || p.ID)">
                 <div class="ab-recommend-top">
                   <div class="ab-recommend-bg"><img :src="cardCoverImg(p)" :alt="cardDisplayName(p)" loading="lazy"></div>
                   <div class="ab-recommend-icon"><img :src="cardIconUrl(p)" :alt="cardDisplayName(p)" loading="lazy"></div>
@@ -235,14 +242,14 @@
           <section class="ab-recommend ab-recommend--plain" v-for="mod in homeModules" :key="mod.id" v-show="mod.products.length">
             <div class="ab-recommend-inner">
               <div class="ab-recommend-head">
-                <div class="ab-recommend-title">{{ mod.name }}</div>
+                <h2 class="ab-recommend-title">{{ mod.name }}</h2>
                 <div class="ab-recommend-desc-row">
                   <div class="ab-recommend-desc">共 {{ mod.count }} 件商品</div>
-                  <a href="javascript:void(0)" class="ab-recommend-more" @click="selectCategory(mod.id)">发现更多 →</a>
+                  <a :href="categoryHref(mod.id)" class="ab-recommend-more" @click.prevent="selectCategory(mod.id)">发现更多 →</a>
                 </div>
               </div>
               <div class="ab-recommend-list">
-                <a class="ab-recommend-item" v-for="p in mod.products" :key="p.ID" href="javascript:void(0)" @click="goProduct(p.LinkId || p.ID)">
+                <a class="ab-recommend-item" v-for="p in mod.products" :key="p.ID" :href="productHref(p)" @click.prevent="goProduct(p.LinkId || p.ID)">
                   <div class="ab-recommend-top">
                     <div class="ab-recommend-bg"><img :src="cardCoverImg(p)" :alt="cardDisplayName(p)" loading="lazy"></div>
                     <div class="ab-recommend-icon"><img :src="cardIconUrl(p)" :alt="cardDisplayName(p)" loading="lazy"></div>
@@ -267,15 +274,15 @@
         <section class="ab-recommend ab-recommend--plain" v-if="newsList.length">
           <div class="ab-recommend-inner">
             <div class="ab-recommend-head">
-              <div class="ab-recommend-title">新闻&amp;促销</div>
+              <h2 class="ab-recommend-title">新闻&amp;促销</h2>
               <div class="ab-recommend-desc-row">
                 <div class="ab-recommend-desc">行业新闻 &amp; 老号吧促销活动</div>
                 <a class="ab-more-link" href="/news.html">查看更多 &gt;</a>
               </div>
             </div>
             <div class="ab-news-grid">
-              <a class="ab-news-card" v-for="n in newsList" :key="n.id" href="javascript:void(0)" @click="goArticle(n)">
-                <div class="ab-news-cover" :style="n.cover ? {backgroundImage:'url('+n.cover+')'} : {}"></div>
+              <a class="ab-news-card" v-for="n in newsList" :key="n.id" :href="articleHref(n)" @click.prevent="goArticle(n)">
+                <div class="ab-news-cover" :style="n.cover ? {backgroundImage:'url('+n.cover+')'} : {}" role="img" :aria-label="n.title"></div>
                 <div class="ab-news-body">
                   <div class="ab-news-title">{{ n.title }}</div>
                   <div class="ab-news-date">{{ n.date }}</div>
@@ -290,7 +297,7 @@
       <div class="center">
           <div class="ab-reviews-head">
             <div>
-              <div class="ab-module-title">我们的客户怎么说</div>
+              <h2 class="ab-module-title">我们的客户怎么说</h2>
               <div class="ab-reviews-sub">16K真实用户评价, 好评率超过98%</div>
             </div>
             <div class="ab-carousel-btns">
@@ -335,9 +342,9 @@
         </div>
         <div>
           <h4>法律法规</h4>
-          <a href="javascript:void(0)">退换货说明</a>
-          <a href="javascript:void(0)">退款说明</a>
-          <a href="javascript:void(0)">支付说明</a>
+          <a href="/policy.html">退换货说明</a>
+          <a href="/policy.html#refund">退款说明</a>
+          <a href="/policy.html#pay">支付说明</a>
         </div>
         <div>
           <h4>服务支持</h4>
@@ -351,10 +358,11 @@
 </div>
 </div>
 
+<script src="/js/seo.js?v=1"></script>
 <script src="/js/shopfont.js?v=3"></script>
 <script src="/js/vendor/vue.min.js"></script>
 <script src="/js/vendor/axios.min.js"></script>
-<script src="/js/app.js?v=23"></script>
+<script src="/js/app.js?v=24"></script>
 <script>
 try {
   new Vue({ el: '#app', ...ShopApp });

@@ -194,6 +194,12 @@ async function main() {
 
   console.log(`Published article #${id}: ${article.title}`);
   console.log(`Files: articles/${id}.json, news-list.json, home-content.json`);
+
+  try {
+    require('child_process').execSync('node scripts/generate-sitemap.js', { cwd: ROOT, stdio: 'inherit' });
+  } catch (e) {
+    console.warn('[article-bot] sitemap regen skipped:', e.message);
+  }
 }
 
 main().catch((e) => {

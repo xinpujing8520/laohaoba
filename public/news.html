@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>新闻资讯 - 老号吧</title>
-  <meta name="robots" content="index,follow">
-  <link rel="icon" href="/favicon.png">
-  <link rel="stylesheet" href="/css/laohaoba.css?v=15">
+  <meta name="description" content="老号吧行业新闻、账号购买教程与促销活动。">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://www.laohaoba.com/news.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="老号吧">
+  <link rel="icon" href="/assets/laohaoba-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/laohaoba.css?v=16">
 </head>
 <body>
 <div id="app">
@@ -56,8 +60,8 @@
 
     <div class="ab-news-list">
       <a class="ab-news-list-item" v-for="n in pageItems" :key="n.id"
-         href="javascript:void(0)" @click.prevent="goArticle(n)">
-        <div class="ab-news-list-cover" :style="n.cover ? {backgroundImage:'url('+productImage(n.cover)+')'} : {}"></div>
+         :href="articleHref(n)" @click.prevent="goArticle(n)">
+        <div class="ab-news-list-cover" :style="n.cover ? {backgroundImage:'url('+productImage(n.cover)+')'} : {}" role="img" :aria-label="n.title"></div>
         <div class="ab-news-list-body">
           <h2 class="ab-news-list-title">{{ n.title }}</h2>
           <p class="ab-news-list-summary" v-if="n.summary">{{ n.summary }}</p>
@@ -78,8 +82,8 @@
       <h2 class="ab-section-title ab-section-title-bar">相关推荐</h2>
       <div class="ab-related-row">
         <a class="ab-related-card" v-for="item in relatedProducts" :key="item.id"
-           href="javascript:void(0)" @click.prevent="goRelated(item)">
-          <img :src="productImage(item.icon)" :alt="item.name">
+           :href="productHref(item)" @click.prevent="goRelated(item)">
+          <img :src="productImage(item.icon)" :alt="item.name" loading="lazy">
           <div class="ab-related-name">{{ item.name }}</div>
         </a>
       </div>
@@ -96,8 +100,8 @@
         </div>
         <div>
           <h4>法律法规</h4>
-          <a href="javascript:void(0)">退换货说明</a>
-          <a href="javascript:void(0)">退款说明</a>
+          <a href="/policy.html">退换货说明</a>
+          <a href="/policy.html#refund">退款说明</a>
         </div>
         <div>
           <h4>服务支持</h4>
@@ -111,9 +115,10 @@
 </div>
 </div>
 
+<script src="/js/seo.js?v=1"></script>
 <script src="/js/vendor/vue.min.js"></script>
 <script src="/js/vendor/axios.min.js"></script>
-<script src="/js/app.js?v=23"></script>
+<script src="/js/app.js?v=24"></script>
 <script>
 try {
   new Vue({ el: '#app', ...NewsApp });

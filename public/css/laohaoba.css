@@ -1610,3 +1610,15 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   .ab-header-inner { flex-wrap: wrap; height: auto; padding: 12px 0; }
   .ab-search { max-width: none; order: 3; width: 100%; }
 }
+
+.ab-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
