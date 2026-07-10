@@ -100,6 +100,9 @@ const HeaderMixin = {
     goNavCategory(id) {
       location.href = id ? '/?cat=' + encodeURIComponent(id) : '/';
     },
+    categoryHref(id) {
+      return seoCategoryUrl(id);
+    },
     formatPriceNum(p) { return Number(p).toFixed(2); }
   }
 };
@@ -585,7 +588,7 @@ const ProductApp = {
       || sessionStorage.getItem('productId')
       || '';
     if (!id) {
-      const m = location.pathname.match(/\/goods\/([^/]+)\.html$/i);
+      const m = location.pathname.match(/\/goods\/([^/]+?)(?:\.html)?$/i);
       if (m) id = decodeURIComponent(m[1]);
     }
     id = String(id).replace(/\.html$/i, '').trim();

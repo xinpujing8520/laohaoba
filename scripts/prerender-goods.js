@@ -103,7 +103,7 @@ function renderProduct(data) {
   );
   const price = Number(data.price);
   const priceText = Number.isFinite(price) ? price.toFixed(2) : '—';
-  const buyUrl = '/goods.html?id=' + encodeURIComponent(id);
+  const buyUrl = '/goods?id=' + encodeURIComponent(id);
 
   let html = buildHead({
     title,
