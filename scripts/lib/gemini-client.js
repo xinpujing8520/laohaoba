@@ -9,7 +9,7 @@ function getConfig() {
   return {
     apiKey: String(process.env.GEMINI_API_KEY || '').trim(),
     baseUrl: String(process.env.GEMINI_API_BASE || 'https://generativelanguage.googleapis.com').replace(/\/$/, ''),
-    model: String(process.env.GEMINI_MODEL || 'gemini-2.0-flash').trim()
+    model: String(process.env.GEMINI_MODEL || 'gemini-2.5-flash').trim()
   };
 }
 

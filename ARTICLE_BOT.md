@@ -48,7 +48,7 @@ node scripts/generate-daily-article.js --skip-polish
 |--------|------|------|
 | `GEMINI_API_KEY` | 二选一 | [Google AI Studio API Key](https://aistudio.google.com/apikey)（推荐） |
 | `DEEPSEEK_API_KEY` | 二选一 | [DeepSeek API Key](https://platform.deepseek.com/api_keys) |
-| `GEMINI_MODEL` | 否 | 默认 `gemini-2.0-flash` |
+| `GEMINI_MODEL` | 否 | 默认 `gemini-2.5-flash` |
 | `DEEPSEEK_API_BASE` | 否 | 默认 `https://api.deepseek.com` |
 | `DEEPSEEK_MODEL` | 否 | 默认 `deepseek-chat` |
 | `CLOUDFLARE_API_TOKEN` | 否 | 用于 Action 自动部署 Pages |

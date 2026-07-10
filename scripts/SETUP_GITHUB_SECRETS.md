@@ -13,7 +13,7 @@
    - Value: 你的 Gemini API Key
 
 可选：
-- `GEMINI_MODEL` = `gemini-2.0-flash`（默认，可不填）
+- `GEMINI_MODEL` = `gemini-2.5-flash`（默认，可不填）
 
 ## 2. DEEPSEEK_API_KEY（可选，仅当你有 DeepSeek 密钥时）
 
