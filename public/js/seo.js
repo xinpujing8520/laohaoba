@@ -24,9 +24,11 @@
     return '/article/' + encodeURIComponent(id) + '.html';
   }
 
-  function newsPageUrl(page) {
-    return page <= 1 ? '/news.html' : '/news.html?page=' + page;
-  }
+function newsPageUrl(page) {
+  const p = page || 1;
+  if (p <= 1) return '/news.html';
+  return '/news/page-' + p + '.html';
+}
 
   function categoryUrl(catId) {
     return catId ? '/?cat=' + encodeURIComponent(catId) : '/';

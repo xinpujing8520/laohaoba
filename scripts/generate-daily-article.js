@@ -196,9 +196,9 @@ async function main() {
   console.log(`Files: articles/${id}.json, news-list.json, home-content.json`);
 
   try {
-    require('child_process').execSync('node scripts/generate-sitemap.js', { cwd: ROOT, stdio: 'inherit' });
+    require('child_process').execSync('node scripts/prerender-all.js', { cwd: ROOT, stdio: 'inherit' });
   } catch (e) {
-    console.warn('[article-bot] sitemap regen skipped:', e.message);
+    console.warn('[article-bot] SSG rebuild skipped:', e.message);
   }
 }
 

@@ -70,7 +70,7 @@ function main() {
   const newsList = loadJson(path.join(PUBLIC, 'data', 'news-list.json'), {});
   const totalPages = newsList.totalPages || 1;
   for (let p = 2; p <= totalPages; p++) {
-    urls.push({ loc: SITE + '/news.html?page=' + p, changefreq: 'weekly', priority: '0.7' });
+    urls.push({ loc: SITE + '/news/page-' + p + '.html', changefreq: 'weekly', priority: '0.7' });
   }
 
   const articlesDir = path.join(PUBLIC, 'data', 'articles');

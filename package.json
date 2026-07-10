@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "node scripts/generate-sitemap.js",
+    "build": "node scripts/prerender-all.js",
     "scrape": "node scripts/scrape-products.js",
     "setup-paymento": "node scripts/setup-paymento.js",
     "article:daily": "node scripts/generate-daily-article.js",

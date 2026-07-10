@@ -890,8 +890,9 @@ const NewsApp = {
     },
     goPage(page) {
       if (page === '...' || page === this.currentPage) return;
-      const qs = page <= 1 ? '' : '?page=' + page;
-      location.href = '/news.html' + qs;
+      location.href = (typeof Seo !== 'undefined' && Seo.newsPageUrl)
+        ? Seo.newsPageUrl(page)
+        : (page <= 1 ? '/news.html' : '/news/page-' + page + '.html');
     }
   }
 };
