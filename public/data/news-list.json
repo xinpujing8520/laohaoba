@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 262,
+  "total": 263,
   "pageSize": 10,
   "totalPages": 27,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2004,
+      "title": "玩TikTok新号太心累？老玩家告诉你，尼日利亚IP老号才是真香！",
+      "summary": "玩TikTok新号总被限流，流量少得可怜？别焦虑了！老号吧资深玩家悄悄告诉你，那些2016-2023年的老号，特别是带尼日利亚IP的，简直是帮你起飞的秘密武器。这篇文章就来聊聊，怎么挑、怎么用，让你在TikTok上少走弯路，更快出圈。",
+      "cover": "/assets/images/m-files/tiktok-2cf29516d7c64de7a1b3f704826faa4e_6d0cd439.png",
+      "date": "2026-07-15",
+      "slug": "玩tiktok新号太心累-老玩家告诉你-尼日利亚ip老号才是真香"
+    },
     {
       "id": 2003,
       "title": "电脑老是出问题？正版Windows激活码、重装、升级那些事儿，老玩家教你避坑！",
