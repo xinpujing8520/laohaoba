@@ -3,10 +3,11 @@
     "lib:apple-id:ab_1578291213",
     "lib:TK:ab_1578289082",
     "cd:ab_1578290383",
-    "lib:TK:ab_1578298822"
+    "lib:TK:ab_1578298822",
+    "lib:apple-id:ab_1578287862"
   ],
-  "articleTypeIndex": 4,
+  "articleTypeIndex": 0,
   "rotations": 0,
-  "lastRun": "2026-07-15T09:20:18.302Z",
-  "lastArticleId": 2004
+  "lastRun": "2026-07-16T09:32:27.222Z",
+  "lastArticleId": 2005
 }
