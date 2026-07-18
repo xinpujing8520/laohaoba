@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 264,
+  "total": 265,
   "pageSize": 10,
   "totalPages": 27,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2006,
+      "title": "App Store消费太肉痛？尼日利亚区Apple ID，老玩家才知道的省钱魔法！",
+      "summary": "是不是觉得App和订阅费越来越贵？别急，尼日利亚区Apple ID或许能帮你大省一笔！这里有它的超值优势、适用场景和使用技巧，让你轻松告别高价内购，解锁超划算的数字生活。",
+      "cover": "/assets/images/m-files/1248934989-f8867eb86edf4f209f9a35e87afca0d1_a7dc42a1.jpg",
+      "date": "2026-07-18",
+      "slug": "app-store消费太肉痛-尼日利亚区apple-id-老玩家才知道的省钱魔法"
+    },
     {
       "id": 2005,
       "title": "还在被App Store卡脖子？老玩家教你搞懂菲律宾苹果ID，轻松玩转海外应用！",
