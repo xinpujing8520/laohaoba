@@ -50,6 +50,9 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .ab-notice a { color: #fff; margin-left: auto; }
 
+/* Hide Vue templates until compiled (prevents {{ }} flash) */
+[v-cloak] { display: none !important; }
+
 /* ===== Header ===== */
 .ab-header {
   background: var(--ab-header);

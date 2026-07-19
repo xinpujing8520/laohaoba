@@ -53,8 +53,8 @@ function renderArticle(article) {
   </article>
 </div>`;
 
-  const interactive = '/article.html?id=' + encodeURIComponent(id);
-  html += closePage(interactive);
+  // No SPA fallback link — static page is the canonical article view.
+  html += closePage(null);
   return html;
 }
 

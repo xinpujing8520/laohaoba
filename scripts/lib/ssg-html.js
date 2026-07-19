@@ -4,7 +4,7 @@
 const SITE = 'https://www.laohaoba.com';
 const BRAND = '老号吧';
 const DEFAULT_IMAGE = SITE + '/assets/laohaoba-logo.svg';
-const CSS_VER = '16';
+const CSS_VER = '18';
 
 function escapeHtml(s) {
   return String(s || '')
@@ -94,8 +94,7 @@ function siteNotice() {
   return `<div class="ab-notice">
   <div class="center ab-notice-inner">
     <span class="ab-notice-tag">NOTICE</span>
-    <span>警惕仿冒网站，保护您的资金安全！</span>
-    <a href="https://t.me/xiaoqi2888" target="_blank" rel="noopener">→</a>
+    <span data-i18n="notice.text">警惕仿冒网站，保护您的资金安全！</span>
   </div>
 </div>`;
 }
@@ -108,22 +107,23 @@ function siteHeader() {
       <span class="ab-logo-text"><em>${BRAND}</em> <small>LaoHaoBa</small></span>
     </a>
     <form class="ab-search" action="/" method="get">
-      <input type="search" name="key" placeholder="搜索商品" aria-label="搜索商品">
-      <button type="submit" aria-label="搜索">
+      <input type="search" name="key" data-i18n-placeholder="search.placeholder" placeholder="搜索商品" data-i18n-aria="search.aria" aria-label="搜索商品">
+      <button type="submit" data-i18n-aria="search.aria" aria-label="搜索">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
       </button>
     </form>
     <div class="ab-header-links">
-      <a class="ab-btn-gold" href="https://t.me/xiaoqi2888" target="_blank" rel="noopener">推广合作</a>
-      <a class="ab-btn-outline" href="/order/search.html">订单查询</a>
-      <a class="ab-btn-red" href="https://t.me/xiaoqi2888" target="_blank" rel="noopener">联系客服</a>
+      <button type="button" class="ab-lang-toggle ab-lang-toggle-static" aria-label="Switch language">EN</button>
+      <a class="ab-btn-gold" href="https://t.me/xiaoqi2888" target="_blank" rel="noopener" data-i18n="nav.partner">推广合作</a>
+      <a class="ab-btn-outline" href="/order/search.html" data-i18n="nav.orders">订单查询</a>
+      <a class="ab-btn-red" href="https://t.me/xiaoqi2888" target="_blank" rel="noopener" data-i18n="nav.support">联系客服</a>
     </div>
   </div>
 </header>`;
 }
 
 function legalBar() {
-  return '<div class="ab-legal-bar">凡购买本站任何商品必须遵守各个国家法律法规及各大平台规则，非法用途一切后果自负，本站不承担任何法律及连带责任！</div>';
+  return '<div class="ab-legal-bar" data-i18n="legal.bar">凡购买本站任何商品必须遵守各个国家法律法规及各大平台规则，非法用途一切后果自负，本站不承担任何法律及连带责任！</div>';
 }
 
 function siteFooter() {
@@ -132,38 +132,42 @@ function siteFooter() {
     <div class="ab-footer-grid">
       <div>
         <img src="/assets/laohaoba-logo.svg" width="48" height="48" alt="${BRAND}" style="margin-bottom:12px;border-radius:10px">
-        <p style="font-size:13px;line-height:1.8;color:rgba(255,255,255,.6)">${BRAND} — 海外账号购买平台，USDT TRC20 扫码支付，即时发货。</p>
+        <p style="font-size:13px;line-height:1.8;color:rgba(255,255,255,.6)" data-i18n="footer.about">${BRAND} — 海外账号购买平台，USDT TRC20 扫码支付，即时发货。</p>
       </div>
       <div>
-        <h4>合作互动</h4>
-        <a href="https://t.me/xiaoqi2888" target="_blank" rel="noopener">推广合作</a>
-        <a href="/">关于我们</a>
+        <h4 data-i18n="footer.coop">合作互动</h4>
+        <a href="https://t.me/xiaoqi2888" target="_blank" rel="noopener" data-i18n="nav.partner">推广合作</a>
+        <a href="/" data-i18n="footer.aboutUs">关于我们</a>
       </div>
       <div>
-        <h4>法律法规</h4>
-        <a href="/policy.html">退换货说明</a>
-        <a href="/policy.html#refund">退款说明</a>
-        <a href="/policy.html#pay">支付说明</a>
+        <h4 data-i18n="footer.legal">法律法规</h4>
+        <a href="/policy.html" data-i18n="footer.refund">退换货说明</a>
+        <a href="/policy.html#refund" data-i18n="footer.refundPolicy">退款说明</a>
+        <a href="/policy.html#pay" data-i18n="footer.payPolicy">支付说明</a>
       </div>
       <div>
-        <h4>服务支持</h4>
-        <a href="https://t.me/xiaoqi2888" target="_blank" rel="noopener">联系我们</a>
-        <a href="/order/search.html">订单查询</a>
+        <h4 data-i18n="footer.support">服务支持</h4>
+        <a href="https://t.me/xiaoqi2888" target="_blank" rel="noopener" data-i18n="footer.contact">联系我们</a>
+        <a href="/order/search.html" data-i18n="nav.orders">订单查询</a>
       </div>
     </div>
-    <div class="ab-footer-bottom">${BRAND} LaoHaoBa.com &copy; 2026</div>
+    <div class="ab-footer-bottom" data-i18n="footer.copyright">${BRAND} LaoHaoBa.com &copy; 2026</div>
   </div>
 </footer>`;
 }
 
 function closePage(interactiveUrl) {
   let tail = '</div>\n';
-  if (interactiveUrl) {
+  // Only keep purchase entry for goods SPA; article/news SSG already has full content.
+  if (interactiveUrl && /\/goods(\.html)?([?#]|$)/i.test(interactiveUrl)) {
     tail += `<p class="center" style="padding:12px 20px 24px;font-size:13px;color:#666">
-  <a href="${escapeHtml(interactiveUrl)}">进入交互购买页面 →</a>
+  <a href="${escapeHtml(interactiveUrl)}" data-i18n="ssg.enterBuy">进入购买页面</a>
 </p>\n`;
   }
-  tail += siteFooter() + '\n</body>\n</html>\n';
+  tail += siteFooter() + '\n';
+  tail += '<script src="/js/i18n.js?v=1"><\/script>\n';
+  tail += '<script>I18n.init();<\/script>\n';
+  tail += '</body>\n</html>\n';
   return tail;
 }
 

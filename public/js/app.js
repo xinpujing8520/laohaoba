@@ -69,7 +69,20 @@ function sanitizeDetailHtml(html, opts) {
 
 const HeaderMixin = {
   data() {
-    return { keyword: '', categories: [] };
+    return {
+      keyword: '',
+      categories: [],
+      lang: typeof I18n !== 'undefined' ? I18n.getLang() : 'zh'
+    };
+  },
+  created() {
+    this._onLangChange = () => { this.lang = I18n.getLang(); };
+    if (typeof window !== 'undefined') {
+      window.addEventListener('langchange', this._onLangChange);
+    }
+  },
+  beforeDestroy() {
+    if (this._onLangChange) window.removeEventListener('langchange', this._onLangChange);
   },
   computed: {
     quickNav() {
@@ -77,12 +90,22 @@ const HeaderMixin = {
       const nameMap = { 'AI工具': 'AI智能', '苹果id': '苹果 id', '礼品卡密': '苹果礼品卡' };
       return this.categories.map((c) => ({
         id: c.id,
-        name: nameMap[c.name] || c.name,
+        name: this.catName(nameMap[c.name] || c.name),
         hot: hotIds.has(c.id)
       })).slice(0, 12);
     }
   },
   methods: {
+    t(key, vars) {
+      return typeof I18n !== 'undefined' ? I18n.t(key, vars) : key;
+    },
+    catName(name) {
+      return typeof I18n !== 'undefined' ? I18n.catName(name) : name;
+    },
+    toggleLang() {
+      if (typeof I18n === 'undefined') return;
+      I18n.setLang(this.lang === 'en' ? 'zh' : 'en');
+    },
     getOrderUrl() {
       const email = localStorage.getItem('email') || '';
       return email ? `/order/search.html?keyword=${encodeURIComponent(email)}` : '/order/search.html';
@@ -108,11 +131,10 @@ const HeaderMixin = {
 };
 
 const ShopApp = {
+  mixins: [HeaderMixin],
   data() {
     return {
-      keyword: '',
       categoryId: '',
-      categories: [],
       allProducts: [],
       products: [],
       loading: false,
@@ -123,19 +145,10 @@ const ShopApp = {
       reviewTimer: null,
       categoryDisplay: {},
       hotProductList: [],
-      hotSection: { bg: '', title: '热门商品', desc: '平台最受欢迎产品' }
+      hotSection: { bg: '', title: '', desc: '' }
     };
   },
   computed: {
-    quickNav() {
-      const hotIds = new Set(['ab_cat_7']);
-      const nameMap = { 'AI工具': 'AI智能', '苹果id': '苹果 id', '礼品卡密': '苹果礼品卡' };
-      return this.categories.map((c) => ({
-        id: c.id,
-        name: nameMap[c.name] || c.name,
-        hot: hotIds.has(c.id)
-      })).slice(0, 12);
-    },
     mainBanner() {
       return this.banners[0] || null;
     },
@@ -168,7 +181,7 @@ const ShopApp = {
       const rest = this.categories.filter((c) => !moduleOrder.includes(c.id));
       return [...ordered, ...rest].map((c) => ({
         id: c.id,
-        name: c.name,
+        name: this.catName(c.name),
         count: this.categoryDisplay[c.id] ? this.categoryDisplay[c.id].length : this.allProducts.filter((p) => p.CategoryId === c.id).length,
         products: (this.categoryDisplay[c.id] && this.categoryDisplay[c.id].length)
           ? this.categoryDisplay[c.id]
@@ -176,9 +189,15 @@ const ShopApp = {
       })).filter((m) => m.products.length);
     },
     currentModuleTitle() {
-      if (!this.categoryId) return '全部商品';
+      if (!this.categoryId) return this.t('home.allProducts');
       const c = this.categories.find((x) => x.id === this.categoryId);
-      return c ? c.name : '商品列表';
+      return c ? this.catName(c.name) : this.t('home.productList');
+    },
+    hotSectionTitle() {
+      return this.hotSection.title || this.t('home.hotTitle');
+    },
+    hotSectionDesc() {
+      return this.hotSection.desc || this.t('home.hotDesc');
     },
     reviewPages() {
       const perPage = this.reviewsPerPage;
@@ -235,8 +254,8 @@ const ShopApp = {
         const data = res.data || {};
         this.hotSection = {
           bg: data.bg || '',
-          title: data.title || '热门商品',
-          desc: data.desc || '平台最受欢迎产品'
+          title: data.title || '',
+          desc: data.desc || ''
         };
         this.hotProductList = data.products || [];
       } catch (e) {
@@ -293,7 +312,7 @@ const ShopApp = {
           this.products = [];
         }
       } catch (e) {
-        alert('加载商品失败，请刷新重试');
+        alert(this.t('error.loadProducts'));
       } finally {
         this.loading = false;
       }
@@ -449,7 +468,8 @@ const ProductApp = {
       return (this.library && this.library.displayName) || String(this.product.name || '').split(' | ')[0] || '';
     },
     pageCategoryName() {
-      return (this.library && this.library.categoryName) || this.product.categoryName || '商品';
+      const name = (this.library && this.library.categoryName) || this.product.categoryName || '';
+      return name ? this.catName(name) : this.t('category.default');
     },
     pageCategoryId() {
       return (this.library && this.library.categoryId) || this.product.categoryId || '';
@@ -472,13 +492,13 @@ const ProductApp = {
       return (this.library && this.library.recommendNews) || [];
     },
     skuDim1Label() {
-      return (this.library && this.library.skuTree && this.library.skuTree.dimension1) || '类别';
+      return (this.library && this.library.skuTree && this.library.skuTree.dimension1) || this.t('sku.category');
     },
     skuDim2Label() {
-      return (this.library && this.library.skuTree && this.library.skuTree.dimension2) || '套餐';
+      return (this.library && this.library.skuTree && this.library.skuTree.dimension2) || this.t('sku.package');
     },
     skuDim3Label() {
-      return (this.library && this.library.skuTree && this.library.skuTree.dimension3) || '时长';
+      return (this.library && this.library.skuTree && this.library.skuTree.dimension3) || this.t('sku.duration');
     },
     dim1Options() {
       if (!this.useLibrarySku) return [];
@@ -594,7 +614,7 @@ const ProductApp = {
     id = String(id).replace(/\.html$/i, '').trim();
     if (!id) {
       this.loading = false;
-      this.errorMsg = '缺少商品ID，请从首页重新选择商品';
+      this.errorMsg = this.t('goods.missingId');
       return;
     }
     sessionStorage.setItem('productId', id);
@@ -617,10 +637,10 @@ const ProductApp = {
         }
         this.applyProductSeoTags();
       } else {
-        this.errorMsg = (res.data && res.data.Message) || '商品不存在';
+        this.errorMsg = (res.data && res.data.Message) || this.t('goods.notFound');
       }
     } catch (e) {
-      this.errorMsg = (e.response && e.response.data && e.response.data.Message) || '商品加载失败';
+      this.errorMsg = (e.response && e.response.data && e.response.data.Message) || this.t('goods.loadFail');
     } finally {
       this.loading = false;
     }
@@ -798,7 +818,7 @@ const ProductApp = {
       for (let i = 0; i < this.activeRechargeFields.length; i++) {
         const f = this.activeRechargeFields[i];
         if (f.required && !String(this.rechargeForm[f.key] || '').trim()) {
-          alert('请填写' + f.label);
+          alert(this.t('order.fillField', { name: f.label }));
           return;
         }
       }
@@ -815,7 +835,7 @@ const ProductApp = {
     },
     async buy() {
       if (!this.order.Email) {
-        alert('请填写邮箱，用于接收订单信息');
+        alert(this.t('order.emailRequired'));
         return;
       }
       this.buying = true;
@@ -836,10 +856,10 @@ const ProductApp = {
             location.href = '/order/search.html?keyword=' + res.data.Data.Entity.OrderNo;
           }
         } else {
-          alert(res.data.Message || '下单失败');
-        }
-      } catch (e) {
-        alert('下单失败: ' + ((e.response && e.response.data && e.response.data.Message) || e.message));
+        alert(res.data.Message || this.t('order.buyFail'));
+      }
+    } catch (e) {
+      alert(this.t('order.buyFail') + ': ' + ((e.response && e.response.data && e.response.data.Message) || e.message));
       } finally {
         this.buying = false;
       }
@@ -863,6 +883,11 @@ const NewsApp = {
       const size = this.newsMeta.pageSize || 10;
       const start = (this.currentPage - 1) * size;
       return this.allItems.slice(start, start + size);
+    },
+    newsPageTitle() {
+      const title = (this.newsMeta && this.newsMeta.title) || '';
+      if (!title || title === '新闻资讯') return this.t('news.breadcrumb');
+      return title;
     },
     pageList() {
       const total = this.newsMeta.totalPages || 1;
@@ -967,9 +992,14 @@ const ArticleApp = {
       const m = location.pathname.match(/\/article\/(\d+)\.html$/i);
       if (m) id = m[1];
     }
+    // Prefer static SSG article pages to avoid Vue template flash
+    if (id && /\/article\.html$/i.test(location.pathname)) {
+      location.replace('/article/' + encodeURIComponent(id) + '.html');
+      return;
+    }
     if (!id) {
       this.loading = false;
-      this.errorMsg = '缺少文章ID';
+      this.errorMsg = this.t('article.missingId');
       return;
     }
     try {
@@ -979,7 +1009,7 @@ const ArticleApp = {
         Seo.applyArticleSeo(this.article);
       }
     } catch (e) {
-      this.errorMsg = '文章加载失败';
+      this.errorMsg = this.t('article.loadFail');
     } finally {
       this.loading = false;
     }
@@ -987,8 +1017,9 @@ const ArticleApp = {
 };
 
 const OrderApp = {
+  mixins: [HeaderMixin],
   data() {
-    return { keyword: '', orders: [], loading: false };
+    return { orders: [], loading: false };
   },
   mounted() {
     const params = new URLSearchParams(location.search);
@@ -1003,13 +1034,18 @@ const OrderApp = {
         const res = await axios.get(`${API}/order/search?keyword=${encodeURIComponent(this.keyword)}`);
         this.orders = res.data.Data || [];
       } catch (e) {
-        alert('查询失败');
+        alert(this.t('order.searchFail'));
       } finally {
         this.loading = false;
       }
     },
     statusText(s) {
-      return { pending: '待支付', paid: '已支付', cancelled: '已取消' }[s] || s;
+      const map = {
+        pending: this.t('order.status.pending'),
+        paid: this.t('order.status.paid'),
+        cancelled: this.t('order.status.cancelled')
+      };
+      return map[s] || s;
     },
     formatPrice(p) { return Number(p).toFixed(2) + ' USDT'; }
   }

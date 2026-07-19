@@ -97,7 +97,7 @@ function renderNewsPage(meta, items, page, totalPages) {
   }
 
   html += '</div>';
-  html += closePage('/news');
+  html += closePage(null);
   return html;
 }
 

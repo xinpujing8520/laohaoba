@@ -64,7 +64,9 @@ GitHub → **Actions** → **Daily Article Bot** → **Run workflow**
 
 - 商品来源：`public/data/category-display.json` + `library-pages/*.json` SKU
 - 状态文件：`scripts/article-bot-state.json`（记录已写过的商品，轮完一圈后重置）
-- 文章类型：教程、选购指南、FAQ、技巧、对比（自动轮换）
+- 文章类型：教程、选购指南、FAQ、技巧、对比、视频教程（自动轮换）
+- 封面图：按标题关键词从 Openverse/Wikimedia 采集相关图，落到 `public/assets/images/covers/`
+- 可预约类型：在 `scripts/article-bot-state.json` 的 `scheduledTypes` 里写 `{ "type":"video", "afterDate":"YYYY-MM-DD" }`
 
 ## HK-DeepSeek 优化要点
 

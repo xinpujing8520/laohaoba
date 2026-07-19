@@ -10,5 +10,12 @@
   "articleTypeIndex": 1,
   "rotations": 0,
   "lastRun": "2026-07-18T07:15:42.956Z",
-  "lastArticleId": 2006
+  "lastArticleId": 2006,
+  "scheduledTypes": [
+    {
+      "type": "video",
+      "afterDate": "2026-07-22",
+      "note": "视频教程文章（约 3 天后优先发布）"
+    }
+  ]
 }

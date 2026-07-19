@@ -92,10 +92,20 @@ const ARTICLE_TYPES = [
   { type: 'guide', label: '选购指南', titleTpl: '{name}怎么选？一文看懂常见规格与避坑' },
   { type: 'faq', label: '常见问题', titleTpl: '{name}常见问题解答：注册、登录与风控说明' },
   { type: 'tips', label: '实用技巧', titleTpl: '{name}实用技巧：老手都在用的 5 个细节' },
-  { type: 'compare', label: '对比说明', titleTpl: '{name}和白号/新号有什么区别？该怎么买' }
+  { type: 'compare', label: '对比说明', titleTpl: '{name}和白号/新号有什么区别？该怎么买' },
+  { type: 'video', label: '视频教程', titleTpl: '{name}视频教程：跟着步骤一次搞定（{year}）' }
 ];
 
 function pickArticleType(state) {
+  const today = new Date().toISOString().slice(0, 10);
+  const scheduled = (state.scheduledTypes || []).find((s) => s && s.type && (!s.afterDate || s.afterDate <= today));
+  if (scheduled) {
+    const hit = ARTICLE_TYPES.find((t) => t.type === scheduled.type);
+    if (hit) {
+      state._consumeScheduledType = scheduled.type;
+      return { ...hit, index: ARTICLE_TYPES.findIndex((t) => t.type === hit.type), scheduled: true };
+    }
+  }
   const i = (state.articleTypeIndex || 0) % ARTICLE_TYPES.length;
   return { ...ARTICLE_TYPES[i], index: i };
 }

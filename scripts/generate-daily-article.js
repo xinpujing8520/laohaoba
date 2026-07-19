@@ -12,7 +12,8 @@ const fs = require('fs');
 const path = require('path');
 const { chat } = require('./lib/llm-client');
 const { hkDeepseekPolish, SYSTEM } = require('./lib/hk-deepseek-polish');
-const { loadAllTopics, pickTopic, pickArticleType } = require('./lib/article-topics');
+const { loadAllTopics, pickTopic, pickArticleType, ARTICLE_TYPES } = require('./lib/article-topics');
+const { fetchCoverForTitle } = require('./lib/fetch-cover-image');
 
 const ROOT = path.join(__dirname, '..');
 const ARTICLES_DIR = path.join(ROOT, 'public', 'data', 'articles');
@@ -63,6 +64,9 @@ function buildDraftPrompt(topic, articleType) {
   const titleHint = articleType.titleTpl
     .replace('{name}', topic.displayName || topic.productName)
     .replace('{year}', String(year));
+  const videoExtra = articleType.type === 'video'
+    ? '\n7. 这是「视频教程」文：按「开场说明 → 准备工作 → 分步操作（每步可配截图说明）→ 常见卡点 → 收尾」写，语气像对着镜头讲，可用「先看这里」「这一步别跳过」等口语'
+    : '';
 
   return `请为一篇「${articleType.label}」写文章，主题是：${topic.productName}
 所属分类：${topic.categoryName || '老号吧商品'}
@@ -77,7 +81,7 @@ function buildDraftPrompt(topic, articleType) {
 3. 自然介绍 ${topic.displayName || topic.productName} 的用途、适用人群、购买注意事项
 4. 文末自然引导到 <a href="${goodsLink}">老号吧${topic.displayName || topic.productName}</a>
 5. 不要编造具体售后政策，支付写 USDT TRC20 扫码
-6. 字数 900-1400 字，口语化，避免 AI 套话`;
+6. 字数 900-1400 字，口语化，避免 AI 套话${videoExtra}`;
 }
 
 function dryRunArticle(topic, articleType) {
@@ -150,7 +154,22 @@ async function main() {
   }
 
   const id = nextArticleId();
-  const cover = topic.icon || '/assets/laohaoba-logo.svg';
+  const fallbackCover = topic.icon || '/assets/laohaoba-logo.svg';
+  let cover = fallbackCover;
+  try {
+    cover = await fetchCoverForTitle(article.title, id, fallbackCover);
+    console.log(`Cover: ${cover} (query from title)`);
+  } catch (e) {
+    console.warn('[cover] fallback to product icon:', e.message || e);
+  }
+
+  // Inject title-related cover into HTML body if content has no leading image
+  let contentHtml = article.content.startsWith('<!--HTML-->') ? article.content : `<!--HTML-->${article.content}`;
+  if (cover && cover !== '/assets/laohaoba-logo.svg' && !/<img\s/i.test(contentHtml.slice(0, 400))) {
+    const img = `<p><img src="${cover}" alt="${String(article.title).replace(/"/g, '&quot;')}" loading="eager"></p>`;
+    contentHtml = contentHtml.replace(/^<!--HTML-->/, '<!--HTML-->' + img);
+  }
+
   const newsItem = {
     id,
     title: article.title,
@@ -166,7 +185,7 @@ async function main() {
     summary: article.summary,
     cover,
     date: today(),
-    content: article.content.startsWith('<!--HTML-->') ? article.content : `<!--HTML-->${article.content}`,
+    content: contentHtml,
     slug: newsItem.slug,
     productId: topic.productId || '',
     topicKey: topic.key,
@@ -187,7 +206,11 @@ async function main() {
   saveJson(HOME_CONTENT, prependHomeNews(home, newsItem));
 
   state.usedKeys = [...(state.usedKeys || []), topic.key];
-  state.articleTypeIndex = (articleType.index + 1) % 5;
+  state.articleTypeIndex = (articleType.index + 1) % ARTICLE_TYPES.length;
+  if (state._consumeScheduledType) {
+    state.scheduledTypes = (state.scheduledTypes || []).filter((s) => s.type !== state._consumeScheduledType);
+    delete state._consumeScheduledType;
+  }
   state.lastRun = new Date().toISOString();
   state.lastArticleId = id;
   saveJson(STATE_FILE, state);

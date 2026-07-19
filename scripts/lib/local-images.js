@@ -142,6 +142,7 @@ module.exports = {
   URL_RE,
   isRemoteImageUrl,
   localPathFromUrl,
+  downloadFile,
   collectUrlsFromValue,
   replaceUrlsInValue,
   ensureLocalImages
