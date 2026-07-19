@@ -65,12 +65,12 @@ function main() {
   const today = new Date().toISOString().slice(0, 10);
 
   urls.push({ loc: SITE + '/', changefreq: 'daily', priority: '1.0', lastmod: today });
-  urls.push({ loc: SITE + '/news.html', changefreq: 'daily', priority: '0.9', lastmod: today });
+  urls.push({ loc: SITE + '/news', changefreq: 'daily', priority: '0.9', lastmod: today });
 
   const newsList = loadJson(path.join(PUBLIC, 'data', 'news-list.json'), {});
   const totalPages = newsList.totalPages || 1;
   for (let p = 2; p <= totalPages; p++) {
-    urls.push({ loc: SITE + '/news/page-' + p + '.html', changefreq: 'weekly', priority: '0.7' });
+    urls.push({ loc: SITE + '/news/page-' + p, changefreq: 'weekly', priority: '0.7' });
   }
 
   const articlesDir = path.join(PUBLIC, 'data', 'articles');

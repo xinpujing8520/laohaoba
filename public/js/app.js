@@ -885,7 +885,16 @@ const NewsApp = {
   async mounted() {
     this.loadCategories();
     const params = new URLSearchParams(location.search);
-    this.currentPage = Math.max(1, parseInt(params.get('page') || '1', 10) || 1);
+    const qPage = Math.max(1, parseInt(params.get('page') || '1', 10) || 1);
+    // Legacy ?page=N → static /news/page-N (avoids SPA pagination URLs)
+    if (qPage > 1) {
+      const target = (typeof Seo !== 'undefined' && Seo.newsPageUrl)
+        ? Seo.newsPageUrl(qPage)
+        : '/news/page-' + qPage;
+      location.replace(target);
+      return;
+    }
+    this.currentPage = 1;
     try {
       const res = await axios.get('/data/news-list.json?v=1');
       const data = res.data || {};
@@ -897,9 +906,6 @@ const NewsApp = {
       };
       this.allItems = data.items || [];
       this.relatedProducts = data.relatedProducts || [];
-      if (this.currentPage > this.newsMeta.totalPages) {
-        this.currentPage = this.newsMeta.totalPages;
-      }
       if (typeof Seo !== 'undefined' && Seo.applyNewsSeo) {
         Seo.applyNewsSeo(this.newsMeta, this.currentPage);
       }
@@ -941,7 +947,7 @@ const NewsApp = {
       if (page === '...' || page === this.currentPage) return;
       location.href = (typeof Seo !== 'undefined' && Seo.newsPageUrl)
         ? Seo.newsPageUrl(page)
-        : (page <= 1 ? '/news.html' : '/news/page-' + page + '.html');
+        : (page <= 1 ? '/news' : '/news/page-' + page);
     }
   }
 };

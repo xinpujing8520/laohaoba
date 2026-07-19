@@ -20,14 +20,16 @@
 
   function articleUrl(article) {
     const id = article && (article.id || article);
-    if (!id) return '/news.html';
+    if (!id) return '/news';
     return '/article/' + encodeURIComponent(id) + '.html';
   }
 
 function newsPageUrl(page) {
-  const p = page || 1;
-  if (p <= 1) return '/news.html';
-  return '/news/page-' + p + '.html';
+  const p = Number(page) || 1;
+  // Extensionless paths match Cloudflare Pages canonical URLs
+  // (/news.html → /news, /news/page-2.html → /news/page-2).
+  if (p <= 1) return '/news';
+  return '/news/page-' + p;
 }
 
   function categoryUrl(catId) {
@@ -234,7 +236,7 @@ function newsPageUrl(page) {
             '@type': 'BreadcrumbList',
             itemListElement: [
               { '@type': 'ListItem', position: 1, name: '首页', item: SITE + '/' },
-              { '@type': 'ListItem', position: 2, name: '新闻资讯', item: SITE + '/news.html' },
+              { '@type': 'ListItem', position: 2, name: '新闻资讯', item: SITE + '/news' },
               { '@type': 'ListItem', position: 3, name: title, item: SITE + canonical }
             ]
           },

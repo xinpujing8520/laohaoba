@@ -36,7 +36,7 @@ function renderArticle(article) {
   html += `<div class="center ab-article-page">
   <nav class="ab-breadcrumb">
     <a href="/">首页</a><span>›</span>
-    <a href="/news.html">新闻&amp;促销</a><span>›</span>
+    <a href="/news">新闻&amp;促销</a><span>›</span>
     <span>${escapeHtml(article.title)}</span>
   </nav>
   <article class="ab-article-card">`;

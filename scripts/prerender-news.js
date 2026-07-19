@@ -1,6 +1,7 @@
 /**
  * SSG: prerender news listing pages → public/news/page-{n}.html
- * Page 1 remains at /news.html (SPA); pages 2+ get static HTML.
+ * Page 1 lives at /news (news.html); pages 2+ are static HTML.
+ * Use extensionless hrefs to match Cloudflare Pages canonical URLs.
  */
 const fs = require('fs');
 const path = require('path');
@@ -17,8 +18,14 @@ function loadJson(fp, fallback) {
   return JSON.parse(fs.readFileSync(fp, 'utf8'));
 }
 
+function newsPageHref(page) {
+  const p = Number(page) || 1;
+  if (p <= 1) return '/news';
+  return '/news/page-' + p;
+}
+
 function renderNewsPage(meta, items, page, totalPages) {
-  const canonical = page <= 1 ? '/news.html' : '/news/page-' + page + '.html';
+  const canonical = newsPageHref(page);
   const title = page > 1 ? meta.title + ' - 第' + page + '页' : meta.title;
   const description = truncate(meta.subtitle || '老号吧行业新闻与账号购买教程。', 160);
 
@@ -27,8 +34,8 @@ function renderNewsPage(meta, items, page, totalPages) {
     description,
     canonical,
     ogType: 'website',
-    prev: page > 1 ? (page === 2 ? '/news.html' : '/news/page-' + (page - 1) + '.html') : null,
-    next: page < totalPages ? '/news/page-' + (page + 1) + '.html' : null,
+    prev: page > 1 ? newsPageHref(page - 1) : null,
+    next: page < totalPages ? newsPageHref(page + 1) : null,
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
@@ -62,19 +69,17 @@ function renderNewsPage(meta, items, page, totalPages) {
   if (totalPages > 1) {
     html += '<div class="ab-pagination">';
     if (page > 1) {
-      const prev = page === 2 ? '/news.html' : '/news/page-' + (page - 1) + '.html';
-      html += `<a class="ab-page-btn" href="${prev}">‹</a>`;
+      html += `<a class="ab-page-btn" href="${newsPageHref(page - 1)}">‹</a>`;
     }
     for (let p = 1; p <= totalPages; p++) {
       if (totalPages > 7 && p > 2 && p < totalPages - 1 && Math.abs(p - page) > 2) {
         if (p === 3 || p === totalPages - 2) html += '<span class="ab-page-btn ellipsis">…</span>';
         continue;
       }
-      const href = p <= 1 ? '/news.html' : '/news/page-' + p + '.html';
-      html += `<a class="ab-page-btn${p === page ? ' active' : ''}" href="${href}">${p}</a>`;
+      html += `<a class="ab-page-btn${p === page ? ' active' : ''}" href="${newsPageHref(p)}">${p}</a>`;
     }
     if (page < totalPages) {
-      html += `<a class="ab-page-btn" href="/news/page-${page + 1}.html">›</a>`;
+      html += `<a class="ab-page-btn" href="${newsPageHref(page + 1)}">›</a>`;
     }
     html += '</div>';
   }
@@ -91,7 +96,7 @@ function renderNewsPage(meta, items, page, totalPages) {
   }
 
   html += '</div>';
-  html += closePage('/news.html' + (page > 1 ? '?page=' + page : ''));
+  html += closePage('/news');
   return html;
 }
 

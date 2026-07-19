@@ -1,28 +1,9 @@
-# Static prerendered pages take precedence over SPA shells.
-# News pagination → SSG pages
-/news.html?page=2  /news/page-2.html  301
-/news.html?page=3  /news/page-3.html  301
-/news.html?page=4  /news/page-4.html  301
-/news.html?page=5  /news/page-5.html  301
-/news.html?page=6  /news/page-6.html  301
-/news.html?page=7  /news/page-7.html  301
-/news.html?page=8  /news/page-8.html  301
-/news.html?page=9  /news/page-9.html  301
-/news.html?page=10  /news/page-10.html  301
-/news.html?page=11  /news/page-11.html  301
-/news.html?page=12  /news/page-12.html  301
-/news.html?page=13  /news/page-13.html  301
-/news.html?page=14  /news/page-14.html  301
-/news.html?page=15  /news/page-15.html  301
-/news.html?page=16  /news/page-16.html  301
-/news.html?page=17  /news/page-17.html  301
-/news.html?page=18  /news/page-18.html  301
-/news.html?page=19  /news/page-19.html  301
-/news.html?page=20  /news/page-20.html  301
-/news.html?page=21  /news/page-21.html  301
-/news.html?page=22  /news/page-22.html  301
-/news.html?page=23  /news/page-23.html  301
-/news.html?page=24  /news/page-24.html  301
-/news.html?page=25  /news/page-25.html  301
-/news.html?page=26  /news/page-26.html  301
-/news.html?page=27  /news/page-27.html  301
+# Cloudflare Pages does NOT support query-string matching in _redirects.
+# Previous rules like:
+#   /news.html?page=2  /news/page-2.html  301
+# were parsed as "/news.html → /news/page-2.html", so clicking page "1"
+# (href=/news.html) always bounced back to page 2.
+
+# Normalize page-1 SSG alias to the main news listing (/news ← news.html)
+/news/page-1 /news 301
+/news/page-1.html /news 301
