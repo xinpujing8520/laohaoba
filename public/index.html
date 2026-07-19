@@ -20,19 +20,40 @@
   <meta name="twitter:description" content="老号吧提供苹果id购买、电报Telegram账号等各类国外ID，社交媒体账号购买批发。">
   <meta name="twitter:image" content="https://www.laohaoba.com/assets/laohaoba-logo.svg">
   <link rel="icon" href="/assets/laohaoba-logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/css/laohaoba.css?v=18">
+  <link rel="stylesheet" href="/css/laohaoba.css?v=19">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "OnlineStore",
-    "name": "老号吧",
-    "url": "https://www.laohaoba.com",
-    "description": "海外账号购买平台，支持USDT TRC20支付",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://www.laohaoba.com/?key={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.laohaoba.com/#organization",
+        "name": "老号吧",
+        "url": "https://www.laohaoba.com/",
+        "logo": "https://www.laohaoba.com/assets/laohaoba-logo.svg",
+        "sameAs": ["https://t.me/xiaoqi2888"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.laohaoba.com/#website",
+        "url": "https://www.laohaoba.com/",
+        "name": "老号吧",
+        "inLanguage": "zh-CN",
+        "publisher": { "@id": "https://www.laohaoba.com/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.laohaoba.com/?key={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "OnlineStore",
+        "name": "老号吧",
+        "url": "https://www.laohaoba.com/",
+        "description": "海外账号购买平台，提供苹果ID、Telegram、社交账号等，支持USDT TRC20支付",
+        "parentOrganization": { "@id": "https://www.laohaoba.com/#organization" }
+      }
+    ]
   }
   </script>
 </head>
@@ -282,7 +303,7 @@
             </div>
             <div class="ab-news-grid">
               <a class="ab-news-card" v-for="n in newsList" :key="n.id" :href="articleHref(n)" @click.prevent="goArticle(n)">
-                <div class="ab-news-cover" :style="n.cover ? {backgroundImage:'url('+n.cover+')'} : {}" role="img" :aria-label="n.title"></div>
+                <img class="ab-news-cover" :src="n.cover || '/assets/laohaoba-logo.svg'" alt="" width="400" height="225" loading="lazy" decoding="async">
                 <div class="ab-news-body">
                   <div class="ab-news-title">{{ n.title }}</div>
                   <div class="ab-news-date">{{ n.date }}</div>

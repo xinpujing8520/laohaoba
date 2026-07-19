@@ -12,21 +12,40 @@ const ROOT = path.join(__dirname, '..');
 const ARTICLES_DIR = path.join(ROOT, 'public', 'data', 'articles');
 const OUT_DIR = path.join(ROOT, 'public', 'article');
 
+function stripLeadingCoverDuplicate(html, cover) {
+  let out = String(html || '');
+  if (cover) {
+    const esc = String(cover).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    out = out.replace(
+      new RegExp(`^(?:<!--HTML-->)?\\s*<p>\\s*<img[^>]+src=["']${esc}["'][^>]*>\\s*</p>\\s*`, 'i'),
+      (m) => (m.startsWith('<!--HTML-->') ? '<!--HTML-->' : '')
+    );
+  }
+  out = out.replace(
+    /^(?:<!--HTML-->)?\s*<p>\s*<img[^>]+src=["']\/assets\/images\/covers\/[^"']+["'][^>]*>\s*<\/p>\s*/i,
+    (m) => (m.startsWith('<!--HTML-->') ? '<!--HTML-->' : '')
+  );
+  return out;
+}
+
 function renderArticle(article) {
   const id = article.id;
   const canonical = articleUrl(id);
   const description = truncate(article.summary || stripHtml(article.content), 160);
-  const content = rewriteContentLinks(
+  const rawContent = stripLeadingCoverDuplicate(
     article.content && article.content.startsWith('<!--HTML-->')
       ? article.content
-      : '<!--HTML-->' + (article.content || '')
+      : '<!--HTML-->' + (article.content || ''),
+    article.cover
   );
+  const content = rewriteContentLinks(rawContent);
 
   let html = buildHead({
     title: article.title,
     description,
     canonical,
     image: absUrl(article.cover),
+    keywords: article.title,
     ogType: 'article',
     jsonLd: articleJsonLd(article, canonical)
   });
@@ -41,12 +60,13 @@ function renderArticle(article) {
   </nav>
   <article class="ab-article-card">`;
   if (article.cover) {
-    html += `\n    <img class="ab-article-cover" src="${escapeHtml(article.cover)}" alt="${escapeHtml(article.title)}" loading="eager">`;
+    // Decorative hero: h1 already carries the title — avoid repeating it as visible alt on broken imgs
+    html += `\n    <img class="ab-article-cover" src="${escapeHtml(article.cover)}" alt="" width="1200" height="630" loading="eager">`;
   }
   html += `
     <h1 class="ab-article-title">${escapeHtml(article.title)}</h1>`;
   if (article.date) {
-    html += `\n    <div class="ab-article-meta">${escapeHtml(article.date)}</div>`;
+    html += `\n    <div class="ab-article-meta"><time datetime="${escapeHtml(article.date)}">${escapeHtml(article.date)}</time></div>`;
   }
   html += `
     <div class="ab-article-content">${content.replace(/^<!--HTML-->/, '')}</div>

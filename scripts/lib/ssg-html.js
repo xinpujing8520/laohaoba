@@ -4,7 +4,7 @@
 const SITE = 'https://www.laohaoba.com';
 const BRAND = '老号吧';
 const DEFAULT_IMAGE = SITE + '/assets/laohaoba-logo.svg';
-const CSS_VER = '18';
+const CSS_VER = '19';
 
 function escapeHtml(s) {
   return String(s || '')
@@ -57,6 +57,10 @@ function buildHead(opts) {
   const robots = opts.robots || 'index,follow,max-image-preview:large';
   const ogType = opts.ogType || 'website';
 
+  const keywords = opts.keywords
+    ? escapeHtml(opts.keywords)
+    : escapeHtml('老号吧,苹果id购买,telegram账号,国外ID购买,TikTok账号,谷歌邮箱');
+
   let head = `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -64,7 +68,10 @@ function buildHead(opts) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(fullTitle)}</title>
   <meta name="description" content="${description}">
+  <meta name="keywords" content="${keywords}">
   <meta name="robots" content="${robots}">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="canonical" href="${escapeHtml(canonical)}">
   <meta property="og:type" content="${ogType}">
   <meta property="og:url" content="${escapeHtml(canonical)}">
@@ -82,6 +89,35 @@ function buildHead(opts) {
 
   if (opts.prev) head += `\n  <link rel="prev" href="${escapeHtml(absUrl(opts.prev))}">`;
   if (opts.next) head += `\n  <link rel="next" href="${escapeHtml(absUrl(opts.next))}">`;
+
+  // Sitewide Organization + WebSite helps Google / Bing / Baidu entity understanding
+  const siteLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': SITE + '/#organization',
+        name: BRAND,
+        url: SITE + '/',
+        logo: DEFAULT_IMAGE,
+        sameAs: ['https://t.me/xiaoqi2888']
+      },
+      {
+        '@type': 'WebSite',
+        '@id': SITE + '/#website',
+        url: SITE + '/',
+        name: BRAND,
+        inLanguage: 'zh-CN',
+        publisher: { '@id': SITE + '/#organization' },
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: SITE + '/?key={search_term_string}',
+          'query-input': 'required name=search_term_string'
+        }
+      }
+    ]
+  };
+  head += `\n  <script type="application/ld+json">${JSON.stringify(siteLd)}</script>`;
 
   if (opts.jsonLd) {
     head += `\n  <script type="application/ld+json">${JSON.stringify(opts.jsonLd)}</script>`;

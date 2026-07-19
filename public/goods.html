@@ -10,7 +10,7 @@
   <meta property="og:type" content="product">
   <meta property="og:site_name" content="老号吧">
   <link rel="icon" href="/assets/laohaoba-logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/css/laohaoba.css?v=18">
+  <link rel="stylesheet" href="/css/laohaoba.css?v=19">
 </head>
 <body>
 <div id="app" v-cloak>
@@ -185,7 +185,7 @@
           <div class="ab-news-grid ab-news-grid-goods">
             <a class="ab-news-card" v-for="n in recommendNews" :key="n.id"
                :href="articleHref(n)" @click.prevent="goArticle(n)">
-              <div class="ab-news-cover" :style="n.cover ? {backgroundImage:'url('+productImage(n.cover)+')'} : {}" role="img" :aria-label="n.title"></div>
+              <img class="ab-news-cover" :src="productImage(n.cover) || '/assets/laohaoba-logo.svg'" alt="" width="400" height="225" loading="lazy" decoding="async">
               <div class="ab-news-body">
                 <div class="ab-news-title">{{ n.title }}</div>
                 <div class="ab-news-date">{{ n.date }}</div>

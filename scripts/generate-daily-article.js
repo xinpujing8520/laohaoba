@@ -163,11 +163,15 @@ async function main() {
     console.warn('[cover] fallback to product icon:', e.message || e);
   }
 
-  // Inject title-related cover into HTML body if content has no leading image
+  // Cover is rendered once by SSG (ab-article-cover). Do NOT inject into body —
+  // duplicate <img> + identical alt next to <h1> looks like a broken/repeated title.
   let contentHtml = article.content.startsWith('<!--HTML-->') ? article.content : `<!--HTML-->${article.content}`;
-  if (cover && cover !== '/assets/laohaoba-logo.svg' && !/<img\s/i.test(contentHtml.slice(0, 400))) {
-    const img = `<p><img src="${cover}" alt="${String(article.title).replace(/"/g, '&quot;')}" loading="eager"></p>`;
-    contentHtml = contentHtml.replace(/^<!--HTML-->/, '<!--HTML-->' + img);
+  if (cover) {
+    const esc = String(cover).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    contentHtml = contentHtml.replace(
+      new RegExp(`^(<!--HTML-->)?\\s*<p>\\s*<img[^>]+src=["']${esc}["'][^>]*>\\s*</p>\\s*`, 'i'),
+      '$1'
+    );
   }
 
   const newsItem = {

@@ -1,5 +1,29 @@
+# LaoHaoBa — crawler rules for Google / Bing / Baidu
 User-agent: *
 Allow: /
 Disallow: /order/
+Disallow: /api/
+Disallow: /functions/
+Disallow: /*?*utm_
+Disallow: /*?*fbclid=
+
+User-agent: Googlebot
+Allow: /
+Disallow: /order/
+Disallow: /api/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /order/
+Disallow: /api/
+
+User-agent: Baiduspider
+Allow: /
+Disallow: /order/
+Disallow: /api/
+Crawl-delay: 1
+
+User-agent: Bytespider
+Disallow: /
 
 Sitemap: https://www.laohaoba.com/sitemap.xml

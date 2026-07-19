@@ -56,12 +56,13 @@ function renderNewsPage(meta, items, page, totalPages) {
 
   for (const n of items) {
     const href = articleUrl(n.id);
+    const cover = n.cover || '/assets/laohaoba-logo.svg';
     html += `<a class="ab-news-list-item" href="${escapeHtml(href)}">
-      <div class="ab-news-list-cover"${n.cover ? ` style="background-image:url('${escapeHtml(n.cover)}')"` : ''} role="img" aria-label="${escapeHtml(n.title)}"></div>
+      <img class="ab-news-list-cover" src="${escapeHtml(cover)}" alt="" width="400" height="224" loading="lazy" decoding="async">
       <div class="ab-news-list-body">
         <h2 class="ab-news-list-title">${escapeHtml(n.title)}</h2>`;
     if (n.summary) html += `<p class="ab-news-list-summary">${escapeHtml(n.summary)}</p>`;
-    if (n.date) html += `<div class="ab-news-list-date">发布时间 ${escapeHtml(n.date)}</div>`;
+    if (n.date) html += `<div class="ab-news-list-date">发布时间 <time datetime="${escapeHtml(n.date)}">${escapeHtml(n.date)}</time></div>`;
     html += `</div></a>`;
   }
 
