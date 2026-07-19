@@ -5,12 +5,13 @@
     "cd:ab_1578290383",
     "lib:TK:ab_1578298822",
     "lib:apple-id:ab_1578287862",
-    "lib:apple-id:ab_1578299285"
+    "lib:apple-id:ab_1578299285",
+    "lib:Instagram:ab_1578298185"
   ],
-  "articleTypeIndex": 1,
+  "articleTypeIndex": 2,
   "rotations": 0,
-  "lastRun": "2026-07-18T07:15:42.956Z",
-  "lastArticleId": 2006,
+  "lastRun": "2026-07-19T09:03:24.323Z",
+  "lastArticleId": 2007,
   "scheduledTypes": [
     {
       "type": "video",

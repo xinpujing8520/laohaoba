@@ -39,6 +39,14 @@
   ],
   "news": [
     {
+      "id": 2007,
+      "title": "玩转Instagram？这种“新鲜出炉”的账号，老玩家都爱用！",
+      "summary": "玩Instagram想搞点大动作，但新号难注册、养号又麻烦？别急，买个现成的账号是很多老玩家的秘密武器。今天咱们就聊聊那种“2025年1月邮箱验证”的IG账号到底有啥好处，怎么挑才不踩坑，帮你轻松搞定靠谱的社媒资产。",
+      "cover": "/assets/images/covers/2007.jpg",
+      "date": "2026-07-19",
+      "slug": "玩转instagram-这种-新鲜出炉-的账号-老玩家都爱用"
+    },
+    {
       "id": 2006,
       "title": "App Store消费太肉痛？尼日利亚区Apple ID，老玩家才知道的省钱魔法！",
       "summary": "是不是觉得App和订阅费越来越贵？别急，尼日利亚区Apple ID或许能帮你大省一笔！这里有它的超值优势、适用场景和使用技巧，让你轻松告别高价内购，解锁超划算的数字生活。",
@@ -108,14 +116,6 @@
       "summary": "全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助用户快速决策是否开通会员。",
       "cover": "/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png",
       "date": "2026-05-22",
-      "slug": ""
-    },
-    {
-      "id": 1228,
-      "title": "Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态",
-      "summary": "全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。",
-      "cover": "/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png",
-      "date": "2026-05-20",
       "slug": ""
     }
   ],

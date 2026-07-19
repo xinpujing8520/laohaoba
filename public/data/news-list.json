@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 265,
+  "total": 266,
   "pageSize": 10,
   "totalPages": 27,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2007,
+      "title": "玩转Instagram？这种“新鲜出炉”的账号，老玩家都爱用！",
+      "summary": "玩Instagram想搞点大动作，但新号难注册、养号又麻烦？别急，买个现成的账号是很多老玩家的秘密武器。今天咱们就聊聊那种“2025年1月邮箱验证”的IG账号到底有啥好处，怎么挑才不踩坑，帮你轻松搞定靠谱的社媒资产。",
+      "cover": "/assets/images/covers/2007.jpg",
+      "date": "2026-07-19",
+      "slug": "玩转instagram-这种-新鲜出炉-的账号-老玩家都爱用"
+    },
     {
       "id": 2006,
       "title": "App Store消费太肉痛？尼日利亚区Apple ID，老玩家才知道的省钱魔法！",
