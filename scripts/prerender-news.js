@@ -1,7 +1,8 @@
 /**
  * SSG: prerender news listing pages → public/news/page-{n}.html
- * Page 1 lives at /news (news.html); pages 2+ are static HTML.
- * Use extensionless hrefs to match Cloudflare Pages canonical URLs.
+ * Page 1 is written to public/news.html (served at /news) as static HTML
+ * so pagination never flashes the Vue SPA mustache template.
+ * Pages 2+ are static HTML under public/news/.
  */
 const fs = require('fs');
 const path = require('path');
@@ -114,8 +115,6 @@ function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
   let count = 0;
 
-  // Page 1: also write static version for crawlers at news/static-index.html
-  // and inject into news.html via build - simpler: prerender page 2+
   for (let page = 2; page <= totalPages; page++) {
     const start = (page - 1) * pageSize;
     const pageItems = items.slice(start, start + pageSize);
@@ -124,12 +123,13 @@ function main() {
     count += 1;
   }
 
-  // Prerender page 1 snapshot alongside news.html for noscript/SEO boost
+  // Page 1 → news.html (Cloudflare serves /news from news.html) — fully static, no Vue flash
   const page1 = renderNewsPage(meta, items.slice(0, pageSize), 1, totalPages);
+  fs.writeFileSync(path.join(ROOT, 'public', 'news.html'), page1, 'utf8');
   fs.writeFileSync(path.join(OUT_DIR, 'page-1.html'), page1, 'utf8');
   count += 1;
 
-  console.log('Prerendered ' + count + ' news pages → public/news/');
+  console.log('Prerendered ' + count + ' news pages → public/news.html + public/news/');
   return count;
 }
 

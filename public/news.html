@@ -4,129 +4,133 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>新闻资讯 - 老号吧</title>
-  <meta name="description" content="老号吧行业新闻、账号购买教程与促销活动。">
+  <meta name="description" content="海外账号热门资讯一网打尽，热点头条每日高能放送！">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://www.laohaoba.com/news">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.laohaoba.com/news">
+  <meta property="og:title" content="新闻资讯 - 老号吧">
+  <meta property="og:description" content="海外账号热门资讯一网打尽，热点头条每日高能放送！">
+  <meta property="og:image" content="https://www.laohaoba.com/assets/laohaoba-logo.svg">
   <meta property="og:site_name" content="老号吧">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="新闻资讯 - 老号吧">
+  <meta name="twitter:description" content="海外账号热门资讯一网打尽，热点头条每日高能放送！">
+  <meta name="twitter:image" content="https://www.laohaoba.com/assets/laohaoba-logo.svg">
   <link rel="icon" href="/assets/laohaoba-logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/css/laohaoba.css?v=16">
+  <link rel="stylesheet" href="/css/laohaoba.css?v=17">
+  <link rel="next" href="https://www.laohaoba.com/news/page-2">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"新闻资讯","description":"海外账号热门资讯一网打尽，热点头条每日高能放送！","url":"https://www.laohaoba.com/news"}</script>
+  <!-- ssg-news-v2 -->
 </head>
 <body>
-<div id="app">
 <div class="ab-site">
-  <div class="ab-notice">
-    <div class="center ab-notice-inner">
-      <span class="ab-notice-tag">NOTICE</span>
-      <span>警惕仿冒网站，保护您的资金安全！</span>
-      <a href="https://t.me/xiaoqi2888" target="_blank" rel="noopener">→</a>
+<div class="ab-notice">
+  <div class="center ab-notice-inner">
+    <span class="ab-notice-tag">NOTICE</span>
+    <span data-i18n="notice.text">警惕仿冒网站，保护您的资金安全！</span>
+    <a href="https://t.me/xiaoqi2888" target="_blank" rel="noopener">→</a>
+  </div>
+</div><header class="ab-header">
+  <div class="center ab-header-inner">
+    <a class="ab-logo" href="/">
+      <img src="/assets/laohaoba-logo.svg" width="48" height="48" alt="老号吧">
+      <span class="ab-logo-text"><em>老号吧</em> <small>LaoHaoBa</small></span>
+    </a>
+    <form class="ab-search" action="/" method="get">
+      <input type="search" name="key" data-i18n-placeholder="search.placeholder" placeholder="搜索商品" data-i18n-aria="search.aria" aria-label="搜索商品">
+      <button type="submit" data-i18n-aria="search.aria" aria-label="搜索">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+      </button>
+    </form>
+    <div class="ab-header-links">
+      <button type="button" class="ab-lang-toggle ab-lang-toggle-static" aria-label="Switch language">EN</button>
+      <a class="ab-btn-gold" href="https://t.me/xiaoqi2888" target="_blank" rel="noopener" data-i18n="nav.partner">推广合作</a>
+      <a class="ab-btn-outline" href="/order/search.html" data-i18n="nav.orders">订单查询</a>
+      <a class="ab-btn-red" href="https://t.me/xiaoqi2888" target="_blank" rel="noopener" data-i18n="nav.support">联系客服</a>
     </div>
   </div>
-
-  <header class="ab-header">
-    <div class="center ab-header-inner">
-      <a class="ab-logo" href="/">
-        <img src="/assets/laohaoba-logo.svg" width="48" height="48" alt="老号吧">
-        <span class="ab-logo-text"><em>老号吧</em> <small>LaoHaoBa</small></span>
-      </a>
-      <form class="ab-search" @submit.prevent="headerSearch">
-        <input type="search" v-model="keyword" placeholder="搜索商品" aria-label="搜索商品">
-        <button type="submit" aria-label="搜索">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-        </button>
-      </form>
-      <div class="ab-header-links">
-        <a class="ab-btn-gold" href="https://t.me/xiaoqi2888" target="_blank" rel="noopener">推广合作</a>
-        <a class="ab-btn-outline" :href="getOrderUrl()">订单查询</a>
-        <a class="ab-btn-red" href="https://t.me/xiaoqi2888" target="_blank" rel="noopener">联系客服</a>
+</header><div class="ab-legal-bar" data-i18n="legal.bar">凡购买本站任何商品必须遵守各个国家法律法规及各大平台规则，非法用途一切后果自负，本站不承担任何法律及连带责任！</div><div class="center ab-news-page">
+  <nav class="ab-breadcrumb"><a href="/">首页</a><span>›</span><span>新闻资讯</span></nav>
+  <div class="ab-news-page-head"><h1>新闻资讯</h1><p>海外账号热门资讯一网打尽，热点头条每日高能放送！</p></div><div class="ab-news-list"><a class="ab-news-list-item" href="/article/2006.html">
+      <div class="ab-news-list-cover" style="background-image:url('/assets/images/m-files/1248934989-f8867eb86edf4f209f9a35e87afca0d1_a7dc42a1.jpg')" role="img" aria-label="App Store消费太肉痛？尼日利亚区Apple ID，老玩家才知道的省钱魔法！"></div>
+      <div class="ab-news-list-body">
+        <h2 class="ab-news-list-title">App Store消费太肉痛？尼日利亚区Apple ID，老玩家才知道的省钱魔法！</h2><p class="ab-news-list-summary">是不是觉得App和订阅费越来越贵？别急，尼日利亚区Apple ID或许能帮你大省一笔！这里有它的超值优势、适用场景和使用技巧，让你轻松告别高价内购，解锁超划算的数字生活。</p><div class="ab-news-list-date">发布时间 2026-07-18</div></div></a><a class="ab-news-list-item" href="/article/2005.html">
+      <div class="ab-news-list-cover" style="background-image:url('/assets/images/m-files/1248934989-f8867eb86edf4f209f9a35e87afca0d1_a7dc42a1.jpg')" role="img" aria-label="还在被App Store卡脖子？老玩家教你搞懂菲律宾苹果ID，轻松玩转海外应用！"></div>
+      <div class="ab-news-list-body">
+        <h2 class="ab-news-list-title">还在被App Store卡脖子？老玩家教你搞懂菲律宾苹果ID，轻松玩转海外应用！</h2><p class="ab-news-list-summary">玩海外App总被国区App Store限制？别提多烦心了！这篇文章就来给大家好好聊聊菲律宾苹果ID，从白号到成品号，手把手教大家如何挑选，告别踩坑，轻松解锁全球App资源，打开你的数字新世界。</p><div class="ab-news-list-date">发布时间 2026-07-16</div></div></a><a class="ab-news-list-item" href="/article/2004.html">
+      <div class="ab-news-list-cover" style="background-image:url('/assets/images/m-files/tiktok-2cf29516d7c64de7a1b3f704826faa4e_6d0cd439.png')" role="img" aria-label="玩TikTok新号太心累？老玩家告诉你，尼日利亚IP老号才是真香！"></div>
+      <div class="ab-news-list-body">
+        <h2 class="ab-news-list-title">玩TikTok新号太心累？老玩家告诉你，尼日利亚IP老号才是真香！</h2><p class="ab-news-list-summary">玩TikTok新号总被限流，流量少得可怜？别焦虑了！老号吧资深玩家悄悄告诉你，那些2016-2023年的老号，特别是带尼日利亚IP的，简直是帮你起飞的秘密武器。这篇文章就来聊聊，怎么挑、怎么用，让你在TikTok上少走弯路，更快出圈。</p><div class="ab-news-list-date">发布时间 2026-07-15</div></div></a><a class="ab-news-list-item" href="/article/2003.html">
+      <div class="ab-news-list-cover" style="background-image:url('/assets/images/m-files/-3328b78f90f040d3a9358613d6d2e1ec_c0e6d68d.jpg')" role="img" aria-label="电脑老是出问题？正版Windows激活码、重装、升级那些事儿，老玩家教你避坑！"></div>
+      <div class="ab-news-list-body">
+        <h2 class="ab-news-list-title">电脑老是出问题？正版Windows激活码、重装、升级那些事儿，老玩家教你避坑！</h2><p class="ab-news-list-summary">电脑卡顿、蓝屏，是不是盗版系统惹的祸？正版Windows激活码重装后还能用吗？家庭版怎么升级专业版？激活码如何绑定微软账户？老号吧带大家轻松搞定系统升级与维护，告别烦恼。</p><div class="ab-news-list-date">发布时间 2026-07-10</div></div></a><a class="ab-news-list-item" href="/article/2002.html">
+      <div class="ab-news-list-cover" style="background-image:url('/assets/images/m-files/tiktok-2cf29516d7c64de7a1b3f704826faa4e_6d0cd439.png')" role="img" aria-label="想在TikTok台湾区搞事情？账号怎么选，老玩家手把手教你避坑！"></div>
+      <div class="ab-news-list-body">
+        <h2 class="ab-news-list-title">想在TikTok台湾区搞事情？账号怎么选，老玩家手把手教你避坑！</h2><p class="ab-news-list-summary">玩TikTok想冲台湾市场？别以为随便搞个号就行，这里面水深着呢！刚注册的“0天小号”容易限流，想省心还得看“满月白号【台湾】”。这种号有历史、没记录、专为台湾打造，简直是新手神器。不过买号也得擦亮眼，资深玩家教你避开那些常见的坑，让你在TikTok上少走弯路！</p><div class="ab-news-list-date">发布时间 2026-07-10</div></div></a><a class="ab-news-list-item" href="/article/2001.html">
+      <div class="ab-news-list-cover" style="background-image:url('/assets/images/m-files/1248934989-f8867eb86edf4f209f9a35e87afca0d1_a7dc42a1.jpg')" role="img" aria-label="玩转澳洲App Store？老司机带你搞定澳大利亚苹果ID！"></div>
+      <div class="ab-news-list-body">
+        <h2 class="ab-news-list-title">玩转澳洲App Store？老司机带你搞定澳大利亚苹果ID！</h2><p class="ab-news-list-summary">是不是常常被App Store的区域限制搞得心烦意乱？想下载澳洲独占应用、游戏或电影却碰壁？这篇指南手把手教大家如何用上澳大利亚苹果ID，轻松解锁澳洲数字世界，告别烦恼。资深玩家带你玩转海外数字生活，再也不用眼馋别人的“限定版”内容了！</p><div class="ab-news-list-date">发布时间 2026-07-10</div></div></a><a class="ab-news-list-item" href="/article/1306.html">
+      <div class="ab-news-list-cover" style="background-image:url('/assets/images/m-files/-1303928273-d853056b45a2481c8df9afa610bac06e_ae80d060.png')" role="img" aria-label="2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）"></div>
+      <div class="ab-news-list-body">
+        <h2 class="ab-news-list-title">2026上半年海外高分剧集盘点：Netflix、HBO、Disney+ 哪些爆款必追？（附国内超划算看剧指南）</h2><p class="ab-news-list-summary">2026上半年有哪些值得看的海外剧？这篇盘点《绝望写手》第五季、《七王国的骑士》《海贼王》第二季、《校园之外》等10部高分与热门剧集，涵盖Netflix、HBO Max、Disney+和Prime Video，并附豆瓣评分、剧情亮点、推荐理由及播放平台。</p><div class="ab-news-list-date">发布时间 2026-06-12</div></div></a><a class="ab-news-list-item" href="/article/1241.html">
+      <div class="ab-news-list-cover" style="background-image:url('/assets/images/m-files/602083074-4f89ba87e772424fb5fab3bedb122245_825c4b4e.png')" role="img" aria-label="怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比"></div>
+      <div class="ab-news-list-body">
+        <h2 class="ab-news-list-title">怎么识别是不是AI图片？OpenAI、Google与第三方检测工具对比</h2><p class="ab-news-list-summary">AI图片越来越真实，怎么识别是不是AI生成？这篇详解OpenAI Verify、Google SynthID、C2PA内容凭证、第三方AI图片识别工具的使用方法、准确性和局限，帮助你判断图片是否由AI生成。</p><div class="ab-news-list-date">发布时间 2026-05-25</div></div></a><a class="ab-news-list-item" href="/article/1237.html">
+      <div class="ab-news-list-cover" style="background-image:url('/assets/images/m-files/948803023-db77520f56b94826b96806318cf176eb_7e0d2cc3.png')" role="img" aria-label="Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）"></div>
+      <div class="ab-news-list-body">
+        <h2 class="ab-news-list-title">Gemini 3.5 Flash 完整指南：性能测评、价格对比与使用方法（2026）</h2><p class="ab-news-list-summary">全面解析 Gemini 3.5 Flash：高频任务执行、多步骤 Agent 模型、平台入口、国内使用指南、免费额度与订阅方案，实测任务表现和 Gemini Pro / ChatGPT 对比，帮助大家快速决策是否开通会员。</p><div class="ab-news-list-date">发布时间 2026-05-22</div></div></a><a class="ab-news-list-item" href="/article/1228.html">
+      <div class="ab-news-list-cover" style="background-image:url('/assets/images/m-files/684659721-ef82ddda5c1548e0a525fc7b00c87545_7bbcfab0.png')" role="img" aria-label="Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态"></div>
+      <div class="ab-news-list-body">
+        <h2 class="ab-news-list-title">Google I/O 2026核心看点全景盘点：从 Gemini 3.5 Flash到全新AI智能体生态</h2><p class="ab-news-list-summary">全面梳理 Google I/O 2026 核心更新，包括 Gemini 3.5 Flash、Pro、Omni、Gemini Spark、AI 搜索升级、Workspace、Universal Cart 及订阅体系变化，让你快速掌握全家桶 AI Agent 生态。</p><div class="ab-news-list-date">发布时间 2026-05-20</div></div></a></div><div class="ab-pagination"><a class="ab-page-btn active" href="/news">1</a><a class="ab-page-btn" href="/news/page-2">2</a><a class="ab-page-btn" href="/news/page-3">3</a><span class="ab-page-btn ellipsis">…</span><a class="ab-page-btn" href="/news/page-26">26</a><a class="ab-page-btn" href="/news/page-27">27</a><a class="ab-page-btn" href="/news/page-2">›</a></div><section class="ab-goods-section"><h2 class="ab-section-title ab-section-title-bar">相关推荐</h2><div class="ab-related-row"><a class="ab-related-card" href="/goods/ab_1578290456.html">
+        <img src="/assets/images/m-files/20230208-164411-0a23998749b548a191e502e088534adc-f4c425d68cb7483391e5b70e00258f6_325d465e.png" alt="Telegram账号" loading="lazy">
+        <div class="ab-related-name">Telegram账号</div></a><a class="ab-related-card" href="/goods/ab_1578286983.html">
+        <img src="/assets/images/m-files/苹果id-5eb50b86d5ee4b58be182f600e372b45_dbd3d626.jpg" alt="苹果ID" loading="lazy">
+        <div class="ab-related-name">苹果ID</div></a><a class="ab-related-card" href="/goods/ab_1578287568.html">
+        <img src="/assets/images/m-files/gmail-e33ea562c32d45b9a26d033941b6019d_957514dd.png" alt="谷歌邮箱" loading="lazy">
+        <div class="ab-related-name">谷歌邮箱</div></a><a class="ab-related-card" href="/goods/ab_1578280548.html">
+        <img src="/assets/images/m-files/iTunes-bb64b8a918124f819d3e020ed1d369c9_5819100d.png" alt="苹果iTunes礼品卡" loading="lazy">
+        <div class="ab-related-name">苹果iTunes礼品卡</div></a><a class="ab-related-card" href="/goods/ab_1578287018.html">
+        <img src="/assets/images/m-files/推特X-c2fb5dfa709e4438b2899388e2d320b5_6de346a0.jpg" alt="推特账号" loading="lazy">
+        <div class="ab-related-name">推特账号</div></a><a class="ab-related-card" href="/goods/ab_20112611.html">
+        <img src="/assets/images/m-files/google-0193e33a148d4ea08fa582b31c40c8c8-5ac7d134296f4bda80977597ba0dc9a5_49d099b6.jpg" alt="谷歌id" loading="lazy">
+        <div class="ab-related-name">谷歌id</div></a><a class="ab-related-card" href="/goods/ab_1578287020.html">
+        <img src="/assets/images/m-files/ins-ee7cd2ee890e4e3aa9fc42970951bb18_6f19754b.png" alt="Instagram账号" loading="lazy">
+        <div class="ab-related-name">Instagram账号</div></a><a class="ab-related-card" href="/goods/ab_1578288236.html">
+        <img src="/assets/images/m-files/facebook叠加背景版-27174d45895246a8b88f11c733bcbc4f_84af8fcc.jpg" alt="Facebook账号" loading="lazy">
+        <div class="ab-related-name">Facebook账号</div></a></div></section></div></div>
+<p class="center" style="padding:12px 20px 24px;font-size:13px;color:#666">
+  <a href="/news" data-i18n="ssg.enterBuy">进入交互购买页面 →</a>
+</p>
+<footer class="ab-footer">
+  <div class="center">
+    <div class="ab-footer-grid">
+      <div>
+        <img src="/assets/laohaoba-logo.svg" width="48" height="48" alt="老号吧" style="margin-bottom:12px;border-radius:10px">
+        <p style="font-size:13px;line-height:1.8;color:rgba(255,255,255,.6)" data-i18n="footer.about">老号吧 — 海外账号购买平台，USDT TRC20 扫码支付，即时发货。</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.coop">合作互动</h4>
+        <a href="https://t.me/xiaoqi2888" target="_blank" rel="noopener" data-i18n="nav.partner">推广合作</a>
+        <a href="/" data-i18n="footer.aboutUs">关于我们</a>
+      </div>
+      <div>
+        <h4 data-i18n="footer.legal">法律法规</h4>
+        <a href="/policy.html" data-i18n="footer.refund">退换货说明</a>
+        <a href="/policy.html#refund" data-i18n="footer.refundPolicy">退款说明</a>
+        <a href="/policy.html#pay" data-i18n="footer.payPolicy">支付说明</a>
+      </div>
+      <div>
+        <h4 data-i18n="footer.support">服务支持</h4>
+        <a href="https://t.me/xiaoqi2888" target="_blank" rel="noopener" data-i18n="footer.contact">联系我们</a>
+        <a href="/order/search.html" data-i18n="nav.orders">订单查询</a>
       </div>
     </div>
-  </header>
-
-  <div class="ab-legal-bar">凡购买本站任何商品必须遵守各个国家法律法规及各大平台规则，非法用途一切后果自负，本站不承担任何法律及连带责任！</div>
-
-  <div class="loading-mask" v-if="loading">加载中...</div>
-
-  <div class="center ab-news-page" v-else>
-    <nav class="ab-breadcrumb">
-      <a href="/">首页</a><span>›</span>
-      <span>{{ newsMeta.title }}</span>
-    </nav>
-
-    <div class="ab-news-page-head">
-      <h1>{{ newsMeta.title }}</h1>
-      <p v-if="newsMeta.subtitle">{{ newsMeta.subtitle }}</p>
-    </div>
-
-    <div class="ab-news-list">
-      <a class="ab-news-list-item" v-for="n in pageItems" :key="n.id"
-         :href="articleHref(n)" @click.prevent="goArticle(n)">
-        <div class="ab-news-list-cover" :style="n.cover ? {backgroundImage:'url('+productImage(n.cover)+')'} : {}" role="img" :aria-label="n.title"></div>
-        <div class="ab-news-list-body">
-          <h2 class="ab-news-list-title">{{ n.title }}</h2>
-          <p class="ab-news-list-summary" v-if="n.summary">{{ n.summary }}</p>
-          <div class="ab-news-list-date" v-if="n.date">发布时间 {{ n.date }}</div>
-        </div>
-      </a>
-    </div>
-
-    <div class="ab-pagination" v-if="newsMeta.totalPages > 1">
-      <button type="button" class="ab-page-btn" :disabled="currentPage <= 1" @click="goPage(currentPage - 1)">‹</button>
-      <button type="button" class="ab-page-btn" v-for="p in pageList" :key="'p'+p"
-              :class="{active: p === currentPage, ellipsis: p === '...'}" :disabled="p === '...'"
-              @click="goPage(p)">{{ p }}</button>
-      <button type="button" class="ab-page-btn" :disabled="currentPage >= newsMeta.totalPages" @click="goPage(currentPage + 1)">›</button>
-    </div>
-
-    <section class="ab-goods-section" v-if="relatedProducts.length">
-      <h2 class="ab-section-title ab-section-title-bar">相关推荐</h2>
-      <div class="ab-related-row">
-        <a class="ab-related-card" v-for="item in relatedProducts" :key="item.id"
-           :href="productHref(item)" @click.prevent="goRelated(item)">
-          <img :src="productImage(item.icon)" :alt="item.name" loading="lazy">
-          <div class="ab-related-name">{{ item.name }}</div>
-        </a>
-      </div>
-    </section>
+    <div class="ab-footer-bottom" data-i18n="footer.copyright">老号吧 LaoHaoBa.com &copy; 2026</div>
   </div>
-
-  <footer class="ab-footer">
-    <div class="center ab-footer-inner">
-      <div class="ab-footer-grid">
-        <div>
-          <h4>合作互动</h4>
-          <a href="https://t.me/xiaoqi2888" target="_blank" rel="noopener">推广合作</a>
-          <a href="/">关于我们</a>
-        </div>
-        <div>
-          <h4>法律法规</h4>
-          <a href="/policy.html">退换货说明</a>
-          <a href="/policy.html#refund">退款说明</a>
-        </div>
-        <div>
-          <h4>服务支持</h4>
-          <a href="https://t.me/xiaoqi2888" target="_blank" rel="noopener">联系我们</a>
-          <a :href="getOrderUrl()">订单查询</a>
-        </div>
-      </div>
-      <div class="ab-footer-bottom">老号吧 LaoHaoBa.com &copy; 2026</div>
-    </div>
-  </footer>
-</div>
-</div>
-
-<script src="/js/seo.js?v=1"></script>
-<script src="/js/vendor/vue.min.js"></script>
-<script src="/js/vendor/axios.min.js"></script>
-<script src="/js/app.js?v=24"></script>
-<script>
-try {
-  new Vue({ el: '#app', ...NewsApp });
-} catch (e) {
-  document.getElementById('app').innerHTML = '<p style="padding:24px">页面加载失败，请刷新重试</p>';
-}
-</script>
-<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-<script>LA.init({id:"JSdccLPHb6aweYu9",ck:"JSdccLPHb6aweYu9"})</script>
+</footer>
+<script src="/js/i18n.js?v=1"></script>
+<script>I18n.init();</script>
 </body>
 </html>
