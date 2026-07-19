@@ -1,10 +1,10 @@
 /**
- * Normalize article / product internal links to SEO paths.
- * - /goods.html?id=ab_xxx  → /goods/ab_xxx.html
+ * Normalize article / product internal links.
+ * - /goods/ab_xxx.html     → /goods?id=ab_xxx  (purchase SPA, single page)
+ * - /goods.html?id=ab_xxx  → /goods?id=ab_xxx
  * - /article.html?id=123   → /article/123.html
  * - /news.html             → /news
  * - accountboy / fake domains → local paths
- * - absolute laohaoba.com goods/article → relative SEO paths
  */
 const fs = require('fs');
 const path = require('path');
@@ -13,8 +13,8 @@ const PUBLIC = path.join(__dirname, '..', 'public');
 
 function productUrl(id) {
   const pid = String(id || '').replace(/\.html$/i, '').trim();
-  if (!pid) return '/';
-  return '/goods/' + encodeURIComponent(pid) + '.html';
+  if (!pid) return '/goods';
+  return '/goods?id=' + encodeURIComponent(pid);
 }
 
 function articleUrl(id) {
@@ -90,16 +90,15 @@ function rewriteHref(href, buyMap) {
   });
   h = h.replace(/^\/zh-cn-[a-z]+\/news(?:-\d+)?\/?$/i, '/news');
 
-  // Query forms → SEO
+  // Legacy SSG goods path → purchase SPA
+  h = h.replace(/^\/goods\/([^/?#]+?)(?:\.html)?$/i, (_, id) => productUrl(id));
+  // Normalize goods.html?id= → /goods?id=
   h = h.replace(/^\/goods\.html\?id=([^&#]+)/i, (_, id) => productUrl(decodeURIComponent(id)));
   h = h.replace(/^\/article\.html\?id=(\d+)/i, (_, id) => articleUrl(id));
   h = h.replace(/^\/news\.html(?:\?page=(\d+))?$/i, (_, p) => {
     const n = Number(p || 1);
     return n > 1 ? '/news/page-' + n : '/news';
   });
-
-  // Already SEO-ish but missing .html
-  h = h.replace(/^\/goods\/([^/?#]+?)(?:\.html)?$/i, (_, id) => productUrl(id));
   h = h.replace(/^\/article\/(\d+)(?:\.html)?$/i, (_, id) => articleUrl(id));
 
   return h;

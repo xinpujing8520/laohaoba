@@ -162,16 +162,18 @@ function renderProduct(data) {
 }
 
 function main() {
-  fs.mkdirSync(OUT_DIR, { recursive: true });
-  const index = buildProductIndex();
-  let count = 0;
-  for (const [id, data] of index.entries()) {
-    const out = path.join(OUT_DIR, id + '.html');
-    fs.writeFileSync(out, renderProduct(data), 'utf8');
-    count += 1;
+  // Single product destination: purchase SPA at /goods?id=…
+  // Remove legacy static duplicates so CF does not serve /goods/ab_xxx as a second page.
+  let removed = 0;
+  if (fs.existsSync(OUT_DIR)) {
+    for (const f of fs.readdirSync(OUT_DIR)) {
+      if (!/^ab_.+\.html$/i.test(f)) continue;
+      fs.unlinkSync(path.join(OUT_DIR, f));
+      removed += 1;
+    }
   }
-  console.log('Prerendered ' + count + ' goods pages → public/goods/');
-  return count;
+  console.log('Goods SSG disabled — purchase page is /goods?id= (removed ' + removed + ' static files)');
+  return 0;
 }
 
 if (require.main === module) main();

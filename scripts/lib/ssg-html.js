@@ -35,8 +35,9 @@ function absUrl(path) {
 }
 
 function productUrl(id) {
-  const pid = String(id || '').replace(/\.html$/i, '');
-  return '/goods/' + encodeURIComponent(pid) + '.html';
+  const pid = String(id || '').replace(/\.html$/i, '').trim();
+  if (!pid) return '/goods';
+  return '/goods?id=' + encodeURIComponent(pid);
 }
 
 function articleUrl(id) {

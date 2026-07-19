@@ -89,7 +89,7 @@ function main() {
 
   for (const id of collectProductIds()) {
     urls.push({
-      loc: SITE + '/goods/' + encodeURIComponent(id) + '.html',
+      loc: SITE + '/goods?id=' + encodeURIComponent(id),
       changefreq: 'weekly',
       priority: '0.8'
     });

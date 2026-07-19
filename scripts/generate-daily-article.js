@@ -59,7 +59,7 @@ function slugify(title) {
 function buildDraftPrompt(topic, articleType) {
   const year = new Date().getFullYear();
   const goodsLink = topic.productId
-    ? `https://www.laohaoba.com/goods/${encodeURIComponent(topic.productId)}.html`
+    ? `https://www.laohaoba.com/goods?id=${encodeURIComponent(topic.productId)}`
     : 'https://www.laohaoba.com/';
   const titleHint = articleType.titleTpl
     .replace('{name}', topic.displayName || topic.productName)
@@ -88,7 +88,7 @@ function dryRunArticle(topic, articleType) {
   const title = articleType.titleTpl
     .replace('{name}', topic.displayName || topic.productName)
     .replace('{year}', String(new Date().getFullYear()));
-  const link = topic.productId ? `/goods/${topic.productId}.html` : '/';
+  const link = topic.productId ? `/goods?id=${topic.productId}` : '/';
   return {
     title,
     summary: `关于${topic.productName}的${articleType.label}，帮你看懂怎么选、怎么用、有哪些坑要注意。`,

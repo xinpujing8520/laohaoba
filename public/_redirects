@@ -1,9 +1,10 @@
-# Cloudflare Pages does NOT support query-string matching in _redirects.
-# Previous rules like:
-#   /news.html?page=2  /news/page-2.html  301
-# were parsed as "/news.html → /news/page-2.html", so clicking page "1"
-# (href=/news.html) always bounced back to page 2.
+# Cloudflare Pages does NOT support query-string matching in _redirects sources.
+# Placeholders like :id are NOT expanded inside query strings — use :splat instead.
 
-# Normalize page-1 SSG alias to the main news listing (/news ← news.html)
+# News page-1 alias → main listing
 /news/page-1 /news 301
 /news/page-1.html /news 301
+
+# Legacy static product URLs → purchase SPA
+# /goods/ab_xxx  and  /goods/ab_xxx.html  →  /goods?id=ab_xxx
+/goods/* /goods?id=:splat 301

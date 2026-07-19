@@ -3,7 +3,9 @@ const API = (location.hostname === 'localhost' || location.hostname === '127.0.0
   : '/api';
 
 function seoProductUrl(id) {
-  return (typeof Seo !== 'undefined' && Seo.productUrl) ? Seo.productUrl(id) : '/goods/' + encodeURIComponent(id) + '.html';
+  return (typeof Seo !== 'undefined' && Seo.productUrl)
+    ? Seo.productUrl(id)
+    : '/goods?id=' + encodeURIComponent(id);
 }
 
 function seoArticleUrl(article) {

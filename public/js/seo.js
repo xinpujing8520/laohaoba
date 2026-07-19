@@ -13,9 +13,10 @@
   }
 
   function productUrl(id) {
-    const pid = String(id || '').replace(/\.html$/i, '');
-    if (!pid) return '/goods.html';
-    return '/goods/' + encodeURIComponent(pid) + '.html';
+    const pid = String(id || '').replace(/\.html$/i, '').trim();
+    if (!pid) return '/goods';
+    // Purchase SPA is the only product page (no separate SSG /goods/ab_xxx)
+    return '/goods?id=' + encodeURIComponent(pid);
   }
 
   function articleUrl(article) {
