@@ -3,11 +3,13 @@ const API = (location.hostname === 'localhost' || location.hostname === '127.0.0
   : '/api';
 
 function seoProductUrl(id) {
-  return (typeof Seo !== 'undefined' && Seo.productUrl) ? Seo.productUrl(id) : '/goods.html?id=' + encodeURIComponent(id);
+  return (typeof Seo !== 'undefined' && Seo.productUrl) ? Seo.productUrl(id) : '/goods/' + encodeURIComponent(id) + '.html';
 }
 
 function seoArticleUrl(article) {
-  return (typeof Seo !== 'undefined' && Seo.articleUrl) ? Seo.articleUrl(article) : '/article.html?id=' + encodeURIComponent(article.id || article);
+  return (typeof Seo !== 'undefined' && Seo.articleUrl)
+    ? Seo.articleUrl(article)
+    : '/article/' + encodeURIComponent(article.id || article) + '.html';
 }
 
 function seoCategoryUrl(catId) {

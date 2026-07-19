@@ -172,9 +172,9 @@ function closePage(interactiveUrl) {
 }
 
 function rewriteContentLinks(html) {
-  return String(html || '')
-    .replace(/href="\/goods\.html\?id=([^"#]+)"/gi, (_, id) => `href="${productUrl(decodeURIComponent(id))}"`)
-    .replace(/href="\/article\.html\?id=(\d+)"/gi, (_, id) => `href="${articleUrl(id)}"`);
+  const { rewriteHtmlLinks, buildBuySlugMap } = require('../rewrite-internal-links');
+  if (!rewriteContentLinks._buyMap) rewriteContentLinks._buyMap = buildBuySlugMap();
+  return rewriteHtmlLinks(String(html || ''), rewriteContentLinks._buyMap);
 }
 
 function articleJsonLd(article, canonical) {
