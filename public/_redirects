@@ -1,10 +1,8 @@
 # Cloudflare Pages does NOT support query-string matching in _redirects sources.
-# Placeholders like :id are NOT expanded inside query strings — use :splat instead.
+# Placeholders are also NOT expanded inside query-string destinations — do not
+# put /goods/:id → /goods?id=:id here. Legacy /goods/ab_* redirects live in
+# functions/goods/[[path]].js instead.
 
 # News page-1 alias → main listing
 /news/page-1 /news 301
 /news/page-1.html /news 301
-
-# Legacy static product URLs → purchase SPA
-# /goods/ab_xxx  and  /goods/ab_xxx.html  →  /goods?id=ab_xxx
-/goods/* /goods?id=:splat 301
