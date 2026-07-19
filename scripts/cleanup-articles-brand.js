@@ -24,6 +24,9 @@ const SITE = 'https://www.laohaoba.com';
 function replaceBrand(text) {
   if (!text || typeof text !== 'string') return text;
   return text
+    .replace(/https?:\/\/[a-z0-9-]*(?:acceboy|accaboy|accboy|accountboy)[a-z0-9-]*\.laohaoba\.com\/?/gi, `${SITE}/`)
+    .replace(/https?:\/\/(?:www\.)?(?:acceboy|accaboy|accboy|accountboy|zuhaohao)\.(?:com|cn)\/?/gi, `${SITE}/`)
+    .replace(/(?:www\.)?(?:acceboy|accaboy|accboy)\.(?:com|cn)/gi, 'www.laohaoba.com')
     .replace(/https?:\/\/(?:www\.)?accountboy\.com\/zh-cn-[a-z]+/gi, SITE)
     .replace(/https?:\/\/(?:www\.)?accountboy\.com\/?/gi, `${SITE}/`)
     .replace(/账号星球（AccountBoy）/g, BRAND)

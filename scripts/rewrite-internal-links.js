@@ -60,6 +60,11 @@ function rewriteHref(href, buyMap) {
   if (!href || typeof href !== 'string') return href;
   let h = href.trim();
 
+  // Affiliate-looking subdomains on our domain
+  if (/^https?:\/\/[a-z0-9-]*(?:acceboy|accaboy|accboy|accountboy)[a-z0-9-]*\.laohaoba\.com\/?/i.test(h)) {
+    return '/';
+  }
+
   // Fake / typo competitor domains (any subdomain) → salvage product/article or home
   if (/^https?:\/\/(?:[\w-]+\.)*(?:acceboy|accaboy|accboy|accountboy|zuhaohao)\./i.test(h)) {
     try {
@@ -122,6 +127,20 @@ function rewriteHtmlLinks(html, buyMap) {
   );
   s = s.replace(/https?:\/\/(?:www\.)?accountboy\.com\/zh-cn-[a-z]+\/news(?:-\d+)?/gi, '/news');
   s = s.replace(/https?:\/\/(?:www\.)?accountboy\.com\/?(?=["'\s>])/gi, '/');
+
+  // Fake promo domains → home (href + bare text)
+  s = s.replace(
+    /https?:\/\/[a-z0-9-]*(?:acceboy|accaboy|accboy|accountboy)[a-z0-9-]*\.laohaoba\.com\/?/gi,
+    '/'
+  );
+  s = s.replace(
+    /https?:\/\/(?:www\.)?(?:acceboy|accaboy|accboy|zuhaohao)\.(?:com|cn)[^"'\s]*/gi,
+    '/'
+  );
+  s = s.replace(
+    /(?<=>)(?:https?:\/\/)?(?:www\.)?(?:acceboy|accaboy|accboy)\.(?:com|cn)(?=<)/gi,
+    'www.laohaoba.com'
+  );
 
   // Rewrite every href="..."
   s = s.replace(/href=(["'])([^"']+)\1/gi, (full, q, href) => {
