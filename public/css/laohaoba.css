@@ -274,7 +274,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .ab-side-icon.svg { width: 24px; height: 24px; fill: currentColor; }
 .ab-side-name { font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.ab-side-arrow { font-size: 14px; color: #131414; line-height: 1; flex-shrink: 0; }
+.ab-side-arrow { display: none; }
 .ab-side-item.active .ab-side-arrow { color: #fff; }
 
 .ab-main-col,

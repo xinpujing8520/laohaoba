@@ -993,7 +993,8 @@ const ArticleApp = {
       if (m) id = m[1];
     }
     // Prefer static SSG article pages to avoid Vue template flash
-    if (id && /\/article\.html$/i.test(location.pathname)) {
+    const path = location.pathname.replace(/\/+$/, '') || '/';
+    if (id && (path === '/article' || /\/article\.html$/i.test(path))) {
       location.replace('/article/' + encodeURIComponent(id) + '.html');
       return;
     }
