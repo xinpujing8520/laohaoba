@@ -7,12 +7,13 @@
     "lib:apple-id:ab_1578287862",
     "lib:apple-id:ab_1578299285",
     "lib:Instagram:ab_1578298185",
-    "cd:ab_1578287701"
+    "cd:ab_1578287701",
+    "cd:ab_1578287578"
   ],
-  "articleTypeIndex": 3,
+  "articleTypeIndex": 4,
   "rotations": 0,
-  "lastRun": "2026-07-20T11:29:47.412Z",
-  "lastArticleId": 2008,
+  "lastRun": "2026-07-21T10:09:24.305Z",
+  "lastArticleId": 2009,
   "scheduledTypes": [
     {
       "type": "video",
