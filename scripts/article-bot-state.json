@@ -8,17 +8,12 @@
     "lib:apple-id:ab_1578299285",
     "lib:Instagram:ab_1578298185",
     "cd:ab_1578287701",
-    "cd:ab_1578287578"
+    "cd:ab_1578287578",
+    "lib:wechat:wxh_11_37"
   ],
-  "articleTypeIndex": 4,
+  "articleTypeIndex": 0,
   "rotations": 0,
-  "lastRun": "2026-07-21T10:09:24.305Z",
-  "lastArticleId": 2009,
-  "scheduledTypes": [
-    {
-      "type": "video",
-      "afterDate": "2026-07-22",
-      "note": "视频教程文章（约 3 天后优先发布）"
-    }
-  ]
+  "lastRun": "2026-07-22T10:08:34.188Z",
+  "lastArticleId": 2010,
+  "scheduledTypes": []
 }
