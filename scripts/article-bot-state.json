@@ -12,11 +12,12 @@
     "lib:wechat:wxh_11_37",
     "cd:ab_1578287570",
     "cd:ab_1578295539",
-    "cd:qq5_24_126"
+    "cd:qq5_24_126",
+    "lib:wechat:wxh_16_53"
   ],
-  "articleTypeIndex": 3,
+  "articleTypeIndex": 4,
   "rotations": 0,
-  "lastRun": "2026-07-25T08:34:14.332Z",
-  "lastArticleId": 2013,
+  "lastRun": "2026-07-26T09:28:22.008Z",
+  "lastArticleId": 2014,
   "scheduledTypes": []
 }
