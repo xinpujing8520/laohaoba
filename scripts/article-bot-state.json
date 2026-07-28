@@ -13,11 +13,12 @@
     "cd:ab_1578287570",
     "cd:ab_1578295539",
     "cd:qq5_24_126",
-    "lib:wechat:wxh_16_53"
+    "lib:wechat:wxh_16_53",
+    "lib:qq:qq5_18_90"
   ],
-  "articleTypeIndex": 4,
+  "articleTypeIndex": 5,
   "rotations": 0,
-  "lastRun": "2026-07-26T09:28:22.008Z",
-  "lastArticleId": 2014,
+  "lastRun": "2026-07-28T04:14:06.871Z",
+  "lastArticleId": 2015,
   "scheduledTypes": []
 }
