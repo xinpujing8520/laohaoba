@@ -15,11 +15,12 @@
     "cd:qq5_24_126",
     "lib:wechat:wxh_16_53",
     "lib:qq:qq5_18_90",
-    "cd:ab_1578291912"
+    "cd:ab_1578291912",
+    "lib:apple-id:ab_1578291214"
   ],
-  "articleTypeIndex": 0,
+  "articleTypeIndex": 1,
   "rotations": 0,
-  "lastRun": "2026-08-05T04:14:11.545Z",
-  "lastArticleId": 2016,
+  "lastRun": "2026-08-06T04:16:25.069Z",
+  "lastArticleId": 2017,
   "scheduledTypes": []
 }
