@@ -17,11 +17,12 @@
     "lib:qq:qq5_18_90",
     "cd:ab_1578291912",
     "lib:apple-id:ab_1578291214",
-    "lib:TK:ab_1578300013"
+    "lib:TK:ab_1578300013",
+    "lib:TK:ab_1578290513"
   ],
-  "articleTypeIndex": 2,
+  "articleTypeIndex": 3,
   "rotations": 0,
-  "lastRun": "2026-08-07T03:52:18.188Z",
-  "lastArticleId": 2018,
+  "lastRun": "2026-08-08T02:56:12.535Z",
+  "lastArticleId": 2019,
   "scheduledTypes": []
 }
