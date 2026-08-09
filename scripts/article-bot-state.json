@@ -18,11 +18,12 @@
     "cd:ab_1578291912",
     "lib:apple-id:ab_1578291214",
     "lib:TK:ab_1578300013",
-    "lib:TK:ab_1578290513"
+    "lib:TK:ab_1578290513",
+    "lib:Google:ab_1578288588"
   ],
-  "articleTypeIndex": 3,
+  "articleTypeIndex": 4,
   "rotations": 0,
-  "lastRun": "2026-08-08T02:56:12.535Z",
-  "lastArticleId": 2019,
+  "lastRun": "2026-08-09T03:03:45.398Z",
+  "lastArticleId": 2020,
   "scheduledTypes": []
 }
