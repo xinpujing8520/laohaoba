@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 279,
+  "total": 280,
   "pageSize": 10,
   "totalPages": 28,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2021,
+      "title": "馋Apple Arcade独占游戏？别急，先搞懂苹果ID和白号/新号的门道！",
+      "summary": "还在纠结怎么搞定苹果ID？尤其是那种带Apple Arcade会员的，跟普通白号、新号到底差在哪儿？这篇攻略帮你理清思路，不再踩坑，轻松畅玩Apple Arcade！",
+      "cover": "/assets/images/covers/2021.jpg",
+      "date": "2026-08-11",
+      "slug": "馋apple-arcade独占游戏-别急-先搞懂苹果id和白号-新号的门道"
+    },
     {
       "id": 2020,
       "title": "还在为谷歌新号秒封烦恼？老玩家教你玩转老号，这5个细节你得知道！",
