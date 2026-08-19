@@ -23,11 +23,12 @@
     "lib:apple-id:ab_1578296119",
     "lib:apple-id:ab_1578290272",
     "lib:qq:qq5_21_115",
-    "lib:qq:qq5_17_110"
+    "lib:qq:qq5_17_110",
+    "lib:qq:qq5_12_59"
   ],
-  "articleTypeIndex": 2,
+  "articleTypeIndex": 3,
   "rotations": 0,
-  "lastRun": "2026-08-17T02:21:03.440Z",
-  "lastArticleId": 2024,
+  "lastRun": "2026-08-19T02:19:45.817Z",
+  "lastArticleId": 2025,
   "scheduledTypes": []
 }
