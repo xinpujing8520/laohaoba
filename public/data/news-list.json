@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 285,
+  "total": 286,
   "pageSize": 10,
   "totalPages": 29,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2027,
+      "title": "Spotify礼品卡 vs. 白号新号：老玩家教你安心听歌不踩坑",
+      "summary": "还在为Spotify高级会员烦恼吗？那些所谓的白号、新号听着诱人，实际坑不少！资深玩家告诉你，Spotify礼品卡才是真正靠谱的选择，安全稳定还省心。别折腾了，跟着老号吧，轻松避坑，安心畅听！",
+      "cover": "/assets/images/covers/2027.jpg",
+      "date": "2026-08-22",
+      "slug": "spotify礼品卡-vs-白号新号-老玩家教你安心听歌不踩坑"
+    },
     {
       "id": 2026,
       "title": "玩转 Instagram？这些老玩家才懂的账号“小心思”，你得知道！",
