@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 286,
+  "total": 287,
   "pageSize": 10,
   "totalPages": 29,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2028,
+      "title": "玩转印度区Apple ID：老号吧手把手教你登录，告别卡顿烦恼！",
+      "summary": "想玩印度区独占App？别再为注册和验证头疼了！老号吧带你用2023年注册的印度区Apple ID，轻松搞定登录，告别限制，畅享数字世界！",
+      "cover": "/assets/images/covers/2028.jpg",
+      "date": "2026-08-23",
+      "slug": "玩转印度区apple-id-老号吧手把手教你登录-告别卡顿烦恼"
+    },
     {
       "id": 2027,
       "title": "Spotify礼品卡 vs. 白号新号：老玩家教你安心听歌不踩坑",
