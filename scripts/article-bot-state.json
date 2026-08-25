@@ -28,11 +28,12 @@
     "lib:Instagram:ab_1578289639",
     "cd:ab_1578287868",
     "cd:ab_1578290271",
-    "cd:ab_1578287026"
+    "cd:ab_1578287026",
+    "lib:qq:qq5_12_60"
   ],
-  "articleTypeIndex": 1,
+  "articleTypeIndex": 2,
   "rotations": 0,
-  "lastRun": "2026-08-24T02:24:07.017Z",
-  "lastArticleId": 2029,
+  "lastRun": "2026-08-25T02:19:32.549Z",
+  "lastArticleId": 2030,
   "scheduledTypes": []
 }
