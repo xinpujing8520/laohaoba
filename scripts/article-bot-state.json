@@ -29,11 +29,12 @@
     "cd:ab_1578287868",
     "cd:ab_1578290271",
     "cd:ab_1578287026",
-    "lib:qq:qq5_12_60"
+    "lib:qq:qq5_12_60",
+    "lib:wechat:wxh_17_59"
   ],
-  "articleTypeIndex": 2,
+  "articleTypeIndex": 3,
   "rotations": 0,
-  "lastRun": "2026-08-25T02:19:32.549Z",
-  "lastArticleId": 2030,
+  "lastRun": "2026-08-26T02:26:19.722Z",
+  "lastArticleId": 2031,
   "scheduledTypes": []
 }
