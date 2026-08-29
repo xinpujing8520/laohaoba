@@ -32,11 +32,12 @@
     "lib:qq:qq5_12_60",
     "lib:wechat:wxh_17_59",
     "lib:Instagram:ab_1578288437",
-    "lib:gmail:ab_1578287573"
+    "lib:gmail:ab_1578287573",
+    "cd:ab_1578286913"
   ],
-  "articleTypeIndex": 5,
+  "articleTypeIndex": 0,
   "rotations": 0,
-  "lastRun": "2026-08-28T12:36:17.584Z",
-  "lastArticleId": 2033,
+  "lastRun": "2026-08-29T07:44:24.855Z",
+  "lastArticleId": 2034,
   "scheduledTypes": []
 }

@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 292,
+  "total": 293,
   "pageSize": 10,
   "totalPages": 30,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2034,
+      "title": "搞不定ChatGPT？老玩家手把手教你激活30天特价账号，轻松上手AI！",
+      "summary": "还在为搞不定ChatGPT账号抓狂？别急，这篇老玩家教程带你从购买到激活，一步步搞定30天特价版，还有15天独享质保！轻松拥有你的专属AI助手，让工作学习都“开挂”。",
+      "cover": "/assets/images/m-files/-1730124671-bccdb1834eac42ef9416e745b3fd5edf_f12792fe.png",
+      "date": "2026-08-29",
+      "slug": "搞不定chatgpt-老玩家手把手教你激活30天特价账号-轻松上手ai"
+    },
     {
       "id": 2033,
       "title": "朋友，想在澳洲顺溜用Gmail？白号、新号和靠谱老号，到底咋选才不踩坑？",
