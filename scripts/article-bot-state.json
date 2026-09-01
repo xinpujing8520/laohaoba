@@ -35,11 +35,12 @@
     "lib:gmail:ab_1578287573",
     "cd:ab_1578286913",
     "lib:wechat:wxh_10_12",
-    "cd:ab_1578289353"
+    "cd:ab_1578289353",
+    "cd:ab_1578293134"
   ],
-  "articleTypeIndex": 2,
+  "articleTypeIndex": 3,
   "rotations": 0,
-  "lastRun": "2026-08-31T06:50:02.604Z",
-  "lastArticleId": 2036,
+  "lastRun": "2026-09-01T06:08:15.503Z",
+  "lastArticleId": 2037,
   "scheduledTypes": []
 }

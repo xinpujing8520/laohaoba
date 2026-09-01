@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 295,
+  "total": 296,
   "pageSize": 10,
   "totalPages": 30,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2037,
+      "title": "DMarket 老是支付失败被风控？试试礼品卡，轻松买到心仪皮肤！",
+      "summary": "在DMarket买卖游戏皮肤总遇到支付难题或被风控？别慌！DMarket礼品卡是你的救星。这篇教你如何用礼品卡避开风控雷区，让交易一路畅通，再也不用为支付问题抓狂！",
+      "cover": "/assets/images/covers/2037.jpg",
+      "date": "2026-09-01",
+      "slug": "dmarket-老是支付失败被风控-试试礼品卡-轻松买到心仪皮肤"
+    },
     {
       "id": 2036,
       "title": "Office 2016 正版激活，老玩家带你避坑，一次搞定永久用！",
