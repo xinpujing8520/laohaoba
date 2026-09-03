@@ -37,11 +37,12 @@
     "lib:wechat:wxh_10_12",
     "cd:ab_1578289353",
     "cd:ab_1578293134",
-    "lib:Google:ab_1578288934"
+    "lib:Google:ab_1578288934",
+    "cd:ab_1578289985"
   ],
-  "articleTypeIndex": 4,
+  "articleTypeIndex": 5,
   "rotations": 0,
-  "lastRun": "2026-09-02T05:34:00.831Z",
-  "lastArticleId": 2038,
+  "lastRun": "2026-09-03T05:34:17.300Z",
+  "lastArticleId": 2039,
   "scheduledTypes": []
 }
