@@ -39,11 +39,12 @@
     "cd:ab_1578293134",
     "lib:Google:ab_1578288934",
     "cd:ab_1578289985",
-    "lib:qq:qq5_12_53"
+    "lib:qq:qq5_12_53",
+    "lib:TK:ab_1578289626"
   ],
-  "articleTypeIndex": 0,
+  "articleTypeIndex": 1,
   "rotations": 0,
-  "lastRun": "2026-09-04T05:39:56.063Z",
-  "lastArticleId": 2040,
+  "lastRun": "2026-09-06T05:41:32.593Z",
+  "lastArticleId": 2041,
   "scheduledTypes": []
 }
