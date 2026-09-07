@@ -1,9 +1,9 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 300,
+  "total": 301,
   "pageSize": 10,
-  "totalPages": 30,
+  "totalPages": 31,
   "relatedProducts": [
     {
       "id": "ab_1578290456",
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2042,
+      "title": "玩Hailuo Ai，那个“300刀40000积分”到底啥意思？老玩家教你选对不踩坑！",
+      "summary": "最近想玩Hailuo Ai，是不是被“300刀40000积分”搞得云里雾里？别慌，老玩家来跟大家聊聊Hailuo Ai的积分门道、怎么选才划算，还有哪些坑要避开，让你轻松玩转AI绘画，不再当冤大头！",
+      "cover": "/assets/images/covers/2042.jpg",
+      "date": "2026-09-07",
+      "slug": "玩hailuo-ai-那个-300刀40000积分-到底啥意思-老玩家教你选对不踩坑"
+    },
     {
       "id": 2041,
       "title": "玩转TikTok？别让注册卡住你！老玩家带你轻松入局（2026）",
