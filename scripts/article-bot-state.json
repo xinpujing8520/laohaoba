@@ -41,11 +41,12 @@
     "cd:ab_1578289985",
     "lib:qq:qq5_12_53",
     "lib:TK:ab_1578289626",
-    "cd:ab_1578299742"
+    "cd:ab_1578299742",
+    "lib:apple-id:ab_1578288592"
   ],
-  "articleTypeIndex": 2,
+  "articleTypeIndex": 3,
   "rotations": 0,
-  "lastRun": "2026-09-07T05:51:41.197Z",
-  "lastArticleId": 2042,
+  "lastRun": "2026-09-08T05:44:27.804Z",
+  "lastArticleId": 2043,
   "scheduledTypes": []
 }
