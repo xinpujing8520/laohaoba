@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 304,
+  "total": 305,
   "pageSize": 10,
   "totalPages": 31,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2046,
+      "title": "Facebook真人老号+随机IP：这么玩，再也不怕被封啦！（资深玩家心得）",
+      "summary": "还在为Facebook新号登录就挂、老号莫名被封头疼吗？别急！这篇教程是老玩家的心得，教大家怎么玩转老号吧的Facebook真人老号，配合它自带的随机IP特性，告别封禁，让你的账号稳如老狗，轻松做海外营销！",
+      "cover": "/assets/images/covers/2046.jpg",
+      "date": "2026-09-15",
+      "slug": "facebook真人老号-随机ip-这么玩-再也不怕被封啦-资深玩家心得"
+    },
     {
       "id": 2045,
       "title": "想下海外App，Apple ID老号/新号咋选？老号吧澳门老号为啥这么香？",

@@ -44,11 +44,12 @@
     "cd:ab_1578299742",
     "lib:apple-id:ab_1578288592",
     "cd:ab_1578292031",
-    "cd:ab_1578294634"
+    "cd:ab_1578294634",
+    "cd:ab_1578288236"
   ],
-  "articleTypeIndex": 5,
+  "articleTypeIndex": 0,
   "rotations": 0,
-  "lastRun": "2026-09-13T05:47:00.591Z",
-  "lastArticleId": 2045,
+  "lastRun": "2026-09-15T05:58:20.863Z",
+  "lastArticleId": 2046,
   "scheduledTypes": []
 }
