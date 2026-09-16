@@ -45,11 +45,12 @@
     "lib:apple-id:ab_1578288592",
     "cd:ab_1578292031",
     "cd:ab_1578294634",
-    "cd:ab_1578288236"
+    "cd:ab_1578288236",
+    "lib:wechat:wxh_18_75"
   ],
-  "articleTypeIndex": 0,
+  "articleTypeIndex": 1,
   "rotations": 0,
-  "lastRun": "2026-09-15T05:58:20.863Z",
-  "lastArticleId": 2046,
+  "lastRun": "2026-09-16T05:47:19.712Z",
+  "lastArticleId": 2047,
   "scheduledTypes": []
 }
