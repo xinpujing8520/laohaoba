@@ -47,11 +47,12 @@
     "cd:ab_1578294634",
     "cd:ab_1578288236",
     "lib:wechat:wxh_18_75",
-    "cd:ab_1578287593"
+    "cd:ab_1578287593",
+    "cd:ab_1578295440"
   ],
-  "articleTypeIndex": 2,
+  "articleTypeIndex": 3,
   "rotations": 0,
-  "lastRun": "2026-09-18T05:40:03.885Z",
-  "lastArticleId": 2048,
+  "lastRun": "2026-09-20T05:53:49.703Z",
+  "lastArticleId": 2049,
   "scheduledTypes": []
 }
