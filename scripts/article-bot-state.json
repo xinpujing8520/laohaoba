@@ -49,11 +49,12 @@
     "lib:wechat:wxh_18_75",
     "cd:ab_1578287593",
     "cd:ab_1578295440",
-    "lib:TK:ab_1578289089"
+    "lib:TK:ab_1578289089",
+    "cd:ab_1578290287"
   ],
-  "articleTypeIndex": 4,
+  "articleTypeIndex": 5,
   "rotations": 0,
-  "lastRun": "2026-09-21T06:01:09.177Z",
-  "lastArticleId": 2050,
+  "lastRun": "2026-09-22T05:57:04.694Z",
+  "lastArticleId": 2051,
   "scheduledTypes": []
 }
