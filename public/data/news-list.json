@@ -1,9 +1,9 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 310,
+  "total": 311,
   "pageSize": 10,
-  "totalPages": 31,
+  "totalPages": 32,
   "relatedProducts": [
     {
       "id": "ab_1578290456",
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2052,
+      "title": "兄弟们，ChatGPT Plus还搞不定？手把手教你老号吧轻松解锁AI超能力！",
+      "summary": "还在被ChatGPT免费版卡顿、功能受限折磨吗？别愁了！今天这篇，资深玩家手把手教你从老号吧搞定独享ChatGPT Plus账号。从准备到支付、登录，全程无尿点，让你秒变AI高手，体验火箭般的生产力！",
+      "cover": "/assets/images/covers/2052.jpg",
+      "date": "2026-09-23",
+      "slug": "兄弟们-chatgpt-plus还搞不定-手把手教你老号吧轻松解锁ai超能力"
+    },
     {
       "id": 2051,
       "title": "苹果ID白号新号，到底哪种才靠谱？老玩家带你避坑，选对定制ID！",

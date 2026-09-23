@@ -50,11 +50,12 @@
     "cd:ab_1578287593",
     "cd:ab_1578295440",
     "lib:TK:ab_1578289089",
-    "cd:ab_1578290287"
+    "cd:ab_1578290287",
+    "lib:chatai:ab_1578299862"
   ],
-  "articleTypeIndex": 5,
+  "articleTypeIndex": 0,
   "rotations": 0,
-  "lastRun": "2026-09-22T05:57:04.694Z",
-  "lastArticleId": 2051,
+  "lastRun": "2026-09-23T05:40:21.404Z",
+  "lastArticleId": 2052,
   "scheduledTypes": []
 }
