@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 311,
+  "total": 312,
   "pageSize": 10,
   "totalPages": 32,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2053,
+      "title": "多邻国Duolingo Super会员：告别广告，畅学无阻！新手玩家必看",
+      "summary": "还在被多邻国Duolingo的广告和心心限制搞得心烦意乱？别急，Super会员家庭邀请就是来救场的！它能让你告别中断，无限畅学。这篇小教程手把手教大家怎么激活和用好Super会员，轻松享受纯净又高效的语言学习体验，开启你的天赋之旅！",
+      "cover": "/assets/images/m-files/3-05c33f6a05654f8fae790bf6200a2cbb_49e01fc4.jpg",
+      "date": "2026-09-25",
+      "slug": "多邻国duolingo-super会员-告别广告-畅学无阻-新手玩家必看"
+    },
     {
       "id": 2052,
       "title": "兄弟们，ChatGPT Plus还搞不定？手把手教你老号吧轻松解锁AI超能力！",
