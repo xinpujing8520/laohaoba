@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 313,
+  "total": 314,
   "pageSize": 10,
   "totalPages": 32,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2055,
+      "title": "Netflix独享会员：老玩家手把手教你避坑，畅享高清不掉线！",
+      "summary": "还在为Netflix共享账号被挤下线、观影记录混乱而烦恼吗？想拥有一个专属的高清Netflix会员，却又担心注册和风控问题？别急，老号吧的老玩家来支招，教你如何轻松搞定Netflix独享会员，从拿到账号到稳定追剧，一路畅通无阻，再也不用担心踩雷了！",
+      "cover": "/assets/images/covers/2055.jpg",
+      "date": "2026-09-27",
+      "slug": "netflix独享会员-老玩家手把手教你避坑-畅享高清不掉线"
+    },
     {
       "id": 2054,
       "title": "马来西亚Celcom卡避坑指南：资深玩家教你选卡不踩雷！",
