@@ -55,11 +55,12 @@
     "cd:ab_1578290229",
     "cd:ab_1578295420",
     "cd:ab_1578288551",
-    "lib:TK:ab_1578289087"
+    "lib:TK:ab_1578289087",
+    "lib:apple-id:ab_1578288073"
   ],
-  "articleTypeIndex": 4,
+  "articleTypeIndex": 5,
   "rotations": 0,
-  "lastRun": "2026-09-28T06:29:42.711Z",
-  "lastArticleId": 2056,
+  "lastRun": "2026-09-30T06:26:55.188Z",
+  "lastArticleId": 2057,
   "scheduledTypes": []
 }
