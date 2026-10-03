@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 316,
+  "total": 317,
   "pageSize": 10,
   "totalPages": 32,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2058,
+      "title": "玩转Trae Pro会员：老号吧手把手教你，告别激活烦恼！",
+      "summary": "还在被AI绘图工具的会员激活搞得焦头烂额？别急，今天老号吧就带大家，从下单到激活Trae Pro会员，一步步搞定，保证你一次成功，轻松开启AI创作新篇章！",
+      "cover": "/assets/images/covers/2058.jpg",
+      "date": "2026-10-03",
+      "slug": "玩转trae-pro会员-老号吧手把手教你-告别激活烦恼"
+    },
     {
       "id": 2057,
       "title": "美区苹果ID：白号、新号、老号到底咋回事？资深玩家教你避坑！",
