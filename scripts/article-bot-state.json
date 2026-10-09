@@ -60,11 +60,12 @@
     "cd:ab_1578299613",
     "lib:qq:qq5_22_117",
     "lib:TK:ab_1578297444",
-    "lib:Instagram:ab_1578287116"
+    "lib:Instagram:ab_1578287116",
+    "lib:TK:ab_1578298824"
   ],
-  "articleTypeIndex": 3,
+  "articleTypeIndex": 4,
   "rotations": 0,
-  "lastRun": "2026-10-08T07:08:58.330Z",
-  "lastArticleId": 2061,
+  "lastRun": "2026-10-09T07:14:24.895Z",
+  "lastArticleId": 2062,
   "scheduledTypes": []
 }
