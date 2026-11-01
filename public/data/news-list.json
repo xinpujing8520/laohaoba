@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 322,
+  "total": 323,
   "pageSize": 10,
   "totalPages": 33,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2064,
+      "title": "手把手教你搞定海外Apple ID，告别国区限制，玩转全球App！",
+      "summary": "还在为大陆App Store的各种限制头疼吗？想玩外服游戏、用海外App却总被卡住？这篇教程就是来帮你的！老号吧带你一步步注册非大陆Apple ID，从准备工作到实操细节，常见问题全帮你捋清。跟着走，轻松解锁你的数字自由！",
+      "cover": "/assets/images/covers/2064.jpg",
+      "date": "2026-11-01",
+      "slug": "手把手教你搞定海外apple-id-告别国区限制-玩转全球app"
+    },
     {
       "id": 2063,
       "title": "Telegram账号和白号/新号有啥区别？买哪个更香？",

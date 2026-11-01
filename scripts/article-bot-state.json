@@ -62,11 +62,12 @@
     "lib:TK:ab_1578297444",
     "lib:Instagram:ab_1578287116",
     "lib:TK:ab_1578298824",
-    "lib:tg:ab_1578290483"
+    "lib:tg:ab_1578290483",
+    "lib:apple-id:ab_1578294631"
   ],
-  "articleTypeIndex": 5,
+  "articleTypeIndex": 0,
   "rotations": 0,
-  "lastRun": "2026-10-10T06:50:01.876Z",
-  "lastArticleId": 2063,
+  "lastRun": "2026-11-01T07:14:29.114Z",
+  "lastArticleId": 2064,
   "scheduledTypes": []
 }
