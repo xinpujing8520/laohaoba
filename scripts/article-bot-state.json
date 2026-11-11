@@ -64,11 +64,12 @@
     "lib:TK:ab_1578298824",
     "lib:tg:ab_1578290483",
     "lib:apple-id:ab_1578294631",
-    "lib:Google:ab_1578299995"
+    "lib:Google:ab_1578299995",
+    "lib:chatai:ab_1578300356"
   ],
-  "articleTypeIndex": 1,
+  "articleTypeIndex": 2,
   "rotations": 0,
-  "lastRun": "2026-11-05T07:47:59.466Z",
-  "lastArticleId": 2065,
+  "lastRun": "2026-11-11T07:36:24.269Z",
+  "lastArticleId": 2066,
   "scheduledTypes": []
 }

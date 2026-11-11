@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 324,
+  "total": 325,
   "pageSize": 10,
   "totalPages": 33,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2066,
+      "title": "还在纠结ChatGPT账号怎么选？老玩家手把手教你避坑不踩雷！",
+      "summary": "面对市面上五花八门的ChatGPT账号，你是不是也挑花了眼？别急，老号吧帮你理清ChatGPT Plus、独享、质保这些门道，教你如何避坑，选到最适合自己的AI神器！",
+      "cover": "/assets/images/covers/2066.jpg",
+      "date": "2026-11-11",
+      "slug": "还在纠结chatgpt账号怎么选-老玩家手把手教你避坑不踩雷"
+    },
     {
       "id": 2065,
       "title": "玩转谷歌ID：海外数字世界的通行证，老玩家手把手教你！",
