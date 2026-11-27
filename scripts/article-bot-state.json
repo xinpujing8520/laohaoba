@@ -68,11 +68,12 @@
     "lib:chatai:ab_1578300356",
     "lib:wechat:wxh_14_46",
     "lib:gmail:ab_1578287570",
-    "lib:apple-id:ab_1578290303"
+    "lib:apple-id:ab_1578290303",
+    "lib:tg:ab_1578290458"
   ],
-  "articleTypeIndex": 5,
+  "articleTypeIndex": 0,
   "rotations": 0,
-  "lastRun": "2026-11-25T09:41:11.238Z",
-  "lastArticleId": 2069,
+  "lastRun": "2026-11-27T09:31:47.584Z",
+  "lastArticleId": 2070,
   "scheduledTypes": []
 }

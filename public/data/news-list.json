@@ -1,7 +1,7 @@
 {
   "title": "新闻资讯",
   "subtitle": "海外账号热门资讯一网打尽，热点头条每日高能放送！",
-  "total": 328,
+  "total": 329,
   "pageSize": 10,
   "totalPages": 33,
   "relatedProducts": [
@@ -77,6 +77,14 @@
     }
   ],
   "items": [
+    {
+      "id": 2070,
+      "title": "Telegram高级版直充：老玩家手把手教你USDT搞定Premium",
+      "summary": "Telegram高级版那些酷炫功能，是不是早就让你心痒痒了？别再为支付方式发愁了！这篇攻略，我来手把手带大家，用USDT TRC20在老号吧轻松搞定3个月Premium直充，告别复杂操作，升级你的TG体验！",
+      "cover": "/assets/images/covers/2070.jpg",
+      "date": "2026-11-27",
+      "slug": "telegram高级版直充-老玩家手把手教你usdt搞定premium"
+    },
     {
       "id": 2069,
       "title": "还在为苹果ID犯愁？白号、新号、带余额的美区ID，到底该怎么挑才不吃亏？",
